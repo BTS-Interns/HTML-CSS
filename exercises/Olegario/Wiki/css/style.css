@@ -1,0 +1,48 @@
+img{
+  width: 70px;
+  height: 70px;
+}
+ul{
+  text-align: right;
+  //display: inline;
+}
+li{
+  list-style: none;
+  display: inline;
+}
+a{
+  font-size: 20px;
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+header{
+  background: lime;
+}
+nav{
+  word-spacing: 30px;
+  height: 70px;
+}
+
+div{
+  background-color: lawngreen;
+  text-align: center;
+  height: 150px;
+}
+div p{
+  color: darkblue;
+  font-weight: bold;
+  font-size: 40px;
+}
+.activo{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
