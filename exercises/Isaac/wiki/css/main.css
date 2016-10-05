@@ -1,0 +1,40 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #7FCDFF;
+    font-family: Helvetica;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    height: 300px
+}
+
+nav {
+    background-color: #7FCDFF;
+    font-family: Helvetica;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover {
+    color: lime;
+}
+
+.section-active {
+    color: blue;
+    font-size: 25px;
+}
