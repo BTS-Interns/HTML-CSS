@@ -1,0 +1,26 @@
+
+header{
+	height: 400px;
+
+	background-color: aquamarine;
+}
+hr:empty{
+	border-color:lime;
+	text-decoration:
+}
+h1,h2{
+	text-align: center;
+	font-size: 50px;
+}
+a{
+	text-align: center;
+	text-decoration: none;
+}
+a:link { color: blue } /* enlaces no visitados */
+/*a:visited { color: purple } /* enlaces visitados */
+a:hover { font-weight: bold } /* el usuario pasa el cursor por encima */
+a:active { color: lime } /* enlaces activos */
+li{
+	font-size: 30px;
+	display: inline;
+}
