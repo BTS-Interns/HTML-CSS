@@ -1,0 +1,35 @@
+header {
+  height: 300px;
+  align-self: center;
+  background-color: black;
+}
+nav>ul>li {
+  height: 40px;
+  display: inline;
+}
+ul>li>a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  color: lightgray;
+}
+ul>li>a:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 24px;
+  color: orange;
+}
+.menu>ul {
+  text-align: right;
+}
+h1 {
+  font-size: 72;
+  text-align: center;
+  color: white;
+  text-shadow: 25 25 silver;
+}
+h2 {
+  font-size: 32;
+  text-align: center;
+  color: lightgray;
+}
