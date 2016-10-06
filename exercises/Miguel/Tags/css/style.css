@@ -1,0 +1,135 @@
+body {
+	background: black;
+}
+
+.orange {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.orange:hover {
+	color:black;
+	text-shadow: 0px 0px 10px orange, 
+				 0px 0px 20px orange,
+				 0px 0px 30px orange,
+				 0px 0px 10px orange, 
+				 0px 0px 20px orange, 
+				 0px 0px 30px orange, 
+				 0px 0px 40px orange, 
+				 0px 0px 50px orange, 
+				 0px 0px 60px orange, 
+				 0px 0px 70px orange, 
+				 0px 0px 80px orange, 
+				 0px 0px 90px orange;
+}
+
+.red {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.red:hover {
+	color:black;
+	text-shadow: 0px 0px 10px red, 
+				 0px 0px 20px red,
+				 0px 0px 30px red,
+				 0px 0px 10px red, 
+				 0px 0px 20px red, 
+				 0px 0px 30px red, 
+				 0px 0px 40px red, 
+				 0px 0px 50px red, 
+				 0px 0px 60px red, 
+				 0px 0px 70px red, 
+				 0px 0px 80px red, 
+				 0px 0px 90px red;
+}
+
+.green {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.green:hover {
+	color:black;
+	text-shadow: 0px 0px 10px green, 
+				 0px 0px 20px green,
+				 0px 0px 30px green,
+				 0px 0px 10px green, 
+				 0px 0px 20px green, 
+				 0px 0px 30px green, 
+				 0px 0px 40px green, 
+				 0px 0px 50px green, 
+				 0px 0px 60px green, 
+				 0px 0px 70px green, 
+				 0px 0px 80px green, 
+				 0px 0px 90px green;
+}
+
+.yellow {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.yellow:hover {
+	color:black;
+	text-shadow: 0px 0px 10px yellow, 
+				 0px 0px 20px yellow,
+				 0px 0px 30px yellow,
+				 0px 0px 10px yellow, 
+				 0px 0px 20px yellow, 
+				 0px 0px 30px yellow, 
+				 0px 0px 40px yellow, 
+				 0px 0px 50px yellow, 
+				 0px 0px 60px yellow, 
+				 0px 0px 70px yellow, 
+				 0px 0px 80px yellow, 
+				 0px 0px 90px yellow;
+}
+
+.blue {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.blue:hover {
+	color:black;
+	text-shadow: 0px 0px 10px blue, 
+				 0px 0px 20px blue,
+				 0px 0px 30px blue,
+				 0px 0px 10px blue, 
+				 0px 0px 20px blue, 
+				 0px 0px 30px blue, 
+				 0px 0px 40px blue, 
+				 0px 0px 50px blue, 
+				 0px 0px 60px blue, 
+				 0px 0px 70px blue, 
+				 0px 0px 80px blue, 
+				 0px 0px 90px blue;
+}
+
+.pink {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.pink:hover {
+	color:black;
+	text-shadow: 0px 0px 10px pink, 
+				 0px 0px 20px pink,
+				 0px 0px 30px pink,
+				 0px 0px 10px pink, 
+				 0px 0px 20px pink, 
+				 0px 0px 30px pink, 
+				 0px 0px 40px pink, 
+				 0px 0px 50px pink, 
+				 0px 0px 60px pink, 
+				 0px 0px 70px pink, 
+				 0px 0px 80px pink, 
+				 0px 0px 90px pink;
+}
