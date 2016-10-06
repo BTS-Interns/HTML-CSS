@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+@font-face {
+  font-family: Indie;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/indieflower/v8/10JVD_humAd5zP2yrFqw6ugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+@font-face {
+  font-family: Robots;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Orbitron/Orbitron-Black.ttf") format('woff2');
+  src: url("fonts/Orbitron/Orbitron-Bold.ttf") format('woff2');
+  src: url("fonts/Orbitron/Orbitron-Medium.ttf") format('woff2');
+  src: url("fonts/Orbitron/Orbitron-Regular.ttf") format('woff2');
+}
+header h1 {
+    font-family: sans-serif;
+    color: navy;
+    font-family: Indie;
+    font-size: 40px;
+}
+section p:first-child {
+    font-family: Ubuntu, sans-serif, arial;
+    text-align: justify;
+    font-size: 24px;
+}
+section p:nth-of-type(2) {
+    font-family: Indie, sans-serif, arial;
+    text-align: justify;
+    font-size: 24px;
+}
+section p:last-child {
+    font-family: Robots, sans-serif, arial;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 24px;
+}
+section h2:first-child {
+    font-family: Ubuntu, sans-serif, arial;
+    text-align: justify;
+}
+section h2:nth-of-type(2) {
+    font-family: Indie, sans-serif, arial;
+    text-align: justify;
+}
+section h2:nth-of-type(3) {
+    font-family: Robots, sans-serif, arial;
+    text-align: justify;
+}
