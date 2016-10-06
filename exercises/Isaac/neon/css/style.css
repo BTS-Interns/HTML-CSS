@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+}
+
+* {
+    cursor: default;
+}
+
+.glow {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+/*00ff00*/
+
+.green {
+    text-shadow: 0 0 10px #00ff00, 0px 0px 20px #00ff00, 0px 0px 30px #00ff00;
+}
+
+.green:hover {
+    text-shadow: 0 0 10px #00ff00, 0px 0px 20px #00ff00, 0px 0px 30px #00ff00, 0px 0px 40px #00ff00, 0px 0px 50px #00ff00;
+}
+
+
+/*ffff00*/
+
+.yellow {
+    text-shadow: 0 0 10px #ffff00, 0px 0px 20px #ffff00, 0px 0px 30px #ffff00;
+}
+
+.yellow:hover {
+    text-shadow: 0 0 10px #ffff00, 0px 0px 20px #ffff00, 0px 0px 30px #ffff00, 0px 0px 40px #ffff00, 0px 0px 50px #ffff00;
+}
+
+
+/*ff34b3*/
+
+.pink {
+    text-shadow: 0 0 5px #ff34b3, 0px 0px 10px #ff34b3, 0px 0px 15px #ff34b3;
+}
+
+.pink:hover {
+    text-shadow: 0 0 5px #ff34b3, 0px 0px 10px #ff34b3, 0px 0px 15px #ff34b3, 0px 0px 20px #ff34b3, 0px 0px 25px #ff34b3;
+}
+
+
+/*da70d6*/
+
+.purple {
+    text-shadow: 0 0 5px #da70d6, 0px 0px 10px #da70d6, 0px 0px 15px #da70d6;
+}
+
+.purple:hover {
+    text-shadow: 0 0 5px #da70d6, 0px 0px 10px #da70d6, 0px 0px 15px #da70d6, 0px 0px 20px #da70d6, 0px 0px 25px #da70d6;
+}
+
+
+/*ff4500*/
+
+.orange {
+    text-shadow: 0 0 5px #ff4500, 0px 0px 10px #ff4500, 0px 0px 15px #ff4500;
+}
+
+.orange:hover {
+    text-shadow: 0 0 10px #ff4500, 0px 0px 20px #ff4500, 0px 0px 30px #ff4500, 0px 0px 40px #ff4500, 0px 0px 50px #ff4500;
+}
+
+
+/*ff0000*/
+
+.red {
+    text-shadow: 0 0 5px #ff0000, 0px 0px 10px #ff0000, 0px 0px 15px #ff0000;
+}
+
+.red:hover {
+    text-shadow: 0 0 5px #ff0000, 0px 0px 10px #ff0000, 0px 0px 15px #ff0000, 0px 0px 20px #ff0000, 0px 0px 25px #ff0000;
+}
