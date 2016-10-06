@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cormorantgaramond/v1/EI2hhCO6kSfLAy-Dpd8fdz_Dq57Lo4snLFwBvsf35Hk.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: "Shrikhand";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Shrikhand'), local('Shrikhand-Regular'), url(Shrikhand-Regular.ttf);
+}
+
+p.text1 {
+    font-family: 'Cormorant Garamond';
+    text-decoration: overline;
+    font-size: 20px;
+    font-style: italic;
+}
+
+p.text2 {
+    font-family: 'Oswald';
+    text-decoration: line-through;
+    font-size: 15px;
+    font-style: oblique;
+}
+
+p.text3 {
+    font-family: 'Shrikhand';
+    text-decoration: underline;
+    font-size: 10px;
+    font-style: normal;
+}
