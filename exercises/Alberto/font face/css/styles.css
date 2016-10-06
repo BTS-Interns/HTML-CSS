@@ -1,0 +1,31 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@font-face {
+  font-family: 'Ruslan';
+  font-weight: 40;
+  src: local('Ruslan Display'), local('RuslanDisplay'), url(https://fonts.gstatic.com/s/ruslandisplay/v7/SREdhlyLNUfU1VssRBfs3jvvp17aRvIl4sTTLJmOSag.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('./font/IndieFlower.ttf') format("truetype");
+}
+
+h1 {
+  font-family: "Lobster";
+  font-size: 72px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+p:first-of-type {
+  font-family: "Ruslan";
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+}
+body>p:last-child {
+  font-family: "Indie Flower";
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+}
