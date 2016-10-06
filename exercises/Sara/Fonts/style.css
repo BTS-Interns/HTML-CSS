@@ -1,0 +1,27 @@
+@import 'https://fonts.googleapis.com/css?family=Homemade+Apple';
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src:url(https://fonts.gstatic.com/s/cabinsketch/v9/d9fijO34zQajqQvl3YHRCegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+@font-face {
+  font-family: Fuente;
+  font-style: normal;
+  font-weight: 400;
+  src:url("fuente.ttf")format("woff2");
+}
+h1{
+  font-family: 'Homemade Apple', cursive;
+  color:seagreen;
+  font-weight: bold;
+}
+h3{
+  font-family: Fuente;
+  color:crimson;
+}
+p{
+  color:slategrey;
+  font-family: 'Cabin Sketch';
+  font-weight: lighter;
+}
