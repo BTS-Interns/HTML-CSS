@@ -1,0 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Lalezar';
+@font-face {
+    font-family: 'Fjalla';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6vk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(fonts/Pacifico.ttf), url(fonts/Pacifico.woff2);
+}
+
+.lalezar {
+    font-family: Lalezar;
+    font-size: 40px;
+}
+
+.fjalla {
+    font-family: Fjalla;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.pacifico {
+    font-family: Pacifico;
+    font-size: 40px;
+}
