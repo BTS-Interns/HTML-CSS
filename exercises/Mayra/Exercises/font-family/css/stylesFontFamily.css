@@ -1,0 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+
+@font-face {
+  font-family: myFond;
+  font-style: bold;
+  font-weight: 400;
+  src: url("fonts/HomemadeApple.ttf") format('woff2');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v7/Q_Z9mv4hySLTMoMjnk_rCfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'myFond',cursive;
+    font-size: 50px;
+    text-shadow: 1px 0px 10px dodgerblue,1px 0px 10px dodgerblue,
+    1px 0px 20px dodgerblue,1px 0px 30px yellow,
+    1px 0px 40px dodgerblue,1px 0px 50px dodgerblue,1px 0px 60px dodgerblue,
+    0px 0px 100px dodgerblue;
+    letter-spacing: 5px;
+}
+
+p:nth-child(2){
+    font-family: 'Pacifico',cursive;
+}
+
+p:nth-child(3){
+    font-family: myFond;color:red;
+}
+
+p:nth-child(4){
+    font-family: 'Yatra One', cursive;
+
+}
