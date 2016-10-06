@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Orbitron';
+
+@font-face {
+	font-family: 'Yatra One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/yatraone/v1/H0a_tKbZFF_uY9Nz1_ZUkltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Kaushan Script';
+  	font-style: normal;
+  	font-weight: 400;
+  	src: url("../fonts/Kaushan_Script/KaushanScript-Regular.ttf") format("truetype");
+}
+
+body {
+	background-color: goldenrod;
+}
+
+h1 {
+	font-family: "Orbitron";
+	color: lightgoldenrodyellow;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Yatra One";
+	color: darkred;
+	text-align: center;
+}
+
+p {
+	font-family: "Kaushan Script";
+	color: black;
+	text-align: center;
+}
