@@ -1,3 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade|Questrial';
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src:url(https://fonts.gstatic.com/s/poppins/v1/HLBysyo0MQBO_7E-DWLwzg.woff2) format('woff2');
+}
 header{
   background-color:IndianRed;
   width:100%;
@@ -8,15 +16,13 @@ h1{
   text-align: center;
   font-size: 100px;
   letter-spacing: 4px;
+  font-family: 'Bungee Shade', cursive;
 }
 a{
     text-decoration: none;
     color:white;
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-a:hover{
-  transform: rotateY(110deg);
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
 }
 li{
     display: inline;
@@ -26,6 +32,7 @@ h3{
   text-align: center;
   font-weight: lighter;
   letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
 }
 div{
   width:100%;
@@ -35,4 +42,9 @@ div{
 ul{
   text-align: right;
   word-spacing: 10px;
+}
+p{
+  color:gray;
+  font-size:16px;
+  font-family: 'Poppins', sans-serif;
 }
