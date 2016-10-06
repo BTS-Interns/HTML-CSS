@@ -1,0 +1,22 @@
+h1{
+font-size: 50px;
+text-shadow: 1px 0px 10px deeppink,0px 0px 50px fuchsia ,0px 0px 100px white ;
+letter-spacing: 5px;
+}
+h2{
+font-size: 50px;
+color: lime;
+text-shadow: 1px 0px 10px yellow,0px 0px 50px lime;
+letter-spacing: 5px;
+}
+h3{
+font-size: 50px;
+color:dodgerblue;
+text-shadow: 1px 0px 10px lime,1px 0px 30px yellow,0px 0px 100px aqua;
+letter-spacing: 5px;
+}
+:root{
+    text-align: center;
+    background: black;
+
+};
