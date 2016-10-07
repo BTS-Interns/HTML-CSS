@@ -1,0 +1,35 @@
+.border1 {
+  width: 200px;
+  height: 200px;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: blue;
+  padding: 30px;
+  margin: 20px;
+  background-color: red;
+  display: inline-block;
+}
+
+.border2 {
+  width: 100px;
+  height: 100px;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: green;
+  padding: 5px;
+  margin: 10px;
+  background-color: gray;
+  display: inline-block;
+}
+
+.border3 {
+  width: 150px;
+  height: 150px;
+  border-width: 5px;
+  border-style: double;
+  border-color: black;
+  padding: 5px;
+  margin: 10px;
+  background-color: pink;
+  display: inline-block;
+}
