@@ -1,0 +1,59 @@
+html,section{
+  height:100%;
+  width:100%;
+}
+body{
+  height:100%;
+  background-color: white;
+}
+
+.bios div{
+  float:left;
+  width:200px;
+  height:200px;
+  margin:5px;
+}
+
+.one{
+  background:linear-gradient(white,green);
+}
+
+.two{
+  background:linear-gradient(to bottom right, white,green);
+}
+
+.three{
+  background:linear-gradient(70deg, white,green);
+}
+
+.four{
+  background:linear-gradient(white,red,blue,green);
+}
+
+.five{
+    background:linear-gradient(rgba(0,255,0,0.2),rgba(0,255,0,1));
+}
+
+.six{
+    background:radial-gradient(white,green);
+}
+
+.seven{
+   background:radial-gradient(circle,white,green);
+}
+
+.eight{
+  background:-webkit-radial-gradient(circle closest-side,darkslategray,brown);
+}
+
+.nine{
+  background:-webkit-radial-gradient(10px 10px, closest-corner,darkslategray,brown);
+}
+
+.ten{
+  background:-webkit-radial-gradient(circle farthest-side,darkslategray,brown);
+}
+
+.eleven{
+  background:-webkit-radial-gradient(10px 10px, farthest-corner,darkslategray,brown);
+}

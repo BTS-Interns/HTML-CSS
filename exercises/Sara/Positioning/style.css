@@ -56,7 +56,6 @@ a{
 
 .bios{
   width: 85%;
-  height: 1775px;
   background-color:#074F2F;
   margin:0 auto;
 }
@@ -70,6 +69,7 @@ a{
   border-width: thin;
   margin:2%;
   padding: 2%;
+  display:inline-block;
 }
 
 h4{
@@ -83,7 +83,7 @@ h4{
 
 p{
   font-family: 'Hind', sans-serif;
-  color:White;
+  color:white;
   font-weight:100;
   font-size: 1em;
 }
@@ -96,7 +96,7 @@ footer{
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  margin-top: 18%;
+  margin-top: 8px;
 }
 
 h3{
@@ -104,4 +104,8 @@ h3{
   color:White;
   font-size: 20px;
   text-align: center;
+}
+
+.clear{
+  clear:both;
 }
