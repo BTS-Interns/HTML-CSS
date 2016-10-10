@@ -45,7 +45,7 @@ body{
 }
 
 .nav-bar-title:hover{
-	box-shadow: 0 0 200px white;
+	box-shadow: 0 0 250px white;
 }
 
 .nav-bar-button{
@@ -63,7 +63,7 @@ body{
 }
 
 .nav-bar-button:hover{
-	box-shadow: 0 0 200px rgba(255, 255, 255, 0.9);
+	box-shadow: 0 0 250px rgba(255, 255, 255, 0.9);
 	background-color: gainsboro;
 	color: black;
 }
@@ -154,9 +154,10 @@ body{
 	margin-top: 1.5%;
 	margin-left: 1.5%;
 	width: 31.2%;
-	height: 500px;
+	height: 400px;
 	float: left;
 	overflow: auto;
+	color: white;
 
 }
 
