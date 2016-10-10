@@ -1,0 +1,147 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #202020;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav ul {
+    position: relative;
+    top: 15px;
+    right: 30px;
+}
+
+nav li {
+    color: white;
+    font-size: 20px;
+    font-family: Ubuntu;
+    text-align: right;
+}
+
+nav li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #444444;
+    margin-top: 60px;
+    float: left;
+    padding-top: 10px;
+}
+
+header > h1 {
+    color: white;
+    font-family: Ubuntu;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #202020;
+    float: left;
+}
+
+.biographies {
+    height: auto;
+    background-color: #eeeeee;
+    float: left;
+    padding: 50px 13%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.container {
+    padding: 55px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container-top {
+    margin-bottom: 25px;
+    left: 15px;
+    right: 15px;
+    height: 250px;
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+.icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: #202020;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+}
+
+.container-bottom {
+    left: 15px;
+    right: 15px;
+    height: auto;
+    min-height: 300px;
+    background-color: #79ff4d;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+
+.bio-container {
+    width: 240px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 1px #202020;
+}
+
+.bio-clear {
+    clear: both;
+}
+
+.bio-picture {
+    position: relative;
+    width: 80px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.bio-picture > img {
+    height: 100px;
+    border-radius: 5px;
+}
+
+.bio-name {
+    position: relative;
+    top: 15px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bio-description {
+    position: relative;
+    top: 30px;
+    font-family: Roboto;
+    overflow: auto;
+    max-height: 120px;
+    font-size: 13px;
+}
