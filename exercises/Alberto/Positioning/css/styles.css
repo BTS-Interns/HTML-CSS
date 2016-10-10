@@ -1,0 +1,101 @@
+body>header {
+  color : blue;
+  background-color: yellow;
+  width: 1024px;
+  height: 200px;
+  margin-bottom: 15px;
+  position: fixed;
+}
+h1 {
+  border: 1px solid blue;
+  width: 1024px;
+  height: 30px;
+  margin-top: 220px;
+  position: absolute;
+  clear: both;
+}
+hgroup {
+  width: 1024px;
+  height: 850px;
+  margin-top: 250px;
+  border: 2px solid blue;
+  position: relative;
+}
+.one {
+  width: 1022px;
+  height: 80px;
+  background-color: red;
+  position:absolute;
+}
+.Sara {
+  width: 320px;
+  height: 340px;
+  margin-top: 90px;
+  margin-left: 10px;
+  border: 30px;
+  position:static;
+}
+.Alberto {
+  width: 320px;
+  height: 340px;
+  margin-top: 90px;
+  margin-left: 350px
+  border: 30px;
+  position:static;
+}
+.Isaac {
+  width: 320px;
+  height: 340px;
+  margin-top: 90px;
+  margin-left: 710px
+  border: 30px;
+  position:static;
+}
+.Eddy {
+  width: 320px;
+  height: 340px;
+  margin-top: 430px;
+  margin-left: 10px;
+  border: 30px;
+  position:static;
+}
+.Olegario {
+  width: 320px;
+  height: 340px;
+  margin-top: 430px;
+  margin-left: 350px
+  border: 30px;
+  position:static;
+}
+.Miguel {
+  width: 320px;
+  height: 340px;
+  margin-top: 430px;
+  margin-left: 710px
+  border: 30px;
+  position:static;
+}
+.Axel {
+  width: 320px;
+  height: 340px;
+  margin-top: 430px;
+  margin-left: 10px;
+  border: 30px;
+  position:static;
+}
+.Mayra {
+  width: 320px;
+  height: 340px;
+  margin-top: 430px;
+  margin-left: 350px
+  border: 30px;
+  position:static;
+}
+.Gerardo {
+  width: 320px;
+  height: 340px;
+  margin-top: 430px;
+  margin-left: 710px
+  border: 30px;
+  position:static;
+}
