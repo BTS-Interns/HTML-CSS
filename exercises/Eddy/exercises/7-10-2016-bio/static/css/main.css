@@ -27,7 +27,7 @@ body{
 	color: white;
 	height: 70px;
 	font-family: "Poiret One", cursive;
-	border-bottom: solid 2px white;
+	box-shadow: 0 0 50px white;
 
 }
 
@@ -36,16 +36,18 @@ body{
 	margin-top: 0;
 	margin-left: 0;
 	height: 100%;
-	line-height: 70px;
+	line-height: 60px;
 	font-family: "Poiret One", cursive;
 	letter-spacing: 10px;
 	padding-left: 2%;
-	font-size: 25px;
+	font-size: 35px;
 	float: left;
 }
 
 .nav-bar-title:hover{
-	box-shadow: 0 0 250px white;
+	background: white;
+	color: black;
+	box-shadow: 0 0 200px white;
 }
 
 .nav-bar-button{
@@ -55,7 +57,7 @@ body{
 	padding-left: 2%;
 	height: 100%;
 	font-family: "Poiret One", cursive;
-	font-size: 22px;
+	font-size: 30px;
 	letter-spacing: 10px;
 	float: right;
 	line-height: 70px;
@@ -70,15 +72,15 @@ body{
 
 /* ----------header---------------- */
 .header{
-	margin-top: 70px;
-	height: 100px;
+	margin-top: 60px;
+	height: 70px;
 	width: 100%;
 	text-align: center;
 	background-color: white;
 }
 
 .header-title{
-	font-size: 60px;
+	font-size: 50px;
 	font-family: "Poiret One", cursive;
 	letter-spacing: 20px;
 	background-color: white;
@@ -164,7 +166,7 @@ body{
 .bio-title{
 	color: white;
 	font-family: "Poiret One", cursive;
-	font-size: 25px;
+	font-size: 30px;
 	margin-left: 35px;
 	float: left;
 	margin-top: 1.5%;
@@ -184,7 +186,7 @@ body{
 	color: white;
 	padding-right: 5%;
 	line-height: 22px;
-	text-justify: inter-word;
+	font-size: 23px;
 	font-family: "Poiret One",cursive ;
 	letter-spacing: 4px;
 
@@ -209,5 +211,3 @@ body{
 	font-family: "Poiret One", cursive;
 	line-height: 80px;
 }
-
-
