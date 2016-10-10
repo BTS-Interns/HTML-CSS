@@ -1,0 +1,26 @@
+section {
+  background-color: aqua;
+}
+form input {
+  background-color: beige;
+}
+h1 {
+  color: darkblue;
+}
+button {
+  color: blue;
+  background-color: yellow;
+}
+label {
+  color: blue;
+  background-color: lime;
+}
+label > a {
+  color: red;
+}
+form div:first-of-type + div {
+  background-color: orange;
+}
+form div:first-of-type +div +div input {
+  background-color: lightgreen;
+}

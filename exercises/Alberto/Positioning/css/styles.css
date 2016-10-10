@@ -5,6 +5,7 @@ body>header {
   height: 200px;
   margin-bottom: 15px;
   position: fixed;
+  top: 15px;
 }
 h1 {
   border: 1px solid blue;
@@ -42,6 +43,8 @@ hgroup {
   margin-left: 350px
   border: 30px;
   position:static;
+  top: 90px;
+  left: 350px;
 }
 .Isaac {
   width: 320px;
