@@ -1,0 +1,169 @@
+/*
+1.- Set a linear gradient background for the  element, going from the top to bottom,
+transitioning from "white" to "green".
+2.- Set a linear gradient background for the  element, going from the top left to the
+bottom right, transitioning from "white" to "green"
+3.- Set a linear gradient background for the  element, going at a 70 degree angle,
+transitioning from "white" to "green".
+4.- Set a linear gradient background for the  element, going from the top to bottom,
+transitioning from "white" to "red" to "blue" to "green".
+5.- Set a linear gradient background for the  element, going from the top to bottom,
+transitioning from "rgba(0,255,0,0.2)" to "rgba(0,255,0,1)".
+6.- Set a radial gradient background for the  element, transitioning from "white"
+to "green".
+7.- Set a radial gradient background for the  element, with a circle shape,
+transitioning from "white" to "green".
+8.- Set a radial gradient per one of the keywords (Colors are free)
+9.- One example of repeating-linear-gradient() and one of repeating-radial-gradient()
+*/
+
+body {
+    background-color: #440000;
+}
+
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/righteous/v5/w5P-SI7QJQSDqB3GziL8XVtXRa8TVwTICgirnJhmVJw.woff2") format('woff2');
+}
+
+header {
+    text-align: center;
+    font-family: "Righteous";
+    color: white;
+}
+
+.divs-section {
+    margin: 20px;
+    border: 3px solid white;
+}
+
+.div-one {
+    height: 308px;
+    width: 308px;
+    background: linear-gradient(to bottom, white, green);
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-two {
+    height: 308px;
+    width: 308px;
+    background: linear-gradient(to bottom right, white, green);
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-three {
+    height: 308px;
+    width: 308px;
+    background: linear-gradient(70deg, white, green);
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-four {
+    height: 308px;
+    width: 308px;
+    background: linear-gradient(to bottom, white, red, blue, green);
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-five {
+    height: 308px;
+    width: 308px;
+    background: linear-gradient(to bottom, rgba(0,255,0,0.2), rgba(0,255,0,1));
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div-six {
+    height: 308px;
+    width: 308px;
+    background: radial-gradient(white, green);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div-seven {
+    height: 308px;
+    width: 308px;
+    background: radial-gradient(circle, white, green);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div-eight {
+    height: 308px;
+    width: 308px;
+    background: -webkit-radial-gradient(100px 100px, closest-side, orange, black);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div-nine {
+    height: 308px;
+    width: 308px;
+    background: -webkit-radial-gradient(100px 100px, closest-corner, orange, black);
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div-ten {
+    height: 308px;
+    width: 308px;
+    background: -webkit-radial-gradient(100px 100px, farthest-side, orange, black);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div-eleven {
+    height: 308px;
+    width: 308px;
+    background: -webkit-radial-gradient(100px 100px, farthest-corner, orange, black);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div-twelve {
+    height: 308px;
+    width: 308px;
+    background: -webkit-repeating-radial-gradient(circle, orange, black, white);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.div-thirteen {
+    height: 308px;
+    width: 308px;
+    background: -webkit-repeating-linear-gradient(orange, black, white);
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.empty {
+    clear: both;
+}
