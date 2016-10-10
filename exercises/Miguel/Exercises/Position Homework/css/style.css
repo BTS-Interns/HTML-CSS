@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/righteous/v5/w5P-SI7QJQSDqB3GziL8XVtXRa8TVwTICgirnJhmVJw.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/play/v7/ZNo-5SxCwH1CXgZ-n3bt2g.woff2") format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.my-header {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #440000;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    font-family: "Play";
+
+}
+
+.my-title {
+    text-align: left;
+    line-height: 60px;
+    width: 100px;
+    font-size: 35px;
+    color: #FFFAF0;
+    float: left;
+    padding-left: 20px;
+}
+
+.my-title:hover {
+    border: 1px solid #FFFAF0;
+}
+
+.my-nav a{
+	text-decoration: none;
+    line-height: 60px;
+    margin-right: 10px;
+    display: inline;
+	font-size: 30px;
+	color: #FEFFD8;
+    text-align: right;
+    float: right;
+}
+
+.my-nav a:hover{
+    color: #440000;
+    text-shadow: 0px 0px 10px #FEFFD8,
+                 0px 0px 20px #FEFFD8,
+                 0px 0px 30px #FEFFD8;
+}
+
+.section-top {
+    margin-top: 60px;
+    width: 100%;
+    height: 35px;
+    font-family: "Righteous";
+    background: black;
+    color: mintcream;
+    border: 3px ridge #FEFFD8;
+    text-align: center;
+}
+
+.section-top h2 {
+    line-height: 35px;
+}
+
+.content-body {
+    margin: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 5px ridge #440000;
+    background-color: #FEFFD8;
+}
+
+.first-div {
+    padding: 10px;
+    border: 5px ridge #440000;
+    background-color: #FEFFD8;
+    margin-bottom: 5px;
+}
+
+.first-div h3 {
+    text-align: center;
+    font-family: "Play";
+    font-size: 50px;
+    padding-right: 96px;
+    line-height: 86px;
+}
+
+.empty {
+    clear: both;
+}
+
+.first-div img {
+    padding: 3px;
+    float: left;
+    border: 2px dotted black;
+}
+
+.footer-class {
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Play";
+    background-color: #440000;
+    text-align: center;
+    color: #FEFFD8;
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.bios-container {
+    display: inline-block;
+}
+
+.bios{
+    font-family: "Righteous";
+    color: #440000;
+    margin-right: 3.2px;
+    margin-bottom: 3.2px;
+    padding: 20px;
+    width: 29%;
+    height: 700px;
+    border: 3px black solid;
+    float: left;
+    text-align: justify;
+}
+
+.first-bio {
+    font-family: "Righteous";
+    color: #440000;
+    margin-right: 3.2px;
+    margin-bottom: 3.2px;
+    padding: 20px;
+    width: 29%;
+    height: 700px;
+    border: 3px black solid;
+    text-align: justify;
+    float: left;
+}
