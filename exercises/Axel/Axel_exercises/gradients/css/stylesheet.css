@@ -1,0 +1,103 @@
+@import "https://fonts.googleapis.com/css?family=Ubuntu";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+body {
+
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: purple;
+}
+header>h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+section {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+section div:not(.clear) {
+    float: left;
+    height: 300px;
+    min-width: 350px;
+    width: 30%;
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-radius: 8px;
+}
+section div:nth-child(n+1){
+    margin-top: 10px;
+}
+
+section div:nth-child(3n+2) {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+section div:nth-child(1) {
+background: -moz-linear-gradient(white, green);
+}
+section div:nth-child(2) {
+    background: -moz-linear-gradient(to bottom right, white, green);
+}
+section div:nth-child(3) {
+    /*at a 70 degree angle, transitioning from "white" to "green"*/
+    background: -moz-linear-gradient(70deg, white, green);
+}
+section div:nth-child(4) {
+    /*Set a linear gradient background for the  element,
+    going from the top to bottom, transitioning from
+    "white" to "red" to "blue" to "green".*/
+    background: -moz-linear-gradient(white, red, blue, green);
+}
+section div:nth-child(5) {
+    /*Set a linear gradient background for the  element,
+    going from the top to bottom, transitioning from "rgba(0,255,0,0.2)"
+    to "rgba(0,255,0,1)".*/
+    background: -moz-linear-gradient(rgba(0,255,0,0.2), rgba(0,255,0,1));
+}
+section div:nth-child(6) {
+    /*Set a radial gradient background for the
+    element, transitioning from "white" to "green".*/
+    background: -moz-radial-gradient(white, green);
+}
+section div:nth-child(7) {
+    /*Set a radial gradient background for the  element,
+    with a circle shape, transitioning from "white" to "green".*/
+    background: -moz-radial-gradient(circle,white, green);
+}
+section div:nth-child(8) {
+    /*Set a radial gradient per one of the keywords (Colors are free)*/
+    background: radial-gradient(closest-side at 30px 10px, white, green);
+}
+section div:nth-child(9) {
+    background: radial-gradient(closest-corner at 30px 40px, white, green);
+}
+section div:nth-child(10) {
+    background: radial-gradient(farthest-side at 60px 40px, white, green);
+}
+section div:nth-child(11) {
+    background: radial-gradient(closest-corner at 10px 90px, white, green);
+}
+section div:nth-child(12) {
+    /*One example of repeating-linear-gradient() and one of repeating-radial-gradient()*/
+    background: -moz-repeating-linear-gradient(white, green,white,green,white, green);
+}
+section div:nth-child(13) {
+    background: -moz-repeating-radial-gradient(white, green,white,green,white, green);
+}
+
+div.clear {
+    clear: both;
+}
