@@ -1,0 +1,194 @@
+@import 'https://fonts.googleapis.com/css?family=Lalezar';
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: Lalezar;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+
+/* Borders */
+
+.border {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: Lalezar;
+    border-width: 10px;
+    border-color: black;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.solid {
+    background-color: #1ebae7;
+    border-style: solid;
+}
+
+.dotted {
+    background-color: #f0f228;
+    border-style: dotted;
+}
+
+.dashed {
+    background-color: #84ea0d;
+    border-style: dashed;
+}
+
+.double {
+    color: white;
+    background-color: #1e1e1e;
+    border-style: double;
+    border-color: white;
+}
+
+.groove {
+    color: white;
+    background-color: #2a50b6;
+    border-style: groove;
+}
+
+.inset {
+    color: white;
+    background-color: #ff0000;
+    border-style: inset;
+}
+
+.outset {
+    background-color: #ff7f00;
+    border-style: outset;
+}
+
+.ridge {
+    color: white;
+    background-color: #00ff7f;
+    border-style: ridge;
+}
+
+.none {
+    background-color: #ffff00;
+    background-color: #15ff00;
+    border-style: none;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.hidden {
+    color: white;
+    background-color: #ff00ff;
+    border-style: hidden;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+/* Margin Collapsing*/
+
+.module {
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+
+.module-container {
+    outline: 2px solid black;
+}
+
+.module-text {
+    text-align: center;
+    font-family: Lalezar;
+    color: white;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.description {
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.module-top {
+    margin-bottom: 25px;
+    background-color: #f38a6d;
+}
+
+.module-top-negative {
+    margin-bottom: -25px;
+    background-color: #f38a6d;
+}
+
+.module-bottom {
+    margin-top: 50px;
+    background-color: #3bbfef;
+}
+
+.module-bottom-negative {
+    margin-top: -50px;
+    background-color: #3bbfef;
+}
+
+
+/* Parent */
+
+.parent {
+    margin: 15px;
+}
+
+.parent-padding {
+    margin: 15px;
+    padding: 1px 0;
+}
+
+.description-white {
+    font-family: Arial;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* Here come the children */
+
+.red {
+    background-color: #ff6b6b;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.orange {
+    background-color: #ff9e2c;
+}
+
+.yellow {
+    background-color: #eeee78;
+}
+
+.green {
+    background-color: #4ecd9d;
+}
+
+.blue {
+    background-color: #4e97cd;
+}
+
+.purple {
+    background-color: #6c4ecd;
+}
