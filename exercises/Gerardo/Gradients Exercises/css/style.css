@@ -1,0 +1,65 @@
+div {
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.div1 {
+  background: linear-gradient(to top, white, green);
+}
+
+.div2 {
+  background: linear-gradient(to top left, white, green);
+}
+
+.div3 {
+  background: linear-gradient(70deg, white, green);
+}
+
+.div4 {
+  background: linear-gradient(to top, white, red, blue, green);
+}
+
+.div5 {
+  background: linear-gradient(to top, rgba(0,255,0,0.2), rgba(0,255,0,1));
+}
+
+.div6 {
+  background: radial-gradient(white, green);
+}
+
+.div7 {
+  background: radial-gradient(white, green);
+  border-top-left-radius: 75%;
+  border-top-right-radius: 75%;
+  border-bottom-left-radius: 75%;
+  border-bottom-right-radius: 75%;
+}
+
+.div8 {
+  background: radial-gradient(closest-side at 50px 50px, blue, gray);
+}
+
+.div9 {
+  background: radial-gradient(closest-corner at 50px 50px, blue, gray);
+}
+
+.div10 {
+  background: radial-gradient(farthest-side at 180px 180px, blue, gray);
+}
+
+.div11 {
+  background: radial-gradient(farthest-corner at 180px 180px, blue, gray);
+}
+
+.div12 {
+  background: repeating-linear-gradient(to bottom, blue 20%, green 50%);
+}
+
+.div13 {
+  background: repeating-radial-gradient(blue 20%, green 50%);
+}
