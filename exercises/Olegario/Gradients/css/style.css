@@ -1,0 +1,256 @@
+@import 'https://fonts.googleapis.com/css?family=Fugaz+One';
+.barra{
+  width: 100%;
+  height: 150px;
+  top: 0px;
+  background-color: darkblue;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  z-index: 1;
+  position: fixed;
+}
+
+.contenedor{
+  margin-top: 140px;
+  width: auto;
+  height: auto;
+  float: left;
+  position: relative;
+  background-color: #A9A9A9;
+}
+
+.uno{
+  width: 200px;
+  height: 250px;
+  background: linear-gradient(to bottom, white 40%, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.dos{
+  width: 200px;
+  height: 250px;
+  background: linear-gradient(to bottom right, white 50%, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.tres{
+  width: 200px;
+  height: 250px;
+  background: linear-gradient(70deg, white 50%, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.cuatro{
+  width: 200px;
+  height: 250px;
+  background: linear-gradient(to bottom, white 15%, red, blue, green 85%);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.cinco{
+  width: 200px;
+  height: 250px;
+  background: linear-gradient(to bottom, rgba(0,255,0,0.2) 40%, rgba(0,255,0,1));
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.seis{
+  width: 200px;
+  height: 250px;
+  background: radial-gradient(white, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.siete{
+  width: 200px;
+  height: 250px;
+  background: radial-gradient(circle, white, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.ocho{
+  width: 200px;
+  height: 250px;
+  background: radial-gradient(closest-side, white, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.nueve{
+  width: 200px;
+  height: 250px;
+  background: radial-gradient(closest-corner at 30px 20px, white, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.diez{
+  width: 200px;
+  height: 250px;
+  background: radial-gradient( circle farthest-side, white, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.once{
+  width: 200px;
+  height: 250px;
+  background: radial-gradient( circle farthest-corner at 30px 20px, white, green);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.doce{
+  width: 200px;
+  height: 250px;
+  background-image: repeating-linear-gradient(white 25%, green 50%);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
+
+.trece{
+  width: 200px;
+  height: 250px;
+  background-image: repeating-radial-gradient(white 25%, green 50%);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  float: left;
+  display: inline;
+}
