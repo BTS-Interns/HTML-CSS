@@ -47,7 +47,7 @@ h4{
 }
 section{
     background-color: lavender;
-    margin:0 auto;
+    margin:15px auto;
     height: 1755px;
     width: 80%;
 }
@@ -65,7 +65,7 @@ footer{
 
 .content{
 
-    height: 600px;
+    height: auto;
     width: 100%;
 }
 
@@ -76,4 +76,7 @@ footer{
     height:570px;
     margin: 1px;
     padding: 1px;
+}
+img{
+
 }

@@ -1,0 +1,109 @@
+.contenedor{
+    width: 80%;
+    height: auto;
+    margin: 15px auto;
+
+}
+
+.grad1{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: linear-gradient(white, green);
+    border: 2px solid white;
+}
+
+.grad2{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: linear-gradient(to top left, white, green);
+    border: 2px solid white;
+}
+
+.grad3{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: linear-gradient(70deg, white, green);
+    border: 2px solid white;
+}
+
+.grad4{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: linear-gradient( white, red, blue, green);
+    border: 2px solid white;
+}
+
+.grad5{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: linear-gradient(rgba(0,255,0,0.2), rgba(0,255,0,1));
+    border: 2px solid white;
+}
+
+.grad6{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: radial-gradient(white, green);
+    border: 2px solid white;
+}
+
+.grad7{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: radial-gradient(circle, white, green);
+    border: 2px solid white;
+}
+
+.grad8{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: radial-gradient(circle closest-side, red, yellow, black);
+    border: 2px solid white;
+}
+
+.grad9{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: radial-gradient(circle closest-corner, red, yellow, black);
+    border: 2px solid white;
+}
+
+.grad10{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: radial-gradient(circle farthest-side, pink, black, magenta);
+    border: 2px solid white;
+}
+
+.grad11{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: radial-gradient(circle farthest-corner, pink, black, magenta);
+    border: 2px solid white;
+}
+
+.grad12{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: repeating-linear-gradient(to top left, white 10px, red 30px, green 50px);
+    border: 2px solid white;
+}
+.grad13{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background: repeating-radial-gradient(circle,  white 10px, lime 25px, cyan 45px);
+    border: 2px solid white;
+}
