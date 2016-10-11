@@ -1,0 +1,201 @@
+@import 'https://fonts.googleapis.com/css?family=Hammersmith+One';
+
+/* Palette */
+/* Nav Blue: #f7fcff */
+/* Cyan Blue: #0dbfdd */
+/* End Palette */
+
+/* Normalize */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Hammersmith One', sans-serif;
+}
+/* End Normalize */
+
+/* Header */
+header {
+	background-color: #f7fcff;
+	width: 100%;
+	height: 70px;
+}
+
+.brand {
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	float: left;
+	padding-top: 17px;
+	font-size: 30px;
+	text-align: center;
+}
+
+nav {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+	float: left;
+	text-align: right;
+}
+
+nav > ul {
+	display: inline-block;
+	padding-top: 30px;
+	font-size: 15px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 15px;
+}
+
+.btn-sing-in {
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 110px;
+	height: 35px;
+	background-color: #0dbfdd;
+	color: white;
+	font-size: 15px;
+	border: none;
+	border-radius: 20px;
+}
+/* End Header */
+
+/* Our Mission */
+.our-mission {
+	width: 100%;
+	height: 540px;
+	color: white;
+	text-align: center;
+	background-image: url("../images/mountains.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: inherit;
+}
+
+.our-mission > h2 {
+	padding-top: 355px;
+	font-size: 40px;
+}
+
+.our-mission > p {
+	font-size: 19px;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+/* End Our Mission */
+
+/* About */
+.about {
+	width: 100%;
+	height: 220px;
+	text-align: center;
+}
+
+.about > h2 {
+	color: #0dbfdd;
+	padding-top: 55px;
+	font-size: 40px;
+}
+
+.about > p {
+	font-size: 19px;
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 9px;
+}
+/* End About */
+
+/* Team */
+.team {
+	width: 100%;
+	height: 535px;
+	text-align: center;
+	color: white;
+	background-color: #0dbfdd;
+}
+
+.team > h2 {
+	padding-top: 45px;
+	font-size: 40px;
+}
+
+.team > ul {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.team > ul > li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 30px;
+}
+
+.team-picture {
+	width: 135px;
+	height: 135px;
+	border-radius: 50%;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.mayra {
+	background-image: url("../images/mayra.jpeg");
+}
+
+.axel {
+	background-image: url("../images/axel.jpeg");
+}
+
+.sara {
+	background-image: url("../images/sara.jpg");
+}
+
+.team-name {
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.team-position {
+	margin-top: 3px;
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.btn-work-with-us {
+	margin-top: 85px;
+	width: 170px;
+	height: 40px;
+	border-radius: 20px;
+	border: 2px solid white;
+	color: white;
+	background-color: #0dbfdd;
+	font-size: 15px;
+	font-family: 'Hammersmith One', sans-serif;
+}
+/* End Team */
+
+/* Bluetrail */
+.bluetrail {
+	width: 100%;
+	height: 310px;
+	text-align: center;
+}
+
+.bluetrail > img {
+	margin-top: 90px;
+	width: 35%;
+}
+/* End Bluetrail */
