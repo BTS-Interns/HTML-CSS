@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 New Inputs</title>
+</head>
+ <body>
+  <header>
+  	<h1>HTML 5 New Inputs</h1>
+  </header>
+  <section>
+  	<div>
+	  	<h3>Email Input</h3>
+	  	<p>If we apply a type of "email" to form inputs, we can instruct the browser to only allow strings that conform to a valid email address structure. That's right; built-in form validation will soon be here! We can't 100% rely on this just yet, for obvious reasons. In older browsers that do not understand this "email" type, they'll simply fall back to a regular textbox.</p>
+	  	<h4>Syntax:</h4>
+	  	&lt;input id="email" name="email" type="email"&gt;
+	  	<br><br>
+		<input id="email" name="email" type="email" />
+	</div>
+	<div>
+		<h3>Placeholder Input</h3>
+	  	<p>Before, we had to utilize a bit of JavaScript to create placeholders for textboxes. Sure, you can initially set the value attribute how you see fit, but, as soon as the user deletes that text and clicks away, the input will be left blank again. The placeholder attribute remedies this.</p>
+	  	<h4>Syntax:</h4>
+		&lt;input name="email" type="email" placeholder="doug@givethesepeopleair.com"&gt;
+		<br><br>
+		<input name="email" type="email" placeholder="doug@givethesepeopleair.com" />
+	</div>
+	<div>
+		<h3>Required Input</h3>
+		<p>Forms allow for a new required attribute, which specifies, naturally, whether a particular input is required. Dependent upon your coding preference, you can declare this attribute in one of two ways:</p>
+		<h4>Syntax:</h4>
+		&lt;input type="text" name="someInput" required="required"&gt;
+		<br><br>
+		<input type="text" name="someInput" required="required">
+		<br>
+		<h4>Syntax:</h4>
+		&lt;input type="text" name="someInput" required&gt;
+		<br><br>
+		<input type="text" name="someInput" required>
+		<br><br>
+	</div>
+	<div>
+		<h3>Autofocus</h3>
+		<p>Again, HTML5 removes the need for JavaScript solutions. If a particular input should be "selected," or focused, by default, we can now utilize the autofocus attribute.</p>
+		<h4>Syntax:</h4>
+		&lt;input type="text" name="someInput" placeholder="Douglas Quaid" required autofocus&gt;
+		<br><br>
+		<input type="text" name="someInput" placeholder="Douglas Quaid" required autofocus>
+	</div>
+	<div>
+		<h3>Create sliders with range input</h3>
+		<p>Most notably, it can receive min, max, step, and value attributes, among others. Though only Opera seems to support this type of input right now fully, it'll be fantastic when we can actually use this!</p>
+		<h4>Syntax:</h4>
+		&lt;input type="range"&gt;
+		<br><br>	
+		<input type="range">  
+	</div>	
+  </section>
+</body>
+</html>
+
+
