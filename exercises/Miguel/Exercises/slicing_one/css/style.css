@@ -1,10 +1,22 @@
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/muli/v7/z6c3Zzm51I2zB_Gi7146Bg.woff2) format('woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
 
 }
+
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
 .background {
-    background-image: url("../images/800.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -14,10 +26,8 @@
 }
 
 .transparent {
-    background-color: rgba(0, 200, 255, 0.3);
-    height: 600px;
-    width: 800px;
-    margin: 0 auto;
+    height: 100%;
+    width: 100%;
     position: absolute;
 
 }
@@ -33,7 +43,7 @@
 }
 
 .top-slice {
-    background-color: rgba(255, 0, 0, 0.2);
+    background: linear-gradient(to right, #FF9395, #FF9376);
     position: relative;
     top: 0%;
     height: 65%;
@@ -44,7 +54,7 @@
 }
 
 .bottom-slice {
-    background-color: rgba(0, 0, 255, 0.2);
+    background: white;
     position: relative;
     top: 0%;
     height: 35%;
@@ -55,7 +65,7 @@
 }
 
 .button-slice {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(245, 245, 245, 1);
     text-align: center;
     height: 9.5%;
     width: 43%;
@@ -71,8 +81,9 @@
 }
 
 .button-slice p {
-    color: white;
+    color: #FF9376;
     padding-top: 8%;
+    font-family: 'Muli';
 }
 
 .hamburguer {
@@ -98,7 +109,8 @@
 }
 
 .imagen {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../images/miguel.jpg");
+    background-size: cover;
     position: absolute;
     height: 34%;
     width: 28%;
@@ -115,9 +127,10 @@
 .name {
     color: white;
     font-weight: bold;
+    font-family: 'Muli';
     text-align: center;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     top: 58%;
     left: 30%;
     font-size: 15px;
@@ -129,7 +142,7 @@
     position: relative;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     top: 59%;
     left: 28%;
     height: 6.5%;
@@ -140,6 +153,7 @@
 .links a {
     text-decoration: none;
     color: white;
+    font-family: 'Muli';
     font-size: 13px;
     padding-left: 3%;
     padding-right: 3%;
@@ -148,7 +162,7 @@
 
 .social-media {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     height: 8%;
     width: 35%;
     top: 64%;
@@ -157,7 +171,8 @@
 }
 
 .facebook {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-image: url("../images/facebook.png");
+    background-size: cover;
     position: absolute;
     height: 80%;
     width: 16%;
@@ -168,7 +183,8 @@
 }
 
 .dribble {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-image: url("../images/dribble.png");
+    background-size: cover;
     position: absolute;
     height: 80%;
     width: 16%;
@@ -179,7 +195,8 @@
 }
 
 .twitter {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-image: url("../images/twitter.png");
+    background-size: cover;
     position: absolute;
     height: 80%;
     width: 16%;
@@ -190,7 +207,8 @@
 }
 
 .lock {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url("../images/lock.png");
+    background-size: cover;
     position: absolute;
     height: 11%;
     width: 4.5%;
@@ -201,10 +219,17 @@
 }
 
 .hidden {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0);
     height: 12%;
     width: 40%;
     position: absolute;
     top: 55%;
-    left: 30%;
+    left: 31%;
+
+}
+
+.hidden p {
+    color: rgb(200, 200, 200);
+    font-size: 90%;
+    font-family: 'Muli';
 }
