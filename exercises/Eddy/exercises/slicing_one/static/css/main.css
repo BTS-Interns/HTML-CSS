@@ -10,14 +10,16 @@
 	font-weight: 400;
 	src: url('fonts/Poiret_One/PoiretOne-Regular.ttf');
 }
+
 body{
 	background-image: url("../images/seattle.jpg");
 	background-size: cover;
 }
+
 .back{
-	/*background-image: url("../images/800.png");
+	/*background-image: url("../images/800.png");*/
 	background-repeat: no-repeat;
-	background-size: contain;*/
+	background-size: contain;
 	margin: 0 auto;
 	height: 600px;
 	width: 800px;
@@ -31,15 +33,13 @@ body{
 	margin: 0 auto;
 	height: 470px;
 
-
 }
 
 .header{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background:linear-gradient(to bottom right,#ff9395,  #ff9376) ;
-
+	background: linear-gradient(to bottom right, #ff9395, #ff9376);
 	height: 307px;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
@@ -50,8 +50,8 @@ body{
 	left: 0;
 	width: 100%;
 	height: 62px;
-	text-align: center;
-	background-color: rgba(0,255,255,0.0);
+	display: inline-block;
+	background-color: rgba(0, 255, 255, 0.0);
 	line-height: 100px;
 }
 
@@ -67,11 +67,9 @@ body{
 	border-bottom-right-radius: 12px;
 }
 
-
-
 .portrait{
 	position: relative;
-	top: 1px;
+	top: -3px;
 	width: 108px;
 	height: 108px;
 	margin: 0 auto;
@@ -79,8 +77,8 @@ body{
 	background-size: contain;
 	border-top-left-radius: 50%;
 	border-top-right-radius: 50%;
-	border-bottom-left-radius:  50%;
-	border-bottom-right-radius:  50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
 
 }
 
@@ -88,32 +86,32 @@ body{
 	text-align: center;
 	letter-spacing: 1px;
 	position: relative;
-	top: 8px;
+	top: 2px;
 	color: white;
 	margin: 0 auto;
 	font-family: "Poiret One", cursive;
 	height: 40px;
-	background-color: rgba(255,255,255,0.0);
+	background-color: rgba(255, 255, 255, 0.0);
 }
-
 
 .profile-skills{
 	text-align: center;
 	position: relative;
-	bottom: 10px;
+	bottom: 16px;
 	color: white;
 	margin: 0 auto;
 	font-family: "Poiret One", cursive;
 	font-size: 16px;
 	word-spacing: 4px;
 	height: 10px;
-	background-color: rgba(255,255,255,0.0);
+	background-color: rgba(255, 255, 255, 0.0);
 
 }
+
 .profile-social{
 	text-align: center;
 	position: relative;
-	top: 5px;
+	top: 2px;
 	padding-left: 10%;
 	padding-right: 10%;
 	color: white;
@@ -121,12 +119,14 @@ body{
 	height: 10px;
 	width: 45%;
 	font-size: 15px;
-	word-spacing: 30px;
-	line-height: 270%;
-	background-color: rgba(255,255,255,0.0);
+	word-spacing: 24px;
+	line-height: 290%;
+	background-color: rgba(255, 255, 255, 0.0);
 }
+
 .follow-button{
 	font-family: "Poiret One", cursive;
+	color: #ff9376;
 	position: relative;
 	bottom: 21px;
 	width: 155px;
@@ -135,13 +135,14 @@ body{
 	text-align: center;
 	line-height: 250%;
 	letter-spacing: 3px;
-	background-color:  rgb(255,255,255);
+	background-color: rgb(255, 255, 255);
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
-box-shadow: 0 1px 25px #ff9376;
+	box-shadow: 0 1px 25px #ff9376;
 }
+
 .profile-lock{
 	font-family: "Poiret One", cursive;
 	text-align: center;
@@ -155,9 +156,8 @@ box-shadow: 0 1px 25px #ff9376;
 	width: 45%;
 	font-size: 15px;
 	line-height: 270%;
-	background-color: rgba(255,255,255,0.0);
+	background-color: rgba(255, 255, 255, 0.0);
 }
-
 
 .profile-status{
 	font-family: "Poiret One", cursive;
@@ -166,12 +166,65 @@ box-shadow: 0 1px 25px #ff9376;
 	top: 25%;
 	padding-left: 10%;
 	padding-right: 10%;
-	color: black;
+	color: grey;
 	margin: 0 auto;
 	height: 40px;
 	width: 45%;
 	font-size: 15px;
 	line-height: 270%;
-	background-color: rgba(255,255,255,0.0);
+	background-color: rgba(255, 255, 255, 0.0);
 }
 
+.facebook-icon{
+	background-image: url("../images/face.png");
+	background-size: contain;
+	height: 15px;
+	width: 15px;
+
+}
+
+.stuff-icon{
+	background-image: url("../images/stuff.png");
+	background-size: contain;
+	height: 18px;
+	width: 18px;
+}
+
+.twitter-icon{
+	background-image: url("../images/twitter.png");
+	background-size: contain;
+	height: 15px;
+	width: 15px;
+}
+
+.menu-icon{
+	background-image: url("../images/menu.png");
+	background-size: contain;
+	position: relative;
+	top: 35px;
+	left: 35px;
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+
+.config-icon{
+	background-image: url("../images/config.png");
+	background-size: contain;
+	position: relative;
+	top: 35px;
+	right: 35px;
+	height: 20px;
+	width: 20px;
+	float: right;
+}
+
+.lock-icon{
+	background-image: url("../images/lock.png");
+	background-size: contain;
+	position: relative;
+	background-repeat: no-repeat;
+	top: 5px;
+	height: 20px;
+	width: 20px;
+}
