@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+}
+.fondo{
+  float: left;
+  display: inline-block;
+  position: relative;
+  background-image: url("../img/dos.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  //opacity: 0.5;
+}
+
+.caja{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  width: 400px;
+  height: 500px;
+  background-color: #ff9376;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  border: solid 1px;
+}
+
+header{
+  height: 15%;
+  background-color: blue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+}
+
+.menu{
+  background-image: url("../img/menu.png");
+  float: left;
+  position: relative;
+}
+
+.foto{
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+  margin-left: 35%;
+  background-color: white;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius:  100%;
+  border-bottom-right-radius:  100%;
+}
+.footer{
+  height: 35%;
+  background-color: white;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+}
+
+.nombre{
+  height: 30px;
+  background: orange;
+  text-align: center;
+}
+
+.menu2{
+  height: 30px;
+  background-color: blue;
+}
+
+.iconos{
+  height: 40px;
+  background-color: gray;
+}
