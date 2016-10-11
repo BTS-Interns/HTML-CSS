@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 input tags</title>
+</head>
+<body>
+    <header>
+        <h1>HTML 5  input tags</h1>
+    </header>
+    <section>
+        <ul>
+            <li>search</li>
+            <li>email</li>
+            <li>url</li>
+            <li>tel</li>
+            <li>number</li>
+            <li>range</li>
+            <li>date</li>
+            <li>month</li>
+            <li>week</li>
+            <li>time</li>
+            <li>datetime</li>
+            <li>datetime-local</li>
+            <li>color</li>
+        </ul>
+    </section>
+    <section>
+        <h2>search tag</h2>
+        <input type="search" name="search">
+        <h3>the tag:</h3>
+        <code>< input type="search" name="search" ></code>
+        <p>
+            Desktop browsers will render this in a similar
+            way to a standard text field—until you start typing, that is.
+            At this point, a small cross appears on the right side of the field.
+            This lets you quickly clear the field,
+            just like Safari’s built-in search field.
+            <br>
+            As you’ve seen with the new attributes, browsers that
+            don’t understand them will simply degrade gracefully.
+            The same applies to all of the new input types discussed here.
+            If a browser doesn’t understand type="search", it will default
+            to type="text". This means you’re not losing anything.
+            In fact, you’re using progressive enhancement and helping users
+            to have a better experience. Let’s face it: filling out web forms
+             isn’t very fun, so anything you can add to ensure a smoother experience, the better.
+        </p>
+    </section>
+    <section>
+        <h2>email tag</h2>
+        <input type="email" name="email">
+        <h3>the tag:</h3>
+        <code>< input type="email" name="email" required ></code>
+        <p>
+            In rendering terms, the email input type is no different than
+            a standard text input type and allows for one or more e-mail
+            addresses to be entered. Combined with the required attribute,
+            the browser is then able to look for patterns to ensure a valid
+            e-mail address has been entered. Naturally, this checking is
+            rudimentary, perhaps looking for an @ character or a period (.)
+            And not allowing spaces. Opera 9.5+, Firefox 4+, Internet Explorer
+            10 and Chrome 5+ have already implemented this basic validation.
+            The browser goes as far as presenting the user with an error message
+            if the e-mail address entered isn’t valid. You can style the field for when an value is entered using
+            the :valid, :invalid or :required pseudo class
+        </p>
+    </section>
+    <section>
+        <h2>url tag</h2>
+        <input type="url" name="url">
+        <h3>the tag:</h3>
+        <code>< input type="url" name="url" ></code>
+        <p>
+            The url input type, as you might expect, is for web addresses.
+            You can use the multiple attribute to enter more than one URL.
+            Like type="email", a browser will carry out simple validation
+            on these fields and present an error message on form submission.
+            This is likely to include looking for forward slashes, periods,
+            and spaces, and possibly detecting a valid top-level domain (such as .com or .co.uk).
+        </p>
+    </section>
+    <section>
+        <h2>tel tag</h2>
+        <input input type="tel" name="tel" id="tel">
+        <h3>the tag:</h3>
+        <code>< input type="tel" name="tel" id="tel" ></code>
+        <p>
+            tel differs from email and url in that no particular
+            syntax is enforced. Phone numbers differ around the world,
+            making it difficult to guarantee any type of specific notation
+            except for allowing only numbers and perhaps a + symbol to be entered.
+        </p>
+    </section>
+    <section>
+        <h2>number tag</h2>
+        <input type="number" min="5" max="18" step="0.5" value="9" name="shoe-size">
+        <h3>the tag:</h3>
+        <code>< input type="number" min="5" max="18" step="0.5" value="9" name="shoe-size" ></code>
+        <p>
+            number, as you might expect, is used for specifying a numerical value.
+            As with the majority of these new input types, Opera was the first to
+            implement type="number". It, Safari, and Chrome render the input as a
+            spinbox control whereby you can click the arrows to move
+            up or down. Or if you prefer, you can type directly into the field.
+            Firefox, on the other hand, renders the field like a standard text box.
+            Support for type=”number” is in IE 10 also, although if you enter a
+            non-numerical character the field empties when focus is lost and no
+            feedback is provided to the user.
+        </p>
+    </section>
+    <section>
+        <h2>range tag</h2>
+        <input id="skill" type="range" min="1" max="100" value="0">
+        <h3>the tag:</h3>
+        <code>< input id="skill" type="range" min="1" max="100" value="0" ></code>
+        <p>
+            The range input type is similar to number but more specific.
+            It represents a numerical value within a given range.
+            Why the difference? Because when you’re using range, the exact value
+            isn’t important. It also allows browsers to offer a simpler control than for number.
+            In Opera, Safari, Internet Explorer 10 and Chrome, type="range" renders as a slider.
+            When moving the slider in IE 10 a tooltip appears showing the current value.
+            Additionally, in Opera, if the CSS defines the height greater than the width,
+            the slider control will be rendered vertically as opposed to the standard horizontal rendering.
+        </p>
+    </section>
+    <section>
+        <h2>date tag</h2>
+        <input id="dob" name="dob" type="date">
+        <h3>the tag:</h3>
+        <code>< input id="dob" name="dob" type="date" ></code>
+        <p>
+            If you’ve ever booked tickets online, you will have come across
+            date pickers to help you quickly and easily choose the date
+            you require. Perhaps you’ve even implemented a date picker on your
+            own website. Generally, this is done using a JavaScript library
+            such as jQuery, Dojo, or YUI. It can be a pain when you need to load
+            a whole library and associated plug-ins just to implement a simple
+            date picker. Well, with HTML5 we get that functionality baked into
+            the browser. Not only that, but we don’t have to stop at just electing
+            a single date; we can select a week, month, time, date and time,
+            and even date and time with a time zone using the different input types.
+            The markup is pretty straightforward.
+
+            You can go a step further by using the min and max attributes to
+            ensure the user can only choose from a specified date range.
+            < input id="startdate" name="startdate" min="2012-01-01" max="2013-01-01" type="date" >
+        </p>
+
+        <h4>Month</h4>
+        <input id="expiry" name="expiry" type="month" required>
+        <h4>Week</h4>
+        <input id="expiry" name="expiry" type="week" required>
+        <h4>Time</h4>
+        <input id="exit-time" name="exit-time" type="time">
+        <h4>Datetime</h4>
+        <input id="entry-day-time" name="entry-day-time" type="datetime">
+        <h4>Datetime-local</h4>
+        <input id="arrival-time" name="arrival-time " type="datetime-local">
+    </section>
+    <section>
+        <h2>color tag</h2>
+        <input id="color" name="color" type="color">
+        <h3>the tag:</h3>
+        <code>< input id="color" name="color" type="color" ></code>
+        <p>
+            The color input type is pretty self-explanatory: it allows
+            the user to select a color and returns the hex value for that color.
+            It is anticipated that users will either be able to type the value
+            or select from a color picker, which will either be native to the
+            operating system or a browser’s own implementation. Opera 11 has
+            implemented type=”color” with a simple color picker that offers a
+            number of standard color choices or the option to select Other,
+            which brings up the operating system color picker.
+
+        </p>
+    </section>
+
+</body>
+</html>
+color
