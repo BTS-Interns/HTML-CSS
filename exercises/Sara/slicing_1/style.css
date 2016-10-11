@@ -1,44 +1,50 @@
 @import 'https://fonts.googleapis.com/css?family=Poppins';
-body{
+body {
   background-image: url("images/chicago2.jpg");
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin:0 auto;
+
 }
-.blue{
+
+.blue {
   height: 655px;
   width: 1060px;
   background-color:rgba(64,68,102,0.7);
   margin:0 auto;
   position: absolute;
+
 }
 
-.profile{
+.profile {
   width:30%;
   margin:0 auto;
   top:12%;
   position:relative;
+
 }
 
-.pink{
+.pink {
   background:linear-gradient(to right, #FF9395,#FF9376);
   width:400px;
   height:350px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+
 }
 
-.white{
+.white {
   width:400px;
   height:150px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   opacity:1;
   background-color: white;
+
 }
 
-.photo{
+.photo {
   background-image: url("images/antea.jpg");
   background-repeat:no-repeat;
   border-bottom-left-radius: 50%;
@@ -54,9 +60,10 @@ body{
   margin:0 auto;
   top:12%;
   position:relative;
+
 }
 
-.name{
+.name {
   color:white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -64,8 +71,10 @@ body{
   margin-top: 18px;
   padding-top: 12px;
   font-weight: 300;
+
 }
-.description{
+
+.description {
   color:white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -74,55 +83,70 @@ body{
   font-weight: lighter;
 }
 
-.social{
-  width:35%;
+.social {
+  width:50%;
   height:40px;
   margin:0 auto;
   top:3%;
   position:relative;
+
 }
 
-.twitter{
+.twitter {
   background-image: url("icons/twitter.png");
   float:left;
   width:30px;
   height:30px;
+  padding-right: 10px;
+  padding-left: 10px;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left:5px;
+  margin-right:5px;
+
 }
 
-.facebook{
+.facebook {
   background-image: url("icons/facebook.png");
   float:left;
-  padding-right:15px;
+  padding-right: 10px;
+  padding-left: 10px;
   width:30px;
   height:30px;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left:5px;
+  margin-right:5px;
+
 }
 
-.dribble{
+.dribble {
   background-image: url("icons/dribble.png");
   float:left;
   width:30px;
   height:30px;
-  padding-right: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left:5px;
+  margin-right:5px;
+
 }
 
-.follow{
+.follow {
   width:150px;
-  height:30px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  height:40px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   background-color: white;
   margin:0 auto;
-  top:-7%;
+  top:-10%;
   position:relative;
   border-width: thin;
   border-style: solid;
   border-color: gray;
+
 }
