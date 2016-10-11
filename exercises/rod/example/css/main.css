@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+
+/* latin */
+@font-face {
+  font-family: 'Other';
+  font-style: oblique;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/shrikhand/v1/JyWweKXulPH__9al48I7XpBw1xU1rKptJj_0jans920.woff2) format('woff2');
+
+}
+
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: oblique;
+  font-weight: 100;
+  src: url('./font/Shrikhand-Regular.ttf');
+
+}
+
+label {
+    font-family: 'Ruslan Display';
+    font-size: 20px;
+    font-style: oblique;
+    font-family: "Shrikhand";
+}
+
+a {
+    font-style: oblique;
+}
+
+/* */
+/*div {
+  width: 100px;
+  height: 50px;
+  background-color: lime;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-top: 5px dotted orange;
+  border-left: 10px dashed blue;
+  border-bottom: 5px groove black;
+  border-right: 10px double red;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+
+} */
+
+.parent {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: blue;
+  padding: 10px;
+
+}
+.child {
+  width: 100px;
+  height: 150px;
+  background-color: red;
+  margin: 5px;
+  float: left;
+
+}
+
+.clear-both {
+  clear: both;
+  background-color: yellow;
+}
