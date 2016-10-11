@@ -15,7 +15,9 @@ div {
   width: 350px;
   height: 350px;
   opacity: 0.92;
-  margin: 40px auto;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  margin: 0 auto;
   position:relative;
   text-align: center;
   color: white;
@@ -30,6 +32,10 @@ div {
 .red img:nth-child(2) {
   width: 30px;
   height: 30px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   position: absolute;
   top: 2px;
   right: 2px;
@@ -72,6 +78,10 @@ li:hover {
 .red img:nth-child(5) {
   width: 20px;
   height: 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   position: absolute;
   top: 290px;
   left: 150px;
@@ -86,7 +96,36 @@ li:hover {
 .red img:nth-child(7) {
   width: 20px;
   height: 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
   position: absolute;
   top: 290px;
   left: 200px;
+}
+.white {
+  background-color: white;
+  width: 350px;
+  height: 190px;
+  opacity: 0.92;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  margin: 0 auto;
+  position:relative;
+  color: white;
+}
+.white img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 120px;
+  left: 165px;
+}
+.white button {
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  left:115px;
 }
