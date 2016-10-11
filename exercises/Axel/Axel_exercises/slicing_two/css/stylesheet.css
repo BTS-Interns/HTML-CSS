@@ -1,0 +1,222 @@
+@import 'https://fonts.googleapis.com/css?family=Asap';
+/*Normalize*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Asap;
+}
+/*End Normalize*/
+
+/*Start nav */
+header {
+    width: 100%;
+    background-color: #F7FCFF;
+
+}
+
+.background-header {
+    color: #838989;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.brand {
+    display: inline-block;
+    width: auto;
+    float: left;
+    color: #838989;
+    height: 75px;
+}
+
+.brand h1{
+    font-size: 1.6em;
+    margin-top: 30%;
+}
+
+nav ul {
+    display: inline-block;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    color: #838989;
+    margin-top: 13%;
+}
+
+.btn-sing-in {
+    margin-top: 2%;
+    float: right;
+    width: 13%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color: #0BBDDD;
+    color: #FFFFFF;
+    border: none;o
+
+}
+/*End nav*/
+
+/*helpers*/
+.clear {
+    clear: both;
+
+}
+
+/*end helpers*/
+
+/*start our mision*/
+.our-mision {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/fondo1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+
+.our-mision .transparencia {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.2);
+
+}
+
+.our-mision .transparencia h2 {
+    padding-top: 29%;
+    font-size: 2.7em;
+    color: #B5BFC1;
+    font-weight: bold;
+
+}
+
+.our-mision .transparencia p {
+    white-space: pre-line;
+    text-align: center;
+    font-size: 1.1em;
+    color: #B5BFC1;
+    font-weight: bolder;
+}
+/*end mision*/
+
+/*start about*/
+.about {
+    width: 100%;
+    height: 250px;
+    background-color: #FFFFFF;
+
+}
+
+.about h2 {
+    text-align: center;
+    padding-top: 4%;
+    font-size: 2.7em;
+    color: #0DBFDD;
+    font-weight: bold;
+
+}
+
+.about p {
+    white-space: pre-line;
+    text-align: center;
+    font-size: 1.1em;
+    color: #333333;
+    font-weight: bolder;
+}
+/*end about*/
+
+/*start team*/
+.team {
+    width: 100%;
+    height: 560px;
+    background-color: #0DBFDD;
+    text-align: center;
+}
+
+.team h2 {
+    color: #FFFFFF;
+    font-size: 2.7em;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.wrapper:not(.clear) {
+    margin: 0 auto;
+    margin-top: 6%;
+    width: 42%;
+    height: 200px;
+}
+.clear {
+    clear: both;
+}
+
+.wrapper .picture {
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+}
+
+.wrapper .picture img {
+    width: 130px;
+    height: 130px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.wrapper .picture p {
+    white-space: pre-line;
+    color: white;
+    font-weight: bold;
+}
+.wrapper .picture p span {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.work-with-us {
+    margin-top: 6%;
+    padding-top: 7px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    background-color: #0DBFDD;
+    border: 1px solid #FFFFFF;
+}
+/*end team*/
+
+/*start blue trail*/
+.blue-trail {
+    width: 100%;
+    height: 250px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.blue-trail img {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.blue-trail h2 {
+    margin-top: 10px;
+    color: rgb(23, 31, 92);
+
+}
+
+.blue-trail span {
+    color:  #6FAE71;
+}
+/*end blue trail*/
