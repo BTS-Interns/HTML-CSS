@@ -27,7 +27,7 @@
     src: url('./fonts/Nova_Mono/NovaMono.ttf');
 }
 
-.intro-one-title {
+.content-title{
     font-family: Ewert, monospace;
     font-size: 50px;
 }
