@@ -1,60 +1,70 @@
-div{
-	width: 200px;
-	height: 150px;
-	display: inline-block;
-	margin: 15px;
+div {
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin: 15px;
 }
 
-.style1{
-	background: linear-gradient(to bottom, white, green);
+.style1 {
+    background: linear-gradient(to bottom, white, green);
 }
 
-.style2{
-	background: linear-gradient(to bottom right, white, green);
+.style2 {
+    background: linear-gradient(to bottom right, white, green);
 }
 
-.style3{
-	background: linear-gradient(70deg, white, green);
+.style3 {
+    background: linear-gradient(70deg, white, green);
 }
 
-.style4{
-	background: linear-gradient(to bottom, white, red, blue, green);
+.style4 {
+    background: linear-gradient(to bottom, white, red, blue, green);
 }
 
-.style5{
-	background: linear-gradient(to bottom, rgba(0,255,0,0.2), rgba(0,255,0,1));
+.style5 {
+    background: linear-gradient(to bottom, rgba(0, 255, 0, 0.2), rgba(0, 255, 0, 1));
 }
-.style6{
-	background: radial-gradient(white, green);
+
+.style6 {
+    background: radial-gradient(white, green);
 }
-.style7{
-	background: radial-gradient(circle, white, green);
+
+.style7 {
+    background: radial-gradient(circle, white, green);
 }
-.style8a{
-	background: radial-gradient(closest-side at 30px 30px, white, #0057E7);
+
+.style8a {
+    background: radial-gradient(closest-side at 30px 30px, white, #0057E7);
 }
-.style8b{
-	background: radial-gradient(closest-corner at 30px 30px, white, #0057E7);
+
+.style8b {
+    background: radial-gradient(closest-corner at 30px 30px, white, #0057E7);
 }
-.style8c{
-	background: radial-gradient(farthest-side at 30px 30px, white, #0057E7);
+
+.style8c {
+    background: radial-gradient(farthest-side at 30px 30px, white, #0057E7);
 }
-.style8d{
-	background: radial-gradient(farthest-corner at 30px 30px, white, #0057E7);
+
+.style8d {
+    background: radial-gradient(farthest-corner at 30px 30px, white, #0057E7);
 }
-.style9a{
-	background-color: black;
-	background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, rgba(255,255,255,1) 25px, rgba(255,255,255,1) 50px);
+
+.style9a {
+    background-color: black;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, rgba(255, 255, 255, 1) 25px, rgba(255, 255, 255, 1) 50px);
 }
-.style9b{
-	background-color: #f2e636;
-	background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, rgba(34,34,34,1) 25px, rgba(34,34,34,1) 50px);
+
+.style9b {
+    background-color: #f2e636;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, rgba(34, 34, 34, 1) 25px, rgba(34, 34, 34, 1) 50px);
 }
-.style9c{
-	background-color: black;
-	background-image: repeating-radial-gradient(circle, transparent, transparent 25px, rgba(255,255,255,1) 25px, rgba(255,255,255,1) 50px);
+
+.style9c {
+    background-color: black;
+    background-image: repeating-radial-gradient(circle, transparent, transparent 25px, rgba(255, 255, 255, 1) 25px, rgba(255, 255, 255, 1) 50px);
 }
-.style9d{
-	background-color: black;
-	background-image: repeating-radial-gradient(circle, transparent, transparent 15px, rgba(200,0,0,1) 10px, rgba(200,0,0,1) 25px);
+
+.style9d {
+    background-color: black;
+    background-image: repeating-radial-gradient(circle, transparent, transparent 15px, rgba(200, 0, 0, 1) 10px, rgba(200, 0, 0, 1) 25px);
 }
