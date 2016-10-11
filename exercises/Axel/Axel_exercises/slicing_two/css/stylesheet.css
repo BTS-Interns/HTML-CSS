@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Asap;
+
 }
 /*End Normalize*/
 
@@ -18,6 +19,7 @@ header {
     color: #838989;
     width: 65%;
     margin: 0 auto;
+
 }
 
 .brand {
@@ -26,16 +28,19 @@ header {
     float: left;
     color: #838989;
     height: 75px;
+
 }
 
-.brand h1{
+.brand h1 {
     font-size: 1.6em;
     margin-top: 30%;
+
 }
 
 nav ul {
     display: inline-block;
     float: right;
+
 }
 
 nav ul li {
@@ -44,6 +49,7 @@ nav ul li {
     margin-right: 30px;
     color: #838989;
     margin-top: 13%;
+
 }
 
 .btn-sing-in {
@@ -55,7 +61,7 @@ nav ul li {
     border-radius: 30px;
     background-color: #0BBDDD;
     color: #FFFFFF;
-    border: none;o
+    border: none;
 
 }
 /*End nav*/
@@ -101,6 +107,7 @@ nav ul li {
     font-size: 1.1em;
     color: #B5BFC1;
     font-weight: bolder;
+
 }
 /*end mision*/
 
@@ -127,6 +134,7 @@ nav ul li {
     font-size: 1.1em;
     color: #333333;
     font-weight: bolder;
+
 }
 /*end about*/
 
@@ -136,6 +144,7 @@ nav ul li {
     height: 560px;
     background-color: #0DBFDD;
     text-align: center;
+
 }
 
 .team h2 {
@@ -143,6 +152,7 @@ nav ul li {
     font-size: 2.7em;
     text-align: center;
     padding-top: 4%;
+
 }
 
 .wrapper:not(.clear) {
@@ -150,9 +160,12 @@ nav ul li {
     margin-top: 6%;
     width: 42%;
     height: 200px;
+
 }
+
 .clear {
     clear: both;
+
 }
 
 .wrapper .picture {
@@ -160,6 +173,7 @@ nav ul li {
     width: 33.3%;
     height: 100%;
     text-align: center;
+
 }
 
 .wrapper .picture img {
@@ -169,16 +183,20 @@ nav ul li {
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+
 }
 
 .wrapper .picture p {
     white-space: pre-line;
     color: white;
     font-weight: bold;
+
 }
+
 .wrapper .picture p span {
     font-style: italic;
     font-weight: normal;
+
 }
 
 .work-with-us {
@@ -194,6 +212,7 @@ nav ul li {
     color: white;
     background-color: #0DBFDD;
     border: 1px solid #FFFFFF;
+
 }
 /*end team*/
 
@@ -203,11 +222,14 @@ nav ul li {
     height: 250px;
     background-color: #FFFFFF;
     text-align: center;
+
 }
+
 .blue-trail img {
     width: 150px;
     height: 150px;
     margin-top: 30px;
+
 }
 
 .blue-trail h2 {
@@ -218,5 +240,6 @@ nav ul li {
 
 .blue-trail span {
     color:  #6FAE71;
+
 }
 /*end blue trail*/
