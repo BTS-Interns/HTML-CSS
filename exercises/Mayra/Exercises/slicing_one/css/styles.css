@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/fondo.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contains{
+    height: 309px;
+    width: 370px;
+    margin: 11% auto;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    text-align: center;
+    background: linear-gradient(to top left, #ff9395, #ff9376)
+
+}
+
+.containWhite{
+    height: 164px;
+    width: 370px;
+    margin: -11% auto;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+
+}
+
+.buttonFollow {
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border: 1px solid #ff9395;ff9376
+    color: #ff9395;
+    padding: 17px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -41px 106px;
+    cursor: pointer;
+    background: white;
+}
+
+.mayra {
+    height: 33%;
+    width: 28%;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-attachment: fixed;
+    margin-top: 10%;
+
+}
+
+.name{
+    color: white;
+    /*padding: 181px 100px;*/
+    font-weight: bold;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+}
+
+.logos img{
+    height: 30px;
+    width: 30px;
+}
+/*.degrade{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(51, 60, 98, 0.5);
+    margin:0 auto;
+    position: absolute;
+    z-index: 0;
+}*/
