@@ -1,31 +1,31 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
-}
+	}
 
 /* using font face to a remote url */
-@font-face{
+@font-face {
 	font-family: "Poiret One";
 	font-style: normal;
 	font-weight: 400;
 	src: url('fonts/Poiret_One/PoiretOne-Regular.ttf');
-}
+	}
 
-body{
+body {
 	background-image: url("../images/seattle.jpg");
 	background-size: cover;
-}
+	}
 
-.back{
+.back {
 	/*background-image: url("../images/800.png");*/
 	background-repeat: no-repeat;
 	background-size: contain;
 	margin: 0 auto;
 	height: 600px;
 	width: 800px;
-}
+	}
 
-.container{
+.container {
 	width: 366px;
 	position: relative;
 	top: 10.9%;
@@ -33,9 +33,9 @@ body{
 	margin: 0 auto;
 	height: 470px;
 
-}
+	}
 
-.header{
+.header {
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -43,9 +43,9 @@ body{
 	height: 307px;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
-}
+	}
 
-.nav-bar{
+.nav-bar {
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -53,9 +53,9 @@ body{
 	display: inline-block;
 	background-color: rgba(0, 255, 255, 0.0);
 	line-height: 100px;
-}
+	}
 
-.profile{
+.profile {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -65,9 +65,9 @@ body{
 	height: 163px;
 	border-bottom-left-radius: 12px;
 	border-bottom-right-radius: 12px;
-}
+	}
 
-.portrait{
+.portrait {
 	position: relative;
 	top: -3px;
 	width: 108px;
@@ -80,9 +80,9 @@ body{
 	border-bottom-left-radius: 50%;
 	border-bottom-right-radius: 50%;
 
-}
+	}
 
-.profile-name{
+.profile-name {
 	text-align: center;
 	letter-spacing: 1px;
 	position: relative;
@@ -92,9 +92,9 @@ body{
 	font-family: "Poiret One", cursive;
 	height: 40px;
 	background-color: rgba(255, 255, 255, 0.0);
-}
+	}
 
-.profile-skills{
+.profile-skills {
 	text-align: center;
 	position: relative;
 	bottom: 16px;
@@ -106,9 +106,9 @@ body{
 	height: 10px;
 	background-color: rgba(255, 255, 255, 0.0);
 
-}
+	}
 
-.profile-social{
+.profile-social {
 	text-align: center;
 	position: relative;
 	top: 2px;
@@ -122,9 +122,9 @@ body{
 	word-spacing: 24px;
 	line-height: 290%;
 	background-color: rgba(255, 255, 255, 0.0);
-}
+	}
 
-.follow-button{
+.follow-button {
 	font-family: "Poiret One", cursive;
 	color: #ff9376;
 	position: relative;
@@ -141,9 +141,9 @@ body{
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 	box-shadow: 0 1px 25px #ff9376;
-}
+	}
 
-.profile-lock{
+.profile-lock {
 	font-family: "Poiret One", cursive;
 	text-align: center;
 	position: relative;
@@ -157,9 +157,9 @@ body{
 	font-size: 15px;
 	line-height: 270%;
 	background-color: rgba(255, 255, 255, 0.0);
-}
+	}
 
-.profile-status{
+.profile-status {
 	font-family: "Poiret One", cursive;
 	text-align: center;
 	position: relative;
@@ -173,31 +173,31 @@ body{
 	font-size: 15px;
 	line-height: 270%;
 	background-color: rgba(255, 255, 255, 0.0);
-}
+	}
 
-.facebook-icon{
+.facebook-icon {
 	background-image: url("../images/face.png");
 	background-size: contain;
 	height: 15px;
 	width: 15px;
 
-}
+	}
 
-.stuff-icon{
+.stuff-icon {
 	background-image: url("../images/stuff.png");
 	background-size: contain;
 	height: 18px;
 	width: 18px;
-}
+	}
 
-.twitter-icon{
+.twitter-icon {
 	background-image: url("../images/twitter.png");
 	background-size: contain;
 	height: 15px;
 	width: 15px;
-}
+	}
 
-.menu-icon{
+.menu-icon {
 	background-image: url("../images/menu.png");
 	background-size: contain;
 	position: relative;
@@ -206,9 +206,9 @@ body{
 	height: 20px;
 	width: 20px;
 	float: left;
-}
+	}
 
-.config-icon{
+.config-icon {
 	background-image: url("../images/config.png");
 	background-size: contain;
 	position: relative;
@@ -217,9 +217,9 @@ body{
 	height: 20px;
 	width: 20px;
 	float: right;
-}
+	}
 
-.lock-icon{
+.lock-icon {
 	background-image: url("../images/lock.png");
 	background-size: contain;
 	position: relative;
@@ -227,4 +227,4 @@ body{
 	top: 5px;
 	height: 20px;
 	width: 20px;
-}
+	}

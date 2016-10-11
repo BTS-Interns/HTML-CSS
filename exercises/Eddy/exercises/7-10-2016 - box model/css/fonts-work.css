@@ -2,30 +2,30 @@
 @import "https://fonts.googleapis.com/css?family=Amita|Stalemate";
 
 /* using font face to a remote url */
-@font-face{
+@font-face {
 	font-family: 'Monoton';
 	font-style: normal;
 	font-weight: 400;
 	src: local('Monoton'), local('Monoton-Regular'), url(https://fonts.gstatic.com/s/monoton/v6/y6oxFxU60dYw9khW6q8jGw.woff2) format('woff2');
-}
+	}
 
-@font-face{
+@font-face {
 	font-family: 'Ewert';
 	font-style: normal;
 	font-weight: 400;
 	src: url('./fonts/Ewert/Ewert-Regular.ttf');
 
-}
+	}
 
-@font-face{
+@font-face {
 	font-family: 'NovaMono';
 	font-style: normal;
 	font-weight: 400;
 	src: url('./fonts/Nova_Mono/NovaMono.ttf');
-}
+	}
 
 /* -------------------------------- */
-.nav-bar{
+.nav-bar {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -37,17 +37,17 @@
 	font-family: monospace;
 	font-size: 50px;
 	display: inline-block;
-}
+	}
 
-.nav-bar-title{
+.nav-bar-title {
 	font-family: Amita, cursive;
 	letter-spacing: 30px;
 	line-height: 25%;
 
-}
+	}
 
 /* -------------------------------- */
-.content{
+.content {
 	margin-top: 180px;
 	margin-right: 5%;
 	margin-bottom: 1%;
@@ -61,20 +61,20 @@
 	padding-bottom: 5%;
 	padding-left: 5%;
 
-}
+	}
 
-.content-title{
+.content-title {
 	font-family: Amita, cursive;
 	font-size: 50px;
-}
+	}
 
-.parrafo-one{
+.parrafo-one {
 	font-family: NovaMono, monospace;
 	font-size: 40px;
-}
+	}
 
 /* -------------------------------- */
-.intro-two{
+.intro-two {
 	margin-top: 5%;
 	margin-right: 55%;
 	margin-bottom: 1%;
@@ -88,21 +88,21 @@
 	padding-bottom: 2%;
 	padding-left: 2%;
 
-}
+	}
 
-.intro-two-title{
+.intro-two-title {
 	font-family: Monoton, monospace;
 	font-size: 50px;
 
-}
+	}
 
-.parrafo-two{
+.parrafo-two {
 	font-family: "Ubuntu Mono", monospace;
 	font-size: 40px;
-}
+	}
 
 /* -------------------------------- */
-.intro-three{
+.intro-three {
 	margin-top: 5%;
 	margin-right: 5%;
 	margin-bottom: 1%;
@@ -116,24 +116,25 @@
 	padding-bottom: 2%;
 	padding-left: 2%;
 
-}
+	}
 
-.intro-three-title{
+.intro-three-title {
 	font-family: Amita, cursive;
 	font-size: 50px;
-}
+	}
 
-.parrafo-three{
+.parrafo-three {
 	font-family: NovaMono, monospace;
 	font-size: 40px;
-}
+	}
 
 /* -------------------------------- */
-.brothers-two{
-	border-collapse: collapse ;
-}
+.brothers-two {
+	border-collapse: collapse;
+	}
+
 /* -------------------------------- */
-.intro-four{
+.intro-four {
 	margin-top: 5%;
 	margin-right: 33%;
 	margin-bottom: 1%;
@@ -147,20 +148,20 @@
 	padding-bottom: 2%;
 	padding-left: 2%;
 
-}
+	}
 
-.intro-four-title{
+.intro-four-title {
 	font-family: Amita, cursive;
 	font-size: 50px;
-}
+	}
 
-.parrafo-four{
+.parrafo-four {
 	font-family: NovaMono, monospace;
 	font-size: 40px;
-}
+	}
 
 /* -------------------------------- */
-.intro-five{
+.intro-five {
 	margin-top: 5%;
 	margin-right: 33%;
 	margin-bottom: 1%;
@@ -174,16 +175,16 @@
 	padding-bottom: 2%;
 	padding-left: 2%;
 
-}
+	}
 
-.intro-five-title{
+.intro-five-title {
 	font-family: Amita, cursive;
 	font-size: 50px;
-}
+	}
 
-.parrafo-five{
+.parrafo-five {
 	font-family: NovaMono, monospace;
 	font-size: 40px;
-}
+	}
 
 /* -------------------------------- */
