@@ -10,10 +10,14 @@
 	font-weight: 400;
 	src: url('fonts/Poiret_One/PoiretOne-Regular.ttf');
 }
+body{
+	background-image: url("../images/seattle.jpg");
+	background-size: cover;
+}
 .back{
-	background-image: url("../images/800.png");
+	/*background-image: url("../images/800.png");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: contain;*/
 	margin: 0 auto;
 	height: 600px;
 	width: 800px;
@@ -26,7 +30,7 @@
 	padding: 0;
 	margin: 0 auto;
 	height: 470px;
-	background: rgba(255, 255, 255, 0.0);
+
 
 }
 
@@ -34,7 +38,8 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #ff9376;
+	background:linear-gradient(to bottom right,#ff9395,  #ff9376) ;
+
 	height: 307px;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
@@ -55,7 +60,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(63,68,102,0.5);
+	background: whitesmoke;
 	margin: 0 auto;
 	height: 163px;
 	border-bottom-left-radius: 12px;
@@ -135,7 +140,7 @@
 	border-top-right-radius: 25px;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
-box-shadow: 0 0 10px black;
+box-shadow: 0 1px 25px #ff9376;
 }
 .profile-lock{
 	font-family: "Poiret One", cursive;
