@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.background {
+    background-image: url("../images/800.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.transparent {
+    background-color: rgba(0, 200, 255, 0.3);
+    height: 600px;
+    width: 800px;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+.slice {
+    background-color: rgba(255, 0, 0, 0);
+    position: relative;
+    height: 78.5%;
+    width: 46%;
+    left: 27%;
+    top: 11%;
+
+}
+
+.top-slice {
+    background-color: rgba(255, 0, 0, 0.2);
+    position: relative;
+    top: 0%;
+    height: 65%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.bottom-slice {
+    background-color: rgba(0, 0, 255, 0.2);
+    position: relative;
+    top: 0%;
+    height: 35%;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.button-slice {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 9.5%;
+    width: 43%;
+    top: 60.25%;
+    left: 28.5%;
+    position: absolute;
+    z-index: 1px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+}
+
+.button-slice p {
+    color: white;
+    padding-top: 8%;
+}
+
+.hamburguer {
+    background-image: url("../images/hamburguer.png");
+    background-size: cover;
+    position: absolute;
+    height: 7%;
+    width: 6%;
+    top: 10.5%;
+    left: 10%;
+    float: left;
+}
+
+.gear {
+    background-image: url("../images/gear.png");
+    background-size: cover;
+    position: absolute;
+    height: 7%;
+    width: 6%;
+    top: 10.5%;
+    right: 10%;
+    float: right;
+}
+
+.imagen {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 34%;
+    width: 28%;
+    top: 20%;
+    left: 35.3%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: white solid 4px;
+
+}
+
+.name {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 58%;
+    left: 30%;
+    font-size: 15px;
+    height: 6%;
+    width: 39%;
+}
+
+.links {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 59%;
+    left: 28%;
+    height: 6.5%;
+    width: 45%;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+.social-media {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8%;
+    width: 35%;
+    top: 64%;
+    left: 32.5%;
+
+}
+
+.facebook {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    height: 80%;
+    width: 16%;
+    top: 10.17%;
+    left: 8.5%;
+    float: left;
+
+}
+
+.dribble {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    height: 80%;
+    width: 16%;
+    top: 10.17%;
+    left: 42%;
+    float: left;
+
+}
+
+.twitter {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    height: 80%;
+    width: 16%;
+    right: 8.5%;
+    top: 10.17%;
+    float: left;
+
+}
+
+.lock {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    height: 11%;
+    width: 4.5%;
+    top: 42%;
+    left: 48%;
+    float: left;
+
+}
+
+.hidden {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 12%;
+    width: 40%;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
