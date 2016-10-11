@@ -1,0 +1,12 @@
+@import 'http://fonts.googleapis.com/css?family=Monoton';
+h1{
+text-shadow:0 0 10px aqua , 0 0 20px aqua , 0 0 30px aqua,0 0 40px aqua,
+0 0 50px aqua,0 0 60px aqua,0 0 70px aqua;
+color:white;
+font-size: 100px;
+text-align: center;
+font: normal 60px/1 "Monoton", Helvetica, sans-serif;
+}
+body{
+  background-color: black;
+}
