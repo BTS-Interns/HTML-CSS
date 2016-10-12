@@ -113,7 +113,7 @@ nav ul li:hover {
 
 /*content defaults*/
 .content{
-	height: 700px;
+	height: auto;
 	border:  dashed 2px white;
 	margin: 20px;
 	padding:15px ;
@@ -129,6 +129,47 @@ nav ul li:hover {
 
 .content-title {
 	background-color: #1C6D37;
+	}
+
+/*----------- biogrphies-----------*/
+
+.bios {
+	margin-top: 15px;
+	padding: 15px;
+	border: dashed 2px white;
+	display: inline-block;
+
+	}
+
+.bio {
+	width: 25%;
+	height: 400px;
+	float: left;
+	overflow: auto;
+	color: white;
+	}
+
+.bio-title {
+	color: white;
+	font-family: "Poiret One", cursive;
+	font-size: 25px;
+	float: left;
+	}
+
+.bio-ima {
+	margin-left: 0;
+	margin-top: 0;
+	width: 100px;
+	height: 100px;
+	float: left;
+	}
+
+.bio-content {
+	float: left;;
+	color: white;
+	line-height: 22px;
+	font-size: 20px;
+	font-family: "Poiret One", cursive;
 	}
 
 /*footer*/
