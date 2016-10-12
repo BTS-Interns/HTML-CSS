@@ -1,0 +1,75 @@
+/*
+@import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Courgette Regular'), local('Courgette-Regular'), url(https://fonts.gstatic.com/s/courgette/v4/BHG8ZtTfO0yYnp02--QxqltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}*/
+img{
+  width: 70px;
+  height: 70px;
+}
+ul{
+  text-align: right;
+  //display: inline;
+}
+li{
+  list-style: none;
+  display: inline;
+}
+a{
+  font-size: 20px;
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: none;
+}/*
+a:hover{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}*/
+a:hover{
+  font-family: 'Kaushan Script';
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 0 10px white,
+               0 0 20px red,
+               0 0 30px yellow,
+               0 0 40px yellow,
+               0 0 70px orange,
+               0 0 80px pink,
+               0 0 100px pink;
+}
+header{
+  background: #00CC4D;
+}
+nav{
+  word-spacing: 30px;
+  height: 70px;
+}
+
+div{
+  background-color: #00FF60;
+  text-align: center;
+  height: 150px;
+}
+div p{
+  color: darkblue;
+  font-weight: bold;
+  font-size: 40px;
+}/*
+section p{
+  font-style: oblique;
+  font-family: 'Courgette';
+  font-size: 20px;
+  line-height: -2px;
+}*/
+.activo{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
