@@ -1,0 +1,39 @@
+html, body {
+  padding: 0;
+  margin: 0;
+
+}
+
+div {
+  width: 80%;
+  height: 500px;
+  background-color: red;
+  margin: 0 auto;
+
+}
+/* Small lanscape and portrait tables*/
+/* @landscape-phones: 600px;
+// @tablet-devices: 768px;
+// @tablet-sidebar-devices: 1024px;
+// @desktop-devices: 1280px;*/
+
+@media (min-width: 600px) {
+  div {
+    background-color: lime;
+  }
+}
+@media (min-width: 768px) {
+  div {
+    background-color: green;
+  }
+}
+@media (min-width: 1024px) {
+  div {
+    background-color: yellow;
+  }
+}
+@media (min-width: 1280px) {
+  div {
+    background-color: blue;
+  }
+}
