@@ -1,0 +1,190 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+/* Normalize */
+html, body, h2, div, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #F7FCFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  //background-color: red;
+  color: #A9A9A9;
+  width: 85%;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: inline-block;
+  font-size: 20px;
+  //background-color: yellow;
+  word-spacing: 25px;
+  float: left;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.brand {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.sign-in {
+  border: 0;
+  float: right;
+  width: 130px;
+  height: 30px;
+  margin-top: 15px;
+  font-size: 15px;
+  background-color: #0DBFDD;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.our-mission {
+  margin-top: 0;
+  height: 500px;
+  background-image: url("../img/montanas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.transparencia {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(40, 30, 10, 0.7);
+}
+
+.contenido {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  margin-top: 330px;
+  margin-left: 25%;
+  position: absolute;
+}
+
+.about {
+  top: 0;
+  height: 170px;
+  text-align: center;
+  position: relative;
+}
+
+.contenido-about {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+}
+
+.contenido-about  h2{
+  margin-top: 50px;
+}
+
+.contenido-about  p{
+  margin-top: 15px;
+}
+
+.fondo-azul {
+  color: #0DBFDD;
+}
+
+.team {
+  height: 500px;
+  background-color: #0DBFDD;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contenedor-biografias {
+  width: 45%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.team h2 {
+  padding-top: 40px;
+}
+
+.biografia {
+  width: 33%;
+  height: 270px;
+  text-align: center;
+  float: left;
+}
+
+.biografia p {
+  margin: 0 auto;
+  width: 100px;
+  height: 50px
+}
+
+.foto {
+  width: 140px;
+  height: 140px;
+  margin-top:10%;
+  background-size: contain;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.boton-team {
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px white solid;
+  border-right-color: white;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.logo {
+  height: 250px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+.capa {
+  height: 100%;
+  height: 100%;
+  background-image: url("../img/rayas.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
