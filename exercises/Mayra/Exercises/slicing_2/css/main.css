@@ -1,0 +1,176 @@
+/*normalize*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*end normalize*/
+/*start Nav*/
+body {
+    width: 100%;
+    height: auto;
+    background: #f7fcff;
+}
+header {
+    background: #f7fcff;
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.brand {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+nav ul {
+    display: inline-block;
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.btn-sign-in {
+    float: left;
+}
+
+.montain {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(64, 83, 90, 0.8), rgba(64, 83, 90, 0.8)),
+     url("../images/mount.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mision {
+    padding-top: 200px;
+    color: white;
+    text-align: center;
+
+}
+
+.big {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 28px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.about {
+    height: 150px;
+    color: rgb(64, 83, 90);
+    background-color: white;
+    text-align: center;
+    line-height: 13px;
+}
+
+.title-about {
+    color: #0dbfdd;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 28px;
+
+}
+
+.cyan {
+    width: 100%;
+    height: 400px;
+    background-color: #0dbfdd;
+    color: white;
+    text-align: center;
+
+}
+
+.photos {
+    float: left;
+    padding: 30px;
+}
+
+.contain-photos {
+    width: 40%;
+    height: 200px;
+    margin-left: 33%;
+    margin-top: 30px;
+
+
+}
+
+.mayra {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-attachment: fixed;
+
+}
+
+.axel {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-attachment: fixed;
+}
+
+.sara {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-attachment: fixed;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bts {
+    width: 100%;
+height: 200px;
+bottom: 0;
+margin-top: 107px;
+background-image: url(../images/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.bts-logo {
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+
+}
+.button {
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border: 1px solid white;
+    color: white;
+    padding: 17px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    background: #0dbfdd;
+}
+/*end Nav*/
+/*helpers*/
+.clear {
+    clear: both;
+}

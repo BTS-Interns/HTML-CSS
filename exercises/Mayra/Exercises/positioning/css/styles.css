@@ -58,7 +58,6 @@ footer{
     right: 0;
     background-color: black;
     color:silver;
-    text-align: : center;
     width: 100%;
     height: 100px;
 }
@@ -77,6 +76,11 @@ footer{
     margin: 1px;
     padding: 1px;
 }
-img{
+footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
 
 }

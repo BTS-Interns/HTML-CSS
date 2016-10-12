@@ -1,0 +1,132 @@
+@import 'https://fonts.googleapis.com/css?family=Nova+Flat';
+
+/*default*/
+body {
+    background-color: black;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    color: silver;
+    font-family: 'Nova Flat';
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+nav p {
+    font-size: 20px;
+    width: 50%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+nav span {
+    width: 50%;
+}
+
+nav span img {
+    width: 40px;
+    margin: 5px;
+    float: right;
+
+}
+
+header{
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    background: darkgrey;
+    font-family: 'Nova Flat', cursive;
+    text-align: center;
+    font-size: 10px;
+}
+
+section{
+    background-color: lavender;
+    margin:15px auto;
+    width: 80%;
+}
+
+section div div img {
+    width: 100px;
+    height: 100px;
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bios{
+    border: dotted 5px black;
+    float: left;
+    width: 95%;
+    height: auto;
+    margin: 1px;
+    padding: 1px;
+}
+
+h1 {
+    display: inline-block;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+h4{
+    font-family: 'Nova Flat', cursive;
+    text-align: center;
+}
+
+/*mini-device*/
+@media (min-width:600px) {
+
+
+
+}
+
+/*medium-device*/
+@media (min-width:768px) {
+
+
+
+}
+
+/*big-device*/
+@media (min-width:1024px) {
+
+
+
+}
+
+/*bigger-device*/
+@media (min-width:1280px) {
+
+
+
+}
+
+.clear {
+    clear: both;
+}
