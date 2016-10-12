@@ -48,7 +48,7 @@ nav ul li{
   text-decoration: none;
   color:gray;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
 
 }
 
@@ -58,7 +58,7 @@ nav ul li{
   color:white;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.5px;
   border-style: hidden;
   margin-left: 30px;
@@ -102,7 +102,7 @@ nav ul li{
   text-align: center;
   color: white;
   font-family: 'Pontano', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.5px;
 
 }
@@ -135,7 +135,7 @@ nav ul li{
   text-align: center;
   color: gray;
   font-family: 'Pontano', sans-serif;
-  font-size: 16xpx;
+  font-size: 15px;
   letter-spacing: 0.5px;
 
 }
@@ -235,7 +235,7 @@ span h3 {
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.5px;
   margin-top: 130px;
   margin-bottom: 8px;
@@ -268,14 +268,14 @@ span h3 {
   background-repeat: no-repeat;
   float:left;
   margin-top:65px;
-  /*padding:8%;*/
+  
 }
 
 .blue2 p {
   text-align: center;
   color: white;
   font-family: 'Pontano', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.5px;
   margin-top: 5px;
 

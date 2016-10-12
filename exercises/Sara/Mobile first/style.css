@@ -2,79 +2,73 @@
 @import 'https://fonts.googleapis.com/css?family=Fascinate+Inline|Londrina+Shadow';
 @import 'https://fonts.googleapis.com/css?family=Sarina';
 @import 'https://fonts.googleapis.com/css?family=Nixie+One';
-html,section{
-  height:100%;
-  width:100%;
-}
-body{
-  height:100%;
-  background-color: white;
+
+html,body, h1 {
+  margin:0;
+  padding: 0;
+
 }
 
-nav{
+.navbar {
   position: fixed;
   background-color:#9C004E;
   width: 100%;
-  height:80px;
-  top:0px;
-  left:0px;
-}
-
-li{
-  display:inline;
+  height:50px;
 
 }
 
-ul{
-  word-spacing: 25px;
-  text-align: right;
-  padding:15px;
-  margin:5px;
+nav {
+  width:55px;
+  height:45px;
+  float:right;
+  padding-right:15px;
+  padding-top: 6px;
+
 }
 
-a{
-  text-decoration: none;
-  font-size: 28px;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  font-weight: lighter;
+.hamburger {
+  background-image: url("images/hamburger.png");
+  float:left;
+  width:38px;
+  height:38px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
-.title{
-  font-size: 68px;
-  margin-top: 95px;
+header .title {
+  font-size: 36px;
   margin-bottom: 5px;
-  font-family: 'Sarina', cursive;
+  font-family: 'Nixie One', cursive;
   text-align: center;
   color: #072744;
   padding: 65px;
+  padding-top:100px;
+  margin-top: 0px;
   letter-spacing: 3px;
-  font-weight: lighter;
+
 }
 
-.bios{
+.bios {
   width: 85%;
   background-color:#074F2F;
   margin:0 auto;
+
 }
 
-.biographie{
-  float:left;
-  width:25%;
-  height:500px;
-  border-color: white;
-  border-style: solid;
-  border-width: thin;
-  margin:2%;
-  padding: 2%;
-  display:inline-block;
+.biographie {
+  width:75%;
+  height:auto;
+  padding: 5%;
+  margin:0 auto;
+
 }
 
 h4{
   margin-top: 1%;
   font-family: 'Montserrat', sans-serif;
   color:White;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   font-weight:200;
 }
@@ -86,6 +80,10 @@ p{
   font-size: 1em;
 }
 
+.clear{
+  clear:both;
+}
+
 footer{
   width: 100%;
   height:80px;
@@ -94,16 +92,13 @@ footer{
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
-  margin-top: 8px;
+  margin-top: 100px;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
   color:White;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
-}
-
-.clear{
-  clear:both;
+  margin-top: 30px;
 }
