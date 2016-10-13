@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Oleo+Script');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    top: 0;
+}
+
+/*start header*/
+header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: #DFDFDF;
+    z-index: 1;
+
+}
+
+header h1 {
+    font-family: "Oleo Script";
+    font-style: italic;
+    padding-top: 3%;
+    color: #333333;
+    font-size: 1.7em;
+
+}
+/*end header*/
+
+/*start header-media*/
+.header-media {
+    background-color: #DFDFDF;
+    margin-top: 80px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+
+}
+
+.media-icon {
+    padding-top: 8px;
+    width: 6%;
+    height: 50%;
+    margin-right: 10px;
+
+}
+/*end header-media*/
+
+/*start slider*/
+.slider {
+    text-align: center;
+    background-color: #DFDFDF;
+    position: absolute;
+    width: 100%;
+    height: 220px;
+
+}
+
+
+.slider img {
+    width: 96%;
+    height: 350px;
+    box-sizing: border-box;
+    border: 2px double white;
+    border-radius: 5px;
+
+}
+/*end slider*/
+
+/*start welcome*/
+.welcome {
+    margin-top: 400px;
+    text-align: center;
+
+}
+/*end welcome*/
+
+/*start articles*/
+.articles {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 96%;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 1px;
+
+}
+
+.articles article {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.articles article p {
+    margin-top: 25px;
+}
+/*end articles*/
+
+/*start gallery*/
+.gallery {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    background-image: url("../images/galleryBackground.jpg");
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+
+.mini-gallery {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+.gallery .mini-gallery img {
+    width: 45%;
+    height: 200px;
+    margin-left: 3.3%;
+    padding-bottom: 10px;
+
+}
+
+.gallery-slider {
+    margin: 0 auto;
+    width: 84%;
+    height: 800px;
+    background-image: url("../images/girl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+ .description {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.description p {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 1.2em;
+    color: white;
+    text-align: left;
+
+}
+/*end gallery*/
+
+/*start form */
+.form {
+    width: 84%;
+    height: auto;
+    margin:  0 auto;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+
+}
+
+.form input:not(.submit) {
+    width: 95%;
+    height: 60px;
+    margin-top: 15px;
+    background-color: #DFDFDF;
+    border: 1px solid white;
+    font-size: 1.8em;
+    padding-left: 5%;
+
+}
+
+.form textarea {
+    margin-top: 15px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    background-color: #DFDFDF;
+
+}
+
+.submit {
+    margin-top: 15px;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #DFDFDF;
+    font-size: 1.8em;
+}
+/*end form*/
+
+/*start bipgraphie */
+.biographie {
+    width: 84%;
+    height: auto;
+    margin:  0 auto;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.biographie img {
+    width: 200px;
+    height: 300px;
+    float: left;
+    padding-right: 20px;
+    filter: grayscale(100%);
+    border-radius: 5px;
+}
+
+.biographie h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.biographie p {
+    margin-top: 25px;
+    font-size: 1.2em;
+}
+
+.contact {
+    white-space: pre-line;
+    line-height: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.clear {
+    clear: both;
+}
+/*end biographie*/
+
+/*start footer*/
+footer {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #DFDFDF;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+.footer-social {
+    margin-top: 25px;
+    word-spacing: 20px;
+
+}
