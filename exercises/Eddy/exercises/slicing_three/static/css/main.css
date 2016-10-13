@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Poiret One";
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Poiret_One/PoiretOne-Regular.ttf');
+}
+
+body {
+
+	min-width: 320px;
+	background-color: white;
+}
+
+header {
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding-right: 150px;
+	padding-left: 150px;
+	background: gray;
+	height: 450px;
+}
+
+.author {
+	float: left;
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 20px;
+	font-family: "Poiret One", cursive;
+
+}
+
+.header-social {
+	float: right;
+	display: inline-block;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.header-icon {
+	float: left;
+	padding-left: 20px;
+	height: 20px;
+	width: 20px;
+}
+
+.header-carrusel {
+	position: relative;
+	top: 0;
+	width: 100%;;
+}
+
+/* content*/
+
+.content {
+	margin-top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding-top: 200px;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-bottom: 50px;
+	background: white;
+	height: 370px;
+}
+
+.content-wellcome {
+	font-size: 20px;
+	font-family: "Poiret One", cursive;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.content-tittle {
+	font-size: 40px;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Poiret One", cursive;
+}
+
+.content-wrap {
+	background-color: white;
+	width: inherit;
+	height: 300px;
+}
+
+.content-col {
+	width: 32%;
+	height: 250px;
+	display: inline-block;
+	color: black;
+	margin-top: 30px;
+}
+
+.content-col-tittle {
+	font-size: 20px;
+	float: left;
+	padding: 10px;
+	font-family: "Poiret One", cursive;
+}
+
+.content-col-p {
+	float: left;
+	padding: 10px;
+	color: black;
+	line-height: 15px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: "Poiret One", cursive;
+
+}
+
+/* gallery*/
+
+.gallery {
+	margin-top: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-right: 150px;
+	padding-left: 150px;
+	background: gray;
+	height: 700px;
+}
+
+.gallery-wrap {
+
+	width: inherit;
+	height: auto;
+}
+
+.gallery-grid {
+
+	float: left;
+	width: 50%;
+}
+
+.gallery-grid-image {
+	margin-top: 0;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+}
+
+.gallery-hero {
+
+	float: right;
+	width: 50%;
+}
+
+.gallery-main-image {
+	width: 100%;
+
+}
+
+/*trick*/
+.clear {
+	clear: both;
+}
