@@ -11,31 +11,41 @@
 	}
 
 body {
+
 	min-width: 320px;
+	background-color: black;
+	}
+
+header {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	border-bottom: solid 3px white;
 	background-color: black;
 	}
 
 /* screens*/
 /* start header */
-header {
+.nav-bar {
 	padding-left: 5px;
-	position: fixed;
-	top: 0;
 	width: 100%;
+	max-width: 2000px;
 	height: 70px;
 	margin: 0 auto;
-	background-color: black;
 	min-width: 320px;
-	border-bottom: solid 3px white;
 	}
 
 /* header defaults*/
 .brand {
 	font-family: 'Roboto Mono', monospace;
 	color: white;
+	float: left;
 	font-size: 30px;
 	display: inline-block;
-	float: left;
 	margin-top: 15px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -47,7 +57,7 @@ header {
 	}
 
 .brand:hover {
-	box-shadow: 0 0 10px white,0 0 20px  white,0 0 50px white,0 0 150px white;
+	box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white, 0 0 150px white;
 
 	}
 
@@ -79,7 +89,7 @@ nav ul li {
 	}
 
 nav ul li:hover {
-	box-shadow: 0 0 10px white,0 0 20px  white,0 0 50px white,0 0 250px white;
+	box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white, 0 0 250px white;
 	}
 
 .menu {
@@ -92,17 +102,19 @@ nav ul li:hover {
 	padding-bottom: 16px;
 	}
 
-.menu:hover{
-	box-shadow: 0 0 10px white,0 0 20px  white,0 0 50px white,0 0 250px white;
+.menu:hover {
+	box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white, 0 0 250px white;
 
 	}
 
 /*hero-area defauts*/
 .hero-area {
+	margin: 0 auto;
 	text-align: center;
 	font-family: "Poiret One", cursive;
 	background-color: white;
 	width: 100%;
+	max-width: 2030px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	font-size: 200%;
@@ -112,23 +124,38 @@ nav ul li:hover {
 /* end header */
 
 /*content defaults*/
-.content{
+.content {
 	height: auto;
-	border:  dashed 2px white;
-	margin: 20px;
-	padding:15px ;
+	border: dashed 2px white;
+	margin: 0 auto;
+	padding: 15px;
+	max-width: 2000px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	}
 
 .content-header {
+	position: relative;
 	height: 100px;
-	border:  dashed 2px white
+	border: dashed 2px white;
+	color: white;
+	text-align: center;
+	font-family: "Poiret One", cursive;
+	font-size: 30px;
+	}
+
+.content h1 {
+	line-height: 100px;
 	}
 
 .content-icon {
-	}
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	width: 50px;
+	height: 50px;
 
-.content-title {
-	background-color: #1C6D37;
 	}
 
 /*----------- biogrphies-----------*/
@@ -142,11 +169,14 @@ nav ul li:hover {
 	}
 
 .bio {
+	padding-top: 20px;
 	width: 25%;
 	height: 400px;
 	float: left;
 	overflow: auto;
 	color: white;
+	margin-top: 30px;
+
 	}
 
 .bio-title {
@@ -154,22 +184,26 @@ nav ul li:hover {
 	font-family: "Poiret One", cursive;
 	font-size: 25px;
 	float: left;
+	padding-left: 35px;
 	}
 
 .bio-ima {
-	margin-left: 0;
-	margin-top: 0;
+	margin-left: 15px;
+	margin-top: 10px;
 	width: 100px;
 	height: 100px;
 	float: left;
 	}
 
 .bio-content {
+	padding: 15px;
 	float: left;;
 	color: white;
 	line-height: 22px;
+	text-align: justify;
 	font-size: 20px;
 	font-family: "Poiret One", cursive;
+	margin-bottom: 20px;
 	}
 
 /*footer*/
@@ -179,8 +213,10 @@ footer {
 	position: relative;
 	bottom: 0;
 	width: inherit;
+	max-width: 1940px;
 	height: auto;
 	padding: 50px;
+	margin: 0 auto;
 	font-family: "Poiret One", cursive;
 	font-size: 40px;
 	background-color: white;
@@ -190,14 +226,43 @@ footer {
 /*end footer */
 
 /* displays */
-@media (max-width: 768px) {
+@media (min-width: 320px) {
 
 	header ul {
 		display: none;
 		}
+
+	.bio {
+		margin: 0 auto;
+		width: 100%;
+		}
+
+
+	.content-icon {
+		display: none;
+		}
+	}
+
+
+@media (min-width: 600px) {
+
+	header ul {
+		display: none;
+		}
+
+	.content-icon {
+		display: none;
+		}
+
+	.bio {
+		margin: 0 auto;
+		width: 50%;
+		}
+
 	}
 
 @media (min-width: 768px) {
+
 
 	header ul {
 		display: inline-block;
@@ -207,8 +272,16 @@ footer {
 		display: none;
 		}
 
-	}
 
+	.bio {
+		margin: 0 auto;
+		width: 33%;
+		}
+
+	.content-icon {
+		display: inline-block;
+		}
+	}
 
 @media (min-width: 1024px) {
 
@@ -220,6 +293,14 @@ footer {
 		display: none;
 		}
 
+	.bio {
+		margin: 0 auto;
+		width: 25%;
+		}
+
+	.content-icon {
+		display: inline-block;
+		}
 	}
 
 @media (min-width: 1280px) {
@@ -232,6 +313,14 @@ footer {
 		display: none;
 		}
 
+	.bio {
+		margin: 0 auto;
+		width: 25%;
+		}
+
+	.content-icon {
+		display: inline-block;
+		}
 	}
 
 @media (min-width: 1980px) {
@@ -242,6 +331,10 @@ footer {
 
 	.menu {
 		display: none;
+		}
+
+	.content-icon {
+		display: inline-block;
 		}
 
 	}
@@ -255,6 +348,10 @@ footer {
 	.menu {
 		display: none;
 		}
+	.content-icon {
+		display: inline-block;
+		}
+
 
 	}
 
