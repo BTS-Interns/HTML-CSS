@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre');
+/*default*/
+* {
+    color: #434343;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: 'Abhaya Libre', serif;
+    width: 100%;
+    height: 300px;
+    background-color: #e3e3e3;
+
+}
+
+.header p {
+    font-weight: bold;
+    font-style: cursive;
+    width: 50%;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.header nav {
+    float: right;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.header li {
+    list-style: none;
+    display: inline;
+}
+
+
+.logo{
+    width: 20px;
+    height: auto;
+}
+
+.absolute {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 130px;
+    width: 80%;
+    height: 400px;
+    background-image: url(../images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;;
+
+
+
+}
+.text {
+    width: 100%;
+    height: 600px;
+}
+
+.image {
+    width: 100%;
+    height: 400px;
+    background-color: #e3e3e3;
+    margin: 0 auto;
+}
+
+.photo-album {
+    width: 400px;
+    height: 360px;
+    margin-left: 225px;
+    padding-top: 15px;
+    float: left;
+
+}
+.photo {
+    width: 400px;
+    height: 360px;
+    margin-right: 100px;
+    padding-top: 25px;
+    float: left;
+
+}
+
+.woman {
+    width: auto;
+    height: 360px;
+}
+
+.album {
+    width: 140px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+}
+
+.formulary {
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+footer p {
+    font-weight: bold;
+    font-style: cursive;
+    width: 50%;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+footer nav {
+    float: right;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
