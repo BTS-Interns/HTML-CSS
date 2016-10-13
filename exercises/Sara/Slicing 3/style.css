@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400i');
+
+/*Normalize*/
+  html,body, h1 {
+    margin:0;
+    padding: 0;
+
+}
+/*End normalize*/
+
+.gray {
+  background-image: url("images/gris2.jpg");
+  height:400px;
+  width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(253, 255, 254,0.8);
+
+}
+
+.photo {
+  background-image: url("images/chicago.jpg");
+  height:400px;
+  width:85%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0 auto;
+  margin-top: 20px;
+
+}
+
+.name {
+  width:84%;
+  margin:0 auto;
+  height:100px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  margin-left: 75px;
+
+}
+
+.name h3 {
+  float:left;
+  width:42%;
+  height: 45px;
+  margin-left: 0px;
+  margin-top: 45px;
+  font-family: 'Muli', sans-serif;
+  color:#5F6361;
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+
+.twitter {
+  background-image: url("icons/twitter.png");
+  width:25px;
+  height:25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float:right;
+  margin-top: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.fb {
+  background-image: url("icons/fb.png");
+  width:25px;
+  height:25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float:right;
+  margin-top: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.vimeo {
+  background-image: url("icons/vimeo.png");
+  width:25px;
+  height:25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float:right;
+  margin-top: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.behance {
+  background-image: url("icons/behance.png");
+  width:25px;
+  height:25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float:right;
+  margin-top: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.dribble {
+  background-image: url("icons/dribble.png");
+  width:25px;
+  height:25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float:right;
+  margin-top: 45px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.icons {
+  width:25%;
+  float:right;
+  margin-right: 0px;
+
+}
+
+.white {
+  background-color:white;
+  height:600px;
+  width:100%;
+
+}
+
+.white h3 {
+  text-align: center;
+  margin-top: 215px;
+  font-family: 'Muli', sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  color:#5F6361;
+
+}
+
+.white h1 {
+  text-align: center;
+  margin-top: 25px;
+  color: #06254D;
+  font-size: 64px;
+
+}
+
+.description {
+  width:88%;
+  height:310px;
+  margin:0 auto;
+  margin-top: 75px;
+
+}
+
+.about {
+  width:28%;
+  height:300px;
+  float:left;
+  margin: 12px;
+  margin-top: 20px;
+  padding:4px;
+  margin-left: 24px;
+
+}
+
+.subtitle {
+  width:28%;
+  height:30px;
+
+}
+
+.user {
+  background-image: url("icons/user.png");
+  width:22px;
+  height:22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:left;
+
+}
+
+.comment {
+  background-image: url("icons/comment.png");
+  width:22px;
+  height:22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:left;
+  margin-left: 10px;
+
+}
+
+.settings {
+  background-image: url("icons/settings.png");
+  width:22px;
+  height:22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float:left;
+  margin-left: 10px;
+
+}
+
+.about h4 {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+  font-weight: lighter;
+  color:#4A4A4B;
+}
