@@ -130,3 +130,83 @@ article {
   float: left;
 
 }
+
+hr {
+  border: 1px solid rgb(200, 200, 200);;
+  width: 99%;
+  margin-bottom: 15px;
+}
+
+.contact {
+  background-color: white;
+  width: 90%;
+  height: auto;
+  margin: auto;
+
+}
+
+form {
+  width: 30%;
+  margin: 10px;
+  margin-left: 30px;
+  float: left;
+}
+
+form input,button,textarea {
+  background-color: rgb(230, 230, 230);
+  width: 90%;
+  margin: 10px;
+}
+
+.nameInput {
+  background-image: url("../images/loyer.gif");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+}
+
+.emailInput {
+  background-image: url("../images/mail.png");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+}
+
+.urlInput {
+  background-image: url("../images/world.png");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  padding-left: 15px;
+}
+
+form textarea {
+  height: 80px;
+}
+
+.about {
+  width: 50%;
+  margin: 10px;
+  float: left;
+
+}
+
+.about img {
+  width: 70%;
+  height: 280px;
+  margin: 15px;
+  float: left;
+}
+
+footer {
+  width: 90%;
+  margin: auto;
+
+}
+
+footer p {
+  color: darkgray;
+  padding-right: 10%;
+  padding-top: 20px;
+  float: left;
+
+}
