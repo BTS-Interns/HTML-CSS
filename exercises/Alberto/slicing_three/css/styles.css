@@ -3,12 +3,15 @@
 html, body {
   margin: 0;
   padding: 0;
+  color: rgb(70, 70, 70);
 
 }
 /*End Normalize*/
 
 .gray {
   background-color: rgb(220, 220, 220);
+  color: rgb(90, 90, 90);
+  font-weight: bold;
   width: 90%;
   height: 400px;
   margin: auto;
@@ -57,9 +60,16 @@ header p {
   font-size: 1em;
 }
 
+h1 {
+  font-size: 3.5em;
+  font-weight: normal;
+}
+
 .middle img {
   width: 80%;
-  height: 450px;
+  height: 420px;
+  border: 5px solid silver;
+  //border: 2px solid white;
   margin: auto;
   margin-top: -300px;
   position: relative;
@@ -94,6 +104,7 @@ article {
   color: white;
   width: 40%;
   height: 520px;
+  border: 4px solid rgb(240, 240, 240);
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 50px;
@@ -104,6 +115,7 @@ article {
 }
 
 .bigPicture p {
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 10px;
   margin: 10px;
@@ -127,6 +139,7 @@ article {
   width: 40%;
   height: 150px;
   margin: 10px;
+  border: 4px solid rgb(240, 240, 240);
   float: left;
 
 }
@@ -146,41 +159,29 @@ hr {
 }
 
 form {
-  width: 30%;
+  width: 40%;
+  padding-left: 5%;
   margin: 10px;
   margin-left: 30px;
   float: left;
 }
 
-form input,button,textarea {
+form input,button {
   background-color: rgb(230, 230, 230);
+  border: 4px solid rgb(240, 240, 240);
+  color: rgb(70, 70, 70);
   width: 90%;
+  height: 40px;
   margin: 10px;
 }
 
-.nameInput {
-  background-image: url("../images/loyer.gif");
-  background-size: 15px 15px;
-  background-repeat: no-repeat;
-  padding-left: 15px;
-}
-
-.emailInput {
-  background-image: url("../images/mail.png");
-  background-size: 15px 15px;
-  background-repeat: no-repeat;
-  padding-left: 15px;
-}
-
-.urlInput {
-  background-image: url("../images/world.png");
-  background-size: 15px 15px;
-  background-repeat: no-repeat;
-  padding-left: 15px;
-}
 
 form textarea {
-  height: 80px;
+  background-color: rgb(230, 230, 230);
+  border: 4px solid rgb(240, 240, 240);
+  width: 90%;
+  margin: 10px;
+  height: 110px;
 }
 
 .about {
@@ -191,8 +192,21 @@ form textarea {
 }
 
 .about img {
-  width: 70%;
+  width: 30%;
   height: 280px;
+  border: 4px solid rgb(240, 240, 240);
+  margin: 15px;
+  float: left;
+
+}
+
+.about div {
+  padding-right: 20%;
+  text-align: justify;
+}
+
+.about aside {
+  width: 80%;
   margin: 15px;
   float: left;
 }
@@ -204,7 +218,6 @@ footer {
 }
 
 footer p {
-  color: darkgray;
   padding-right: 10%;
   padding-top: 20px;
   float: left;
