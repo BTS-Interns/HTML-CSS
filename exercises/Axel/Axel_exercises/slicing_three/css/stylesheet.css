@@ -5,15 +5,18 @@
     padding: 0;
 }
 
-body {
-    position: relative;
-    top: 0;
+.big-header {
+    display: none;
+}
+img:not(.media-icon) {
+    box-sizing: border-box;
+    border: 2px double white;
 }
 
 /*start header*/
 header {
     width: 100%;
-    height: 80px;
+    height: 60px;
     position: fixed;
     top: 0;
     left: 0;
@@ -28,7 +31,7 @@ header h1 {
     font-style: italic;
     padding-top: 3%;
     color: #333333;
-    font-size: 1.7em;
+    font-size: 1.5em;
 
 }
 /*end header*/
@@ -36,18 +39,18 @@ header h1 {
 /*start header-media*/
 .header-media {
     background-color: #DFDFDF;
-    margin-top: 80px;
+    margin-top: 60px;
     width: 100%;
     height: 60px;
     text-align: center;
 
 }
 
-.media-icon {
+.social img {
+    margin: 0 auto;
     padding-top: 8px;
     width: 6%;
     height: 50%;
-    margin-right: 10px;
 
 }
 /*end header-media*/
@@ -87,19 +90,18 @@ header h1 {
     margin-top: 25px;
     width: 96%;
     height: auto;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 1px;
 
 }
 
 .articles article {
-    width: 60%;
+    width: 90%;
     height: auto;
     margin: 0 auto;
     margin-bottom: 25px;
     padding-top: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
+
 }
 
 .icon {
@@ -121,42 +123,47 @@ header h1 {
     width: 100%;
     height: auto;
     background-image: url("../images/galleryBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 25px;
     padding-bottom: 15px;
+    text-align: center;
 
 }
 
 .mini-gallery {
-    width: 90%;
+    width: 96%;
     margin: 0 auto;
     height: auto;
 
 }
 
 .gallery .mini-gallery img {
-    width: 45%;
-    height: 200px;
-    margin-left: 3.3%;
-    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 
 }
 
 .gallery-slider {
     margin: 0 auto;
-    width: 84%;
-    height: 800px;
+    width: 95%;
+    height: 500px;
     background-image: url("../images/girl.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px double white;
 
 }
 
  .description {
     width: 100%;
-    height: 150px;
-    position: relative;
-    top: 650px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
 
@@ -164,9 +171,10 @@ header h1 {
 
 .description p {
     padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 1.2em;
     color: white;
     text-align: left;
@@ -176,7 +184,7 @@ header h1 {
 
 /*start form */
 .form {
-    width: 84%;
+    width: 96%;
     height: auto;
     margin:  0 auto;
     margin-top: 25px;
@@ -187,11 +195,11 @@ header h1 {
 
 .form input:not(.submit) {
     width: 95%;
-    height: 60px;
+    height: 50px;
     margin-top: 15px;
     background-color: #DFDFDF;
     border: 1px solid white;
-    font-size: 1.8em;
+    font-size: 1.3em;
     padding-left: 5%;
 
 }
@@ -199,7 +207,7 @@ header h1 {
 .form textarea {
     margin-top: 15px;
     width: 100%;
-    height: 200px;
+    height: 150px;
     resize: none;
     background-color: #DFDFDF;
 
@@ -207,8 +215,8 @@ header h1 {
 
 .submit {
     margin-top: 15px;
-    width: 200px;
-    height: 80px;
+    width: 50%;
+    height: 60px;
     border-radius: 5px;
     background-color: #DFDFDF;
     font-size: 1.8em;
@@ -217,31 +225,32 @@ header h1 {
 
 /*start bipgraphie */
 .biographie {
-    width: 84%;
+    width: 96%;
     height: auto;
     margin:  0 auto;
     margin-top: 25px;
     padding-top: 10px;
     padding-bottom: 25px;
+    text-align: center;
+
 }
 
 .biographie img {
-    width: 200px;
-    height: 300px;
-    float: left;
-    padding-right: 20px;
+    width: 250px;
+    height: 250px;
     filter: grayscale(100%);
     border-radius: 5px;
 }
 
 .biographie h2 {
     margin-top: 20px;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .biographie p {
     margin-top: 25px;
     font-size: 1.2em;
+    text-align: left;
 }
 
 .contact {
@@ -274,8 +283,387 @@ footer p {
     margin-top: 25px;
 }
 
-.footer-social {
+.social {
+    margin: 0 auto;
     margin-top: 25px;
-    word-spacing: 20px;
+    word-spacing: 15px;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+@media (min-width: 640px) {
+    header, .header-media {
+        display: none;
+    }
+
+    .big-header {
+        display: block;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        z-index: 1;
+        background-color: #DFDFDF;
+    }
+
+    .big-header h1 {
+        display: inline-block;
+        float: left;
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 1.5em;
+    }
+
+    .big-header img {
+        width: 30px;
+        height: 30px;
+        float: right;
+        padding-right: 20px;
+        padding-top: 20px;
+
+    }
+
+    .slider {
+        text-align: center;
+        background-color: #DFDFDF;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 220px;
+
+    }
+
+
+    .slider img {
+        width: 96%;
+        height: 350px;
+        box-sizing: border-box;
+        border: 2px double white;
+        border-radius: 5px;
+
+    }
+
+
+    /*start welcome*/
+    .welcome {
+        margin-top: 470px;
+        text-align: center;
+
+    }
+    /*end welcome*/
+
+
+    /*start gallery*/
+    .gallery {
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/galleryBackground.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+
+    }
+
+    .mini-gallery {
+        width: 96%;
+        margin: 0 auto;
+        height: auto;
+
+    }
+
+    .gallery .mini-gallery img {
+        width: 48%;
+        height: auto;
+        float: left;
+        margin-bottom: 15px;
+        padding-left: 0;
+
+    }
+
+    .mini-gallery img:nth-of-type(odd){
+        margin-right: 4%;
+    }
+
+    .gallery-slider {
+        margin: 0 auto;
+        width: 95%;
+        height: 500px;
+        background-image: url("../images/girl.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+    }
+
+     .description {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+
+    }
+
+    .description p {
+        padding-top: 25px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.2em;
+        color: white;
+        text-align: left;
+
+    }
+    /*end gallery*/
+
+
+    /*start bipgraphie */
+    .biographie {
+        width: 96%;
+        height: auto;
+        margin:  0 auto;
+        margin-top: 100px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        text-align: left;
+
+    }
+
+    .biographie img {
+        width: 200px;
+        height: 200px;
+        filter: grayscale(100%);
+        border-radius: 5px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .biographie h2 {
+        margin-top: 0px;
+        font-size: 1.3em;
+    }
+
+    .biographie p {
+        margin-top: 25px;
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    .contact {
+        white-space: pre-line;
+        line-height: 30px;
+    }
+
+    .contact a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+    }
+
+    .clear {
+        clear: both;
+    }
+    /*end biographie*/
+
+
+    @media (min-width: 768px) {
+        .biographie h2 {
+            margin-top: 50px;
+            font-size: 1.3em;
+        }
+
+    }
+
+    @media (min-width: 1024px) {
+        /*start slider*/
+        /*start header*/
+        .big-header {
+            display: block;
+            position: static;
+            width: 100%;
+            height: 180px;
+            z-index: 1;
+            background-color: #DFDFDF;
+        }
+
+        .big-header h1 {
+            display: inline-block;
+            float: left;
+            padding-top: 4%;
+            padding-left: 10%;
+            font-size: 1.5em;
+        }
+
+        .big-header img:nth-of-type(1) {
+            margin-right: 9%;
+        }
+        .big-header img {
+            width: 30px;
+            height: 30px;
+            float: right;
+            padding-top: 3.8%;
+
+        }
+
+
+        /*start slider*/
+        .slider {
+            text-align: center;
+            background-color: #DFDFDF;
+            position: static;
+            width: 100%;
+            height: 420px;
+
+        }
+
+        .slider img {
+            width: 80%;
+            height: 650px;
+            box-sizing: border-box;
+            border: 2px double white;
+            border-radius: 5px;
+
+        }
+
+        .welcome {
+            margin-top: 350px;
+            text-align: center;
+
+        }
+
+        .welcome h2 {
+            font-size: 2em;
+
+        }
+
+        .welcome .big-text {
+            padding-top: 20px;
+            font-size: 6em;
+            margin-bottom: 60px;
+        }
+
+        .articles {
+            /*background-color: green;*/
+            width: 80%;
+        }
+
+        .articles article {
+            width: 30%;
+            height: auto;
+            /*background-color: red;*/
+            float: left;
+            margin-bottom: 80px;
+        }
+
+        .articles article:nth-of-type(2) {
+            margin-left: 5%;
+            margin-right: 5%;
+            /*background-color: yellow;*/
+        }
+
+        .articles img {
+            border: none;
+        }
+
+        .articles h2 {
+            font-size: 2em;
+        }
+
+        .articles p {
+            font-size: 1.3em;
+        }
+
+        .helper {
+            width: 100%;
+            height: auto;
+            background-image: url("../images/galleryBackground.jpg");
+            border-bottom: 1px solid gray;
+
+        }
+
+        .gallery {
+            background-color: transparent;
+            width: 80%;
+        }
+
+        .gallery .mini-gallery {
+            float: left;
+            width: 49%;
+            margin-right: 2%;
+            background-color: transparent;
+
+        }
+
+        .gallery .mini-gallery img {
+             padding-bottom: 0;
+             height: 297px;
+        }
+
+        .gallery .gallery-slider {
+            width: 49%;
+            height: 920px;
+            float: left;
+        }
+
+        .description {
+            height: 200px;
+            overflow: auto;
+        }
+
+        .form {
+            float: left;
+            margin-left: 10%;
+            width: 39%;
+            margin-right: 2%;
+            margin-top: 80px;
+        }
+        .biographie {
+            float: left;
+            width: 39%;
+        }
+
+        .biographie img {
+            width: 250px;
+            height: 260px;
+        }
+
+        /*start footer*/
+        footer {
+            width: 100%;
+            height: 150px;
+            border-top: 1px solid #DFDFDF;
+            margin-top: 50px;
+
+        }
+
+        footer p {
+            margin-left: 10%;
+            padding-top: 20px;
+            float: left;
+            font-size: 1.2em;
+
+        }
+
+        .social {
+            float: right;
+            margin-right: 10%;
+
+        }
+
+        .social .media-icon {
+            width: 30px;
+            height: 30px;
+        }
+
+    }
+
 
 }
