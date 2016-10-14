@@ -23,9 +23,7 @@ header h1 {
     margin-top: 3%;
 
 }
-
-nav {
-    text-decoration: none;
+.social {
     height: 50px;
     width: 30%;
     float: right;
@@ -33,7 +31,7 @@ nav {
     margin-right: 2.5%;
 }
 
-header nav img {
+.social img {
     float: left;
     width: 20px;
     height: 20px;
@@ -121,6 +119,10 @@ header img {
     width: 260px;
     margin: 5px;
     border: 2px white solid;
+    box-shadow: 0px 0px 3px grey,
+                0px 0px 6px grey,
+                0px 0px 9px grey,
+                0px 0px 12px grey;
 }
 
 .right-picture img {
@@ -129,19 +131,24 @@ header img {
     width: 510px;
     height: 747px;
     border: 2px white solid;
+    box-shadow: 0px 0px 3px grey,
+                0px 0px 6px grey,
+                0px 0px 9px grey,
+                0px 0px 12px grey;
 }
 
 .contact {
     width: 80%;
     padding-top: 60px;
-    height: auto;
+    height: 410px;
     margin: 0 auto;
+    border-bottom: 3px solid #DDDDDD;
 
 }
 
 .form {
-    width: 45%;
-    height: 250px;
+    width: 50%;
+    height: 340px;
     float: left;
 }
 
@@ -150,6 +157,7 @@ header img {
     height: 30px;
     margin-bottom: 15px;
     background-color: #DDDDDD;
+    font-style: italic;
     box-shadow: 0px 0px 3px grey,
                 0px 0px 6px grey,
                 0px 0px 9px grey;
@@ -160,4 +168,86 @@ header img {
     width: 90.5%;
     margin-bottom: 15px;
     background-color: #DDDDDD;
+    box-shadow: 0px 0px 3px grey,
+                0px 0px 6px grey,
+                0px 0px 9px grey;
+
+}
+
+.form button {
+    width: 100px;
+    height: 30px;
+    background-color: #DDDDDD;
+    box-shadow: 0px 0px 3px grey,
+                0px 0px 6px grey,
+                0px 0px 9px grey;
+    border: 1px solid black;
+}
+
+.info {
+    width: 45%;
+    height: 250px;
+    margin-right: 50px;
+    float: right;
+
+}
+
+.info img {
+    height: 150px;
+    float: left;
+    padding-right: 5%;
+
+}
+
+.info h3 {
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.info p {
+    font-size: 14px;
+}
+
+.contact-info {
+    clear: both;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+footer {
+    padding-top: 30px;
+    padding-left: 11%;
+    padding-bottom: 30px;
+    display: inline-block;
+    width: 80%;
+
+}
+
+footer p {
+    float: left;
+    padding-right: 20%;
+    padding-top: 3px;
+
+}
+
+footer div {
+    height: 30px;
+    width: 20%;
+    float: right;
+
+}
+
+footer div img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
 }
