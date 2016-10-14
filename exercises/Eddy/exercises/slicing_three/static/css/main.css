@@ -11,169 +11,181 @@
 }
 
 body {
-
-	min-width: 320px;
 	background-color: white;
+	min-width: 320px;
+	text-align: center;
 }
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  header */
+
 header {
-	position: relative;
-	top: 0;
-	right: 0;
-	left: 0;
-	text-align: center;
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	padding-right: 150px;
-	padding-left: 150px;
-	background: gray;
-	height: 450px;
+	background-color: gray;
+	height: auto;
+}
+
+nav {
+	height: 50px;
+	margin: 0 auto;
 }
 
 .author {
 	float: left;
-	display: inline-block;
-	margin-top: 60px;
-	margin-bottom: 60px;
-	font-size: 20px;
 	font-family: "Poiret One", cursive;
-
+	font-size: 10px;
+	width: 270px;
+	padding-top: 17px;
 }
 
 .header-social {
+	display: none;
 	float: right;
-	display: inline-block;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	width: auto;
+	height: 50px;
+	padding-right: 0;
+
 }
 
-.header-icon {
+.header-social li {
+	padding-top: 13px;
+	padding-bottom: 14px;
+	display: inline-block;
+	margin-right: 0;
+}
+
+.header-social li:hover {
+	box-shadow: 0 0 10px black, 0 0 20px black, 0 0 50px black, 0 0 150px black;
+}
+
+.icon {
+	width: 22px;
+	height: 22px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 0;
+}
+
+.btn-menu {
+	background-size: contain;
+	float: right;
+	padding: 13px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end  header */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ hero */
+.hero {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	max-height: 400px;
+	background-image: url("../media/image/train-tracks.jpg");
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end hero */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ footer */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ main text */
+
+.main-text{
+	background-color: white;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 15px;
+}
+
+.main-text-wrapper{
+	width: 100%;
+	height: auto;
+	margin-top: 4px;
+}
+
+.miscellaneus{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: "Poiret One", cursive;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.miscellaneus-tittle{
 	float: left;
 	padding-left: 20px;
-	height: 20px;
-	width: 20px;
 }
 
-.header-carrusel {
-	position: relative;
-	top: 0;
-	width: 100%;;
-}
 
-/* content*/
-
-.content {
-	margin-top: 0;
-	right: 0;
-	left: 0;
-	text-align: center;
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	padding-top: 200px;
-	padding-right: 150px;
-	padding-left: 150px;
-	padding-bottom: 50px;
-	background: white;
-	height: 370px;
-}
-
-.content-wellcome {
-	font-size: 20px;
-	font-family: "Poiret One", cursive;
-	padding-top: 10px;
-	padding-bottom: 10px
-}
-
-.content-tittle {
-	font-size: 40px;
-	font-weight: bolder;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: "Poiret One", cursive;
-}
-
-.content-wrap {
-	background-color: white;
-	width: inherit;
-	height: 300px;
-}
-
-.content-col {
-	width: 32%;
-	height: 250px;
-	display: inline-block;
-	color: black;
-	margin-top: 30px;
-}
-
-.content-col-tittle {
-	font-size: 20px;
+.icon-m{
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
 	float: left;
-	padding: 10px;
-	font-family: "Poiret One", cursive;
 }
 
-.content-col-p {
+.misc-cont{
 	float: left;
-	padding: 10px;
-	color: black;
-	line-height: 15px;
-	text-align: justify;
-	font-size: 20px;
-	font-family: "Poiret One", cursive;
+	margin-top: 5px;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end main text */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end footer */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    screens  */
+
+@media (min-width: 320px) {
+
+	.author {
+		font-size: 12px;
+	}
+
+	.header-social {
+		display: none;
+	}
+
+	.icon-menu {
+		display: inline-block;
+	}
 
 }
 
-/* gallery*/
+@media (min-width: 440px) {
 
-.gallery {
-	margin-top: 0;
-	right: 0;
-	left: 0;
-	text-align: center;
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	padding-top: 10px;
-	padding-right: 150px;
-	padding-left: 150px;
-	background: gray;
-	height: 700px;
-}
-
-.gallery-wrap {
-
-	width: inherit;
-	height: auto;
-}
-
-.gallery-grid {
-
-	float: left;
-	width: 50%;
-}
-
-.gallery-grid-image {
-	margin-top: 0;
-	height: 200px;
-	width: 200px;
-	display: inline-block;
-}
-
-.gallery-hero {
-
-	float: right;
-	width: 50%;
-}
-
-.gallery-main-image {
-	width: 100%;
+	.author {
+		font-size: 13px;
+	}
 
 }
 
-/*trick*/
-.clear {
-	clear: both;
+@media (min-width: 600px) {
+
+	.author {
+		font-size: 14px;
+	}
+
 }
+
+@media (min-width: 768px) {
+
+	.author {
+		font-size: 16px;
+		width: 50%;
+	}
+
+	.header-social {
+		display: inline-block;
+	}
+
+	.icon {
+		height: 22px;
+		width: 22px;
+	}
+
+	.icon-menu {
+		display: none;
+	}
+
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    end screens  */
