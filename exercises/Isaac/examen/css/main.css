@@ -1,0 +1,289 @@
+/* Color Palette */
+/* purple: #874e9f */
+/* purple-selected: #64387b */
+/* orange: #ed7d43 */
+/* green-blue: #00c1a3 */
+/* white-blue: #e8f1f8 */
+/* text-blue: #9ef1fb */
+/* End Color Palette */
+
+/* Normalization */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* End Normalization */
+
+/* Icons */
+.icon {
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.icon-facebook {
+	background-image: url('../images/icons/facebook.png');
+	background-position-y: 2px;
+}
+
+.icon-twitter {
+	background-image: url('../images/icons/twitter.png');
+}
+
+.icon-linkedin {
+	background-image: url('../images/icons/linkedin.png');
+	background-position-y: 4px;
+}
+
+.icon-mail {
+	background-image: url('../images/icons/mail.png');
+}
+/* End Icons */
+
+/* General */
+body {
+	color: white;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.container {
+	padding: 3% 11%;
+}
+
+.clear {
+	clear: both;
+}
+
+.line {
+	width: 80px;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	margin: 15px auto;
+}
+/* End General */
+
+/* Header */
+header {
+	background-color: #874e9f;
+	float: left;
+	width: 100%;
+	height: 525px;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 180px;
+	height: 200px;
+	position: absolute;
+	top: -25px;
+	left: 160px;
+}
+
+nav {
+	float: right;
+}
+
+nav > ul {
+	margin-right: 20px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px 10px;
+	font-size: 15px;
+	border-radius: 3px;
+}
+
+nav > ul > li:hover {
+	background-color: #64387b;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+header > h1 {
+	margin-top: 160px;
+	font-size: 34.5px;
+	line-height: 42px;
+}
+
+header > button {
+	margin-top: 48px;
+	width: 260px;
+	height: 60px;
+	background-color: #ed7d43;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	font-size: 15px;
+	outline: none;
+}
+/* End Header */
+
+/* Our Services */
+.our-services {
+	background-color: #00c1a3;
+	float: left;
+	width: 100%;
+	height: 670px;
+}
+
+.our-services > h2 {
+	margin-top: 62px;
+	font-size: 35px;
+}
+
+.our-services > p {
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(255,255,255,0.8);
+}
+
+.our-services > ul {
+	margin-top: 40px;
+	padding-top: 3px;
+}
+
+.our-services > ul > li {
+	list-style: none;
+	display: inline-block;
+	width: 25%;
+	float: left;
+}
+
+.our-services > ul > li > h3 {
+	font-size: 20px;
+}
+
+.our-services > ul > li > p {
+	font-size: 15px;
+	margin-top: 20px;
+	line-height: 20px;
+	color: rgba(255,255,255,0.8);
+}
+
+.service-img {
+	width: 185px;
+	height: 195px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+}
+
+.img-flag {
+	background-image: url('../images/flag.png');
+	background-position-x: 20px;
+	background-position-y: -10px;
+}
+
+.img-crayon {
+	background-image: url('../images/crayon.png');
+	background-position-x: 13px;
+}
+
+.img-gears {
+	background-image: url('../images/gears.png');
+}
+
+.img-rocket {
+	background-image: url('../images/rocket.png');
+}
+/* End Our Services */
+
+/* Our Team */
+.our-team {
+	background-color: #e8f1f8;
+	float: left;
+	width: 100%;
+	height: 740px;
+	color: #364253;
+}
+
+.our-team > h2 {
+	margin-top: 62px;
+	font-size: 35px;
+}
+
+.our-team > p {
+	font-size: 16px;
+	width: 60%;
+	margin: 0 auto;
+	line-height: 22px;
+}
+
+.our-team > ul {
+	margin-top: 70px;
+	padding-top: 3px;
+}
+
+.our-team > ul > li {
+	list-style: none;
+	display: inline-block;
+	width: 25%;
+	float: left;
+	position: relative;
+	height: 445px;
+}
+
+.our-team > ul > li > h3 {
+	font-size: 20px;
+	margin-top: 35px;
+}
+
+.our-team > ul > li > h4 {
+	font-size: 14px;
+	margin-top: 5px;
+	color: #00c1a3;
+}
+
+.our-team > ul > li > p {
+	font-size: 15px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+.team-picture {
+	width: 177px;
+	height: 177px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pic-kate {
+	background-image: url('../images/pictures/kate_upton.jpg');
+}
+.pic-anne {
+	background-image: url('../images/pictures/anne_hathaway.jpeg');
+	background-position-x: -43px;
+}
+.pic-ashley {
+	background-image: url('../images/pictures/ashley_greene.jpg');
+}
+.pic-olivia {
+	background-image: url('../images/pictures/olivia_wilde.jpeg');
+}
+
+.social-media {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.social-media li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 -5px;
+}
+/* End Our Team */
