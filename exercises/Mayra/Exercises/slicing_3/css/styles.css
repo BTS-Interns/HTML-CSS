@@ -17,11 +17,6 @@ h1, h2 {
     font-size: 30px;
 }
 
-h3 {
-    font-family: 'Abhaya Libre', serif;
-    font-size: 30px;
-}
-
 h1 {
     font-size: 80px;
 }
@@ -87,7 +82,7 @@ header {
 
 .text {
     width: 100%;
-    height: auto;
+    height: 560px;
     margin: 0 auto;
     padding-top: 70px;
     padding-bottom: 50px;
@@ -114,41 +109,40 @@ header {
 
 .image {
     width: 100%;
-    height: 500px;
+    height: 635px;
     background-color: #e3e3e3;
-    padding-top: 45px; 
+    padding-top: 45px;
 
 }
 
 .photo-album {
-    width: 400px;
+    width: 50%;
     height: auto;;
     padding-top: 15px;
-    padding-left: 37px;
     float: left;
 
 }
 .photo {
-    width: 600px;
+    width: 50%;
     height: auto;
-    padding-top: 25px;
+    padding-top: 21px;
     float: left;
 
 }
 
 .woman {
-    width: auto;
-    height: 465px;
+    width: 100%;
+    height: 528px;
 }
 
-.men{
-    width: 300px;
+.men {
+    width: 92%;
     height: auto;
 }
 
 .album {
-    width: 180px;
-    height: 150px;
+    width: 257px;
+    height: 170px;
     float: left;
     margin: 5px;
     background-size: cover;
@@ -157,17 +151,16 @@ header {
 .seccion-formulary {
     width: 100%;
     height: 400px;
-    background: linear-gradient(#e3e3e3 7%, white 21%);
+    background: linear-gradient(#e3e3e3 0%, white 10%);
     margin-top: 2px;
+    padding-top: 40px;
 }
 
 .formulary {
-    width: 402px;
+    width: 50%;
     height: auto;
     float: left;
     margin: 20px auto;
-    padding-left: 37px;
-
 }
 
 input {
@@ -176,42 +169,49 @@ input {
 }
 
 .input {
-    width: 373px;
-    height: 30px;
+    width: 97%;
+    height: 50px;
 }
 
 .submit {
-    height: 30px;
-    width: 70px;
+    height: 50px;
+    width: 100px;
 }
 
 textarea {
     background-color:  #e3e3e3;
-    width: 373px;
+    width: 97%;
     height: 150px;
 
 }
 
 .bio {
-    width: 54%;
+    width: 50%;
     height: auto;
     float: left;
     margin: 20px auto;
 }
 
 .bio-photo{
-    width: 300px;
+    width: 50%;
     float: left;
 }
 
-.bio-text p, h3, li {
+.bio-text p, li {
+    width: 100%;
+    height: auto;
     margin: 2px auto;
-    padding-left: 5px;
+    padding-top: 5px;
+}
 
-
+.bio-name {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .contact {
+    padding-top: 7px;
     width: auto;
     height: auto;
     float: left;
@@ -224,6 +224,11 @@ span{
 a {
     font-family: cursive;
     text-decoration: none;
+    font-size: 20px;
+}
+
+.follow-me{
+    display: inline;
 }
 
 li {
