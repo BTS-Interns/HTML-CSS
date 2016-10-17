@@ -388,13 +388,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(253, 255, 254,0.6);
+  background-color: rgba(64, 64, 64,0.6);
 
 }
 
 .big p {
   text-align: center;
-  color:#484647;
+  color:white;
   margin:10px;
   margin-top: 25px;
 
@@ -426,6 +426,9 @@
   background-color: #EBEBEB;
   color:#484647;
   font-family: 'Droid Serif', serif;
+  border-style: double;
+  border-color:white;
+  border-width: medium;
 
 }
 
@@ -438,6 +441,9 @@
   background-color: #EBEBEB;
   color:#484647;
   font-family: 'Droid Serif', serif;
+  border-style: double;
+  border-color:white;
+  border-width: medium;
 
 }
 
@@ -450,6 +456,9 @@
   background-color: #EBEBEB;
   color:#484647;
   font-family: 'Droid Serif', serif;
+  border-style: double;
+  border-color:white;
+  border-width: medium;
 
 }
 
@@ -459,6 +468,9 @@
   margin:10px;
   width:250px;
   background-color: #EBEBEB;
+  border-style: double;
+  border-color:white;
+  border-width: medium;
 
 }
 
@@ -467,11 +479,14 @@
   clear:both;
   margin:10px;
   margin-left: 10px;
-  height:25px;
+  height:35px;
+  width:75px;
   background-color: #EBEBEB;
-  color:#484647;
-  height:25px;
+  color:gray;
   font-family: 'Droid Serif', serif;
+  border-style: double;
+  border-color:white;
+  border-width: medium;
 
 }
 
@@ -499,7 +514,6 @@ li {
  display:inline-block;
   text-decoration: none;
  color:#484647;
- font-family: 'Muli', sans-serif;
  font-size: 15px;
  text-align: left;
  font-style: italic;
@@ -509,55 +523,85 @@ li {
 ul {
   list-style: none;
   word-spacing: 15px;
+  float:right;
+  padding-left: 0px;
+  padding-right: 34px;
 
 }
 
 .contact h4 {
-  font-family: 'Muli', sans-serif;
   font-size: 18px;
   color:#484647;
   margin-top: 10px;
   padding-left: 155px;
   margin-bottom: 8px;
+  font-weight: lighter;
 
 }
 
 .contact p {
-  color:gray;
+  color:#484647;
   margin-top: 0px;
   padding-left: 154px;
+  font-size:15px;
+
+}
+
+.first {
+  margin-top: 75px;
+  margin-bottom: 0px;
 
 }
 
 h5 {
-  font-family: 'Muli', sans-serif;
   color:#484647;
   font-size: 14px;
   font-weight: lighter;
   margin-left: 9px;
+  margin-top: 5px;
+  font-family: 'Droid Serif', serif;
 
 }
 
 .follow {
   color:#484647;;
   font-weight: bold;
+  float:left;
+  margin-top: 17px;
 
 }
 
-footer .gray{
-  height:150px;
+footer {
+  height:110px;
 
 }
 
-.gradient-2 {
-  background:linear-gradient(#EBEBEB,white);
-  height:50px;
-  width:100%;
-  position:relative;
-  border-top-color: #E1E0E0;
-  border-top-style:double;
-  border-top-width: 6px;
-  margin-top: 0px;
+.name-footer {
+  width:84%;
+  margin:0 auto;
+  height:100px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  margin-left: 75px;
 
+}
+
+.name-footer h3 {
+  float:left;
+  width:42%;
+  height: 45px;
+  margin-left: 30px;
+  margin-top: 80px;
+  font-family: 'Droid Serif', serif;
+  color:#484647;
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: italic;
+
+}
+
+footer .twitter, .fb, .dribble, .vimeo, .behance {
+  margin-top: -10px;
 
 }
