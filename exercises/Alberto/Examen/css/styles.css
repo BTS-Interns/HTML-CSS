@@ -1,0 +1,131 @@
+html, body {
+  width: 1280px;
+  margin: auto;
+  font-family: arial;
+
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.7em;
+
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+
+}
+
+.intro {
+  background-color: rgb(152, 0, 172);
+  color: beige;
+  text-align: center;
+
+}
+
+.cuda {
+  font-family: fantasy;
+  font-size: 2.5em;
+  text-align: left;
+  margin-left: 180px;
+  padding: 15px;
+
+}
+
+nav {
+  position: relative;
+  top: -45px;
+  left: 280px;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+
+}
+
+nav li:hover {
+  background-color: rgb(105, 0, 121);
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.intro p {
+  font-size: 1.5em;
+  padding-top: 50px;
+
+}
+
+button {
+  color: white;
+  background-color: rgb(255, 150, 83);
+  padding: 20px 40px 20px 40px;
+  border: none;
+  margin-bottom: 110px;
+
+}
+
+.services {
+  background-color: rgb(0, 179, 138);
+  color: beige;
+  text-align: center;
+  padding: 90px 150px 90px 150px;
+  overflow: auto;
+
+}
+
+.services hr {
+  width: 50px;
+  border-color: rgb(0, 172, 105);
+  margin-top: -10px;
+
+}
+
+.team {
+  background-color: rgb(232, 245, 245);
+  color: rgb(59, 59, 59);
+  text-align: center;
+  padding: 90px 150px 20px 150px;
+  overflow: auto;
+
+}
+
+.team h4 {
+  color: rgb(112, 211, 255);
+  margin-top: -10px;
+
+}
+
+.team hr {
+  width: 50px;
+  border-color: lightgray;
+  margin-top: -10px;
+
+}
+
+section {
+  width: 19%;
+  margin: 3%;
+  float: left;
+
+}
+
+section img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+
+}
+
+.icons img {
+  width: 35px;
+  height: 35px;
+}
