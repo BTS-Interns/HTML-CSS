@@ -601,7 +601,27 @@ footer {
 
 }
 
-footer .twitter, .fb, .dribble, .vimeo, .behance {
+footer .twitter{
+  margin-top: -10px;
+
+}
+
+footer .fb{
+  margin-top: -10px;
+
+}
+
+footer .vimeo{
+  margin-top: -10px;
+
+}
+
+footer .behance{
+  margin-top: -10px;
+
+}
+
+footer .dribble{
   margin-top: -10px;
 
 }
