@@ -1,0 +1,242 @@
+/* Normailize */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+/* End normalize */
+
+/* Header */
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(140, 40, 175);
+
+}
+
+header img {
+    width: 100px;
+    height: 50px;
+    float: left;
+    color: white;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 150px;
+
+}
+
+header nav {
+    margin-left: 800px;
+    margin-top: 30px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+
+header nav a:active {
+    background-color: rgb(110, 10, 135);
+
+}
+
+/* End header */
+
+/* Hero area */
+
+.hero-area {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(140, 40, 175);
+    text-align: center;
+}
+
+.hero-area p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 110px;
+    margin-bottom: 80px;
+
+}
+
+.hero-area button {
+    background-color: rgb(255, 100, 0);
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0px;
+
+}
+
+/* End hero ares */
+
+/* Services */
+
+.services {
+    background-color: rgb(0, 210, 165);
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.services header {
+    background-color: rgb(0, 210, 165);
+}
+
+.services header h2 {
+    margin-top: 90px;
+    font-size: 35px;
+
+}
+
+.services header div {
+    border: 1.5px solid rgb(0, 175, 115);
+    width: 80px;
+    margin: 20px;
+    margin-left: 629px;
+
+}
+
+.services header p {
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.services-wrapper {
+    margin-top: 50px;
+    padding-left: 140px;
+    height: 380px;
+}
+
+.single-service {
+    float: left;
+    height: 300px;
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.single-service h3 {
+    font-size: 20px;
+}
+
+.single-service p {
+    font-size: 13px;
+}
+
+/* End Services */
+
+/* Team */
+
+.team {
+    background-color: rgb(235, 235, 235);
+
+}
+
+.team header {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    padding-top: 90px;
+
+}
+
+.team header h2 {
+    font-size: 30px;
+}
+
+.team header div {
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 80px;
+    margin: 20px;
+    margin-left: 630px;
+
+}
+
+.team header p {
+    font-size: 17px;
+    padding-top: 5px;
+
+}
+
+.team-profiles {
+    background-color: rgb(235, 235, 235);
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 190px;
+    padding-top: 70px;
+}
+
+.profile {
+    background-color: rgb(235, 235, 235);
+    float: left;
+    height: 400px;
+    width: 200px;
+    text-align: center;
+    margin-right: 60px;
+    padding-bottom: 50px;
+
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin-bottom: 30px;
+
+}
+
+.profile h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.profile p:first-of-type {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(0, 220, 220);
+
+}
+
+.social-media {
+    background-color: rgb(235, 235, 235);
+    display: inline-block;
+}
+
+.social-media img {
+    height: 40px;
+    width: 40px;
+    float: left;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.facebook {
+    margin-top: 2px;
+}
+
+.linkedin {
+    margin-top: 3px;
+}
+
+/* End team */
