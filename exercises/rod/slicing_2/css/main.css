@@ -1,0 +1,45 @@
+/* Normalize */
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+
+}
+/*End normalize*/
+
+/* Start Nav */
+header {
+  background-color: red;
+  width: 85%;
+  margin: 0 auto;
+
+}
+
+.brand {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+
+}
+
+nav ul {
+  display: inline-block;
+  background-color: yellow;
+  float: left;
+
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.btn-sign-in {
+  float: left;
+}
+/* End Nav */
+/*helpers*/
+.clear {
+  clear: both;
+}
