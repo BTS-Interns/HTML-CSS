@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+/* using font face to a remote url */
+
+@font-face {
+	font-family: "Poiret One";
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Poiret_One/PoiretOne-Regular.ttf');
+	}
+
+body {
+	background-color: white;
+	width: 100%;
+	}
+
+.container {
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-block;
+	padding: 2%;
+	border-style: dashed;
+	border-top: 5px black;
+	}
+
+.gradient-one {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: linear-gradient(to bottom, white, green);
+	}
+
+.gradient-two {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: linear-gradient(to bottom right, white, green);
+	}
+
+.gradient-three {
+	margin-right: 1%;
+	margin-bottom: 1%;
+
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: linear-gradient(70deg, white, green);
+	}
+
+.gradient-four {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: linear-gradient(to bottom, red, blue, green);
+	}
+
+.gradient-five {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: linear-gradient(to bottom, rgba(0, 255, 0, 0.2), rgba(0, 255, 0, 1));
+	}
+
+.gradient-six {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: radial-gradient(white, green);
+	}
+
+.gradient-seven {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: radial-gradient(circle, white, green);
+	}
+
+.gradient-seven {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: radial-gradient(circle, white, green);
+	}
+
+.gradient-eight {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: -webkit-radial-gradient(100px 100px, closest-side, white, black);
+	}
+
+.gradient-nine {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: -webkit-radial-gradient(100px 100px, farthest-side, white, black);
+	}
+
+.gradient-ten {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: -webkit-radial-gradient(100px 100px, closest-corner, white, black);
+	}
+
+.gradient-eleven {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: -webkit-radial-gradient(100px 100px, farthest-corner, white, black);
+	}
+
+.gradient-twelve {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: -webkit-repeating-radial-gradient(100px 100px, farthest-corner, white, black, green);
+	}
+
+.gradient-thirteen {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	float: left;
+	height: 300px;
+	width: 300px;
+	background: -webkit-repeating-linear-gradient(red, blue, green);
+	}

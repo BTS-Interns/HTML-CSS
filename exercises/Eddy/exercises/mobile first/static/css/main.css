@@ -1,0 +1,361 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+@font-face {
+	font-family: "Poiret One";
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Poiret_One/PoiretOne-Regular.ttf');
+	}
+
+body {
+
+	min-width: 320px;
+	background-color: black;
+	}
+
+header {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	border-bottom: solid 3px white;
+	background-color: black;
+	}
+
+/* screens*/
+/* start header */
+.nav-bar {
+	padding-left: 5px;
+	width: 100%;
+	max-width: 2000px;
+	height: 70px;
+	margin: 0 auto;
+	min-width: 320px;
+	}
+
+/* header defaults*/
+.brand {
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	float: left;
+	font-size: 30px;
+	display: inline-block;
+	margin-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 45px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	}
+
+.brand:hover {
+	box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white, 0 0 150px white;
+
+	}
+
+.buttons {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	float: right;
+	}
+
+nav ul {
+	display: inline-block;
+	line-height: 40px;
+	padding-right: 25px;
+	float: left;
+	}
+
+nav ul li {
+	margin-top: 15px;
+	display: inline-block;
+	height: 40px;
+	list-style: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	}
+
+nav ul li:hover {
+	box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white, 0 0 250px white;
+	}
+
+.menu {
+	width: 35px;
+	height: 35px;
+	float: right;
+	padding-top: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-bottom: 16px;
+	}
+
+.menu:hover {
+	box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white, 0 0 250px white;
+
+	}
+
+/*hero-area defauts*/
+.hero-area {
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Poiret One", cursive;
+	background-color: white;
+	width: 100%;
+	max-width: 2030px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 200%;
+	margin-top: 70px;
+	}
+
+/* end header */
+
+/*content defaults*/
+.content {
+	height: auto;
+	border: dashed 2px white;
+	margin: 0 auto;
+	padding: 15px;
+	max-width: 2000px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+.content-header {
+	position: relative;
+	height: 100px;
+	border: dashed 2px white;
+	color: white;
+	text-align: center;
+	font-family: "Poiret One", cursive;
+	font-size: 30px;
+	}
+
+.content h1 {
+	line-height: 100px;
+	}
+
+.content-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+
+	}
+
+/*----------- biogrphies-----------*/
+
+.bios {
+	margin-top: 15px;
+	padding: 15px;
+	border: dashed 2px white;
+	display: inline-block;
+
+	}
+
+.bio {
+	padding-top: 20px;
+	width: 25%;
+	height: 400px;
+	float: left;
+	overflow: auto;
+	color: white;
+	margin-top: 30px;
+
+	}
+
+.bio-title {
+	color: white;
+	font-family: "Poiret One", cursive;
+	font-size: 25px;
+	float: left;
+	padding-left: 35px;
+	}
+
+.bio-ima {
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	}
+
+.bio-content {
+	padding: 15px;
+	float: left;;
+	color: white;
+	line-height: 22px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: "Poiret One", cursive;
+	margin-bottom: 20px;
+	}
+
+/*footer*/
+
+footer {
+	text-align: right;
+	position: relative;
+	bottom: 0;
+	width: inherit;
+	max-width: 1940px;
+	height: auto;
+	padding: 50px;
+	margin: 0 auto;
+	font-family: "Poiret One", cursive;
+	font-size: 40px;
+	background-color: white;
+	color: black;
+	}
+
+/*end footer */
+
+/* displays */
+@media (min-width: 320px) {
+
+	header ul {
+		display: none;
+		}
+
+	.bio {
+		margin: 0 auto;
+		width: 100%;
+		}
+
+
+	.content-icon {
+		display: none;
+		}
+	}
+
+
+@media (min-width: 600px) {
+
+	header ul {
+		display: none;
+		}
+
+	.content-icon {
+		display: none;
+		}
+
+	.bio {
+		margin: 0 auto;
+		width: 50%;
+		}
+
+	}
+
+@media (min-width: 768px) {
+
+
+	header ul {
+		display: inline-block;
+		}
+
+	.menu {
+		display: none;
+		}
+
+
+	.bio {
+		margin: 0 auto;
+		width: 33%;
+		}
+
+	.content-icon {
+		display: inline-block;
+		}
+	}
+
+@media (min-width: 1024px) {
+
+	header ul {
+		display: inline-block;
+		}
+
+	.menu {
+		display: none;
+		}
+
+	.bio {
+		margin: 0 auto;
+		width: 25%;
+		}
+
+	.content-icon {
+		display: inline-block;
+		}
+	}
+
+@media (min-width: 1280px) {
+
+	header ul {
+		display: inline-block;
+		}
+
+	.menu {
+		display: none;
+		}
+
+	.bio {
+		margin: 0 auto;
+		width: 25%;
+		}
+
+	.content-icon {
+		display: inline-block;
+		}
+	}
+
+@media (min-width: 1980px) {
+
+	header ul {
+		display: inline-block;
+		}
+
+	.menu {
+		display: none;
+		}
+
+	.content-icon {
+		display: inline-block;
+		}
+
+	}
+
+@media (min-width: 3840px) {
+
+	header ul {
+		display: inline-block;
+		}
+
+	.menu {
+		display: none;
+		}
+	.content-icon {
+		display: inline-block;
+		}
+
+
+	}
+
+/*trick*/
+.clear {
+	clear: both;
+	}

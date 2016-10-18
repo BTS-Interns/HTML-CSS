@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Poiret One";
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Poiret_One/PoiretOne-Regular.ttf');
+}
+
+body {
+	background-color: white;
+	min-width: 320px;
+	text-align: center;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  header */
+
+header {
+	background-color: gray;
+	height: auto;
+}
+
+nav {
+	height: 50px;
+	margin: 0 auto;
+}
+
+.author {
+	float: left;
+	font-family: "Poiret One", cursive;
+	font-size: 10px;
+	width: 270px;
+	padding-top: 17px;
+}
+
+.header-social {
+	display: none;
+	float: right;
+	width: auto;
+	height: 50px;
+	padding-right: 0;
+
+}
+
+.header-social li {
+	padding-top: 13px;
+	padding-bottom: 14px;
+	display: inline-block;
+	margin-right: 0;
+}
+
+.header-social li:hover {
+	box-shadow: 0 0 10px black, 0 0 20px black, 0 0 50px black, 0 0 150px black;
+}
+
+.icon {
+	width: 22px;
+	height: 22px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+	margin-right: 0;
+}
+
+.btn-menu {
+	background-size: contain;
+	float: right;
+	padding: 13px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end  header */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ hero */
+.hero {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	max-height: 400px;
+	background-image: url("../media/image/train-tracks.jpg");
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end hero */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ footer */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ main text */
+
+.main-text{
+	background-color: white;
+	margin: 0 auto;
+	height: auto;
+	padding-top: 15px;
+}
+
+.main-text-wrapper{
+	width: 100%;
+	height: auto;
+	margin-top: 4px;
+}
+
+.miscellaneus{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: "Poiret One", cursive;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.miscellaneus-tittle{
+	float: left;
+	padding-left: 20px;
+}
+
+
+.icon-m{
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.misc-cont{
+	float: left;
+	margin-top: 5px;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end main text */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end footer */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    screens  */
+
+@media (min-width: 320px) {
+
+	.author {
+		font-size: 12px;
+	}
+
+	.header-social {
+		display: none;
+	}
+
+	.icon-menu {
+		display: inline-block;
+	}
+
+}
+
+@media (min-width: 440px) {
+
+	.author {
+		font-size: 13px;
+	}
+
+}
+
+@media (min-width: 600px) {
+
+	.author {
+		font-size: 14px;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.author {
+		font-size: 16px;
+		width: 50%;
+	}
+
+	.header-social {
+		display: inline-block;
+	}
+
+	.icon {
+		height: 22px;
+		width: 22px;
+	}
+
+	.icon-menu {
+		display: none;
+	}
+
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    end screens  */
