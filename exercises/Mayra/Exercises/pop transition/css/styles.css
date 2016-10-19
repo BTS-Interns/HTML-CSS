@@ -120,8 +120,9 @@ body {
     height: 25px;
     border-radius: 50px;
     background-color: #d88c40;
+    box-shadow: 0px 0px 0px #d88c40;
     margin: 112px 40px;
-    transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in, box-shadow 1s ease-in;
 
 }
 
@@ -131,8 +132,9 @@ body {
     height: 25px;
     border-radius: 50px;
     background-color: #d88c40;
+    box-shadow: 0px 0px 0px #d88c40;
     margin: 110px 170px;
-    transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in, box-shadow 1s ease-in;
 }
 
 .mouth-rigth {
@@ -149,6 +151,7 @@ body {
 
 body:hover .rubor-rigth, body:hover .rubor-left{
     background-color: #FA5882;
+    box-shadow: 0px 0px 20px #FE2E2E;
 }
 
 body:hover .eye-rigth, body:hover .iris-rigth {
