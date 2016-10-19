@@ -1,0 +1,102 @@
+.head {
+  width: 120px;
+	height: 110px;
+	background: #f4dac3;
+  border-radius: 25%;
+  margin-left: 50px;
+  margin-top: 50px;
+  transition: transform 1s linear;
+
+}
+
+.head:hover {
+  transform: rotate(10deg);
+
+}
+
+.head:hover .eyebrows .left-brow{
+  transform: translateY(-6px);
+
+}
+
+.head:hover .eyes .left-eye{
+  background-image: url("wink.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width:25px;
+  height:25px;
+  float:left;
+
+}
+
+.left-brow {
+  background-image: url("eyebrow1.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width:48px;
+  height:28px;
+  float:left;
+  transition: transform 1s linear;
+
+}
+
+.right-brow {
+  background-image: url("eyebrow2.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width:48px;
+  height:28px;
+  float:right;
+
+}
+
+.eyebrows {
+  width:85%;
+  height:28px;
+  padding-top: 12px;
+  margin: 0 auto;
+  margin-left: 11px;
+
+}
+
+.eyes {
+  width:85%;
+  height:28px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 25px;
+
+}
+
+.left-eye {
+  background-image: url("eye.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width:25px;
+  height:25px;
+  float:left;
+  transform: translate(-2px,-5px);
+  transition: transform .5s linear;
+
+}
+
+.right-eye {
+  background-image: url("eyeright.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width:25px;
+  height:25px;
+  float:right;
+  transform: translate(-21px,-5px);
+
+}
+
+.nose {
+  width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 18px solid #ddc0a6;
+  transform: translate(54px,-12px);
+
+}
