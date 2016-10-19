@@ -119,8 +119,8 @@
     position: absolute;
     width: 139px;
     height: 41px;
-    border-bottom-right-radius: 454px;
-    border-bottom-left-radius: 454px;
+    border-bottom-right-radius: 2000px;
+    border-bottom-left-radius: 2000px;
     border-bottom: solid;
     border-color: #f67395;
     border-width: 4px;
