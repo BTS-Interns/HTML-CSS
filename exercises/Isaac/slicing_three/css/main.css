@@ -2,527 +2,527 @@
 
 /* Normalization */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* End Normalization */
 
 /* General */
 body {
-	font-family: Taviraj;
+    font-family: Taviraj;
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 /* End General */
 
 /* Icons */
 .icon {
-	display: inline-block;
-	width: 18px;
-	height: 18px;
-	background-repeat: no-repeat;
-	background-size: contain;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .btn-icon {
-	width: 18px;
-	height: 18px;
-	background-repeat: no-repeat;
-	background-size: contain;
-	border: none;
-	outline: none;
-	background-color: transparent;
-	cursor: pointer;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .icon-menu {
-	background-image: url('../images/icons/menu.png');
+    background-image: url('../images/icons/menu.png');
 }
 
 .icon-twitter {
-	background-image: url('../images/icons/twitter.png');
+    background-image: url('../images/icons/twitter.png');
 }
 
 .icon-facebook {
-	background-image: url('../images/icons/facebook.png');
+    background-image: url('../images/icons/facebook.png');
 }
 
 .icon-vimeo {
-	background-image: url('../images/icons/vimeo.png');
+    background-image: url('../images/icons/vimeo.png');
 }
 
 .icon-behance {
-	background-image: url('../images/icons/behance.png');
+    background-image: url('../images/icons/behance.png');
 }
 
 .icon-dribble {
-	background-image: url('../images/icons/dribble.png');
+    background-image: url('../images/icons/dribble.png');
 }
 
 .icon-user {
-	background-image: url('../images/icons/user.png');
+    background-image: url('../images/icons/user.png');
 }
 
 .icon-chat {
-	background-image: url('../images/icons/chat.png');
+    background-image: url('../images/icons/chat.png');
 }
 
 .icon-gear {
-	background-image: url('../images/icons/gear.png');
+    background-image: url('../images/icons/gear.png');
 }
 /* End Icons*/
 
 /* Header */
 header {
-	float: left;
-	width: 100%;
-	height: 150px;
-	/*height: 415px;*/
-	background-color: #e2e2e2;
-	padding: 0px 5%;
-	position: relative;
+    float: left;
+    width: 100%;
+    height: 150px;
+    /*height: 415px;*/
+    background-color: #e2e2e2;
+    padding: 0px 5%;
+    position: relative;
 }
 
 .author-name {
-	display: inline-block;
-	font-style: italic;
-	font-size: 12px;
-	width: 80%;
-	margin-top: 5%;
+    display: inline-block;
+    font-style: italic;
+    font-size: 12px;
+    width: 80%;
+    margin-top: 5%;
 }
 
 .menu {
-	float: right;
-	width: 30px;
-	height: 30px;
-	margin-top: 3%;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 3%;
 }
 
 .social-media {
-	width: 50%;
-	float: right;
-	text-align: right;
-	margin-top: 5%;
-	padding-top: 3px;
+    width: 50%;
+    float: right;
+    text-align: right;
+    margin-top: 5%;
+    padding-top: 3px;
 }
 
 .social-media > li {
-	display: inline-block;
-	margin: 0 5px;
+    display: inline-block;
+    margin: 0 5px;
 }
 
 .cover {
-	margin: 0 auto;
-	margin-top: 10%;
-	width: 90%;
-	height: 130px;
-	background-image: url(../images/railroad.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	box-shadow: 0px 0px 5px black;
-	border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 90%;
+    height: 130px;
+    background-image: url(../images/railroad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px black;
+    border: 1px solid white;
 }
 
 .cover img {
-	width: inherit;
+    width: inherit;
 }
 /* End Header */
 
 /* Portfolio */
 .portfolio {
-	float: left;
-	width: 100%;
-	/* height: 685px; */
-	text-align: center;
-	padding: 0 5%;
+    float: left;
+    width: 100%;
+    /* height: 685px; */
+    text-align: center;
+    padding: 0 5%;
 }
 
 .portfolio > h1 {
-	margin-top: 1%;
-	font-size: 17px;
+    margin-top: 1%;
+    font-size: 17px;
 }
 
 .portfolio > h2 {
-	margin-top: 25%;
-	font-size: 9px;
+    margin-top: 25%;
+    font-size: 9px;
 }
 
 .portfolio > ul {
-	padding: 0 5%;
-	margin-top: 10%;
+    padding: 0 5%;
+    margin-top: 10%;
 }
 
 .portfolio > ul > li {
-	display: inline-block;
-	width: 100%;
-	float: left;
+    display: inline-block;
+    width: 100%;
+    float: left;
 }
 
 .portfolio > ul > li span {
-	width: 16px;
-	height: 16px;
-	float: left;
-	margin-top: 4px;
-	margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
 }
 
 .portfolio > ul > li h3 {
-	float: left;
-	margin-left: 5px;
-	font-size: 15px;
+    float: left;
+    margin-left: 5px;
+    font-size: 15px;
 }
 
 .portfolio > ul > li p {
-	clear: both;
-	line-height: 20px;
-	font-size: 13px;
-	margin: 5%;
-	padding-top: 3%;
-	text-align: justify;
+    clear: both;
+    line-height: 20px;
+    font-size: 13px;
+    margin: 5%;
+    padding-top: 3%;
+    text-align: justify;
 }
 /* End Portfolio */
 
 /* Pictures */
 .pictures {
-	float: left;
-	width: 100%;
-	background-color: #e2e2e2;
-	padding: 5%;
+    float: left;
+    width: 100%;
+    background-color: #e2e2e2;
+    padding: 5%;
 }
 
 .pictures-container {
-	margin: 0 auto;
-	width: 100%;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .pictures-container-left {
-	float: left;
-	width: 100%;
+    float: left;
+    width: 100%;
 }
 
 .picture-boxes > li {
-	width: 100%;
-	float: left;
-	display: inline-block;
+    width: 100%;
+    float: left;
+    display: inline-block;
 }
 
 .picture-boxes > li > img {
-	width: inherit;
-	box-shadow: 0 0 5px black;
-	border: 1px solid white;
+    width: inherit;
+    box-shadow: 0 0 5px black;
+    border: 1px solid white;
 }
 
 .pictures-container-right {
-	float: left;
-	position: relative;
-	width: 100%;
-	height: 400px;
-	background-image: url(../images/pictures/woman.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	box-shadow: 0 0 5px black;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/pictures/woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 5px black;
 }
 
 .picture-footer {
-	position: absolute;
-	bottom: 0;
-	padding: 5% 10%;
-	text-align: justify;
-	color: white;
-	background-color: rgba(0,0,0,0.5);
-	width: 100%;
-	font-size: 12px;
-	line-height: 14px;
+    position: absolute;
+    bottom: 0;
+    padding: 5% 10%;
+    text-align: justify;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
 }
 /* End Pictures */
 
 /* Contact */
 .contact {
-	float: left;
-	width: 100%;
+    float: left;
+    width: 100%;
 }
 
 .contact-container {
-	padding: 0 5%;
+    padding: 0 5%;
 }
 
 .concact-container-left {
-	float: left;
-	width: 100%;
-	padding-top: 5%;
+    float: left;
+    width: 100%;
+    padding-top: 5%;
 }
 
 .contact-form {
-	width: 100%;
+    width: 100%;
 }
 
 .contact-form input, .contact-form textarea, .contact-form button {
-	width: 100%;
-	height: 40px;
-	background-color: rgb(235,235,235);
-	border: 2px solid white;
-	border-radius: 3px;
-	box-shadow: 0 0 5px rgba(0,0,0,0.4);
-	margin-bottom: 10px;
-	padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(235,235,235);
+    border: 2px solid white;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    padding: 0 10px;
 }
 
 .contact-form textarea {
-	height: 150px;
+    height: 150px;
 }
 
 .contact-form button {
-	width: 120px;
-	height: 40px;
-	font-family: Taviraj;
-	color: rgba(0,0,0,0.7);
-	font-size: 15px;
+    width: 120px;
+    height: 40px;
+    font-family: Taviraj;
+    color: rgba(0,0,0,0.7);
+    font-size: 15px;
 }
 /* End Contact */
 
 /* Biography */
 .concact-container-right {
-	float: left;
-	width: 100%;
-	margin-top: 5%;
+    float: left;
+    width: 100%;
+    margin-top: 5%;
 }
 
 .biography {
-	width: 100%;
+    width: 100%;
 }
 
 .biography-info {
-	width: 100%;
+    width: 100%;
 }
 
 .biography-info > img {
-	float: left;
-	width: 40%;
-	border: 1px solid white;
-	box-shadow: 0 0 5px black;
-	margin-left: 5%;
+    float: left;
+    width: 40%;
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+    margin-left: 5%;
 }
 
 .biography-info > h3 {
-	float: left;
-	width: 50%;
-	font-size: 20px;
-	margin-top: 3%;
-	margin-left: 4%;
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 4%;
 }
 
 .biography-info > p {
-	clear: both;
-	text-align: justify;
-	padding: 5% 5%;
+    clear: both;
+    text-align: justify;
+    padding: 5% 5%;
 }
 
 .biography-contact {
-	padding: 5%;
-	font-style: italic;
+    padding: 5%;
+    font-style: italic;
 }
 
 .biography-contact span {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .biography-social {
-	padding: 5%;
+    padding: 5%;
 }
 
 .biography-social > ul {
-	list-style: none;
-	font-style: italic;
-	font-weight: bold;
-	padding-left: 10%;
+    list-style: none;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10%;
 }
 
 .biography-social > ul a {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 /* End Biography */
 
 /* Footer */
 footer {
-	float: left;
-	width: 100%;
-	padding: 5%;
-	text-align: center;
+    float: left;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
 }
 
 .footer-container {
-	width: 100%;
-	border-top: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.2);
 }
 
 .legal {
-	float: left;
-	width: 100%;
-	font-size: 10px;
-	padding-top: 2%;
+    float: left;
+    width: 100%;
+    font-size: 10px;
+    padding-top: 2%;
 }
 
 .footer-social-media {
-	float: left;
-	width: 100%;
-	margin-top: 2%;
+    float: left;
+    width: 100%;
+    margin-top: 2%;
 }
 
 .footer-social-media > li {
-	display: inline-block;
-	list-style: none;
-	margin: 0 5px;
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
 }
 /* End Footer */
 /* ***** RESPONSIVE MEDIA QUERIES ***** */
 
 /* Mobile Portrait */
 @media screen
-	and (min-device-width: 320px)
-	and (max-device-height: 736px)
-	and (orientation: portrait) {
-		.social-media {
-			display: none;
-		}
+    and (min-device-width: 320px)
+    and (max-device-height: 736px)
+    and (orientation: portrait) {
+        .social-media {
+            display: none;
+        }
 
-		.menu {
-			display: inline-block;
-		}
+        .menu {
+            display: inline-block;
+        }
 }
 
 /* Mobile Landscape */
 @media screen
-	and (min-device-width: 320px)
-	and (max-device-height: 736px)
-	and (orientation: landscape) {
+    and (min-device-width: 320px)
+    and (max-device-height: 736px)
+    and (orientation: landscape) {
 
-		header {
-			height: 200px;
-		}
+        header {
+            height: 200px;
+        }
 
-		.menu {
-			display: none;
-		}
+        .menu {
+            display: none;
+        }
 
-		.author-name {
-			width: 50%;
-		}
+        .author-name {
+            width: 50%;
+        }
 
-		.cover {
-			height: 200px;
-		}
+        .cover {
+            height: 200px;
+        }
 
-		.portfolio > h1 {
-			font-size: 30px;
-		}
+        .portfolio > h1 {
+            font-size: 30px;
+        }
 
-		.portfolio > h2 {
-			margin-top: 30%;
-			font-size: 13px;
-		}
+        .portfolio > h2 {
+            margin-top: 30%;
+            font-size: 13px;
+        }
 
-		.portfolio > ul {
-			margin-top: 5%;
-		}
+        .portfolio > ul {
+            margin-top: 5%;
+        }
 
-		.pictures {
-			padding: 0;
-			padding-top: 3%;
-			padding-left: 3%;
-		}
+        .pictures {
+            padding: 0;
+            padding-top: 3%;
+            padding-left: 3%;
+        }
 
-		.pictures-container-right {
-			width: 97%;
-			height: 700px;
-		}
+        .pictures-container-right {
+            width: 97%;
+            height: 700px;
+        }
 
-		.picture-boxes > li {
-			width: 47%;
-			height: 235px;
-			margin-right: 3%;
-			margin-bottom: 3%;
-		}
+        .picture-boxes > li {
+            width: 47%;
+            height: 235px;
+            margin-right: 3%;
+            margin-bottom: 3%;
+        }
 
-		.picture-boxes > li > img {
-			width: 100%;
-			height: 100%;
-		}
+        .picture-boxes > li > img {
+            width: 100%;
+            height: 100%;
+        }
 
-		.picture-footer {
-			font-size: 15px;
-			line-height: 22px;
-			padding: 3% 5%;
-		}
+        .picture-footer {
+            font-size: 15px;
+            line-height: 22px;
+            padding: 3% 5%;
+        }
 
-		.contact-container {
-			padding: 0 3%;
-		}
+        .contact-container {
+            padding: 0 3%;
+        }
 
-		.biography-info > img {
-			margin-left: 0;
-		}
+        .biography-info > img {
+            margin-left: 0;
+        }
 
-		.biography-info > h3 {
-			/*font-size: 35px;*/
-			font-size: 45px;
-			margin-top: 2%;
-		}
+        .biography-info > h3 {
+            /*font-size: 35px;*/
+            font-size: 45px;
+            margin-top: 2%;
+        }
 
-		.biography-info > p {
-			padding: 5% 0;
-		}
+        .biography-info > p {
+            padding: 5% 0;
+        }
 
-		.biography-contact {
-			padding: 5% 0;
-		}
+        .biography-contact {
+            padding: 5% 0;
+        }
 
-		.biography-social {
-			padding: 5% 0;
-		}
+        .biography-social {
+            padding: 5% 0;
+        }
 
-		.biography-social > p {
-			display: inline-block;
-		}
+        .biography-social > p {
+            display: inline-block;
+        }
 
-		.biography-social > ul {
-			display: inline-block;
-			padding-left: 1%;
-		}
+        .biography-social > ul {
+            display: inline-block;
+            padding-left: 1%;
+        }
 
-		.biography-social > ul > li{
-			display: inline-block;
-		}
+        .biography-social > ul > li{
+            display: inline-block;
+        }
 
-		footer {
-			padding: 5% 3%;
-		}
+        footer {
+            padding: 5% 3%;
+        }
 
-		.legal {
-			width: 50%;
-			border: none;
-			text-align: left;
-		}
+        .legal {
+            width: 50%;
+            border: none;
+            text-align: left;
+        }
 
-		.footer-social-media {
-			text-align: right;
-			float: right;
-			width: 50%;
-			margin-top: 1%;
-		}
+        .footer-social-media {
+            text-align: right;
+            float: right;
+            width: 50%;
+            margin-top: 1%;
+        }
 }
 
 /* Tablets */
 @media screen
-	and (min-device-width: 768px)
-	and (max-device-height: 1024px) {
+    and (min-device-width: 768px)
+    and (max-device-height: 1024px) {
 }
 
 /* Laptops */
 @media screen
-	and (min-device-width: 1200px)
-	and (max-device-width: 1600px) {
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px) {
 }

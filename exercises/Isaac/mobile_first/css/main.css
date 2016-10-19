@@ -1,267 +1,270 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 /* Normalize */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* End Normalize */
 
 /* General Styles */
 body {
-	font-family: 'Montserrat';
-	font-size: 15px;
+    font-family: 'Montserrat';
+    font-size: 15px;
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 /* End General Styles */
 
 /* Navbar */
 nav {
-	width: 100%;
-	height: 60px;
-	background-color: #444444;
-	z-index: 1000;
-	position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #444444;
+    z-index: 1000;
+    position: fixed;
 }
 
 nav > ul {
-	height: 100%;
-	position: absolute;
-	right: 20px;
-	color: white;
-	font-size: 20px;
-	padding-top: 18px;
+    height: 100%;
+    position: absolute;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+    padding-top: 18px;
 }
 
 nav > ul > li {
-	display: inline-block;
-	list-style: none;
-	padding: 0 10px;
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
 }
 
 nav > ul > li > a {
-	color: inherit;
-	text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .nav-btn-menu {
-	display: none;
-	background-image: url("../images/menu.png");
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	right: 5px;
-	top: 5px;
+    display: none;
+    background-image: url("../images/menu.png");
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }
 
 .nav-btn-menu img {
-	width: inherit;
-	height: inherit;
+    width: inherit;
+    height: inherit;
 }
 /* End Navbar */
 
 header {
-	background-color: #eeeeee;
-	width: 100%;
-	height: 50px;
-	float: left;
-	margin-top: 60px;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 60px;
 }
 
 header > h1 {
-	color: #444444;
-	text-align: center;
-	font-size: 25px;
-	padding-top: 9px;
+    color: #444444;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 9px;
 }
 
 /* Biographies */
 .biographies {
-	width: 100%;
-	float: left;
-	position: relative;
+    width: 100%;
+    float: left;
+    position: relative;
 }
 
 .container {
-	width: 90%;
-	background-color: #eeeeee;
-	margin: 5% auto;
-	padding-top: 3%;
-	padding-bottom: 3%;
+    width: 90%;
+    background-color: #eeeeee;
+    margin: 5% auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .container-top {
-	position: relative;
-	width: 94%;
-	height: 80px;
-	background-color: #3b5998;
-	margin: 0 auto;
-	margin-bottom: 3%;
-	border-radius: 5px;
+    position: relative;
+    width: 94%;
+    height: 80px;
+    background-color: #3b5998;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    border-radius: 5px;
 }
 
 .icon-corner {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 40px;
-	height: 40px;
-	background: #444444;
-	border-radius: 5px;
-	border-top-left-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: #444444;
+    border-radius: 5px;
+    border-top-left-radius: 0;
 }
 
 .container-bottom {
-	position: relative;
-	width: 94%;
-	background-color: #8b9dc3;
-	margin: 0 auto;
-	padding: 5%;
-	padding-bottom: 0;
-	border-radius: 5px;
+    position: relative;
+    width: 94%;
+    background-color: #8b9dc3;
+    margin: 0 auto;
+    padding: 5%;
+    padding-bottom: 0;
+    border-radius: 5px;
 }
 
 .bio-container {
-	float: left;
-	width: 100%;
-	padding: 5%;
-	border-radius: 5px;
-	background-color: white;
-	box-shadow: 0 0 5px #202020;
-	margin-bottom: 5%;
+    float: left;
+    width: 100%;
+    padding: 5%;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px #202020;
+    margin-bottom: 5%;
 }
 
 .bio-picture {
-	height: 100px;
-	width: 100%;
-	float: left;
-	margin-bottom: 3%
+    height: 100px;
+    width: 100%;
+    float: left;
+    margin-bottom: 3%
 }
 
 .bio-picture > img {
-	height: 100px;
-	border-radius: 5px;
+    height: 100px;
+    border-radius: 5px;
 }
 
 .bio-name {
-	font-family: Montserrat;
-	font-weight: bold;
-	font-size: 15px;
-	float: left;
-	margin-bottom: 3%;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    margin-bottom: 3%;
 }
 
 .bio-description {
-	font-family: Montserrat;
-	overflow: auto;
-	max-height: 115px;
-	font-size: 13px;
-	float: left;
+    font-family: Montserrat;
+    overflow: auto;
+    max-height: 115px;
+    font-size: 13px;
+    float: left;
 }
 /* End Biographies */
 
 /* Footer */
 footer {
-	float: left;
-	width: 100%;
-	background-color: #444444;
-	height: 40px;
+    float: left;
+    width: 100%;
+    background-color: #444444;
+    height: 40px;
 }
 /* End Footer */
 
 /* Mobile Portrait */
 @media screen
-	and (min-device-width: 320px)
-	and (max-device-height: 736px)
-	and (orientation: portrait) {
+    and (min-device-width: 320px)
+    and (max-device-height: 736px)
+    and (orientation: portrait) {
 
-		nav > ul {
-			display: none;
-		}
+        nav > ul {
+            display: none;
+        }
 
-		.nav-btn-menu {
-			display: inline-block;
-		}
+        .nav-btn-menu {
+            display: inline-block;
+        }
 
-		.container-top {
-			height: 60px;
-		}
+        .container-top {
+            height: 60px;
+        }
 
-		.icon-corner {
-			display: none;
-		}
+        .icon-corner {
+            display: none;
+        }
 }
 
 /* Mobile Landscape */
 @media screen
-	and (min-device-width: 320px)
-	and (max-device-height: 640px)
-	and (orientation: landscape) {
-		.container-bottom {
-			padding: 0;
-			padding-top: 5%;
-			padding-left: 5%;
-		}
+    and (min-device-width: 320px)
+    and (max-device-height: 640px)
+    and (orientation: landscape) {
 
-		.bio-container {
-			width: 45%;
-			height: 300px;
-			margin-bottom: 5%;
-			margin-right: 5%;
-			padding: 5%;
-		}
+        .container-bottom {
+            padding: 0;
+            padding-top: 5%;
+            padding-left: 5%;
+        }
 
-		.bio-description {
-			max-height: 130px;
-		}
+        .bio-container {
+            width: 45%;
+            height: 300px;
+            margin-bottom: 5%;
+            margin-right: 5%;
+            padding: 5%;
+        }
+
+        .bio-description {
+            max-height: 130px;
+        }
 }
 
 /* Tablets */
 @media screen
-	and (min-device-width: 768px)
-	and (max-device-height: 1024px) {
+    and (min-device-width: 768px)
+    and (max-device-height: 1024px) {
 
-		.container-bottom {
-			padding: 0;
-			padding-top: 3%;
-			padding-left: 3%;
-		}
+        .container-bottom {
+            padding: 0;
+            padding-top: 3%;
+            padding-left: 3%;
+        }
 
-		.bio-container {
-			width: 30%;
-			height: 280px;
-			margin-bottom: 3%;
-			margin-right: 3%;
-			padding: 3%;
-		}
+        .bio-container {
+            width: 30%;
+            height: 280px;
+            margin-bottom: 3%;
+            margin-right: 3%;
+            padding: 3%;
+        }
 
-		.bio-description {
-			max-height: 115px;
-		}
+        .bio-description {
+            max-height: 115px;
+        }
 }
 
 /* Laptops */
 @media screen
-	and (min-device-width: 1200px)
-	and (max-device-width: 1600px) {
-		.container-bottom {
-			padding: 0;
-			padding-top: 3%;
-			padding-left: 3%;
-		}
+    and (min-device-width: 1200px)
+    and (max-device-width: 1600px) {
 
-		.bio-container {
-			width: 22%;
-			height: 400px;
-			margin-bottom: 3%;
-			margin-right: 3%;
-			padding: 3%;
-		}
+        .container-bottom {
+            padding: 0;
+            padding-top: 3%;
+            padding-left: 3%;
+        }
 
-		.bio-description {
-			max-height: 190px;
-		}
+        .bio-container {
+            width: 22%;
+            height: 400px;
+            margin-bottom: 3%;
+            margin-right: 3%;
+            padding: 3%;
+        }
+
+        .bio-description {
+            max-height: 190px;
+        }
 }

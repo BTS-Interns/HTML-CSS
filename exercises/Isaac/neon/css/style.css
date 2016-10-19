@@ -13,9 +13,7 @@ body {
     font-family: cursive;
 }
 
-
-/*00ff00*/
-
+/* Color Green: 00ff00 */
 .green {
     text-shadow: 0 0 10px #00ff00, 0px 0px 20px #00ff00, 0px 0px 30px #00ff00;
 }
@@ -24,9 +22,7 @@ body {
     text-shadow: 0 0 10px #00ff00, 0px 0px 20px #00ff00, 0px 0px 30px #00ff00, 0px 0px 40px #00ff00, 0px 0px 50px #00ff00;
 }
 
-
-/*ffff00*/
-
+/* Color Yellow: ffff00 */
 .yellow {
     text-shadow: 0 0 10px #ffff00, 0px 0px 20px #ffff00, 0px 0px 30px #ffff00;
 }
@@ -35,9 +31,7 @@ body {
     text-shadow: 0 0 10px #ffff00, 0px 0px 20px #ffff00, 0px 0px 30px #ffff00, 0px 0px 40px #ffff00, 0px 0px 50px #ffff00;
 }
 
-
-/*ff34b3*/
-
+/* Color Pink: ff34b3 */
 .pink {
     text-shadow: 0 0 5px #ff34b3, 0px 0px 10px #ff34b3, 0px 0px 15px #ff34b3;
 }
@@ -46,9 +40,7 @@ body {
     text-shadow: 0 0 5px #ff34b3, 0px 0px 10px #ff34b3, 0px 0px 15px #ff34b3, 0px 0px 20px #ff34b3, 0px 0px 25px #ff34b3;
 }
 
-
-/*da70d6*/
-
+/* Color Purple: da70d6 */
 .purple {
     text-shadow: 0 0 5px #da70d6, 0px 0px 10px #da70d6, 0px 0px 15px #da70d6;
 }
@@ -57,9 +49,7 @@ body {
     text-shadow: 0 0 5px #da70d6, 0px 0px 10px #da70d6, 0px 0px 15px #da70d6, 0px 0px 20px #da70d6, 0px 0px 25px #da70d6;
 }
 
-
-/*ff4500*/
-
+/* Color Orange: ff4500 */
 .orange {
     text-shadow: 0 0 5px #ff4500, 0px 0px 10px #ff4500, 0px 0px 15px #ff4500;
 }
@@ -68,9 +58,7 @@ body {
     text-shadow: 0 0 10px #ff4500, 0px 0px 20px #ff4500, 0px 0px 30px #ff4500, 0px 0px 40px #ff4500, 0px 0px 50px #ff4500;
 }
 
-
-/*ff0000*/
-
+/* Color Red: ff0000 */
 .red {
     text-shadow: 0 0 5px #ff0000, 0px 0px 10px #ff0000, 0px 0px 15px #ff0000;
 }
