@@ -1,12 +1,13 @@
 section {
-  margin: 30%;
+  margin-top: 60px;
+  margin-left: 30%;
 }
 
 .head {
   width: 120px;
   height: 150px;
   background-color: yellow;
-  border-radius: 20px;
+  border-radius: 40px;
   position: relative;
 
 }
@@ -33,14 +34,25 @@ section {
 
 }
 
-.mouth {
+.chin {
   width: 80%;
   height: 50px;
   background-color: olive;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   top: 70px;
   left: 10%;
+
+}
+
+.mouth {
+  width: 60%;
+  height: 50px;
+  border-bottom: 2px solid black;
+  border-radius: 30%;
+  position: absolute;
+  bottom: 15px;
+  left: 20%;
 
 }
 
