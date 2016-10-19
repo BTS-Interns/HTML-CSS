@@ -20,6 +20,11 @@ section {
   position: absolute;
   top: 40px;
   left: 10px;
+  animation-name: eyes;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 25;
+  animation-direction: alternate;
 
 }
 
@@ -31,7 +36,23 @@ section {
   position: absolute;
   top: 40px;
   right: 10px;
+  animation-name: eyes;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 25;
+  animation-direction: alternate;
 
+}
+
+@keyframes eyes {
+  30% {
+    transform: translateX(-2px);
+    background-color: lime;
+  }
+  70% {
+    transform: translateX(-8px);
+    background-color: beige;
+  }
 }
 
 .chin {
@@ -66,7 +87,23 @@ section {
   position: absolute;
   top: 55px;
   left: 47px;
+  animation-name: noseUp;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 25;
+  animation-direction: alternate;
 
+}
+
+@keyframes noseUp {
+  20% {
+    transform: translateY(-10px);
+    background-color: orange;
+  }
+  80% {
+    transform: translateY(-40px);
+    background-color: red;
+  }
 }
 
 .ear-left {
@@ -99,5 +136,20 @@ section {
   position: absolute;
   top: -10px;
   left: 20%;
+  animation-name: reduceHair;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 15;
+  animation-direction: alternate;
 
+}
+
+@keyframes reduceHair {
+  20% {
+    transform: rotateY(20deg);
+  }
+  80% {
+    transform: rotateY(90deg);
+    border-color: red;
+  }
 }
