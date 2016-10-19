@@ -1,0 +1,36 @@
+html, body {
+  border: 30px solid white;
+  position: relative;
+}
+
+img:first-of-type {
+  width: 350px;
+  height: 270px;
+  transform: rotateY(90deg);
+  transition: transform 2s ease-in 2s;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+img:last-of-type {
+  width: 350px;
+  height: 270px;
+  transform: rotateY(0deg);
+  transition: transform 2s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+div:hover img:first-of-type {
+  transform: perspective(600px) rotateY(0deg);
+}
+
+div:hover img:last-of-type {
+  transform: perspective(600px) rotateY(-90deg);
+}

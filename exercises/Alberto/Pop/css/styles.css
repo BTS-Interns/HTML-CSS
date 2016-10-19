@@ -1,0 +1,89 @@
+section {
+  margin: 30%;
+}
+
+.head {
+  width: 120px;
+  height: 150px;
+  background-color: yellow;
+  border-radius: 20px;
+  position: relative;
+
+}
+
+.eye-left {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 10px;
+
+}
+
+.eye-right {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+
+}
+
+.mouth {
+  width: 80%;
+  height: 50px;
+  background-color: olive;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 10%;
+
+}
+
+.nose {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(225, 225, 0);;
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
+  left: 47px;
+
+}
+
+.ear-left {
+  width: 20px;
+  height: 35px;
+  background-color: rgb(225, 225, 0);;
+  border-radius: 30%;
+  position: absolute;
+  top: 55px;
+  left: -15px;
+
+}
+
+.ear-right {
+  width: 20px;
+  height: 35px;
+  background-color: rgb(225, 225, 0);;
+  border-radius: 30%;
+  position: absolute;
+  top: 55px;
+  right: -15px;
+
+}
+
+.hair {
+  width: 60%;
+  height: 50px;
+  border-top: 5px solid black;
+  border-radius: 30%;
+  position: absolute;
+  top: -10px;
+  left: 20%;
+
+}
