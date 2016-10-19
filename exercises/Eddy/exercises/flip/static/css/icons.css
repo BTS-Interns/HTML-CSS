@@ -1,0 +1,49 @@
+.rocket {
+	background-image: url("../images/rocket.png");
+}
+
+.branding {
+	background-image: url("../images/flag.png");
+}
+
+.design {
+	background-image: url("../images/crayon.png");
+}
+
+.development {
+	background-image: url("../images/gears.png");
+}
+
+.anne {
+	background-image: url("../images/descarga.jpeg");
+}
+
+.kate {
+	background-image: url("../images/kate_upon.jpg");
+}
+
+.olivia {
+	background-image: url("../images/olivia_wilde.jpeg");
+}
+
+.ashley {
+	background-image: url("../images/ashley_greene.jpg");
+}
+
+.twitter {
+	background-image: url("../images/twitter.png");
+}
+
+.facebook {
+	background-image: url("../images/facebook.png");
+}
+
+.linkedin {
+	background-image: url("../images/linkedin.png");
+}
+
+.mail {
+	background-image: url("../images/mail.png");
+	padding-bottom: 3px;
+}
+
