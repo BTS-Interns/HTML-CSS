@@ -10,7 +10,7 @@ body {
 	background-position-x: 440px;
 
 }
-
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++top*/
 .hat {
 	position: relative;
 	top: 90px;
@@ -295,11 +295,24 @@ height: 0;
 
 }
 
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++body*/
+
+.misterion-body{
+	position: relative;
+	top: 70px;
+	margin: 0 auto;
+	width: 280px;
+	height: 120px;
+	background-color: purple;
+	opacity: 0.2;
+}
 .left-hand{
 	border: solid 2px black;
 	position: absolute;
-	top: 330px;
-	left:130px;
+	top: 40px;
+	left:10px;
 	background-color: #00e1a3;
 	height: 45px;
 	width: 45px;
@@ -309,7 +322,7 @@ height: 0;
 .left-thumb{
 	border: solid 2px black;
 	position: absolute;
-	top: 9px;
+	top: 12px;
 	left:22px;
 	background-color: #00e1a3;
 	height: 20px;
@@ -320,8 +333,8 @@ height: 0;
 .right-hand{
 		border: solid 2px black;
 	position: absolute;
-	top: 390px;
-	left:770px;
+	top: 40px;
+	right:5px;
 	background-color: #00e1a3;
 	height: 45px;
 	width: 45px;
@@ -332,7 +345,7 @@ height: 0;
 	border: solid 2px black;
 	position: absolute;
 	top: 9px;
-	left:22px;
+	right:22px;
 	background-color: #00e1a3;
 	height: 20px;
 	width: 20px;
