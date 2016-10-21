@@ -1,10 +1,11 @@
 .head {
-  width: 120px;
-	height: 110px;
+  width: 128px;
+	height: 85px;
 	background: #f4dac3;
-  border-radius: 25%;
-  margin-left: 50px;
-  margin-top: 50px;
+  border-radius: 20%;
+  margin-left: 55px;
+  margin-top: 56px;
+  position:absolute;
   animation-name:move;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -38,11 +39,6 @@
 
   }
 
-  50% {
-    transform:translateY(0px);
-
-  }
-
   100% {
     transform:translateY(-5px);
 
@@ -73,6 +69,7 @@
   width:48px;
   height:28px;
   float:right;
+  transform: translateY(2px);
 
 }
 
@@ -98,8 +95,8 @@
   background-image: url("eye.png");
   background-repeat: no-repeat;
   background-size:contain;
-  width:25px;
-  height:25px;
+  width:28px;
+  height:28px;
   float:left;
   transform: translate(-2px,-5px);
 
@@ -109,8 +106,8 @@
   background-image: url("eyeright.png");
   background-repeat: no-repeat;
   background-size:contain;
-  width:25px;
-  height:25px;
+  width:28px;
+  height:28px;
   float:right;
   transform: translate(-21px,-5px);
 
@@ -123,5 +120,24 @@
 	border-right: 6px solid transparent;
 	border-bottom: 18px solid #ddc0a6;
   transform: translate(54px,-12px);
+
+}
+
+.nose {
+  width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 12px solid #ddc0a6;
+  transform: translate(58px,-14px);
+
+}
+
+.hair {
+  margin-top: -115px;
+  margin-left: -15px;
+  width:150px;
+  height:150px;
+  position:relative;
 
 }
