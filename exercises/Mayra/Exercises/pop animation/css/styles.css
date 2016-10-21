@@ -1,7 +1,13 @@
-body {
+.chichai {
     width: 600px;
     height: 600px;
-
+    position: absolute;
+    margin: 0 auto;
+    animation-name: traslate-chichai;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state: play;
 
 }
 
@@ -15,14 +21,9 @@ body {
     border-bottom-right-radius: 67px;
     border-bottom-left-radius: 67px;
     position: relative;
-    animation-name: traslate-chichai;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
-    animation-play-state: play;
 }
 
-@keyframes traslate-chichai {
+/*@keyframes traslate-chichai {
     0% {
         transform: translate( 200px, 200px);
     }
@@ -35,7 +36,7 @@ body {
         transform: translate( 200px, 200px);
     }
 
-}
+}*/
 
 .contour-left {
     margin: 14px 10px;
@@ -169,6 +170,72 @@ body {
     border-width: 4px;
     margin: 114px 46px;
 }
+
+.body-chichai {
+    margin-left: 100px;
+    width: 232px;
+    height: 178px;
+    position: relative;
+}
+
+.body-sup-chichai {
+    margin-top: -5px;
+    margin-left: 83px;
+    width: 68px;
+    height: 86px;
+    background-color: #f67395;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+}
+
+.hand-left {
+    margin-left: 60px;
+    width: 47px;
+    height: 26px;
+    background-color: #f67395;
+    border-top-left-radius: 173px;
+    border-bottom-left-radius: 88px;
+    position: absolute;
+}
+
+.hand-rigth {
+    margin-left: 129px;
+    width: 47px;
+    height: 26px;
+    background-color: #f67395;
+    border-top-right-radius: 173px;
+    border-bottom-right-radius: 67px;
+    position: absolute;
+    position: absolute;
+}
+
+
+.leg-left {
+    margin-left: 60px;
+    margin-top: 55px;
+    width: 53px;
+    height: 26px;
+    background-color: #f67395;
+    border-top-left-radius: 173px;
+    border-bottom-left-radius: 88px;
+    position: absolute;
+}
+
+
+.leg-rigth {
+    margin-left: 122px;
+    margin-top: 55px;
+    width: 53px;
+    height: 26px;
+    background-color: #f67395;
+    border-top-right-radius: 173px;
+    border-bottom-right-radius: 67px;
+    position: absolute;
+}
+
 
 body:hover .rubor-rigth, body:hover .rubor-left{
     background-color: #FA5882;
