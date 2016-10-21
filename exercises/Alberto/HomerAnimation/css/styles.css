@@ -27,7 +27,11 @@ section {
   position: absolute;
   top: 40px;
   left: 10px;
-  transition: transform 0.1s ease;
+  animation-name: eyes;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 25;
+  animation-direction: normal;
 
 }
 
@@ -39,16 +43,21 @@ section {
   position: absolute;
   top: 40px;
   right: 10px;
-  transition: transform 0.1s ease;
+  animation-name: eyes;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 25;
+  animation-direction: normal;
 
 }
 
-section:hover .eye-right {
-  transform: rotateX(85deg);
-}
-
-section:hover .eye-left {
-  transform: rotateX(85deg);
+@keyframes eyes {
+  5% {
+    transform: rotateX(85deg);
+  }
+  10% {
+    transform: rotateX(0deg);
+  }
 }
 
 .chin {
@@ -72,16 +81,23 @@ section:hover .eye-left {
   position: absolute;
   bottom: 15px;
   left: 19%;
-  transition: transform 2s ease;
+  animation-name: eat-mouth;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 25;
+  animation-direction: normal;
 
 }
 
-section:hover .mouth {
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  background-color: beige;
-  transform: scaleY(2.5);
+@keyframes eat-mouth {
+  30% {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: beige;
+    transform: scaleY(6.5);
+    transform: scaleX(0.8);
+  }
 
 }
 
@@ -236,6 +252,11 @@ section:hover .mouth {
   background-color: yellow;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  animation-name: eat-arm;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 25;
+  animation-direction: normal;
 
 }
 
@@ -281,6 +302,14 @@ section:hover .mouth {
   position: absolute;
   top: 20px;
   right: -55px;
+
+}
+
+@keyframes eat-arm {
+  30% {
+    transform: rotate(-100deg);
+    transform-origin: top;
+  }
 
 }
 
