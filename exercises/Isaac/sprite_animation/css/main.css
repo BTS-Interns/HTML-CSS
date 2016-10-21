@@ -9,7 +9,7 @@
 /* Layers */
 .story {
     position: absolute;
-    width: 4800px;
+    width: 4850px;
     height: 680px;
     left: 0px;
     background-color: #7EC0EE;
@@ -107,46 +107,6 @@
 }
 /* End Grass */
 
-
-/* Clouds */
-.cloud {
-    position: absolute;
-    width: 100px;
-    height: 50px;
-    background-image: url("../images/cloud.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.cloud-1 {
-    top: 50px;
-    left: 50px;
-}
-
-.cloud-2 {
-    top: 20px;
-    left: 250px;
-}
-
-.cloud-3 {
-    top: 50px;
-    left: 400px;
-}
-
-.cloud-4 {
-    top: 70px;
-    left: 550px;
-}
-
-.cloud-5 {
-    top: 30px;
-    left: 750px;
-}
-
-.cloud-6 {
-    top: 10px;
-    left: 900px;
-}
 /* City */
 .city {
     position: absolute;
