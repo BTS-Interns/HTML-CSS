@@ -10,6 +10,85 @@ body {
 	background-position-x: 440px;
 
 }
+
+
+.question {
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+	z-index: -1;
+	width: 70px;
+	height: 70px;
+	animation-name: bounce;
+
+}
+.start{
+	position: absolute;
+	top:4px;
+;
+	background-color: green;
+
+	width: 20px;
+	height: 30px;
+	border-radius: 30%;
+	transform: rotateZ(-35deg);
+}
+.second{
+	position: absolute;
+	top:-10px;
+	left: -10px;
+	background-color: green;
+
+	width: 60px;
+	height: 20px;
+	border-radius: 30%;
+	transform: rotateZ(-35deg);
+}
+.third{
+	position: absolute;
+	top:-20px;
+	left: 45px;
+	background-color: green;
+
+	width: 20px;
+	height: 60px;
+	border-radius: 30%;
+	transform: rotateZ(-35deg);
+}
+
+.fourth{
+	position: absolute;
+	top:30px;
+	left: 25px;
+	background-color: green;
+	width: 50px;
+	height: 20px;
+	border-radius: 30%;
+	transform: rotateZ(-35deg);
+}
+.fifth{
+	position: absolute;
+	top:55px;
+	left: 15px;
+	background-color: green;
+	width: 45px;
+	height: 20px;
+	border-radius: 30%;
+	transform: rotateZ(90deg);
+}
+
+.point{
+	position: absolute;
+	top:100px;
+	left: 28px;
+	background-color: green;
+	z-index: -1;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	transform: rotateZ(90deg);
+}
+
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++top*/
 .hat {
 	position: relative;
@@ -17,14 +96,14 @@ body {
 	margin: 0 auto;
 	border-radius: 50%;
 	background-color: purple;
-
+	cursor: hand;
 	height: 280px;
 	width: 270px;
 	transform: rotateZ(35deg);
 
 }
 
-.hat-inner{
+.hat-inner {
 	position: absolute;
 	top: -7px;
 	left: -22px;
@@ -38,17 +117,16 @@ body {
 
 }
 
-.hat-inner-top{
+.hat-inner-top {
 	position: absolute;
-	top:30px;
+	top: 30px;
 	right: 100px;
 	height: 40px;
 	width: 110px;
 	border-radius: 50%;
 	background-color: purple;
-transform: rotateZ(-15deg);
+	transform: rotateZ(-15deg);
 	box-shadow: inset -5px -5px 5px black;
-
 
 }
 
@@ -176,24 +254,23 @@ transform: rotateZ(-15deg);
 
 }
 
- .hat:hover .mask-eye-left {
-	 top:-10px;
+.hat:hover .mask-eye-left {
+	top: -10px;
 	height: 0;
-	 width: 40px;
+	width: 40px;
 	transition-duration: 0.7s, 1.2s;
 
 }
 
 .hat:hover .mask-eye-rigth {
-height: 0;
+	height: 0;
 	width: 40px;
-	top:-10px;
+	top: -10px;
 	transition-duration: 0.7s, 1.2s;
 
 }
 
-
-.hat:hover .smile{
+.hat:hover .smile {
 	opacity: 1;
 	transition-duration: 0.5s, 1.5s;
 }
@@ -223,7 +300,7 @@ height: 0;
 
 }
 
-.bufanda{
+.bufanda {
 	position: absolute;
 	top: 225px;
 	width: 240px;
@@ -234,9 +311,9 @@ height: 0;
 	box-shadow: 5px 5px 15px black;
 }
 
-.hat-left-bottom{
+.hat-left-bottom {
 	position: absolute;
-	top:135px;
+	top: 135px;
 	left: 20px;
 	height: 100px;
 	width: 25px;
@@ -246,9 +323,9 @@ height: 0;
 	box-shadow: inset -5px -5px 5px black;
 }
 
-.hat-left{
+.hat-left {
 	position: absolute;
-	top:90px;
+	top: 90px;
 	left: -15px;
 	height: 30px;
 	width: 90px;
@@ -258,9 +335,9 @@ height: 0;
 	box-shadow: inset 5px -5px 5px black;
 }
 
-.hat-right-bottom{
+.hat-right-bottom {
 	position: absolute;
-	top:120px;
+	top: 120px;
 	right: 20px;
 	height: 120px;
 	width: 20px;
@@ -270,9 +347,9 @@ height: 0;
 	box-shadow: inset 5px -5px 5px black;
 }
 
-.hat-right{
+.hat-right {
 	position: absolute;
-	top:50px;
+	top: 50px;
 	right: 0;
 	height: 120px;
 	width: 40px;
@@ -282,7 +359,7 @@ height: 0;
 
 }
 
-.open-mouth{
+.open-mouth {
 	opacity: 0;
 	background-color: black;
 	width: 20px;
@@ -295,59 +372,94 @@ height: 0;
 
 }
 
-
-
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++body*/
 
-.misterion-body{
+.misterion-body {
 	position: relative;
 	top: 70px;
 	margin: 0 auto;
 	width: 280px;
 	height: 120px;
-	background-color: purple;
-	opacity: 0.2;
+
 }
-.left-hand{
-	border: solid 2px black;
+
+.left-hand {
+	border: solid 1px black;
 	position: absolute;
 	top: 40px;
-	left:10px;
+	left: 10px;
 	background-color: #00e1a3;
 	height: 45px;
 	width: 45px;
 	border-radius: 50%;
+	animation-name: clap-left;
+	animation-iteration-count: 20;
+	animation-duration: 0.1s;
+	animation-fill-mode: reverse;
+	animation-delay: 0.6s;
+	animation-direction: alternate-reverse;
+	animation-play-state: play;
 }
 
-.left-thumb{
-	border: solid 2px black;
+.left-thumb {
+	border: solid 1px black;
 	position: absolute;
 	top: 12px;
-	left:22px;
+	left: 22px;
 	background-color: #00e1a3;
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
 }
 
-.right-hand{
-		border: solid 2px black;
+.right-hand {
+	border: solid 1px black;
 	position: absolute;
 	top: 40px;
-	right:5px;
+	right: 5px;
 	background-color: #00e1a3;
 	height: 45px;
 	width: 45px;
 	border-radius: 50%;
+	animation-name: clap-right;
+	animation-iteration-count: 20;
+	animation-duration: 0.1s;
+	animation-fill-mode: reverse;
+	animation-delay: 0.6s;
+	animation-direction: alternate-reverse;
+	animation-play-state: play;
 }
 
-.right-thumb{
-	border: solid 2px black;
+.right-thumb {
+	border: solid 1px black;
 	position: absolute;
 	top: 9px;
-	right:22px;
+	right: 22px;
 	background-color: #00e1a3;
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
+}
+
+@keyframes clap-right {
+	0% {
+		top: 35px;
+		right: 75px;
+	}
+
+	100% {
+		top: 30px;
+		right: 110px;
+	}
+}
+
+@keyframes clap-left {
+	0% {
+		top: 35px;
+		left: 75px;
+	}
+	100% {
+		top: 30px;
+		left: 102px;
+	}
 }
