@@ -6,6 +6,7 @@ section {
   width: 180px;
   margin-top: 60px;
   margin-left: 20%;
+  position: relative;
 }
 
 .head {
@@ -30,7 +31,7 @@ section {
   animation-name: eyes;
   animation-duration: 3s;
   animation-delay: 0.5s;
-  animation-iteration-count: 25;
+  animation-iteration-count: infinite;
   animation-direction: normal;
 
 }
@@ -46,7 +47,7 @@ section {
   animation-name: eyes;
   animation-duration: 3s;
   animation-delay: 0.5s;
-  animation-iteration-count: 25;
+  animation-iteration-count: infinite;
   animation-direction: normal;
 
 }
@@ -83,8 +84,8 @@ section {
   left: 19%;
   animation-name: eat-mouth;
   animation-duration: 3s;
-  animation-delay: 0.5s;
-  animation-iteration-count: 25;
+  animation-delay: 0s;
+  animation-iteration-count: 3;
   animation-direction: normal;
 
 }
@@ -146,7 +147,7 @@ section {
 }
 
 .torso {
-  width: 90px;
+  width: 110px;
   height: 100px;
   background-color: beige;
   position: relative;
@@ -168,7 +169,7 @@ section {
   width: 120px;
   height: 60%;
   position: absolute;
-  left: -15px;
+  left: -5px;
   bottom: 0px;
   border-radius: 40%;
   border-top: 1px solid darkgray;
@@ -183,7 +184,7 @@ section {
   height: 20px;
   position: absolute;
   top: -4px;
-  left: 8px;
+  left: 18px;
   transform: rotate(55deg);
   border-bottom: 1px solid darkgray;
   border-right: 1px solid darkgray;
@@ -195,7 +196,7 @@ section {
   height: 20px;
   position: absolute;
   top: -4px;
-  right: 8px;
+  right: 18px;
   transform: rotate(-55deg);
   border-bottom: 1px solid darkgray;
   border-left: 1px solid darkgray;
@@ -207,7 +208,7 @@ section {
   height: 90px;
   position: absolute;
   top: 0px;
-  right: -30px;
+  right: -20px;
   background-color: yellow;
   border-top-right-radius: 15px;
 
@@ -248,27 +249,33 @@ section {
   height: 70px;
   position: absolute;
   top: 0px;
-  left: -30px;
+  left: -20px;
   background-color: yellow;
   border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   animation-name: eat-arm;
   animation-duration: 3s;
-  animation-delay: 0.5s;
-  animation-iteration-count: 25;
+  animation-delay: 0s;
+  animation-iteration-count: 3;
   animation-direction: normal;
 
 }
 
 .hand {
   width: 30px;
-  height: 30px;
+  height: 40px;
   z-index: 2;
   background-color: yellow;
   position: relative;
-  left: 30px;
-  top: 10px;
+  left: 20px;
+  top: 5px;
   transform: rotate(-90deg);
+  animation-name: rotate-handd;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 3;
+  animation-direction: normal;
 }
 
 .arm-right .thumb {
@@ -277,16 +284,21 @@ section {
   height: 7px;
   border-radius: 40%;
   position: relative;
-  top: 10px;
+  top: 20px;
   right: -22px;
 
 }
 
 .arm-right .sleeve {
-  width: 30px;
+  width: 37px;
   height: 30px;
   background-color: beige;
   border-top-left-radius: 15px;
+  animation-name: eat-sleeve;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 3;
+  animation-direction: normal;
 
 }
 
@@ -301,14 +313,31 @@ section {
   background-color: transparent;
   position: absolute;
   top: 20px;
-  right: -55px;
+  right: -50px;
 
 }
 
 @keyframes eat-arm {
   30% {
-    transform: rotate(-100deg);
-    transform-origin: top;
+    transform: rotate(-45deg);
+    transform-origin: 20px 0px;
+  }
+
+}
+
+@keyframes eat-sleeve {
+  30% {
+    transform: rotate(15deg);
+    transform-origin: 20px 0px;
+    border-top-right-radius: 25px;
+  }
+
+}
+
+@keyframes rotate-handd {
+  30% {
+    transform: rotate(-110deg);
+    border-top-left-radius: 25px;
   }
 
 }
@@ -318,26 +347,6 @@ section {
   height: 90px;
   position: relative;
   margin: auto;
-
-}
-
-.leg-right {
-  width: 40%;
-  height: 55%;
-  position: absolute;
-  left: 0px;
-  bottom: 20%;
-  background-color: blue;
-
-}
-
-.leg-left {
-  width: 40%;
-  height: 55%;
-  position: absolute;
-  right: 0px;
-  bottom: 20%;
-  background-color: blue;
 
 }
 
@@ -353,24 +362,108 @@ section {
 
 }
 
-.shoe-right {
-  width: 60%;
-  height: 20%;
+.leg-right {
+  width: 40%;
+  height: 75%;
   position: absolute;
-  left: -15%;
+  left: 0px;
+  bottom: 0%;
+  background-color: blue;
+
+}
+
+.shoe-right {
+  width: 70px;
+  height: 20px;
+  position: absolute;
+  left: -15px;
   bottom: 0%;
   background-color: rgb(57, 57, 57);
-  border-top-left-radius: 30px;
+  border-top-left-radius: 25px;
+
+}
+
+.leg-left {
+  width: 40%;
+  height: 75%;
+  position: absolute;
+  right: 0px;
+  bottom: 0%;
+  background-color: blue;
+  animation-name: kick;
+  animation-duration: 3s;
+  animation-delay: 8s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
 
 }
 
 .shoe-left {
-  width: 60%;
-  height: 20%;
+  width: 70px;
+  height: 20px;
   position: absolute;
-  right: -15%;
+  right: -15px;
   bottom: 0%;
   background-color: rgb(57, 57, 57);
   border-top-right-radius: 30px;
+
+}
+
+@keyframes kick {
+  40% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+    transform-origin: 10px -10px;
+  }
+
+}
+
+.area {
+  width: 380px;
+  height: 20%;
+  position: absolute;
+  bottom: 0px;
+  left: 180px;
+
+}
+
+.ball {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  animation-name: mov-ball;
+  animation-duration: 3s;
+  animation-delay: 8s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+
+}
+
+@keyframes mov-ball {
+  5% {
+    background-color: white;
+    transform: translateX(0px);
+  }
+  30% {
+    background-color: white;
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-340px);
+  }
+  70% {
+    transform: translate(0px);
+  }
+  75% {
+    background-color: white;
+  }
+  80% {
+    background-color: transparent;
+  }
 
 }
