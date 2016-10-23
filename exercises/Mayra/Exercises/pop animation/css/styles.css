@@ -23,7 +23,7 @@
     position: relative;
 }
 
-/*@keyframes traslate-chichai {
+@keyframes traslate-chichai {
     0% {
         transform: translate( 200px, 200px);
     }
@@ -36,7 +36,7 @@
         transform: translate( 200px, 200px);
     }
 
-}*/
+}
 
 .contour-left {
     margin: 14px 10px;

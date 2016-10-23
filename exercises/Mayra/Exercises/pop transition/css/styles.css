@@ -149,22 +149,22 @@ body {
     margin: 114px 46px;
 }
 
-body:hover .rubor-rigth, body:hover .rubor-left{
+.chichai :hover .rubor-rigth, .chichai :hover .rubor-left{
     background-color: #FA5882;
     box-shadow: 0px 0px 20px #FE2E2E;
 }
 
-body:hover .eye-rigth, body:hover .iris-rigth {
+.chichai :hover .eye-rigth, .chichai :hover .iris-rigth {
     height: 2px;
     margin: 80px 147px;
 
 }
 
-body:hover .eye-left, body:hover .iris-left{
+.chichai :hover .eye-left, .chichai :hover .iris-left{
     height: 2px;
     margin: 80px 40px;
 }
 
-body:hover {
+.chichai :hover {
     transform: rotate(10deg);
 }
