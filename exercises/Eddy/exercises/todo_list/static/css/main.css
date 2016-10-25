@@ -29,6 +29,7 @@ body {
 	height: 1200px;
 	background-color: white;
 	padding-top: 80px;
+	box-shadow: 0 0 5px #CFD0D5 ;
 }
 
 header {
@@ -120,6 +121,7 @@ li {
 	font-family: "Gotham Rounded Medium", cursive;
 	font-size: 100px;
 	color: #5cd6a0;
+	box-shadow: 0 2px 5px #CFD0D5 ;
 }
 
 .btn-plus:focus, .btn-plus:active, .btn-plus:visited {
