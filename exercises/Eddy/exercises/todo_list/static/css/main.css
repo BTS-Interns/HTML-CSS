@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Gotham Rounded Medium";
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Gotham Rounded Medium/Gotham Rounded Medium.otf') format("truetype");
+}
+
+@font-face {
+	font-family: "Gotham Rounded Book";
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/Gotham Rounded Book/Gotham Rounded Book.otf') format("truetype");
+}
+
+body {
+	background-color: #f0efe9;;
+}
+
+.container {
+	position: relative;
+	top: 100px;
+	margin: 0 auto;
+	width: 750px;
+	height: 1200px;
+	background-color: white;
+	padding-top: 80px;
+}
+
+header {
+	font-family: "Gotham Rounded Medium", cursive;
+	margin-bottom: 0;
+	width: 100%;
+	height: 200px;
+	color: #616473;
+}
+
+.date-container {
+	font-family: "Gotham Rounded Book", cursive;
+	float: left;
+	width: 175px;
+	margin-left: 110px;
+	margin-top: 40px;
+}
+
+.number-day {
+	width: 40%;
+	float: left;
+	font-size: 70px;
+	letter-spacing: 5px;
+	margin-right: 10px;
+}
+
+.month {
+	font-family: "Gotham Rounded Medium", cursive;
+	width: 50%;
+	float: right;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.year {
+	width: 50%;
+	float: right;
+	font-size: 24px;
+	margin-top: 4px;
+}
+
+.day {
+	float: right;
+	margin-top: 65px;
+	margin-right: 110px;
+	letter-spacing: 1px;
+}
+
+ul {
+	margin-top: 25px;
+	width: 100%;
+	height: auto;
+	font-family: "Gotham Rounded Book", cursive;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #3e434f;
+}
+
+li {
+	width: 70%;
+	float: left;
+	height: 120px;
+	list-style: none;
+	margin-left: 110px;
+}
+
+.checkbox {
+	display: none;
+	float: right;
+	width: 40px;
+	height: 40px;
+}
+
+.btn {
+	margin: 0 auto;
+	width: 30%;
+	height: 180px;
+}
+
+.btn-plus {
+	display: block;
+	margin: 44px auto 0 auto;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: none;
+	background-color: #51e3a4;
+	padding-top: 15px;
+	font-family: "Gotham Rounded Medium", cursive;
+	font-size: 100px;
+	color: #5cd6a0;
+}
+
+.btn-plus:focus, .btn-plus:active, .btn-plus:visited {
+	outline: none;
+}
+
+.clear {
+	clear: both;
+}
+
+li label {
+	cursor: pointer;
+	border-radius: 50%;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border: solid 5px #eef0f5;
+}
+
+input[type=checkbox]:checked + label {
+	background-image: url("../images/garabato.png");
+	background-size: cover;
+	border: solid 5px #5cd6a0;
+	color: #bdc0ca;
+}
+
+input[type=checkbox]:checked + label +span{
+	color: #bdc0ca;
+}
