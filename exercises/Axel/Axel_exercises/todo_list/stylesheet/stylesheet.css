@@ -1,0 +1,163 @@
+@font-face {
+    font-family: PrincipalFont;
+    src: url("fonts/gotham-rounded-book.otf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #3e434f;
+}
+
+body {
+    background-color: #F0EFE9;
+    font-family: PrincipalFont;
+}
+
+.wrapper {
+    margin: 0 auto;
+    margin-top: 149px;
+    padding: 1px;
+    width: 750px;
+    height: auto;
+    background-color: #FFFFFF;
+    position: relative;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 130px;
+    margin-bottom: 150px;
+    border-radius: 5px;
+}
+
+header {
+    margin: 0 auto;
+    width: 75%;
+    height: 75px;
+    margin-top: 107px;
+    position: relative;
+}
+
+.date {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.date h2 {
+    font-size: 4.6em;
+    float: left;
+    padding-right: 20px;
+    padding-left: 5px;
+    color:  #616473;
+}
+
+.month {
+    padding-top: 10px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.year {
+    padding-top: 3px;
+    font-size: 1.7em;
+    letter-spacing: 0px;
+}
+
+.day {
+    margin-top: 26px;
+    float: right;
+    padding-right: 4px;
+}
+
+.day h1 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.list-wrapper {
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    margin-top: 98px;
+    position: relative;
+}
+
+.list-wrapper ul {
+    width: 100%;
+    height: auto;
+}
+
+.list-wrapper ul li {
+    width: 100%;
+    height: 128px;
+    list-style: none;
+    padding-left: 6px;
+    position: relative;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.check {
+    display: inline-block;
+    float: right;
+	width: 60px;
+	height: 60px;
+    background-color: #F0EFE9;
+	border-radius: 100%;
+	position: relative;
+    top: 6px;
+    right: 10px;
+}
+
+.check p{
+    font-size: 2em;
+    letter-spacing: .6px;
+    position: absolute;
+    left: -492px;
+    top: 10px;
+}
+
+.check label {
+	display: block;
+    width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+	background: #FFFFFF;
+}
+
+.check input[type=checkbox]:checked ~ label {
+    width: 60px;
+	height: 60px;
+    box-sizing: border-box;
+    border: 5px solid #50E3A4;
+	background-image: url("../images/raya.png");
+    top: 0;
+	left: 0;
+}
+
+.check input[type=checkbox]:checked + p {
+    color: #bdc0ca;
+}
+
+.go {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -90px;
+    left: 285px;
+    background-color: #50E3A4;
+    text-align: center;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.2);
+    border-style: none;
+}
