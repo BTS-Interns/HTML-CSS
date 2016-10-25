@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "medium";
+  font-style: bold;
+  font-weight: 400;
+  src: url("font/gotham-rounded-medium.otf") format('woff2');
+}
+
+@font-face {
+  font-family: "book";
+  font-style: bold;
+  font-weight: 400;
+  src: url("font/gotham-rounded-book.otf") format('woff2');
+}
+/*normalize*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0efe9;
+    color: #747981;
+}
+/*end normalize*/
+
+/*body*/
+.container {
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    margin: 10% auto;
+}
+
+header {
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    padding-top: 10%;
+    font-family: medium;
+
+}
+
+.day {
+    float: left;
+    font-size: 50px;
+}
+
+.date {
+    float: left;
+    font-size: 18px;
+    padding-top: 2%;
+}
+.day-of-the-week {
+    float: right;;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+.box {
+    width: 80%;
+    height: auto;
+    font-family: book;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.box-ul {
+    position: relative;
+}
+
+ul li{
+  list-style: none;
+  display: block;
+  padding-bottom: 2%;
+  font-size: 40px;
+}
+
+input{
+    cursor: pointer;
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 577px;
+    z-index: 1;
+}
+
+.input-falso{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border: 2px solid #eef0f5;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 577px;
+}
+
+input[type="checkbox"]:checked + span:after {
+    background-image: url("../images/garabato.png");
+    background-position: center;
+    background-size: contain;
+}
+
+input[type="checkbox"]:checked + .input-falso {
+    background-image: url("../images/garabato.png");
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    border: 2px solid #59e5a9;
+    color: #616473;
+}
+
+input[type="checkbox"]:checked ~ label {
+    color: #bdc0ca;
+}
+
+/*end body*/
