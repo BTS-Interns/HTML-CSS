@@ -31,6 +31,7 @@ body {
     height: auto;
     background-color: white;
     margin: 20% auto;
+    box-shadow: 0 0 5px #cfd0d5;
 }
 
 .todo-header {
@@ -112,6 +113,7 @@ body {
     font-family: GothamRoundedBook;
     outline: none;
     cursor: pointer;
+    box-shadow: 0 2px 5px #cfd0d5;
 }
 
 .todo-item > input[type='checkbox'] {
