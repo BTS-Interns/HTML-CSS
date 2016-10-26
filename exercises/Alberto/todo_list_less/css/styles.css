@@ -64,13 +64,13 @@ form {
   margin: 0px;
   padding-top: 5px;
 }
-.date .intern {
+.date div:first-of-type {
   width: 50px;
   float: left;
   margin: 0px;
   padding-left: 5px;
 }
-.date .intern h3 {
+.date div:first-of-type h3 {
   font-size: 0.8em;
 }
 .chbox {
