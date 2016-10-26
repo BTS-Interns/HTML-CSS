@@ -1,0 +1,126 @@
+@font-med: medium;
+@font-book: book;
+@color-body: #f0efe9;
+@color-section: white;
+@color-text: #747981;
+@color-on: #eef0f5;
+@todo: 100%;
+.centrar(){
+    margin: 0 auto; display: block;
+}
+@font-face {  font-family: "medium";  font-style: bold;  font-weight: 400;  src: url("font/gotham-rounded-medium.otf") format('woff2');}
+
+
+@font-face {
+  font-family: "book";
+  font-style: bold;
+  font-weight: 400;
+  src: url("font/gotham-rounded-book.otf") format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: @todo;
+    height: @todo;
+    background-color: @color-body;
+    color: @color-text;
+    section {
+        width: 750px;
+        height: auto;
+        background-color: @color-section;
+        margin: 10% auto;
+        header {
+            width: 80%;
+            height: 150px;
+            .centrar;
+            padding-top: 10%;
+            font-family: @font-book;
+            .day {
+                float: left;
+                font-size: 50px;
+            }
+            .date {
+                float: left;
+                font-size: 18px;
+                padding-top: 2%;
+            }
+            .day-of-the-week {
+                float: right;
+            }
+        }
+        .box {
+            width: 80%;
+            height: auto;
+            font-family: @font-book;
+            font-size: 18px;
+            .centrar;
+            padding-bottom: 10%;
+             font-family: @font-med;
+             .box-ul {
+                 position: relative;
+             }
+             ul {
+                 li {
+                     list-style: none;.centrar;padding-bottom: 2%;font-size: 35px;margin-bottom: 4%;
+                 }
+
+             }
+        }
+    }
+    input{
+        cursor: pointer;
+        opacity: 0;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        margin-left: 577px;
+        z-index: 1;
+    }
+
+}
+.input-falso{
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border: 2px solid @color-on;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 577px;
+}
+
+input[type="checkbox"]:checked + .input-falso {
+    background-image: url("../images/garabato.png");
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    border: 2px solid #59e5a9;
+    color: #616473;
+}
+
+input[type="checkbox"]:checked ~ label {
+    color: #bdc0ca;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #51E3A4;
+    position: absolute;
+    text-align: center;
+    font-size: 85px;
+    color: #45bb89;
+    margin-top: -50px;
+    margin-left: 325px;
+}
+/*end body*/
+.clear {
+    clear: both;
+}
