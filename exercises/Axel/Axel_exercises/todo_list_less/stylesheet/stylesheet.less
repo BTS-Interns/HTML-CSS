@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "main-font";
+    src: url("fonts/gotham-rounded-book.otf");
+}
+
+@main-font-color:    #3e434f;
+@bg-color:           #F0EFE9;
+@white-color:        #FFFFFF;
+@checked-color:      #50E3A4;
+@checked-text-color: #bdc0ca;
+@date-color:         #616473;
+@bg-check:           #F0EFE9;
+
+@font: main-font;
+
+@wrapper-width: 750px;
+@wrapper-radius: 5px;
+@wrapper-separation: 149px;
+@wrapper-padding: 1px;
+
+@header-width: 75%;
+@header-height: 75px;
+@header-margin-top: 107px;
+
+@date-width: 50%;
+@date-height: 100%;
+@date-size: 4.6em;
+
+@month-size: 1.6em;
+
+@no-list-style: none;
+@rel-position: relative;
+@abs-position: absolute;
+@full-width: 100%;
+@center-margin: 0 auto;
+@radius-circle: 100%;
+@upper: uppercase;
+@float-left: left;
+@float-right: right;
+
+* {
+    margin: 0;
+    padding: 0;
+    color: @main-font-color;
+}
+
+body {
+    background-color: @bg-color;
+    font-family: @font;
+}
+
+.wrapper {
+    width: @wrapper-width;
+    background-color: @white-color;
+    margin: @center-margin;
+    border-radius: @wrapper-radius;
+    margin-top: @wrapper-separation;
+    margin-bottom: @wrapper-separation;
+    padding: @wrapper-padding;
+    height: auto;
+    position: @rel-position;
+    padding-bottom: 130px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+header {
+    margin: @center-margin;
+    width: @header-width;
+    position: @rel-position;
+    height: @header-height;
+    margin-top: @header-margin-top;
+}
+
+.date {
+    width: @date-width;
+    height: @date-height;
+    float: @float-left;
+
+    h2 {
+        font-size: @date-size;
+        float: @float-left;
+        color: @date-color;
+        padding-right: 20px;
+        padding-left: 5px;
+    }
+}
+
+.month {
+    text-transform: @upper;
+    font-size: @month-size;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+.year {
+    padding-top: 3px;
+    font-size: 1.7em;
+    letter-spacing: 0px;
+}
+
+.day {
+    margin-top: 26px;
+    float: @float-right;
+    padding-right: 4px;
+
+    h1 {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+}
+
+.list-wrapper {
+    margin: @center-margin;
+    width: @header-width;
+    margin-top: 98px;
+    position: @rel-position;
+
+    ul {
+        width: @full-width;
+
+        li {
+            width: @full-width;
+            height: 128px;
+            list-style: @no-list-style;
+            padding-left: 6px;
+            position: @rel-position;
+
+            input[type=checkbox] {
+            	visibility: hidden;
+            }
+        }
+    }
+}
+
+.check {
+    display: inline-block;
+    float: @float-right;
+	width: 60px;
+	height: 60px;
+    background-color: @bg-check;
+	border-radius: @radius-circle;
+	position: @rel-position;
+    top: 6px;
+    right: 10px;
+}
+
+.check p {
+    font-size: 2em;
+    letter-spacing: .6px;
+    position: @abs-position;
+    left: -492px;
+    top: 10px;
+}
+
+.check label {
+	display: block;
+    width: 50px;
+	height: 50px;
+	border-radius: @radius-circle;
+	cursor: pointer;
+	position: @abs-position;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+	background: @white-color;
+}
+
+.check input[type=checkbox]:checked ~ label {
+    width: 60px;
+	height: 60px;
+    box-sizing: border-box;
+    border: 5px solid @checked-color;
+	background-image: url("../images/raya.png");
+    top: 0;
+	left: 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.check input[type=checkbox]:checked + p {
+    color: @checked-text-color;
+}
+
+.go {
+    width: 180px;
+    height: 180px;
+    border-radius: @radius-circle;
+    position: @abs-position;
+    bottom: -90px;
+    left: 285px;
+    background-color: #50E3A4;
+    text-align: center;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.2);
+    border-style: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
+}
