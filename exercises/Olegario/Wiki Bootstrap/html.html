@@ -24,13 +24,13 @@
 		    </div>
 		    <nav class="collapse navbar-collapse" role="navigation">
 		      <ul class="nav navbar-nav">
-		        <li class="active">
+		        <li>
 		          <a href="./index.html">Home</a>
 		        </li>
 		        <li>
 		          <a href="./about.html">About Me</a>
 		        </li>
-		        <li>
+		        <li class="active">
 		          <a href="./html.html">HTML</a>
 		        </li>
 		        <li>
@@ -50,17 +50,57 @@
 	  </div>
 
 		<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Tags</h2>
+					</div>
+				</div>
+		</div>
+
+		<div class="container">
 			<div class="row">
-	      <div class="col-md-10">
-	        <h2 id="finalidad">Finalidad</h2>
-	        <p>
-	          At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can
-	          find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.</p>
+		      <div class="col-md-10">
+		        <h2 id="inline">Inline Elements</h2>
+						<h3>Anchor "a"</h3>
+		        <p>
+		          Define un hyperlink en la misma pagina a otra parte de la web
+		        </p>
+						<h4>Ejemplo</h4>
+						<p>
+							<a href="https://google.com.mx">Esto te manda a google</a>
+						</p>
 
-	        <hr>
+		        <hr>
 
-        </div>
-	  	</div>
+						<h3>Abbr</h3>
+		        <p>
+		          Hace una descripcion, esto se muestra cuando pasas el mouse por escima del elemento
+		        </p>
+						<h4>Ejemplo</h4>
+						<p>
+							<abbr title="Hace una descripcion">HTML</abbr>
+						</p>
+
+		        <hr>
+
+						<h3>Acronym</h3>
+		        <p>
+		          sirve para crear Acronimos (tiene la misma funcionalidad que abbr)
+		        </p>
+						<h4>Ejemplo</h4>
+						<p>
+							<acronym lang="en" title="Asynchronous JavaScript and XML">Ajax</acronym>.s
+						</p>
+
+		        <hr>
+	        </div>
+					<div class="col-md-2" id="leftCol">
+		        <ul class="nav nav-stacked" id="sidebar">
+							<li><a href="#inline">Inline</a></li>
+		          <li><a href="#">Block</a></li>
+		        </ul>
+		      </div>
+		  	</div>
 		</div>
 
 		<script src="./js/jquery-3.1.1.min.js"></script>

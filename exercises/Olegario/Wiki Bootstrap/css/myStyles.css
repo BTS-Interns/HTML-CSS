@@ -1,0 +1,29 @@
+.navbar-default {
+  background-color: #23638D;
+  color: #46BCDA;
+  //font-weight: bold;
+}
+
+.navbar-default .active {
+  background-color: #46BCDA;
+}
+
+.navbar-header {
+  color: #46BCDA;
+}
+
+.navbar-default .active {
+  background-color: #46BCDA;
+}
+
+.nav {
+  color: #46BCDA;
+}
+
+body {
+  color: #3699A6;
+}
+
+a {
+  color: #46BCDA;
+}
