@@ -4284,9 +4284,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
-  margin-left: 10px;
-  height: 25px;
-  width: 25px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
