@@ -26,6 +26,7 @@ form {
 
 .date {
   font-family: GRmedium;
+  color: #616473;
   width: 100%;
   overflow: auto;
 
@@ -62,19 +63,23 @@ form {
 .chbox {
   width: 100%;
   height: 30px;
-    font-family: GRbook;
+  font-family: GRbook;
   margin-top: 10px;
   position: relative;
+  color: #3e434f;
 
+}
+label {
 }
 
 input[type="checkbox"] {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  visibility: hidden;
-  width: 15px;
-  height: 15px;
+  top: 0px;
+  right: 0px;
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
 
 }
 
@@ -86,17 +91,22 @@ span {
   height: 25px;
   border: 2px solid lightgray;
   border-radius: 50%;
-}
-
-input[type="checkbox"]:checked + span {
-  background-color: green;
+  background-color: #eef0f5;
+  z-index: 1;
 
 }
-/*
-span:active {
-  background-color: red;
-}*/
 
+input[type="checkbox"]:checked ~ span {
+  background-image: url("../images/garabato.png");
+  background-size: contain;
+  border-color: lime;
+
+}
+
+input[type="checkbox"]:checked + label {
+  color: #bdc0ca;
+
+}
 
 button {
   font-size: 100px;
