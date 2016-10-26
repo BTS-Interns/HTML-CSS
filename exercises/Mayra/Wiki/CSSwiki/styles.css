@@ -1,12 +1,7 @@
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 /*fonts end*/
-/*normalize*/
-body {
-    margin: 0;
-    padding: 0;
-}
-/*end normalize*/
+
 header{
 	height: 400px;
 	width: 100%;
