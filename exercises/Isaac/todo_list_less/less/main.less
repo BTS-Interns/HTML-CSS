@@ -1,0 +1,165 @@
+/* Font Face */
+
+@font-face {
+    font-family: GothamRoundedMedium;
+    src: url('../fonts/gotham-rounded-medium.otf');
+}
+
+@font-face {
+    font-family: GothamRoundedBook;
+    src: url('../fonts/gotham-rounded-book.otf');
+}
+
+// My Vars
+
+@font-family-header: GothamRoundedMedium;
+@font-family-body: GothamRoundedBook;
+
+@container-width: 750px;
+
+@color-background: #F0EFE9;
+@color-white: #ffffff;
+@color-shadow: #cfd0d5;
+@color-light-gray: #616473;
+@color-gray: #3e434f;
+@color-light-green: #50e3a4;
+@color-green: #46be8b;
+@color-selected: #bdc0ca;
+
+/* Normalization */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* End Normalization */
+
+/* General */
+body {
+    background-color: @color-background;
+}
+
+.clearfix {
+    clear: both;
+}
+/* End General */
+
+.todo-container {
+    width: @container-width;
+    background-color: @color-white;
+    box-shadow: 0 0 5px @color-shadow;
+    height: auto;
+    margin: 20% auto;
+}
+
+.todo-header {
+    font-family: @font-family-header;
+    color: @color-light-gray;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 5px;
+    padding: 5% 10%;
+}
+
+.date { 
+    position: relative;
+    top: 38%;
+    left: 5%;
+    
+    .day {
+        float: left;
+        font-size: 75px;
+    }
+    
+    .month-year {
+        float: left;
+        margin-left: 15px;
+        
+        .month {
+            font-size: 26px;
+            margin-top: 15px;
+        }
+    
+        .year {
+            font-size: 25px;
+            margin-top: 2px;
+        }
+    }
+}
+
+.day-of-week {
+    position: relative;
+    top: 55%;
+    right: 4%;
+    float: right;
+    font-size: 26px;
+}
+
+.todo-body {
+    font-family: @font-family-body;
+    color: @color-gray;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+.todo-item {
+    width: 100%;
+    height: 125px;
+    margin-bottom: 2px;
+    padding: 5% 14%;
+    font-size: 33px;
+    position: relative;
+}
+
+.todo-footer {
+    width: 100%;
+    height: 155px;
+    text-align: center;
+}
+
+.btn-add {
+    font-family: @font-family-body;
+    background-color: @color-light-green;
+    color: @color-green;
+    box-shadow: 0 2px 5px @color-shadow;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: none;
+    font-size: 100px;
+    margin-top: 65px;
+    outline: none;
+    cursor: pointer;
+}
+
+.todo-item {
+    input[type='checkbox'] {
+        display: none;
+    }
+    
+    input[type='checkbox'] + span + label {
+        position: absolute;
+        right: 110px;
+        top: 42px;
+        width: 40px;
+        height: 40px;
+        border-width: 4px;
+        border-style: solid;
+        border-color: #eef0f5;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    input[type='checkbox']:checked + span {
+        color: @color-selected;
+    }
+    
+    input[type='checkbox']:checked + span + label {
+        border-color: @color-light-green;
+        background-image: url('../images/garabato.png');
+        background-size: 100%;
+        background-position: center;
+    }
+}
+
