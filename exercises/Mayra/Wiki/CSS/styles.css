@@ -43,6 +43,14 @@ li{
 	font-size: 30px;
 	display: inline;
 }
+/*footer*/
+footer {
+    background-color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: fuchsia;
+}
+/*footer end*/
 /*about me */
 .about-me {
 

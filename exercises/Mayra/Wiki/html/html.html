@@ -5,92 +5,107 @@
 	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./../css/bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="./../css/styles.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
     <header>
-		<nav>
-			<ul>
-				<li><a href="./../index.html">Home</a></li>
-	            <li><a href="aboutMe.html">About me</a></li>
-	            <li><a href="css.html">CSS</a></li>
-				<li><a href="html.html" >HTML</a></li>
+		<div class="container">
+			<nav>
+				<ul>
+					<li><a href="./../index.html">Home</a></li>
+					<li><a href="aboutMe.html">About me</a></li>
+					<li><a href="css.html">CSS</a></li>
+					<li><a href="html.html" >HTML</a></li>
 
-			</ul>
-		</nav>
-		<h1>HTML</h1>
-        <h2>subtítulo</h2>
+				</ul>
+			</nav>
+			<h1>HTML</h1>
+			<h2>subtítulo</h2>
+		</div>
+
     </header>
+	<div class="container">
+		<section class="main row">
 
-	<section>
+			<article class="html col-xs-12 col-sm-8 col-md-9 col-lg-9">
 
-		<p>HTML (HyperText Markup Language) es un lenguaje descriptivo que especifica la estructura de la 		página web.<br>
-			Un documento HTML es un documento de texto sin formato estructurado con elementos . Los elementos están rodeados de búsqueda de apertura y cierre de las etiquetas . Cada etiqueta comienza y termina con paréntesis angulares ( < >). Hay unos pocos vacíos o huecos   etiquetas que no se puede incluir cualquier texto, por ejemplo < img >.
-			Puede extender las etiquetas HTML con atributos , que proporcionan información adicional que afecta la forma en que el navegador interpreta el elemento.<br>
-				<img src="./../images/anatomy-html.png"><br>
-			Un HTML normalmente se guarda con una .htmo .htmlextensión, es servido por un servidor web , y puede representarse mediante cualquier navegador Web .<br>
-		</p>
-	<hr>
-		<h3>Estrucutura básica de HTML</h3>
-		<p>&lt;&lt;!DOCTYPE html &gt;</p>
-		<p> &lt;	html &gt;</p>
-		<p>	&lt;	head &gt;</p>
-			<p>&lt;title &gt;&lt;/title &gt;</p>
-		<p>&lt;/head &gt;</p>
-		<p>&lt;body &gt;</p><br>
-		<p>code</p><br>
-		<p>&lt;/body &gt;</p>
-		<p>&lt;/html &gt;</p>
-	<hr>
-		<h3> &lt; !DOCTYPE > </h3>
-		<p> El DOCTYPE es una declaración del estándar usado al construir un documento HTML o XHTML.
-			Sin embargo, para ser un poco más estrictos, debemos aclarar que el Doctype es propio de documentos XML y SGML, y por tanto los lenguajes HTML o XHTML son unos simples herederos de algo que ya se venía utilizando.
-		</p>
-		<p>	Así, se puede decir que los documentos HTML o XHTML están escritos en un lenguaje y con el 			Doctype especificamos este lenguaje y la versión del mismo. Los navegadores leerán esta 			declaración de doctype e interpretarán la página atendiendo a las reglas definidas en ese 			lenguaje.
-		</p>
-		<p>Los doctype más utilizados en la actualidad:
-		</p>
-				<strong>Doctype XHTML 1.0 strict</strong> <br>
-					<code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</code> <br>
-				<strong>Doctype XHTML 1.0 transitional</strong> <br>
-					<code> &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</code><br>
-				<strong>Doctype XHTML 1.0 frameset</strong><br>
-					<code> &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;</code><br>
-				<strong>Doctype HTML 4.01 strict</strong><br>
-					<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</code><br>
-				<strong>Doctype HTML 4.01 transitional</strong><br>
-					<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;</code><br>
-				<strong>Doctype HTML 4.01 frameset</strong><br>
-					<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"&gt;</code><br>
-		</p>
-		<p>El doctype debe incluirse en la primera línea del código HTML de la página.
-		</p>
-		<p>Esto dice que es un DOCTYPE de un documento HTML y nos da dos datos adicionales. Con el texto "-/	/W3C//DTD XHTML 1.0 Transitional//EN" indicamos que este documento se tiene que validar con la 		especificación de XHTML 1.0 y que el tipo de documento es Transitional. Por otra parte, http://		www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd es la URL del DTD que sirve para validar el 		código HTML de la página.</p>
-		<p><area> <strong><mark>Nota:</mark></strong>  Para los navegadores es importante conocer el 			doctype de la página web, porque de ese modo pueden mostrar la página web con la versión exacta		 del lenguaje HTML o XHTML con la que fue construida. Si no tienen una declaración de doctype, interpretarán la página en lo que se llama "quirks mode", un modo que procura maximizar la compatibilidad de la página con versiones anteriores del lenguaje HTML.</area>
-				</p>
-				<cite>http://www.desarrolloweb.com/articulos/doctype-html.html</cite>
-	<hr>
-		<h3>&lt;head&gt;</h3>
-		<p>Representa el contenido de un documento HTML. No puede haber un solo &lt;body>elemento de un documento.
-		</p>
-		<h3>&lt;body&gt;</h3>
-		<p>Elemento proporciona información general (metadatos) sobre el documento, incluyendo su título y enlaces a sus scripts y hojas de estilo.</p>
-		<h3>&lt;meta&gt;</h3>
-		<p>Este elemento representa cualquier información de metadatos que no puede ser representado por uno de los otros elementos relacionados con la meta HTML ( &lt;base>, &lt;link>, &lt;script>, &lt;style>o &lt;title>).
-		</p>
-		<p>Dependiendo del conjunto de atributos, el tipo de metadatos puede ser uno de los siguientes:</p>
-		<p>Si namese establece, es  el nivel de documento de metadatos , se aplica a toda la página.</p>
-		<p>Si http-equivse establece, se trata de una  directiva pragma , es decir, información que normalmente se concede por el servidor web acerca de cómo la página web debe ser servido.</p>
-		<p>Si charsetse establece, se trata de una  declaración de conjunto de caracteres , es decir, el conjunto de caracteres utilizado para la forma de serie de la página web.</p>
-		<p>Si itempropse establece, es metadatos definidos por el usuario y transparentes para el usuario-agente como la semántica de los metadatos es específica del usuario.</p>
+						<p>HTML (HyperText Markup Language) es un lenguaje descriptivo que especifica la estructura de la 		página web.<br>
+							Un documento HTML es un documento de texto sin formato estructurado con elementos . Los elementos están rodeados de búsqueda de apertura y cierre de las etiquetas . Cada etiqueta comienza y termina con paréntesis angulares ( < >). Hay unos pocos vacíos o huecos   etiquetas que no se puede incluir cualquier texto, por ejemplo < img >.
+							Puede extender las etiquetas HTML con atributos , que proporcionan información adicional que afecta la forma en que el navegador interpreta el elemento.<br>
+								<img src="./../images/anatomy-html.png"><br>
+							Un HTML normalmente se guarda con una .htmo .htmlextensión, es servido por un servidor web , y puede representarse mediante cualquier navegador Web .<br>
+						</p>
+					<hr>
+						<h3>Estrucutura básica de HTML</h3>
+						<p>&lt;&lt;!DOCTYPE html &gt;</p>
+						<p> &lt;	html &gt;</p>
+						<p>	&lt;	head &gt;</p>
+							<p>&lt;title &gt;&lt;/title &gt;</p>
+						<p>&lt;/head &gt;</p>
+						<p>&lt;body &gt;</p><br>
+						<p>code</p><br>
+						<p>&lt;/body &gt;</p>
+						<p>&lt;/html &gt;</p>
+					<hr>
+						<h3> &lt; !DOCTYPE > </h3>
+						<p> El DOCTYPE es una declaración del estándar usado al construir un documento HTML o XHTML.
+							Sin embargo, para ser un poco más estrictos, debemos aclarar que el Doctype es propio de documentos XML y SGML, y por tanto los lenguajes HTML o XHTML son unos simples herederos de algo que ya se venía utilizando.
+						</p>
+						<p>	Así, se puede decir que los documentos HTML o XHTML están escritos en un lenguaje y con el 			Doctype especificamos este lenguaje y la versión del mismo. Los navegadores leerán esta 			declaración de doctype e interpretarán la página atendiendo a las reglas definidas en ese 			lenguaje.
+						</p>
+						<p>Los doctype más utilizados en la actualidad:
+						</p>
+								<strong>Doctype XHTML 1.0 strict</strong> <br>
+									<code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</code> <br>
+								<strong>Doctype XHTML 1.0 transitional</strong> <br>
+									<code> &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</code><br>
+								<strong>Doctype XHTML 1.0 frameset</strong><br>
+									<code> &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;</code><br>
+								<strong>Doctype HTML 4.01 strict</strong><br>
+									<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</code><br>
+								<strong>Doctype HTML 4.01 transitional</strong><br>
+									<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;</code><br>
+								<strong>Doctype HTML 4.01 frameset</strong><br>
+									<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"&gt;</code><br>
+						</p>
+						<p>El doctype debe incluirse en la primera línea del código HTML de la página.
+						</p>
+						<p>Esto dice que es un DOCTYPE de un documento HTML y nos da dos datos adicionales. Con el texto "-/	/W3C//DTD XHTML 1.0 Transitional//EN" indicamos que este documento se tiene que validar con la 		especificación de XHTML 1.0 y que el tipo de documento es Transitional. Por otra parte, http://		www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd es la URL del DTD que sirve para validar el 		código HTML de la página.</p>
+						<p><area> <strong><mark>Nota:</mark></strong>  Para los navegadores es importante conocer el 			doctype de la página web, porque de ese modo pueden mostrar la página web con la versión exacta		 del lenguaje HTML o XHTML con la que fue construida. Si no tienen una declaración de doctype, interpretarán la página en lo que se llama "quirks mode", un modo que procura maximizar la compatibilidad de la página con versiones anteriores del lenguaje HTML.</area>
+								</p>
+								<cite>http://www.desarrolloweb.com/articulos/doctype-html.html</cite>
+					<hr>
+						<h3>&lt;head&gt;</h3>
+						<p>Representa el contenido de un documento HTML. No puede haber un solo &lt;body>elemento de un documento.
+						</p>
+						<h3>&lt;body&gt;</h3>
+						<p>Elemento proporciona información general (metadatos) sobre el documento, incluyendo su título y enlaces a sus scripts y hojas de estilo.</p>
+						<h3>&lt;meta&gt;</h3>
+						<p>Este elemento representa cualquier información de metadatos que no puede ser representado por uno de los otros elementos relacionados con la meta HTML ( &lt;base>, &lt;link>, &lt;script>, &lt;style>o &lt;title>).
+						</p>
+						<p>Dependiendo del conjunto de atributos, el tipo de metadatos puede ser uno de los siguientes:</p>
+						<p>Si namese establece, es  el nivel de documento de metadatos , se aplica a toda la página.</p>
+						<p>Si http-equivse establece, se trata de una  directiva pragma , es decir, información que normalmente se concede por el servidor web acerca de cómo la página web debe ser servido.</p>
+						<p>Si charsetse establece, se trata de una  declaración de conjunto de caracteres , es decir, el conjunto de caracteres utilizado para la forma de serie de la página web.</p>
+						<p>Si itempropse establece, es metadatos definidos por el usuario y transparentes para el usuario-agente como la semántica de los metadatos es específica del usuario.</p>
 
-		<h3>&lt;title&gt;</h3>
-		<p>define el título del documento, se muestra en la barra de título de un navegador o en la ficha de la página. Sólo puede contener texto, y cualquier contenida etiquetas son ignorados.
-		</p>
-	</section>
+						<h3>&lt;title&gt;</h3>
+						<p>define el título del documento, se muestra en la barra de título de un navegador o en la ficha de la página. Sólo puede contener texto, y cualquier contenida etiquetas son ignorados.
+						</p>
+			</article>
+			<aside class="html col-xs-12 col-sm-4 col-md-3 col-lg-3">
 
+			</aside>
 
-
-
+		</section>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<p>by Mayra Janette Huerta Carbajal</p>
+		</div>
+	</footer>
+	<script src=".js/jquery-3.1.1.min.js"></script>
+	<script src=".js/bootstrap.min.js"></script>
 </body>
 </html>
