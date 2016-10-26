@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: @body-background;
+}
+
+.container-todo {
+    background-color: @container-background;
+    margin: 0 auto;
+    width: 750px;
+    margin-top: 100px;
+    position: relative;
+
+    header {
+        padding: 80px;
+        display: inline-block;
+        font-family: @font-header;
+        color: @header-font-color;
+
+        h1 {
+            float: right;
+            margin-top: 25px;
+            margin-left: 250px;
+            font-size: 35px;
+
+        }
+
+        h3 {
+            float: left;
+            font-size: 80px;
+            margin-right: 10px;
+            display: inline-block;
+
+        }
+
+        h4 {
+            float: left;
+            margin-top: 14px;
+            font-size: 28px;
+
+        }
+
+    }
+
+    ul {
+        list-style: none;
+        font-family: @font-body;
+        padding-bottom: 30px;
+
+        li {
+            margin-left: 80px;
+            font-size: 30px;
+            margin-bottom: 70px;
+            color: @list-unchecked-color;
+
+            input[type=checkbox] {
+                display: none;
+
+            }
+
+            label {
+                display: inline-block;
+                cursor: pointer;
+                position: relative;
+
+            }
+
+            label::after {
+                content: "";
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                bottom: 1px;
+                border: @checkbox-unchecked-color 5px solid;
+                border-radius: 50%;
+                float: right;
+                margin-left: 520px;
+                margin-top: 5px;
+
+            }
+
+            input[type=checkbox]:checked + label::after {
+                border-color: @checkbox-checked-button-color;
+                background-image: url(@checkbox-image);
+                background-position: center;
+                background-size: cover;
+
+            }
+
+            input[type=checkbox]:checked + label + span {
+                color: @list-checked-color;
+
+            }
+
+        }
+
+    }
+
+    div {
+        height: 90px;
+        width: 30%;
+        margin: 0 auto;
+        margin-bottom: 150px;
+
+        button {
+            height: 180px;
+            width: 180px;
+            margin-left: 20px;
+            display: inline-block;
+            border-radius: 50%;
+            background-color: @checkbox-checked-button-color;
+            color: @button-font-color;
+            border: 0px;
+            font-size: 100px;
+            padding-top: 14px;
+            font-family: @font-header;
+
+        }
+
+    }
+
+}

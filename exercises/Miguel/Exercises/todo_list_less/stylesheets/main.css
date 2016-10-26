@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "GothamRoundedMedium";
+  font-style: normal;
+  src: url("../../todo_list/fonts/GothamRoundedMedium_21022.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GothamRoundedBook";
+  font-style: normal;
+  src: url("../../todo_list/fonts/gotham-rounded-book.otf") format("opentype");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0efe9;
+}
+.container-todo {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 750px;
+  margin-top: 100px;
+  position: relative;
+}
+.container-todo header {
+  padding: 80px;
+  display: inline-block;
+  font-family: "GothamRoundedMedium";
+  color: #616473;
+}
+.container-todo header h1 {
+  float: right;
+  margin-top: 25px;
+  margin-left: 250px;
+  font-size: 35px;
+}
+.container-todo header h3 {
+  float: left;
+  font-size: 80px;
+  margin-right: 10px;
+  display: inline-block;
+}
+.container-todo header h4 {
+  float: left;
+  margin-top: 14px;
+  font-size: 28px;
+}
+.container-todo ul {
+  list-style: none;
+  font-family: "GothamRoundedBook";
+  padding-bottom: 30px;
+}
+.container-todo ul li {
+  margin-left: 80px;
+  font-size: 30px;
+  margin-bottom: 70px;
+  color: #3e434f;
+}
+.container-todo ul li input[type=checkbox] {
+  display: none;
+}
+.container-todo ul li label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+.container-todo ul li label::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 1px;
+  border: #eef0f5 5px solid;
+  border-radius: 50%;
+  float: right;
+  margin-left: 520px;
+  margin-top: 5px;
+}
+.container-todo ul li input[type=checkbox]:checked + label::after {
+  border-color: #51E3A4;
+  background-image: url("../../todo_list/images/imgpsh_fullsize.png");
+  background-position: center;
+  background-size: cover;
+}
+.container-todo ul li input[type=checkbox]:checked + label + span {
+  color: #bdc0ca;
+}
+.container-todo div {
+  height: 90px;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.container-todo div button {
+  height: 180px;
+  width: 180px;
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #51E3A4;
+  color: #5CD6A0;
+  border: 0px;
+  font-size: 100px;
+  padding-top: 14px;
+  font-family: "GothamRoundedMedium";
+}
