@@ -1,0 +1,158 @@
+@color-fondo: #F0EFE9;
+@color-letters: #616473;
+@color-li: #3E434F;
+@color-green: #50E3A4;
+@color-white: #FFFFFF;
+@color-inactive: #EEF0F5;
+@color-active: #50E3A4;
+@color-button-text: #707070;
+@color-text-checked: #BDC0CA;
+@color-shadow: #D0D0D0;
+@font-letters: 'GothamRounded';
+@font-list: 'GothamRounded book';
+@width:750px;
+
+@font-face {
+  font-family: 'GothamRounded';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Gotham Rounded Medium.otf") format('woff2');
+}
+
+@font-face {
+  font-family: 'GothamRounded book';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/gotham-rounded-book.otf") format('woff2');
+}
+
+
+.size(@whidth, @height) {
+   width: @whidth;
+   height: @height;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: @color-fondo;
+}
+
+header {
+  .size(auto, 150px);
+  margin-left: 90px;
+  padding-top: 120px;
+  color: @color-letters;
+}
+
+h1 {
+  font-family: @font-letters;
+  font-size: 94px;
+  margin-right: 8px;
+  display: inline;
+  float: left;
+}
+
+h2 {
+  font-family: @font-letters;
+  margin-top: -60px;
+  font-size: 32px;
+  font-weight: lighter;
+  margin-right: 90px;
+  display: inline-block;
+  float: right;
+}
+
+h3 {
+  margin-top: 17px;
+  font-family: @font-letters;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 35px;
+  float: inherit;
+}
+
+h6 {
+  font-family: @font-letters;
+  display: block;
+  font-weight: lighter;
+  font-size: 33px;
+  float: inherit;
+}
+
+ul {
+  margin-left: 90px;
+  li {
+    list-style: none;
+    font-family: @font-list;
+    color: @color-li;
+    font-size: 33px;
+    margin-top: 70px;
+  }
+}
+
+.first-container {
+  margin: 0 auto;
+  .size(@width, auto);
+}
+
+.second-container {
+  .size(auto, auto);
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
+  float: left;
+  background-color: @color-fondo;
+}
+
+.content {
+  .size(@width, auto);
+  margin: 0 auto;
+  margin-top: 15%;
+  margin-bottom: 190px;
+  background-color: @color-white;
+  box-shadow: 0 0 10px @color-shadow,
+              0 0 20px @color-shadow;
+}
+
+.contain-circle {
+  .size(100%, 150px);
+  clear: both;
+  margin-top: 80px;
+}
+
+.circle-button {
+  .size(200px, 200px);
+  margin-left: 275px;
+  margin-top: 50px;
+  color: lighten(@color-button-text, 30%);
+  font-size: 100px;
+  background-color: @color-green;
+  border: 0;
+  border-radius: 50%;
+}
+
+input[type="checkbox"] {
+    display:none;
+    float: right;
+    margin-right: 40px;
+    & + label span {
+        float: right;
+        margin-right: 90px;
+        width:34px;
+        height:34px;
+        border: 6px solid @color-inactive;
+        border-radius: 50%;
+    }
+    &:checked + label span {
+        background:url("../img/garabato.png");
+        background-size: contain;
+        border: 6px solid @color-green;
+    }
+    &:checked + label {
+        color: @color-text-checked;
+    }
+}
