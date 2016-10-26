@@ -1,0 +1,248 @@
+@background-color: #F0EFE9;
+@text-color: #5E6170;
+@text-color-active: #bdc0ca;
+@green: #50E3A4;
+@dark-green:#46BE8B;
+
+@font-face {
+	font-family: 'Gotham Med';
+	src: url('Gotham.eot');
+	src:
+		local('Gotham Med'),
+		local('Gotham-Med'),
+		url('Gotham.otf')
+		format('opentype');
+}
+
+@font-face {
+	font-family: 'Gotham B';
+	src: url('GothamB.eot');
+	src:
+		local('GothamB'),
+		local('Gotham-B'),
+		url('GothamB.otf')
+		format('opentype');
+}
+
+* {
+  margin:0px;
+  padding:0px;
+
+}
+
+body {
+  background-color: @background-color;
+
+}
+
+.container {
+  width:750px;
+  background-color: white;
+	height:auto;
+  margin:0 auto;
+  margin-top: 115px;
+  padding-top: 5px;
+
+}
+
+header {
+  width:84%;
+  height:90px;
+  margin:0 auto;
+  margin-top:50px;
+  .number {
+    float:left;
+    width:65px;
+    height:90px;
+    padding:6px;
+    margin-left: 5px;
+    h3 {
+      font-size: 62px;
+      font-family: Gotham Med;
+      color: @text-color;
+    }
+  }
+  .day {
+    float:right;
+    margin-right:25px;
+    margin-top: 22px;
+    h1 {
+     font-family: Gotham B;
+     color:@text-color;
+     font-weight: bolder;
+     font-size: 34px;
+    }
+  }
+  .monthandyear {
+    float:left;
+    width:65px;
+    height:60px;
+    margin-top: 15px;
+    margin-left: 10px;
+    .month {
+      float:left;
+      width:100px;
+      height:25px;
+      h3 {
+      font-family: Gotham Med;
+      color:@text-color;
+      }
+    }
+    .year {
+      float:left;
+      width:100px;
+      height:35px;
+      h3 {
+        font-family: Gotham B;
+        color:@text-color;
+      }
+    }
+  }
+}
+
+
+.to-dos {
+	display: inline-block;
+	width: 90%;
+	padding: 30px;
+	text-align: left;
+	vertical-align: top;
+	height:auto;
+	margin:0 auto;
+	margin-left: 15px;
+  text-decoration: none;
+  list-style: none;
+  padding: 35px;
+}
+
+li {
+  font-family: Gotham B;
+  color:@text-color;
+  font-size:24px;
+}
+
+.to-do {
+  height:100px;
+  float:left;
+  margin-left:14px;
+}
+
+.control {
+	font-size: 18px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 30px;
+	cursor: pointer;
+  input {
+  	position: absolute;
+  	z-index: -1;
+  	opacity: 0;
+  }
+  input:checked ~ .control__indicator:after {
+  	display: block;
+  }
+  input:checked ~ .control__indicator {
+  	background: white;
+  	border-color: @green;
+  }
+  input:checked ~ .control__indicator {
+  	background: white;
+  	border-color: @green;
+  }
+  input:checked ~ li {
+  	color:@text-color-active;
+  }
+  input:disabled ~ .control__indicator {
+  	pointer-events: none;
+  	opacity: .6;
+  	background: white;
+  }
+}
+
+.round-button {
+	width:18%;
+	top:65px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+  a {
+    display:block;
+  	float:left;
+  	width:100%;
+  	padding-top:44%;
+    padding-bottom:44%;
+  	line-height:1em;
+  	margin-top:-1.1em;
+  	text-align:center;
+  	color:@dark-green;
+    font-family:Verdana;
+    font-size:96px;
+    font-weight:bold;
+    text-decoration:none;
+  }
+}
+
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+  border-radius: 50%;
+  overflow:hidden;
+	background: @green;
+
+}
+
+.control__indicator {
+	position: absolute;
+	top: 2px;
+	left: 550px;
+	width: 28px;
+	height: 28px;
+	border-width: medium;
+  border-color:@text-color-active;
+  border-style:solid;
+  border-radius: 50%;
+
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+
+}
+
+.control__indicator:after {
+	position: absolute;
+	display: none;
+	content: '';
+
+}
+
+.control--checkbox .control__indicator:after {
+	top: 4px;
+	left: 10px;
+	width: 5px;
+	height: 15px;
+	transform: rotate(45deg);
+	border: solid @green;
+	border-width: 0 3px 3px 0;
+}
+
+.control--checkbox input:disabled ~ .control__indicator:after {
+	border-color: @text-color-active;
+}
+
+.control--radio .control__indicator:after {
+	top: 7px;
+	left: 7px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+}
+
+.control--radio input:disabled ~ .control__indicator:after {
+	background: @text-color-active;
+}
