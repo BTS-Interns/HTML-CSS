@@ -1,0 +1,116 @@
+@import "variables.less";
+@import "mixins.less";
+
+html, body {
+  width: 100%;
+  background-color: @back-color;
+}
+
+form {
+  width: 750px;
+  margin: auto;
+  background-color: white;
+  font-size: 1.2em;
+  padding: 150px;
+  padding-top: 50px;
+  position: relative;
+
+}
+
+.date {
+  font-family: GRmedium;
+  color: @head-text-color;
+  width: 100%;
+  #clearing;
+
+  h1 {
+    font-size: 2em;
+    float: right;
+    margin: 0px;
+    padding-top: 5px;
+
+  }
+
+  h2 {
+    font-size: 2.4em;
+    float: left;
+    margin: 0px;
+    padding-top: 5px;
+
+  }
+
+  .intern {
+    width: 50px;
+    float: left;
+    margin: 0px;
+    padding-left: 5px;
+
+      h3 {
+        font-size: 0.8em;
+      }
+
+  }
+
+}
+
+.chbox {
+  width: 100%;
+  height: 30px;
+  font-family: GRbook;
+  margin-top: 10px;
+  position: relative;
+  color: @text-notChecked-color;
+
+  input {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0;
+    width: 25px;
+    height: 25px;
+    #above;
+
+  }
+
+  span {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid @circle-color;
+    border-radius: 50%;
+    #under;
+
+  }
+
+  input:checked ~ span {
+    background-image: url(@checked-image);
+    background-size: contain;
+    border-color: lime;
+
+  }
+
+  input[type="checkbox"]:checked + label {
+    color: @text-checked-color;
+
+  }
+
+}
+
+button {
+  font-size: 100px;
+  padding: 55px;
+  #round-border;
+  background-color: @button-color;
+  position: absolute;
+  left: 440px;
+  bottom: -90px;
+
+  div {
+    #square-text;
+    color: @button-text-color;
+
+  }
+
+}

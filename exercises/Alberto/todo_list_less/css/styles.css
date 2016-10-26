@@ -1,0 +1,131 @@
+@font-face {
+  font-family: GRmedium;
+  src: url('../fonts/Gotham Rounded Medium.otf') format("truetype");
+}
+@font-face {
+  font-family: GRbook;
+  src: url('../fonts/Gotham Rounded Book.otf') format("truetype");
+}
+#round-border {
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+  border-left: 2px solid gray;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+#square-text {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#clearing {
+  overflow: auto;
+}
+#under {
+  z-index: 1;
+}
+#among {
+  z-index: 2;
+}
+#above {
+  z-index: 3;
+}
+html,
+body {
+  width: 100%;
+  background-color: #f0efe9;
+}
+form {
+  width: 750px;
+  margin: auto;
+  background-color: white;
+  font-size: 1.2em;
+  padding: 150px;
+  padding-top: 50px;
+  position: relative;
+}
+.date {
+  font-family: GRmedium;
+  color: #616473;
+  width: 100%;
+  overflow: auto;
+}
+.date h1 {
+  font-size: 2em;
+  float: right;
+  margin: 0px;
+  padding-top: 5px;
+}
+.date h2 {
+  font-size: 2.4em;
+  float: left;
+  margin: 0px;
+  padding-top: 5px;
+}
+.date .intern {
+  width: 50px;
+  float: left;
+  margin: 0px;
+  padding-left: 5px;
+}
+.date .intern h3 {
+  font-size: 0.8em;
+}
+.chbox {
+  width: 100%;
+  height: 30px;
+  font-family: GRbook;
+  margin-top: 10px;
+  position: relative;
+  color: #3e434f;
+}
+.chbox input {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+  z-index: 3;
+}
+.chbox span {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #eef0f5;
+  border-radius: 50%;
+  z-index: 1;
+}
+.chbox input:checked ~ span {
+  background-image: url("../images/garabato.png");
+  background-size: contain;
+  border-color: lime;
+}
+.chbox input[type="checkbox"]:checked + label {
+  color: #bdc0ca;
+}
+button {
+  font-size: 100px;
+  padding: 55px;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+  border-left: 2px solid gray;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #51E3A4;
+  position: absolute;
+  left: 440px;
+  bottom: -90px;
+}
+button div {
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgba(0, 80, 255, 0.5);
+}
