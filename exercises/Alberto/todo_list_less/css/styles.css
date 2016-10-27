@@ -7,14 +7,8 @@
   src: url('../fonts/Gotham Rounded Book.otf') format("truetype");
 }
 #round-border {
-  border-top: 2px solid gray;
-  border-right: 2px solid gray;
-  border-bottom: 2px solid gray;
-  border-left: 2px solid gray;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border: 2px solid #51E3A4;
+  border-radius: 50%;
 }
 #square-text {
   padding-left: 30px;
@@ -41,9 +35,7 @@ form {
   width: 750px;
   margin: auto;
   background-color: white;
-  font-size: 1.2em;
   padding: 150px;
-  padding-top: 50px;
   position: relative;
 }
 .date {
@@ -53,13 +45,13 @@ form {
   overflow: auto;
 }
 .date h1 {
-  font-size: 2em;
+  font-size: 4em;
   float: right;
   margin: 0px;
   padding-top: 5px;
 }
 .date h2 {
-  font-size: 2.4em;
+  font-size: 5em;
   float: left;
   margin: 0px;
   padding-top: 5px;
@@ -67,18 +59,20 @@ form {
 .date div:first-of-type {
   width: 50px;
   float: left;
-  margin: 0px;
-  padding-left: 5px;
+  padding-left: 15px;
+  font-size: 1.7em;
+  margin-top: 15px;
 }
 .date div:first-of-type h3 {
-  font-size: 0.8em;
+  margin: 0px;
 }
 .chbox {
   width: 100%;
-  height: 30px;
   font-family: GRbook;
-  margin-top: 10px;
+  margin-top: 120px;
   position: relative;
+  font-size: 2.7em;
+  font-weight: 500;
   color: #3e434f;
 }
 .chbox input {
@@ -86,16 +80,16 @@ form {
   top: 0px;
   right: 0px;
   opacity: 0;
-  width: 25px;
-  height: 25px;
+  width: 70px;
+  height: 7025px;
   z-index: 3;
 }
 .chbox span {
   position: absolute;
-  top: 3px;
+  top: 0px;
   right: 0px;
-  width: 25px;
-  height: 25px;
+  width: 70px;
+  height: 70px;
   border: 2px solid #eef0f5;
   border-radius: 50%;
   z-index: 1;
@@ -109,22 +103,16 @@ form {
   color: #bdc0ca;
 }
 button {
-  font-size: 100px;
   padding: 55px;
-  border-top: 2px solid gray;
-  border-right: 2px solid gray;
-  border-bottom: 2px solid gray;
-  border-left: 2px solid gray;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border: 2px solid #51E3A4;
+  border-radius: 50%;
   background-color: #51E3A4;
   position: absolute;
-  left: 440px;
-  bottom: -90px;
+  left: 430px;
+  bottom: -120px;
 }
 button div {
+  font-size: 100px;
   padding-left: 30px;
   padding-right: 30px;
   color: rgba(0, 80, 255, 0.5);
