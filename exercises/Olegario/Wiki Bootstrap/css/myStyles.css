@@ -1,29 +1,139 @@
-.navbar-default {
-  background-color: #23638D;
-  color: #46BCDA;
-  //font-weight: bold;
-}
-
-.navbar-default .active {
-  background-color: #46BCDA;
-}
-
-.navbar-header {
-  color: #46BCDA;
-}
-
-.navbar-default .active {
-  background-color: #46BCDA;
-}
-
-.nav {
-  color: #46BCDA;
-}
-
 body {
-  color: #3699A6;
+padding-top:50px;
 }
 
-a {
-  color: #46BCDA;
+#masthead {
+min-height:270px;
+background-color:#000044;
+color:#aaaacc;
+}
+
+#masthead h1 {
+font-size: 55px;
+line-height: 1;
+}
+
+#masthead .well {
+margin-top:13%;
+background-color:#111155;
+border-color:#000033;
+}
+
+.icon-bar {
+background-color:#fff;
+}
+
+#sidebar.nav .nav {
+display: none;
+font-size:12px;
+}
+
+#sidebar.nav>.active>ul {
+display: block;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 100px;
+  }
+}
+
+.navbar-bright {
+background-color:#111155;
+color:#fff;
+}
+
+.navbar-bright a, #masthead a, #masthead .lead {
+color:#aaaacc;
+}
+
+.navbar-bright li > a:hover {
+background-color:#000033;
+}
+
+.navbar-bright li.active {
+background-color:#000033;
+}
+
+.affix-top,.affix{
+position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:30px;
+    width:128px;
+  }
+
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:128px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:4px;
+}
+
+.ad {
+  position: absolute;
+  bottom: 70px;
+  right: 48px;
+  z-index: 992;
+  background-color:#f3f3f3;
+  position: fixed;
+  width: 155px;
+  padding:1px;
+}
+
+.ad-btn-hide {
+  position: absolute;
+  top: -10px;
+  left: -12px;
+  background: #fefefe;
+  background: rgba(240,240,240,0.9);
+  border: 0;
+  border-radius: 26px;
+  cursor: pointer;
+  padding: 2px;
+  height: 25px;
+  width: 25px;
+  font-size: 14px;
+  vertical-align:top;
+  outline: 0;
+}
+
+.carbon-img {
+  float:left;
+  padding: 10px;
+}
+
+.carbon-text {
+  color: #888;
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: 400;
+  height: 60px;
+  margin-left: 9px;
+  width: 142px;
+  padding-top: 10px;
+}
+
+.carbon-text:hover {
+  color: #666;
+}
+
+.carbon-poweredby {
+  color: #6A6A6A;
+  float: left;
+  font-family: Verdana;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 13px;
+  text-align: center;
 }
