@@ -46,70 +46,918 @@
 	</head>
 	
 	<body>
-		<nav class = "navbar navbar-fixed-top navbar-inverse">
-			<div class = "container">
-				<div class = "navbar-header">
-					<button type = "button"
-					        class = "navbar-toggle collapsed"
-					        data-toggle = "collapse"
-					        data-target = "#navbar"
-					        aria-expanded = "false"
-					        aria-controls = "navbar">
-						<span class = "sr-only">Toggle navigation</span>
-						<span class = "icon-bar"></span>
-						<span class = "icon-bar"></span>
-						<span class = "icon-bar"></span>
-					</button>
-					<a class = "navbar-brand"
-					   href = "#">wiki</a>
-				</div>
-				<div id = "navbar"
-				     class = "collapse navbar-collapse">
-					<ul class = "nav navbar-nav">
-						<li><a href = "index.html">Home</a></li>
-						<li><a href = "about.html">About</a></li>
-						<li class = "active"><a href = "html.html">HTML</a></li>
-						<li ><a href = "css.html">CSS</a></li>
-					</ul>
-				</div><!-- /.nav-collapse -->
-			</div><!-- /.container -->
-		</nav><!-- /.navbar -->
-	
+		<header>
+			<nav class = "navbar navbar-fixed-top navbar-inverse">
+				<div class = "container">
+					<div class = "navbar-header">
+						<button type = "button"
+						        class = "navbar-toggle collapsed"
+						        data-toggle = "collapse"
+						        data-target = "#navbar"
+						        aria-expanded = "false"
+						        aria-controls = "navbar">
+							<span class = "sr-only">Toggle navigation</span>
+							<span class = "icon-bar"></span>
+							<span class = "icon-bar"></span>
+							<span class = "icon-bar"></span>
+						</button>
+						<a class = "img-thumbnail"
+						   href = "index.html"></a>
+					</div>
+					<div id = "navbar"
+					     class = "collapse navbar-collapse">
+						<ul class = "nav navbar-nav">
+							<li><a href = "index.html">Home</a></li>
+							<li><a href = "about.html">About</a></li>
+							<li class = "active"><a href = "html.html">HTML</a></li>
+							<li><a href = "css.html">CSS</a></li>
+						</ul>
+					</div><!--
+							</li>
+							<li><a href = "css.html">CSS</a></li>
+						</ul>
+					</div><!-- /.nav-collapse -->
+				</div><!-- /.container -->
+			</nav><!-- /.navbar -->
+		</header>
+		
+		
 		<div class = "container">
-			
+			<div class = "col-xs-12 col-sm-9">
+				<h1 id = "html">HTML</h1>
+				<p>HTML (HyperText Markup Language) is a descriptive language that specifies
+				   webpage structure.
+				
+				   Brief history
+				   In 1990, as part of his vision of the Web, Tim Berners-Lee defined the
+				   concept of hypertext, which Berners-Lee formalized the following year through
+				   a markup mainly based on SGML. The IETF began formally specifying HTML in
+				   1993, and after several drafts released version 2.0 in 1995. In 1994
+				   Berners-Lee founded the W3C to develop the Web. In 1996, the W3C took over
+				   the HTML work and published the HTML 3.2 Recommendation a year later. HTML
+				   4.0 was released in 1999 and became an ISO standard in 2000.
+				
+				   At that time, the W3C nearly abandoned HTML in favor of XHTML, prompting the
+				   founding of an independent group called WHATWG in 2004. Thanks to WHATWG,
+				   work on HTML5 continued: the two organizations released the first draft in
+				   2008 and the final standard in 2014.
+				
+				   Concept and syntax
+				   An HTML document is a plaintext document structured with elements. Elements
+				   are surrounded by matching opening and closing tags. Each tag begins and ends
+				   with angle brackets (<>). There are a few empty or void tags that cannot
+				   enclose any text, for instance < img >.
+				
+				   You can extend HTML tags with attributes, which provide additional
+				   information affecting how the browser interprets the element:</p>
+				<div class = "row">
+					<div class = "col-xs-12">
+						<h2 id = "a1">< a ></h2>
+						<p>The HTML Anchor Element (< a >) defines a hyperlink to a location on the
+						   same page or any other page on the Web. It can also be used (in an
+						   obsolete way) to create an anchor point—a destination for hyperlinks
+						   within the content of a page, so that links aren't limited to connecting
+						   simply to the top of a page.</p>
+						
+						<h2 id = "a2">< abbr ></h2>
+						<p>The HTML < abbr > element (or HTML Abbreviation Element) represents an
+						   abbreviation and optionally provides a full description for it. If
+						   present, the title attribute must contain this full description and
+						   nothing else.
+						</p>
+						
+						<h2 id = "a4">< address ></h2>
+						<p>The HTML < address > element supplies contact information for its
+						   near</p>
+						
+						<h2 id = "a6">< area ></h2>
+						<p>The HTML < area > element defines a hot-spot region on an image, and
+						   optionally associates it with a hypertext link. This element is used only
+						   within a < map > element.n</p>
+						
+						<h2 id = "a7">< article ></h2>
+						<p>The HTML < article > element represents a self-contained composition in a
+						   document, page, application, or site, which is intended to be
+						   independently distributable or reusable (e.g., in syndication). This
+						   could be a forum post, a magazine or newspaper article, a blog entry, an
+						   object, or any other independent item of content. Each < article > should
+						   be identified, typically by including a heading (< h1 >-< h6 > element)
+						   as a child of the < article > element.</p>
+						
+						<h2 id = "a8">< aside ></h2>
+						<p>The HTML < aside > element represents a section of the page with content
+						   connected tangentially to the rest, which could be considered separate
+						   from that content. These sections are often represented as sidebars or
+						   inserts. They often contain the definitions on the sidebars, such as
+						   definitions from the glossary; there may also be other types of
+						   information, such as related advertisements; the biography of the author;
+						   web applications; profile information or related links on the blog.</p>
+						
+						<h2 id = "a9">< audio ></h2>
+						<p>The HTML < audio > element is used to embed sound content in documents.
+						   It may contain one or more audio sources, represented using the src
+						   attribute or the < source > element; the browser will choose the most
+						   suitable one.
+						
+						   Fallback content for browsers not supporting the < audio element can be
+						   added too, inside the opening and closing < audio >< /audio > tags.
+						
+						   The most basic playback functionality can be made available using the
+						   controls attribute (see below); for more advanced usage, audio playback
+						   and controls can be manipulated using the HTML Media API, and more
+						   specifically the features defined in the HTMLAudioElement interface.
+						
+						   You can also use the Web Audio API to directly generate and manipulate
+						   audio streams from JavaScript code. See Web Audio API for details.</p>
+						
+						<h2 id = "a10">< b ></h2>
+						<p>The HTML < b > Element represents a span of text stylistically different
+						   from normal text, without conveying any special importance
+						   or relevance. It is typically used for keywords in a
+						   summary, product names in a review, or other spans of text
+						   whose typical presentation would be boldfaced. Another
+						   example of its use is to mark the lead sentence of each
+						   paragraph of an article.</p>
+						
+						<h2 id = "a11">< base ></h2>
+						<p>The HTML < base > element specifies the base URL to use for all relative
+						   URLs contained within a document. There can be only one < base > element
+						   in a document.
+						
+						   The base URL of a document can be queried from a script using
+						   document.baseURI.</p>
+						
+						<h2 id = "a13">< bdi ></h2>
+						<p>The HTML < bdi > Element (or Bi-Directional Isolation Element) isolates a
+						   span of
+						   text that might be formatted in a different direction from other
+						   text outside it.
+						   This element is useful when embedding text with an unknown
+						   directionality, from a database for example, inside text with a
+						   fixed directionality.
+						</p>
+						
+						<h2 id = "a14">< bdo ></h2>
+						<p>The HTML < bdo > Element (or HTML bidirectional override element) is used
+						   to override the current directionality of text. It causes
+						   the directionality of the characters to be ignored in
+						   favor of the specified directionality.</p>
+						
+						<h2 id = "a18">< blockquote ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a19">< body></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a20">< br ></h2>
+						<p>The HTML element line break < br > produces a line break in text
+						   (carriage-return). It is useful for writing a poem or an address, where
+						   the division of lines is significant.
+						   Do not use < br > to increase the gap between lines of text; use the CSS
+						   margin property or the < p > element.</p>
+						
+						<h2 id = "a21">< button> </h2>
+						<p>The HTML < button > Element represents a clickable button.</p>
+						
+						<h2 id = "a22">< canvas ></h2>
+						<p>The HTML < canvas > Element can be used to draw graphics via scripting
+						   (usually JavaScript). For example, it can be used to draw graphs, make
+						   photo compositions or even perform animations. You may (and should)
+						   provide alternate content inside the < canvas > block. That content will
+						   be rendered both on older browsers that don't support canvas and in
+						   browsers with JavaScript disabled.
+						
+						   For more articles on canvas, see the canvas topic page.</p>
+						
+						<h2 id = "a23">< caption > </h2>
+						<p>The HTML < caption > Element (or HTML Table Caption Element) represents
+						   the title of a table. Though it is always the first descendant of a <
+						   table >, its styling, using CSS, may place it elsewhere, relative to the
+						   table.</p>
+						
+						
+						<h2 id = "a25">< cite ></h2>
+						<p>The HTML Citation Element (< cite >) represents a reference to a creative
+						   work. It must include the title of a work or a URL reference, which may
+						   be in an abbreviate</p>
+						
+						<h2 id = "a26">< code ></h2>
+						<p>The HTML Code Element (< code >) represents a fragment of computer code.
+						   By default, it is displayed in the browser's default monospace font.</p>
+						
+						<h2 id = "a27">< col ></h2>
+						<p>The HTML Table Column Element (< col >) defines a column within a table
+						   and is used for defining common semantics on all common cells. It is
+						   generally found within a < colgroup > element.
+						   This element allows styling columns using CSS, but only a few attributes
+						   will have an effect on the column (see the CSS 2.1 specification for a
+						   list).</p>
+						
+						<h2 id = "a28">< colgroup ></h2>
+						<p>The HTML Table Column Group Element (< colgroup >) defines a group of columns within a table.</p>
+						
+						
+						<h2 id = "a30">< content ></h2>
+						<p>The HTML < content > element is used inside of Shadow DOM as an insertion point. It is not intended to be used in ordinary HTML. It is used with Web Components. It has now been replaced by the < slot > element.</p>
+						
+						<h2 id = "a31">< data ></h2>
+						<p>The HTML < data > Element links a given content with a machine-readable
+						   translation. If the content is time- or date-related, the < time > must
+						   be used.</p>
+						
+						<h2 id = "a32">< datalist ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a33">< dd ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a34">< del ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a35">< details ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a36">< dfn ></h2>
+						<p>The HTML Definition Element (< dfn >) represents the defining instance of
+						   a term.</p>
+						
+						<h2 id = "a37">< dialog ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a38">< dir ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a39">< div ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a40">< dl ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a41">< dt ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a42">< element ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a43">< em ></h2>
+						<p>The HTML element emphasis < em > marks text that has stress emphasis. The
+						   < em > element can be nested, with each level of nesting indicating a
+						   greater degree of emphasis.</p>
+						
+						<h2 id = "a44">< embed ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a45">< fieldset ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a46">< figcaption > </h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a47">< figure ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a48">< font ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a49">< footer ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a50">< form ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a51">< frame ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a52">< frameset ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a53">< head ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a54">< header ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a55">< hgroup ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a56">< hr ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a57">< html ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a58">< i ></h2>
+						<p>The HTML < i > Element represents a range of text that is set off from
+						   the normal text for some reasoon, for example, technical terms, foreign
+						   language phrases, or fictional character thoughts. It is typically
+						   displayed in italic type.</p>
+						
+						<h2 id = "a59">< iframe ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a60">< image ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a61">< img > </h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a62">< input ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a63">< ins ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a64">< isindex ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a65">< kbd ></h2>
+						<p>The HTML Keyboard Input Element (< kbd >) represents user input and
+						   produces an inline element displayed in the browser's default monospace
+						   font.</p>
+						
+						<h2 id = "a66">< keygen ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a67">< label ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a68">< legend ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a69">< li ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a70">< link ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a71">< listing ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a72">< main ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a73">< map ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a74">< mark ></h2>
+						<p>The HTML Mark Element (< mark >) represents highlighted text, i.e., a run
+						   of text marked for reference purpose, due to its relevance in a
+						   particular context. For example it can be used in a page showing search
+						   results to highlight every instance of the searched-for word.</p>
+						
+						<h2 id = "a75">< marquee ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a76">< menu ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a77">< menuitem ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a78">< meta ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a79">< meter ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a80">< multicol ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a81">< nav ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a82">< nobr ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a83">< noembed ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a84">< noframes ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a85">< noscript></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a86">< object ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a87">< ol ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a88">< optgroup ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a89">< option > </h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a90">< output ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a91">< p ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a92">< param ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a93">< picture ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a94">< plaintext ></h2>
+						<p>We will have content here soon</p>
+						
+						<h2 id = "a95">< pre ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a96">< progress ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a97">< q ></h2>
+						<p>The HTML Quote Element (< q >) indicates that the enclosed text is a
+						   short inline quotation. This element is intended for short quotations
+						   that don't require paragraph breaks; for long quotations use < blockquote
+						   > element.</p>
+						<h2 id = "a98">< rp ></h2>
+						<p>The HTML < rp > element is used to provide fall-back parenthesis for
+						   browsers non-supporting ruby annotations. Ruby annotations are for
+						   showing pronunciation of East Asian characters, like using Japanese
+						   furigana or Taiwainese bopomofo characters. The < rp > element is used in
+						   the case of lack of < ruby > element support its content has what should
+						   be displayed in order to indicate the presence of a ruby annotation,
+						   usually parentheses.</p>
+						<h2 id = "a99">< rt ></h2>
+						<p>The HTML < rt > Element embraces pronunciation of characters presented in
+						   a ruby annotations, which are used to describe the pronunciation of East
+						   Asian characters. This element is always used inside a < ruby >
+						   element.</p>
+						<h2 id = "a100">< rtc ></h2>
+						<p>The HTML < rtc > Element embraces semantic annotations of characters
+						   presented in a ruby of < rb > elements used inside of < ruby > element. <
+						   rb > elements can have both pronunciation (< rt >) and semantic (< rtc >)
+						   annotations.</p>
+						<h2 id = "a101">< ruby ></h2>
+						<p>The HTML < ruby > Element represents a ruby annotation. Ruby annotations
+						   are for showing pronunciation of East Asian characters.</p>
+						<h2 id = "a102">< s ></h2>
+						<p>The HTML Strikethrough Element (< s >) renders text with a strikethrough,
+						   or a line through it. Use the < s > element to represent things that are
+						   no longer relevant or no longer accurate. However, < s > is not
+						   appropriate when indicating document edits; for that, use the < del > and
+						   < ins > elements, as appropriate.</p>
+						<h2 id = "a103">< samp ></h2>
+						<p>The HTML < samp > element is an element intended to identify sample
+						   output from a computer program. It is usually displayed in the browser's
+						   default monotype font (such as Lucida Console).</p>
+						<h2 id = "a104">< script ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a105">< section ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a106">< select ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a107">< shadow ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a108">< small ></h2>
+						<p>The HTML Small Element (< small >) makes the text font size one size
+						   smaller (for example, from large to medium, or from small to x-small)
+						   down to the browser's minimum font size. In HTML5, this element is
+						   repurposed to represent side-comments and small print, including
+						   copyright and legal text, independent of its styled presentation.</p>
+						<h2 id = "a109">< source ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a110">< spacer ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a111">< span ></h2>
+						<p>The HTML < span > element is a generic inline container for phrasing
+						   content, which does not inherently represent anything. It can be used to
+						   group elements for styling purposes (using the class or id attributes),
+						   or because they share attribute values, such as lang. It should be used
+						   only when no other semantic element is appropriate. < span > is very much
+						   like a < div > element, but < div > is a block-level element whereas a <
+						   span > is an inline element.</p>
+						<h2 id = "a112">< strike ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a113">< strong ></h2>
+						<p>The HTML Strong Element (< strong >) gives text strong importance, and is
+						   typically displayed in bold.</p>
+						<h2 id = "a114">< style ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a115">< sub ></h2>
+						<p>The HTML Subscript Element (< sub >) defines a span of text that should
+						   be displayed, for typographic reasoons, lower, and often smaller, than
+						   the
+						   main span of text.</p>
+						<h2 id = "a116">< summary ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a117">< sup ></h2>
+						<p>The HTML Superscript Element (< sup >) defines a span of text that should
+						   be displayed, for typographic reasoons, higher, and often smaller, than
+						   the main span of text.</p>
+						<h2 id = "a118">< table ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a119">< tbody ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a120">< td ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a121">< template ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a122">< textarea ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a123">< tfoot ></h2>
+						<p>We will have content here soon</p>
+						<h2 id = "a124">< th ></h2>
+						<p>The HTML element table header cell < th > defines a cell as header of a
+						   group of table cells. The exact nature of this group is defined by the
+						   scope and headers attributes.</p>
+						<h2 id = "a125">< thead ></h2>
+						<p>The HTML Table Head Element (< thead >) defines a set of rows defining
+						   the head of the columns of the table.</p>
+						
+						<h2 id = "a126">< time ></h2>
+						<p>The HTML < time > element represents either a time on a 24-hour clock or
+						   a precise date in the Gregorian calendar (with optional time and timezone
+						   information).
+						
+						   This element is intended to be used presenting dates and times in a
+						   machine readable format. This can be helpful for user agents to offer any
+						   event scheduling for user's calendar. </p>
+						
+						<h2 id = "a127">< title ></h2>
+						<p>The HTML < title > element defines the title of the document, shown in a
+						   browser's title bar or on the page's tab. It can only contain text, and
+						   any contained tags are ignored.</p>
+						
+						<h2 id = "a128">< tr ></h2>
+						<p>The HTML element table row < tr > defines a row of cells in a table.
+						   Those can be a mix of < td > and < th > elements.</p>
+						
+						<h2 id = "a129">< track ></h2>
+						<p>The HTML < track > element is used as a child of the media elements—<
+						   audio> and < video >. It lets you specify timed text tracks (or
+						   time-based data), for example to automatically handle subtitles. The
+						   tracks are formatted in WebVTT format (.vtt files) — Web Video Text
+						   Tracks.
+						
+						   The type of data that track adds to the media is set in the kind
+						   attribute, which can take values of subtitles, captions, descriptions,
+						   chapters or metadata. The element points to a source file containing
+						   timed text that the browser exposes when the user requests additional
+						   data.
+						
+						   A media element cannot have more than one track with the same kind,
+						   srclang, and label.</p>
+						
+						<h2 id = "a131">< u ></h2>
+						<p>The HTML Underline Element (< u >) renders text with an underline, a line
+						   under the baseline of its content.
+						
+						   In HTML5, this element represents a span of text with an unarticulated,
+						   though explicitly rendered, non-textual annotation, such as labeling the
+						   text as being a proper name in Chinese text (a Chinese proper name mark),
+						   or labeling the text as being misspelled.
+						
+						</p>
+						
+						<h2 id = "a132">< ul ></h2>
+						<p>The HTML < ul > element (or HTML Unordered List Element) represents an
+						   unordered list of items, namely a collection of items that do not have a
+						   numerical ordering, and their order in the list is meaningless.
+						   Typically, unordered-list items are displayed with a bullet, which can be
+						   of several forms, like a dot, a circle or a squared. The bullet style is
+						   not defined in the HTML description of the page, but in its associated
+						   CSS, using the list-style-type property.
+						
+						   There is no limitation to the depth and imbrication of lists defined with
+						   the < ol > and < ul > elements.</p>
+						
+						<h2 id = "a133">< var ></h2>
+						<p>The HTML Variable Element (< var >) represents a variable in a
+						   mathematical expression or a programming context.</p>
+						
+						<h2 id = "a134">< video ></h2>
+						<p>Use the HTML < video > element to embed video content in a document. The
+						   video element contains one or more video sources. To specify a video
+						   source, use either the src attribute or the < source > element; the
+						   browser will choose the most suitable one.</p>
+						
+						<h2 id = "a135">< wbr ></h2>
+						<p>The HTML element word break opportunity < wbr > represents a position
+						   within text where the browser may optionally break a line, though its
+						   line-breaking rules would not otherwise create a break at that location.
+						
+						   On UTF-8 encoded pages, < wbr > behaves like the U+200B ZERO-WIDTH SPACE
+						   code point. In particular, it behaves like a Unicode bidi BN code point,
+						   meaning it has no effect on bidi-ordering: < div dir=rtl>123,< wbr >456<
+						   /div > displays, when not broken on two lines, 123,456 and not 456,123.
+						
+						   For the same reasoon, the <﻿wbr﻿> element does not introduce a hyphen at
+						   the line break point. To make a hyphen appear only at the end of a line,
+						   use the soft hyphen character entity (&﻿shy;) instead.
+						
+						   This element was first implemented in Internet Explorer 5.5 and was
+						   officially defined in HTML5.
+						</p>
+					
+					
+					</div><!--/.col-xs-6.col-lg-4-->
+				</div><!--/row-->
+			</div><!--/.col-xs-12.col-sm-9-->
 			<div class = "row row-offcanvas row-offcanvas-right">
 				
 				<div class = "col-xs-6 col-sm-3 sidebar-offcanvas"
 				     id = "sidebar">
+					
 					<div class = "list-group">
-						<a href = "#"
-						   class = "list-group-item active">a-c</a>
-						<a href = "#"
-						   class = "list-group-item">d - f</a>
-						<a href = "#"
-						   class = "list-group-item">g - i</a>
-						<a href = "#"
-						   class = "list-group-item">j - l</a>
-						<a href = "#"
-						   class = "list-group-item">m - o</a>
-						<a href = "#"
-						   class = "list-group-item">p - r</a>
-						<a href = "#"
-						   class = "list-group-item">s - u</a>
-						<a href = "#"
-						   class = "list-group-item">w - z</a>
-					</div>
-				</div><!--/.sidebar-offcanvas-->
+						<a href = "#a1"
+						   class = "list-group-item">< a ></a>
+						<a href = "#a2"
+						   class = "list-group-item">< abbr ></a>
+						<a href = "#a3"
+						   class = "list-group-item">< acronym ></a>
+						<a href = "#a4"
+						   class = "list-group-item">< address ></a>
+						<a href = "#a5"
+						   class = "list-group-item">< applet ></a>
+						<a href = "#a6"
+						   class = "list-group-item">< area ></a>
+						<a href = "#a7"
+						   class = "list-group-item">< article ></a>
+						<a href = "#a8"
+						   class = "list-group-item">< aside ></a>
+						<a href = "#a9"
+						   class = "list-group-item">< audio ></a>
+						<a href = "#a10"
+						   class = "list-group-item">< b ></a>
+						<a href = "#a11"
+						   class = "list-group-item">< base ></a>
+						<a href = "#a12"
+						   class = "list-group-item">< basefont ></a>
+						<a href = "#a13"
+						   class = "list-group-item">< bdi ></a>
+						<a href = "#a14"
+						   class = "list-group-item">< bdo ></a>
+						<a href = "#a15"
+						   class = "list-group-item">< bgsound ></a>
+						<a href = "#a16"
+						   class = "list-group-item">< big ></a>
+						<a href = "#a17"
+						   class = "list-group-item">< blink ></a>
+						<a href = "#a18"
+						   class = "list-group-item">< blockquote ></a>
+						<a href = "#a19"
+						   class = "list-group-item">< body ></a>
+						<a href = "#a20"
+						   class = "list-group-item">< br ></a>
+						<a href = "#a21"
+						   class = "list-group-item">< button ></a>
+						<a href = "#a22"
+						   class = "list-group-item">< canvas ></a>
+						<a href = "#a23"
+						   class = "list-group-item">< caption ></a>
+						<a href = "#a24"
+						   class = "list-group-item">< center ></a>
+						<a href = "#a25"
+						   class = "list-group-item">< cite ></a>
+						<a href = "#a26"
+						   class = "list-group-item">< code ></a>
+						<a href = "#a27"
+						   class = "list-group-item">< col ></a>
+						<a href = "#a28"
+						   class = "list-group-item">< colgroup ></a>
+						<a href = "#a29"
+						   class = "list-group-item">< command ></a>
+						<a href = "#a30"
+						   class = "list-group-item">< content ></a>
+						<a href = "#a31"
+						   class = "list-group-item">< data ></a>
+						<a href = "#a32"
+						   class = "list-group-item">< datalist ></a>
+						<a href = "#a33"
+						   class = "list-group-item">< dd ></a>
+						<a href = "#a34"
+						   class = "list-group-item">< del ></a>
+						<a href = "#a35"
+						   class = "list-group-item">< details ></a>
+						<a href = "#a36"
+						   class = "list-group-item">< dfn ></a>
+						<a href = "#a37"
+						   class = "list-group-item">< dialog ></a>
+						<a href = "#a38"
+						   class = "list-group-item">< dir ></a>
+						<a href = "#a39"
+						   class = "list-group-item">< div ></a>
+						<a href = "#a40"
+						   class = "list-group-item">< dl ></a>
+						<a href = "#a41"
+						   class = "list-group-item">< dt ></a>
+						<a href = "#a42"
+						   class = "list-group-item">< element ></a>
+						<a href = "#a43"
+						   class = "list-group-item">< em ></a>
+						<a href = "#a44"
+						   class = "list-group-item">< embed ></a>
+						<a href = "#a45"
+						   class = "list-group-item">< fieldset ></a>
+						<a href = "#a46"
+						   class = "list-group-item">< figcaption ></a>
+						<a href = "#a47"
+						   class = "list-group-item">< figure ></a>
+						<a href = "#a48"
+						   class = "list-group-item">< font ></a>
+						<a href = "#a49"
+						   class = "list-group-item">< footer ></a>
+						<a href = "#a50"
+						   class = "list-group-item">< form ></a>
+						<a href = "#a51"
+						   class = "list-group-item">< frame ></a>
+						<a href = "#a52"
+						   class = "list-group-item">< frameset ></a>
+						<a href = "#a53"
+						   class = "list-group-item">< head ></a>
+						<a href = "#a54"
+						   class = "list-group-item">< header ></a>
+						<a href = "#a55"
+						   class = "list-group-item">< hgroup ></a>
+						<a href = "#a56"
+						   class = "list-group-item">< hr ></a>
+						<a href = "#a57"
+						   class = "list-group-item">< html ></a>
+						<a href = "#a58"
+						   class = "list-group-item">< i ></a>
+						<a href = "#a59"
+						   class = "list-group-item">< iframe ></a>
+						<a href = "#a60"
+						   class = "list-group-item">< image ></a>
+						<a href = "#a61"
+						   class = "list-group-item">< img ></a>
+						<a href = "#a62"
+						   class = "list-group-item">< input></a>
+						<a href = "#a63"
+						   class = "list-group-item">< ins ></a>
+						<a href = "#a64"
+						   class = "list-group-item">< isindex ></a>
+						<a href = "#a65"
+						   class = "list-group-item">< kbd ></a>
+						<a href = "#a66"
+						   class = "list-group-item">< keygen ></a>
+						<a href = "#a67"
+						   class = "list-group-item">< label ></a>
+						<a href = "#a68"
+						   class = "list-group-item">< legend ></a>
+						<a href = "#a69"
+						   class = "list-group-item">< li ></a>
+						<a href = "#a70"
+						   class = "list-group-item">< link ></a>
+						<a href = "#a71"
+						   class = "list-group-item">< listing ></a>
+						<a href = "#a72"
+						   class = "list-group-item">< main ></a>
+						<a href = "#a73"
+						   class = "list-group-item">< map ></a>
+						<a href = "#a74"
+						   class = "list-group-item">< mark ></a>
+						<a href = "#a75"
+						   class = "list-group-item">< marquee ></a>
+						<a href = "#a76"
+						   class = "list-group-item">< menu ></a>
+						<a href = "#a77"
+						   class = "list-group-item"><
+						                             menuitem
+						                             ></a>
+						<a href = "#a78"
+						   class = "list-group-item">< meta ></a>
+						<a href = "#a79"
+						   class = "list-group-item">< meter ></a>
+						<a href = "#a80"
+						   class = "list-group-item">< multicol ></a>
+						<a href = "#a81"
+						   class = "list-group-item">< nav ></a>
+						<a href = "#a82"
+						   class = "list-group-item">< nobr ></a>
+						<a href = "#a83"
+						   class = "list-group-item">< noembed ></a>
+						<a href = "#a84"
+						   class = "list-group-item"><
+						                             noframes
+						                             ></a>
+						<a href = "#a85"
+						   class = "list-group-item">< noscript ></a>
+						<a href = "#a86"
+						   class = "list-group-item">< object ></a>
+						<a href = "#a87"
+						   class = "list-group-item">< ol ></a>
+						<a href = "#a88"
+						   class = "list-group-item">< optgroup ></a>
+						<a href = "#a89"
+						   class = "list-group-item">< option ></a>
+						<a href = "#a90"
+						   class = "list-group-item">< output ></a>
+						<a href = "#a91"
+						   class = "list-group-item">< p ></a>
+						<a href = "#a92"
+						   class = "list-group-item">< param ></a>
+						<a href = "#a93"
+						   class = "list-group-item">< picture ></a>
+						<a href = "#a94"
+						   class = "list-group-item">< plaintext ></a>
+						<a href = "#a95"
+						   class = "list-group-item">< pre ></a>
+						<a href = "#a96"
+						   class = "list-group-item">< progress ></a>
+						<a href = "#a97"
+						   class = "list-group-item">< q ></a>
+						<a href = "#a98"
+						   class = "list-group-item">< rp ></a>
+						<a href = "#a99"
+						   class = "list-group-item">< rt ></a>
+						<a href = "#a100"
+						   class = "list-group-item">< rtc ></a>
+						<a href = "#a101"
+						   class = "list-group-item">< ruby ></a>
+						<a href = "#a102"
+						   class = "list-group-item">< s ></a>
+						<a href = "#a103"
+						   class = "list-group-item">< samp ></a>
+						<a href = "#a104"
+						   class = "list-group-item">< script ></a>
+						<a href = "#a105"
+						   class = "list-group-item">< section ></a>
+						<a href = "#a106"
+						   class = "list-group-item">< select ></a>
+						<a href = "#a107"
+						   class = "list-group-item">< shadow ></a>
+						<a href = "#a108"
+						   class = "list-group-item">< small ></a>
+						<a href = "#a109"
+						   class = "list-group-item">< source ></a>
+						<a href = "#a110"
+						   class = "list-group-item">< spacer ></a>
+						<a href = "#a111"
+						   class = "list-group-item">< span ></a>
+						<a href = "#a112"
+						   class = "list-group-item">< strike ></a>
+						<a href = "#a113"
+						   class = "list-group-item">< strong ></a>
+						<a href = "#a114"
+						   class = "list-group-item">< style ></a>
+						<a href = "#a115"
+						   class = "list-group-item">< sub ></a>
+						<a href = "#a116"
+						   class = "list-group-item">< summary ></a>
+						<a href = "#a117"
+						   class = "list-group-item">< sup ></a>
+						<a href = "#a118"
+						   class = "list-group-item">< table ></a>
+						<a href = "#a119"
+						   class = "list-group-item">< tbody ></a>
+						<a href = "#a120"
+						   class = "list-group-item">< td ></a>
+						<a href = "#a121"
+						   class = "list-group-item">< template ></a>
+						<a href = "#a122"
+						   class = "list-group-item">< textarea ></a>
+						<a href = "#a123"
+						   class = "list-group-item"><
+						                             tfoot
+						                             ></a>
+						<a href = "#a124"
+						   class = "list-group-item">< th ></a>
+						<a href = "#a125"
+						   class = "list-group-item">< thead ></a>
+						<a href = "#a126"
+						   class = "list-group-item">< time ></a>
+						<a href = "#a127"
+						   class = "list-group-item">< title ></a>
+						<a href = "#a128"
+						   class = "list-group-item">< tr ></a>
+						<a href = "#a129"
+						   class = "list-group-item">< track ></a>
+						<a href = "#a131"
+						   class = "list-group-item">< u ></a>
+						<a href = "#a132"
+						   class = "list-group-item">< ul ></a>
+						<a href = "#a133"
+						   class = "list-group-item">< var ></a>
+						<a href = "#a134"
+						   class = "list-group-item">< video ></a>
+						<a href = "#a135"
+						   class = "list-group-item">< wbr ></a>
+					</div><!--/row-->
+				</div><!--/row-->
 			</div><!--/row-->
-			
-			<hr>
-			
-			<footer>
-				<p>&copy; Eddy Velazquez</p>
-			</footer>
-		
 		</div><!--/.container-->
-		
+		<footer id = "footer">
+			<section id = "copyright">
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-md-12">
+							<p class = "copyright-text">
+								<a href = "http://http://www.bluetrailsoft.com/"> © bluetrail
+								                                                  software </a> |
+								                                                                2016
+								                                                                All
+								                                                                rights
+								                                                                reserved.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
 		
 		      <!-- Bootstrap core JavaScript
 			  ================================================== -->
@@ -127,3 +975,6 @@
 	
 	<!-- Mirrored from getbootstrap.com/examples/offcanvas/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Oct 2016 01:47:37 GMT -->
 </html>
+
+
+

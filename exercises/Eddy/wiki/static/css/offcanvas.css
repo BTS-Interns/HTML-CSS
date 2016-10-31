@@ -2,17 +2,77 @@
  * Style tweaks
  * --------------------------------------------------
  */
+
+@font-face {
+	font-family: 'Poiret';
+	font-style: normal;
+	src: url('../fonts/Poiret_One/PoiretOne-Regular.ttf');
+}
+
 html,
 body {
+
 	overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 
 body {
+	font-family: "Poiret", cursive;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	color: #4B8DA8;
 	padding-top: 70px;
+	padding-bottom: 0;
+	background-color: #24281D;
+}
+
+header {
+	position: relative;
+	top: -70px;
+	color: #fffaaa;
+	background-color: black;
+	width: 100%;
+	height: 450px;
+	background-image: url("../media/image/back.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation-name: init;
+	animation-duration: 10s;
+	animation-direction: normal;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-play-state: play;
+}
+
+@keyframes init {
+	0% {
+		background-position-y: 0;
+	}
+
+	100% {
+		background-position-y: -250px;
+	}
+
+
+}
+
+.img-circle {
+	background-image: url("../media/image/neebs.jpg");
+	height: 120px;
+	width: 120px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: -5px;
+	float: left;
+	margin-right: 20px;
 }
 
 footer {
-	padding: 30px 0;
+	padding: 40px 0 30px 0;
+	color: #788C66;
+	background-color: black;
+	text-align: center;
+	margin-top: 75px;
 }
 
 /*
@@ -76,37 +136,60 @@ footer {
 		width: 100%;
 		font-size: 16px;
 	}
-
-}
-
-.navbar-nav {
-	float: right;
-	margin: 0;
-
 }
 
 .navbar-inverse {
-	background-color: #000000;
+	position: fixed;
+	background-color: #788C66;
+	border: none;
 }
-.navbar-inverse .navbar-nav>.active>a  {
+
+.navbar-nav {
+	font-size: 18px;
+	font-weight: 900;
+	float: right;
+	margin: 0;
+}
+
+.navbar-inverse .navbar-brand {
+	font-size: 20px;
 	color: #fffaaa;
-	background-color: green;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	color: #fffaaa;
+	background-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: white;
+	background-color: black;
 }
 
 .list-group-item.active:hover {
 	background-color: #000000;
 	border-color: #000000;
+}
+
+.col-xs-12 {
+	text-align: justify;
+}
+
+.jumbotron {
+	background-color: transparent;
+	border: none;
+}
+
+.sidebar-offcanvas {
 
 }
-header{
+
+a.list-group-item {
 	color: #fffaaa;
-	background-color: green;
-	width: 100%;
-	height: 200px;
-}
-footer {
-	color: #fffaaa;
-	background-color: green;
 }
 
 a.list-group-item:hover {
@@ -120,3 +203,38 @@ a.list-group-item:hover {
 	border-color: #555555;
 }
 
+h1 {
+	font-size: 45px;
+	font-weight: bolder;
+	color: #fffaaa;
+	font-family: "Poiret", cursive;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: bolder;
+	color: #fffaaa;
+	font-family: "Poiret", cursive;
+}
+
+p {
+	font-size: 18px;
+	font-family: "Poiret", cursive;
+}
+
+.list-group {
+	font-size: 18px;
+	width: 280px;
+	height: 500px;
+	overflow-y: scroll;
+
+}
+
+.list-group::-webkit-scrollbar {
+	display: none;
+}
+
+.list-group-item {
+	border: none;
+	background-color: transparent;
+}
