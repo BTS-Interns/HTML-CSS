@@ -1,67 +1,272 @@
-html,
-body {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-body {
-  padding-top: 70px;
-}
-footer {
-  padding: 30px 0;
+/* Start padding on hero area */
+
+.cont-padd {
+    margin-top: 50px;
 }
 
-/*
- * Off Canvas
- * --------------------------------------------------
- */
-@media screen and (max-width: 767px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all .25s ease-out;
-         -o-transition: all .25s ease-out;
-            transition: all .25s ease-out;
-  }
+/* End padding on hero area */
 
-  .row-offcanvas-right {
-    right: 0;
-  }
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
 
-  .row-offcanvas-left {
-    left: 0;
-  }
+/* Start floating links on nav bar */
 
-  .row-offcanvas-right
-  .sidebar-offcanvas {
-    right: -50%; /* 6 columns */
-  }
-
-  .row-offcanvas-left
-  .sidebar-offcanvas {
-    left: -50%; /* 6 columns */
-  }
-
-  .row-offcanvas-right.active {
-    right: 50%; /* 6 columns */
-  }
-
-  .row-offcanvas-left.active {
-    left: 50%; /* 6 columns */
-  }
-
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 50%; /* 6 columns */
-  }
-}
-
-.navbar-brand > img {
-  margin-left: 10px;
-  height: 25px;
-  width: 25px;
-
-}
-
-.navbar-nav {
+.nav-float {
     float: right;
-    margin: 0;
 }
+
+/* End floating links on nav bar */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start Hero area */
+
+.hero-area {
+    height: 500px;
+    background-image: url("../media/hero-br.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero-area h1 {
+    margin-bottom: 50px;
+}
+
+.hero-area-about-me {
+    height: 500px;
+    background-image: url("../media/hero-bo.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.hero-area-about-me h1 {
+    margin-bottom: 30px;
+}
+
+.hero-area-css {
+    height: 300px;
+    background-image: url("../media/hero-css.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero-area-css h1 {
+    margin-bottom: 20px;
+}
+
+.hero-area-html {
+    height: 300px;
+    background-image: url("../media/hero-html.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero-area-html h1 {
+    margin-bottom: 20px;
+}
+
+.actived {
+    background-color: #440000;
+}
+
+/* End Hero area */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start profile about me */
+
+.profile-miguel {
+    height: 350px;
+    float: left;
+    margin-right: 30px;
+
+}
+
+/* End profile about me */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start format wiki content introduction */
+
+.content-introduction {
+    text-align: center;
+}
+
+.content-introduction h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.content-introduction p {
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+/* End format wiki content introduction */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start format wiki content */
+
+.content-element h2 {
+    padding-top: 50px;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.content-element p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+/* End format wiki content*/
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start example format */
+
+.example {
+    background-color: #DDEEFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.example h2 {
+    font-size: 20px;
+    padding-top: 0px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.example p {
+    font-size: 15px;
+    color: #115;
+    margin: 0;
+    padding-bottom: 10px;
+
+}
+
+.code-wrapper {
+    width: 100%;
+    background-color: #FFF;
+    padding: 5px;
+
+}
+
+/* End example format */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start atribute format */
+
+.atributes h3 {
+    font-size: 25px;
+}
+
+.atributes h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.atributes p {
+    font-size: 15px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+/* End atribute format */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start pagination format */
+
+.pag-aling {
+    text-align: center;
+}
+
+.pagination-color li a{
+    color: white;
+    background-color: #333;
+
+}
+
+.pagination-color li a:hover{
+    color: #AADDFF;
+    background-color: #000;
+
+}
+
+/* End pagination format */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start footer format */
+
+.footer-color {
+    background-color: #333;
+    color: #FFF;
+    position: absolute;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 8%;
+    z-index: 2px;
+
+}
+
+.footer-color ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+
+}
+
+.footer-color ul li a{
+    text-decoration: none;
+    color: #FFF
+}
+
+.footer-color ul li a:hover{
+    text-decoration: none;
+    color: #ADF;
+
+}
+
+.copyright {
+    padding-top: 30px;
+    padding-left: 38%;
+
+}
+
+/* End footer format */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+/* Start sidebar style */
+
+.sidebar-fixed {
+    position: fixed;
+    overflow-y: scroll;
+    width: 300px;
+    height: 550px;
+    margin-top: 80px;
+}
+
+/* End sidebar style */
+
+/*+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/

@@ -19,8 +19,8 @@
                     <a class="navbar-brand" href="home.html">WIKI</a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="home.html">Home</a></li>
+                    <ul class="nav navbar-nav nav-float">
+                        <li class="actived"><a href="home.html">Home</a></li>
                         <li><a href="aboutme.html">About Me</a></li>
                         <li><a href="html.html">HTML</a></li>
                         <li><a href="css.html">CSS</a></li>
@@ -28,61 +28,91 @@
                 </div><!-- /.nav-collapse -->
             </div><!-- /.container -->
         </nav><!-- /.navbar -->
-
+        <div class="jumbotron cont-padd hero-area">
+            <div class="container">
+                <h1>WIKI</h1>
+                <p>
+                    This is the place where you can find some of the most important thigs to start in the
+                    world of web development.
+                </p>
+            </div>
+        </div>
         <div class="container">
-
-            <div class="row row-offcanvas row-offcanvas-right">
-
-                <div class="col-xs-12 col-sm-9">
-                    <p class="pull-right visible-xs">
-                        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-                    </p>
-                    <div class="jumbotron">
-                        <h1>Home</h1>
-                        <p>This is the home page of the WIKI of HTML and CSS</p>
-                    </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
                     <div class="row">
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                        <div class="col-xs-12 col-lg-12 content-introduction">
+                            <h2>WIKI: HTML and CSS</h2>
+                            <p>
+                                This website is an internal project of the company Blue Trail Software
+                                in order to develop a website for consultation of the basic elements
+                                for web development using HTML as a markup language and CSS to style
+                                the website, applying the knowledge acquired during the internship.
+                            </p>
+                            <p>
+                                Well, on this site you will find several elements on web development
+                                as are the <a href="html.html">HTML</a> tags, used to build websites, and you can also find
+                                some of the rules and basic skills needed to give a style to your website using <a href="css.html">CSS</a>.
+                            </p>
                         </div><!--/.col-xs-6.col-lg-4-->
                     </div><!--/row-->
+
+                    <hr>
+
+                    <nav aria-label="Page navigation" class="pag-aling">
+                        <ul class="pagination pagination-color">
+                            <li><a href="home.html">HOME</a></li>
+                            <li><a href="aboutme.html">ABOUT ME</a></li>
+                            <li><a href="html.html">HTML</a></li>
+                            <li><a href="css.html">CSS</a></li>
+                        </ul>
+                    </nav>
                 </div><!--/.col-xs-12.col-sm-9-->
-
-                <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item active">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                        <a href="#" class="list-group-item">Link</a>
-                    </div>
-                </div><!--/.sidebar-offcanvas-->
             </div><!--/row-->
-
-            <hr>
-
-            <footer>
-                <p>&copy; 2016 Company, Inc.</p>
-            </footer>
-
         </div><!--/.container-->
 
+        <hr>
 
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-        <script src="offcanvas.js"></script>
+        <footer class="page-footer center-on-small-only footer-color">
+
+            <!--Footer Links-->
+            <div class="container-fluid">
+                <div class="row">
+
+                    <!--First column-->
+                    <div class="col-md-3 col-md-offset-1 first-column">
+                        <h5 class="title">ABOUT WIKI</h5>
+                        <p>Wiki. </p>
+                        <p>This wiki has the base to start web development with HTML and CSS.</p>
+                    </div>
+                    <!--/.First column-->
+                    <!--Second column-->
+                    <div class="col-md-2 col-md-offset-1 second-column">
+                        <h5 class="title">CONTACT ME</h5>
+                        <ul>
+                            <li><a href="mailto:miguedelgado1324@gmail.com">Send me a mail</a></li>
+                            <li><a href="tel:+523481058717">Call me</a></li>
+                        </ul>
+                    </div>
+                    <!--/.Second column-->
+                    <!--Third column-->
+                    <div class="col-md-2 col-md-offset-1 third-column">
+                        <h5 class="title">SOCIAL MEDIA</h5>
+                        <ul>
+                            <li><a href="https://www.facebook.com/migueld1324">Facebook</a></li>
+                            <li><a href="https://twitter.com/migueld1324">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--/.Footer Links-->
+            <!--Copyright-->
+            <div class="container-fluid copyright">
+                <p>
+                    © 2016 Copyright Miguel Delgado
+                </p>
+            </div>
+            <!--/.Copyright-->
+        </footer>
     </body>
 </html>
