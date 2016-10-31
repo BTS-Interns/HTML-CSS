@@ -9,8 +9,8 @@
     <meta name="keywords" content="html, wiki, basic, information">
     <meta name="author" content="Beto L&oacute;pez">
     <meta name="refresh" content="10">
-    <link rel="stylesheet" href="./css/styles.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="./foundation/css/foundation.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/styles.css" media="screen" title="no title" charset="utf-8">
   </head>
 
   <body>
@@ -31,6 +31,48 @@
       <h2>CSS Guide</h2>
     </header>
 
+    <h3>Relationships</h3>
+    <div class="row">
+      <div class="small-3 columns">
+        <b class "strong">A E</b>
+      </div>
+      <div class="small-9 columns"
+        <p class="text-justify">
+          Any E element that is a descendant of an A element (that is: a child, or a child of a child, etc.)
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-3 columns">
+        <b class "strong">A > E</b>
+      </div>
+      <div class="small-9 columns"
+        <p class="text-justify">
+          Any E element that is a child (i.e. direct descendant) of an A element
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-3 columns">
+        <b class "strong">A:first-child</b>
+      </div>
+      <div class="small-9 columns"
+        <p class="text-justify">
+          Any E element that is the first child of its parent
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-3 columns">
+        <b class "strong">B + E</b>
+      </div>
+      <div class="small-9 columns"
+        <p class="text-justify">
+          Any E element that is the next sibling of a B element (that is: the next child of the same parent)
+        </p>
+      </div>
+    </div>
+
     <h3>Pseudoclases</h3>
     <p>
       A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected.
@@ -41,7 +83,7 @@
         <h4>:active</h4>
         <p class="text-justify">
           The :active CSS pseudo-class matches when an element is being activated by the user. It allows the page to give a feedback that the activation has been detected by the browser.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:checked</h4>
@@ -51,13 +93,13 @@
       </div>
       <div class="medium-3 columns">
         <h4>:default</h4>
-        <p>
+        <p class="text-justify">
           The :default CSS pseudo-class represents any user interface element that is the default among a group of similar elements.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:disabled</h4>
-        <p>
+        <p class="text-justify">
           The :disabled CSS pseudo-class represents any disabled element. An element is disabled if it can't be activated (e.g. selected, clicked on or accept text input) or accept focus.
         </p>
       </div>
@@ -68,7 +110,7 @@
         <h4>:empty</h4>
         <p class="text-justify">
           The :empty pseudo-class represents any element that has no children at all. Only element nodes and text (including whitespace) are considered.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:enabled</h4>
@@ -78,13 +120,13 @@
       </div>
       <div class="medium-3 columns">
         <h4>:first-child</h4>
-        <p>
+        <p class="text-justify">
           The :first-child CSS pseudo-class represents any element that is the first child element of its parent.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:first-of-type</h4>
-        <p>
+        <p class="text-justify">
           The :first-of-type CSS pseudo-class represents the first sibling of its type in the list of children of its parent element.
         </p>
       </div>
@@ -95,7 +137,7 @@
         <h4>:focus</h4>
         <p class="text-justify">
           The :focus CSS pseudo-class is applied when an element has received focus, either from the user selecting it with the use of a keyboard or by activating with the mouse (e.g. a form input).
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:hover</h4>
@@ -105,13 +147,13 @@
       </div>
       <div class="medium-3 columns">
         <h4>:invalid</h4>
-        <p>
+        <p class="text-justify">
           The :invalid CSS pseudo-class represents any &lt;input&gt; or &lt;form&gt; element whose content fails to validate according to the input's type setting.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:last-child</h4>
-        <p>
+        <p class="text-justify">
           The :last-child CSS pseudo-class represents any element that is the last child element of its parent.
         </p>
       </div>
@@ -122,7 +164,7 @@
         <h4>:last-of-type</h4>
         <p class="text-justify">
           The :last-of-type CSS pseudo-class represents the last sibling with the given element name in the list of children of its parent element.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:link</h4>
@@ -132,13 +174,13 @@
       </div>
       <div class="medium-3 columns">
         <h4>:not( )</h4>
-        <p>
+        <p class="text-justify">
           The negation CSS pseudo-class, is a functional notation taking a simple selector X as an argument.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:nth-child</h4>
-        <p>
+        <p class="text-justify">
           The :nth-child(an+b) CSS pseudo-class matches an element that has an+b-1 siblings before it in the document tree, for a given positive or zero value for n, and has a parent element.
         </p>
       </div>
@@ -149,7 +191,7 @@
         <h4>:nth-last-of-type</h4>
         <p class="text-justify">
           The :nth-last-of-type CSS pseudo-class matches an element that has an+b-1 siblings with the same element name after it in the document tree, for a given positive or zero value for n, and has a parent element.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:nth-of-type</h4>
@@ -159,17 +201,253 @@
       </div>
       <div class="medium-3 columns">
         <h4>:only-child</h4>
-        <p>
+        <p class="text-justify">
           The :only-child CSS pseudo-class represents any element which is the only child of its parent.
-        </p class="text-justify">
+        </p>
       </div>
       <div class="medium-3 columns">
         <h4>:only-of-type</h4>
-        <p>
+        <p class="text-justify">
           The :only-of-type CSS pseudo-class represents any element that has no siblings of the given type.
         </p>
       </div>
     </div>
+
+    <div class="row">
+      <div class="medium-3 columns">
+        <h4>:optional</h4>
+        <p class="text-justify">
+          The :optional CSS pseudo-class represents any input or textarea element that does not have the required attribute set on it.
+        </p>
+      </div>
+      <div class="medium-3 columns">
+        <h4>:out-of-range</h4>
+        <p class="text-justify">
+          The :out-of-range CSS pseudo-class matches when an element has its value attribute outside the specified range limitations for this element.
+        </p>
+      </div>
+      <div class="medium-3 columns">
+        <h4>:read-only</h4>
+        <p class="text-justify">
+          The :read-only CSS pseudo-class matches when an element is not writable by the user.
+        </p>
+      </div>
+      <div class="medium-3 columns">
+        <h4>:read-write</h4>
+        <p class="text-justify">
+          The :read-write CSS pseudo-class matches when an element is editable by user like text input elements.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="medium-3 columns">
+        <h4>:required</h4>
+        <p class="text-justify">
+          The :required CSS pseudo-class represents any input element that has the required attribute set on it. This allows forms to easily indicate which fields must have valid data before the form can be submitted.
+        </p>
+      </div>
+      <div class="medium-3 columns">
+        <h4>:right</h4>
+        <p class="text-justify">
+          The :right CSS page pseudo-class matches any right page when printing a page. It allows to describe the styling of right-side page.
+        </p>
+      </div>
+      <div class="medium-3 columns">
+        <h4>:root</h4>
+        <p class="text-justify">
+          The :root CSS pseudo-class matches the root element of a tree representing the document.
+        </p>
+      </div>
+      <div class="medium-3 columns">
+        <h4>:target</h4>
+        <p class="text-justify">
+          The :target pseudo-class represents the unique element, if any, with an id matching the fragment identifier of the URI of the document.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="medium-3 medium-offset-3 columns">
+        <h4>:valid</h4>
+        <p class="text-justify">
+          The :valid CSS pseudo-class represents any input or form element whose content validates correctly according to the input's type setting.
+          </p>
+      </div>
+      <div class="medium-3 medium-offset-3 columns">
+        <h4>:visited</h4>
+        <p class="text-justify">
+          The :visited CSS pseudo-class lets you select only links that have been visited. This style may be overridden by any other link-related pseudo-classes, that is :link, :hover, and :active,
+        </p>
+      </div>
+
+      <h3>Pseudoelements</h3>
+      <p>
+        Just like pseudo-classes, pseudo-elements are added to selectors but instead of describing a special state, they allow you to style certain parts of a document.
+      </p>
+
+      <div class="row">
+        <div class="medium-3 columns">
+          <h4>::after</h4>
+          <p class="text-justify">
+            The CSS ::after pseudo-element matches a virtual last child of the selected element. It is typically used to add cosmetic content to an element by using the content CSS property. This element is inline by default.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>::before</h4>
+          <p class="text-justify">
+            ::before creates a pseudo-element that is the first child of the element matched. It is often used to add cosmetic content to an element by using the content property. This element is inline by default.</p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>::first-letter</h4>
+          <p class="text-justify">
+            The ::first-letter CSS pseudo-element selects the first letter of the first line of a block, if it is not preceded by any other content (such as images or inline tables) on its line.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>::first-line</h4>
+          <p class="text-justify">
+            The ::first-line CSS pseudo-element applies styles only to the first line of an element.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-3 columns">
+          <h4>::selection</h4>
+          <p class="text-justify">
+            The ::selection CSS pseudo-element applies rules to the portion of a document that has been highlighted by the user.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>::placeholder</h4>
+          <p class="text-justify">
+            The ::placeholder CSS pseudo-element represents the placeholder text of a form element. This allows web developers and theme designers to customize the appearance of placeholder text.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>::spelling-error</h4>
+          <p class="text-justify">
+            The ::spelling-error CSS pseudo-element represents a text segment which the browser has flagged as incorrectly spelled.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>::grammar-error</h4>
+          <p class="text-justify">
+            The ::grammar-error CSS pseudo-element represents a text segment which the browser has flagged as having grammatical error.
+          </p>
+        </div>
+      </div>
+
+      <h3>Text and font styling</h3>
+      <p>
+        <strong>Font styles: </strong>
+        Properties that affect the font that is applied to the text, affecting what font is applied, how big it is, whether it is bold, italic, etc.
+      </p>
+      <p>
+        <strong>Text layout styles: </strong>
+        Properties that affect the spacing and other layout features of the text, allowing manipulation of, for example, the space between lines and letters, and how the text is aligned within the content box.
+      </p>
+
+      <div class="row">
+        <div class="medium-3 columns">
+          <h4>color:</h4>
+          <p class="text-justify">
+            The color property sets the color of the foreground content of the selected elements. Color can accept any CSS color unit.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>font-family:</h4>
+          <p class="text-justify">
+            To set a different font on your text, you use the font-family property — this allows you to specify a font (or list of fonts) for the browser to apply to the selected elements.
+          </div>
+        <div class="medium-3 columns">
+          <h4>font-size:</h4>
+          <p class="text-justify">
+            The font-size of an element is inherited from that element's parent element. However the most common units you'll use to size text are: px, em, rem.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>font-style:</h4>
+          <p class="text-justify">
+            The font-style CSS property lets you select italic or oblique faces within a font-family. Italic forms are generally cursive in nature.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-3 columns">
+          <h4>font-weight:</h4>
+          <p class="text-justify">
+            Sets how bold the text is. This has many available values available in case you have many font variants available (such as -light, -normal, -bold, -extrabold, -black, 100-900).
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>text-transform:</h4>
+          <p class="text-justify">
+            Allows you to set your font to be transformed: none, uppercase, lowercase, capitalize, full-width.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>text-decoration:</h4>
+          <p class="text-justify">
+            Sets/unsets text decorations on fonts: none, underline, overline, line-through.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>text-shadow:</h4>
+          <p class="text-justify">
+            The text-shadow property adds shadows to text.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-3 columns">
+          <h4>text-align</h4>
+          <p class="text-justify">
+            The text-align property is used to control how text is aligned within its containing content box: left, right, center, justify.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>text-transform:</h4>
+          <p class="text-justify">
+            Allows you to set your font to be transformed: none, uppercase, lowercase, capitalize, full-width.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>text-decoration:</h4>
+          <p class="text-justify">
+            Sets/unsets text decorations on fonts: none, underline, overline, line-through.
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>text-shadow:</h4>
+          <p class="text-justify">
+            The text-shadow property adds shadows to text.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-3 columns">
+          <h4>letter-spacing</h4>
+          <p class="text-justify">
+            The letter-spacing CSS property specifies spacing behavior between text charact
+          </p>
+        </div>
+        <div class="medium-3 columns">
+          <h4>list-style</h4>
+          <p class="text-justify">
+            list-style define vignettes styles, those may be none, square, circle, an image, etc.
+          </p>
+        </div>
+        <div class="medium-3 medium-offset-3 columns">
+          <h4>@font-face</h4>
+          <p class="text-justify">
+            The @font-face CSS at-rule allows authors to specify online fonts to display text on their web pages. <b>font-family</b> specifies a name, and <b>src</b> specifies location
+          </p>
+        </div>
+      </div>
 
   </body>
 
