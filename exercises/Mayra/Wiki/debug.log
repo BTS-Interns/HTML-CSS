@@ -1,0 +1,10 @@
+[1026/171014:ERROR:process_info.cc(608)] range at 0x9e3a353400000000, size 0xb6 fully unreadable
+[1026/171014:ERROR:process_info.cc(608)] range at 0x9e3a355400000000, size 0xb6 fully unreadable
+[1026/171014:ERROR:process_info.cc(608)] range at 0x0, size 0xb6 fully unreadable
+[1030/234534:ERROR:process_info.cc(103)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::LDR_DATA_TABLE_ENTRY<struct crashpad::process_types::internal::Traits64>>(void *,unsigned __int64,struct crashpad::process_types::LDR_DATA_TABLE_ENTRY<struct crashpad::process_types::internal::Traits64> *): Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[1030/234534:ERROR:process_info.cc(330)] VirtualQueryEx: Acceso denegado. (0x5)
+[1030/234534:ERROR:process_info.cc(547)] ReadMemoryInfo failed
+[1030/234534:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ff7ddf589f0 of 12 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[1030/234534:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[1030/234534:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[1030/234534:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose.  (0xc000010a)

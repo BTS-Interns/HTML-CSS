@@ -10,31 +10,80 @@
 </head>
 <body>
     <header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="./html/aboutMe.html">About me</a></li>
-				<li><a href="./html/html.html">HTML</a></li>
-				<li><a href="./html/css.html" >CSS</a></li>
+		<div class="container-fluid">
+			<nav class="navbar navbar-default">
+  				<div class="container-fluid">
+    				<div class="navbar-header">
+     		 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+      					</button>
+      					<a class="navbar-brand" href="index.html">Mi wiki</a>
+    				</div>
 
-			</ul>
-		</nav>
-		<h1>Home</h1>
-		<h2>Wiki</h2>
-    </header>
-	<section class="index">
-		<div class="container">
-			<article class="article-index">
-
-			</article>
+    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     					 <ul class="nav navbar-nav">
+		    				<li><a href="index.html">Home</a></li>
+		    				<li><a href="./html/aboutMe.html">About me</a></li>
+		    				<li><a href="./html/html.html">HTML</a></li>
+		    				<li><a href="./html/css.html" >CSS</a></li>
+      					</ul>
+    				</div>
+  				</div>
+			</nav>
 		</div>
-	</section>
+		<div class="title">
+			<h1>Home</h1>
+			<h2>Wiki</h2>
+		</div>
+
+    </header>
+	<div class="container">
+		<section class="main row">
+			<article class="index col-xs-12 col-sm-8 col-md-9 col-lg-9">
+				<h2>What is it?</h2>
+				<p>
+					This is a page of information about HTML, CSS and something about me,
+					it is part of a draft program of internal company Blue Trail Software,
+					the am doing with the knowledge learned from the programmers front-end
+					 Paola Citlalli Aleman and Rodrigo Rodriguez Lopez.
+				 </p>
+				 <h5>Definition of HTML</h5>
+				<p>
+					 HTML is a programming language used for developing websites. This is the
+					 acronym for HyperText Markup Language, ie HyperText Markup Language, which
+					 could be translated as Language for Hypertext Document Format.
+				</p>
+				<p>It is an open format that emerged from the SGML (Standard Generalized Markup
+				 	Language) tags is understood as a system that allows you to sort and label
+				 	various documents within a list. This language is used to specify the names
+				 	of the labels to be used when ordering, there are no rules for the organization.
+				</p>
+				<h5>Definition of CSS</h5>
+				<p>
+					CSS is a language used in the presentation of HTML documents. An HTML document is being
+					usually "a website". It serves to organize the presentation and appearance of a web page.
+					This language is mainly used by web browsers and computer internet web programmers to choose
+					many display options such as colors, font types and sizes, etc.
+				</p>
+			</article>
+			<aside class="index col-xs-12 col-sm-4 col-md-3 col-lg-3">
+				Did you know the source HTML dates back to 1980, when physicist Tim Berners-Lee, working at CERN
+				(European Organization for Nuclear Research) proposed a new system of "hypertext" to share documents
+				this means that had as use a language for physicists to share their research.
+			</aside>
+		</section>
+	</div>
 	<footer class="footer">
-		<div class="container">
+		<div class="container-fluid">
+			<img src="" alt="">
 			<p>by Mayra Janette Huerta Carbajal</p>
 		</div>
 	</footer>
-	<script src=".js/jquery-3.1.1.min.js"></script>
-	<script src=".js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

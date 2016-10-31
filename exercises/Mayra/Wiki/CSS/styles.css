@@ -1,16 +1,58 @@
 /*fonts*/
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Eczar|Exo');
+
 /*fonts end*/
 /*normalize*/
 body {
     margin: 0;
     padding: 0;
+    background-color: #b7afbc;
+    position: static;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 /*end normalize*/
 header{
 	height: 400px;
 	width: 100%;
-	background-color: aquamarine;
+	background-image: url("../images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: orchid;
+    font-family: 'Eczar', serif;
+
+
+}
+
+.navbar-brand {
+    color: orchid;
+    font-family: 'Eczar', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #3e1853;
+}
+
+.title {
+    margin-top: 150px;
+    color: white;
+    text-shadow: 1px 0px 10px orchid,1px 0px 10px orchid,
+                1px 0px 20px orchid,1px 0px 30px orchid,
+                1px 0px 40px orchid,1px 0px 50px orchid,1px 0px 60px orchid,
+                0px 0px 100px orchid;
+}
+
+.navbar-nav > li > a {
+    padding-right: 30px;
 }
 
 hr:empty{
@@ -18,43 +60,114 @@ hr:empty{
 	text-decoration:
 }
 
+aside h5 {
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
 h1,h2{
-	text-align: center;
 	font-size: 50px;
+    text-align: center;
+
 }
 
-nav {
+p {
+     font-family: 'Exo', sans-serif;
+     font-size: 18px;
+}
+
+ .bold {
+     font-weight: bold;
+}
+.navbar-default {
 	text-align: right;
-	padding-top: 2%;
-	padding-right: 5%;
+    position: fixed;
+    background-color: #3e1853;
+    width: 100%;
+    height: 80px;
+    color: silver;
+    z-index: 1;
+    padding-top: 15px;
+
 }
 
-a{
-	text-align: center;
-	text-decoration: none;
-	padding-left: 20px;
+.navbar-nav{
+    float: right;
 }
 
-a:link { color: blue } /* enlaces no visitados */
-/*a:visited { color: purple } /* enlaces visitados */
-a:hover { font-weight: bold } /* el usuario pasa el cursor por encima */
-a:active { color: lime } /* enlaces activos */
-li{
+.navbar-toggle {
+    background-color: #3e1853;
+}
+.navbar-default .navbar-nav > li , .navbar-default .navbar-nav > li  {
+    color: orchid;
+    text-decoration: none;
+    background-color: #3e1853;
+    background-size: cover;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav> li > a:focus {
+    color: orchid;
+    text-decoration: none;
+    background-color: #450043;
+    background-size: cover;
+}
+
+.dropdown-menu {
+    color: orchid;
+    text-decoration: none;
+    background-color: #3e1853;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: silver;
+    background-color: #450043;
+}
+
+nav li{
 	font-size: 30px;
 	display: inline;
+
 }
+
+/*aside*/
+aside {
+    height: 100%;
+    padding-top: 20px;
+    margin-top: 20px;
+    border: 3px #333333 dotted;
+    font-size: 18px;
+    border: ;
+    border-top: ;
+    border-radius: ;
+    border-left: ;
+    border-bottom: ;
+    border-right: ;
+    border-color: ;
+
+}
+
+/*aside end*/
 /*footer*/
 footer {
-    background-color: black;
+    width: 100%;
+    height: 120px;
+    padding-top: 40px;
+    background-color: #3e1853;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: fuchsia;
+    font-family: 'Eczar', serif;
+    color: silver;
+    font-size: 50px;
+}
+
+footer p {
+    font-size: 40px;
+
 }
 /*footer end*/
 /*about me */
-.about-me {
-
-}
 
 .mayra {
 	width: 30%;
@@ -62,8 +175,14 @@ footer {
 	display: inline-block;
 }
 
+.font {
+    width: 90%;
+    height: auto;
+	display: inline-block;
+}
+
 .about-text {
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Exo', sans-serif;
 	font-size: 20px;
 	width: 65%;
 	height: auto;

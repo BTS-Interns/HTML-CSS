@@ -9,103 +9,562 @@
     <link rel="stylesheet" href="./../css/styles.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
-    <header>
-		<div class="container">
-			<nav>
-				<ul>
-					<li><a href="./../index.html">Home</a></li>
-					<li><a href="aboutMe.html">About me</a></li>
-					<li><a href="css.html">CSS</a></li>
-					<li><a href="html.html" >HTML</a></li>
+	<header>
+		<div class="container-fluid">
+			<div class="container-fluid">
+	            <nav class="navbar navbar-default">
+	                <div class="container-fluid">
+	                    <div class="navbar-header">
+	                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	                            <span class="sr-only">Toggle navigation</span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                            <span class="icon-bar"></span>
+	                        </button>
+	                        <a class="navbar-brand" href="./../index.html">Mi wiki</a>
+	                    </div>
 
-				</ul>
-			</nav>
-			<h1>HTML</h1>
-			<h2>subtítulo</h2>
+	                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                         <ul class="nav navbar-nav">
+	                             <li><a href="./../index.html">Home</a></li>
+	                             <li><a href="aboutMe.html">About me</a></li>
+	                             <li><a href="css.html">CSS</a></li>
+	                             <li><a href="html.html" >HTML</a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	            </nav>
+	        </div>
+			<div class="title">
+				<h1>HTML</h1>
+				<h2>Standard Generalized Markup Language</h2>
+			</div>
 		</div>
 
-    </header>
+
+	</header>
 	<div class="container">
 		<section class="main row">
-
 			<article class="html col-xs-12 col-sm-8 col-md-9 col-lg-9">
+				<br></br>
+				<p>HTML (HyperText Markup Language) es un lenguaje descriptivo que especifica la estructura de la 		página web.<br>
+					Un documento HTML es un documento de texto sin formato estructurado con elementos . Los elementos están rodeados de búsqueda de apertura y cierre de las etiquetas . Cada etiqueta comienza y termina con paréntesis angulares ( < >). Hay unos pocos vacíos o huecos   etiquetas que no se puede incluir cualquier texto, por ejemplo < img >.
+					Puede extender las etiquetas HTML con atributos , que proporcionan información adicional que afecta la forma en que el navegador interpreta el elemento.<br>
+						<img src="./../images/anatomy-html.png"><br>
+					Un HTML normalmente se guarda con una .htmo .htmlextensión, es servido por un servidor web , y puede representarse mediante cualquier navegador Web .<br>
+				</p>
+				<h3>Estrucutura básica de HTML</h3>
+				<p>&lt;&lt;!DOCTYPE html &gt;</p>
+				<p> &lt;	html &gt;</p>
+				<p>	&lt;	head &gt;</p>
+					<p>&lt;title &gt;&lt;/title &gt;</p>
+				<p>&lt;/head &gt;</p>
+				<p>&lt;body &gt;</p><br>
+				<p>code</p><br>
+				<p>&lt;/body &gt;</p>
+				<p>&lt;/html &gt;</p>
+				<h3> &lt; !DOCTYPE > </h3>
+				<p> El DOCTYPE es una declaración del estándar usado al construir un documento HTML o XHTML.
+					Sin embargo, para ser un poco más estrictos, debemos aclarar que el Doctype es propio de documentos XML y SGML, y por tanto los lenguajes HTML o XHTML son unos simples herederos de algo que ya se venía utilizando.
+				</p>
+				<p>	Así, se puede decir que los documentos HTML o XHTML están escritos en un lenguaje y con el 			Doctype especificamos este lenguaje y la versión del mismo. Los navegadores leerán esta 			declaración de doctype e interpretarán la página atendiendo a las reglas definidas en ese 			lenguaje.
+				</p>
+				<p>Los doctype más utilizados en la actualidad:
+				</p>
+				<p class="bold">Doctype XHTML 1.0 strict</p> <br>
+					<code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</code> <br>
+				<p class="bold">Doctype XHTML 1.0 transitional</p> <br>
+					<code> &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</code><br>
+				<p class="bold">Doctype XHTML 1.0 frameset</p><br>
+					<code> &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;</code><br>
+				<p class="bold">Doctype HTML 4.01 strict</p><br>
+					<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</code><br>
+				<p class="bold">Doctype HTML 4.01 transitional</p><br>
+					<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;</code><br>
+				<p class="bold">Doctype HTML 4.01 frameset</p><br>
+					<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"&gt;</code><br>
+				</p>
+				<p>El doctype debe incluirse en la primera línea del código HTML de la página.
+				</p>
+				<p>Esto dice que es un DOCTYPE de un documento HTML y nos da dos datos adicionales. Con el texto "-/	/W3C//DTD XHTML 1.0 Transitional//EN" indicamos que este documento se tiene que validar con la 		especificación de XHTML 1.0 y que el tipo de documento es Transitional. Por otra parte, http://		www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd es la URL del DTD que sirve para validar el 		código HTML de la página.</p>
+				<p><area> <p class="bold"><mark>Nota:</mark></p>  Para los navegadores es importante conocer el 			doctype de la página web, porque de ese modo pueden mostrar la página web con la versión exacta		 del lenguaje HTML o XHTML con la que fue construida. Si no tienen una declaración de doctype, interpretarán la página en lo que se llama "quirks mode", un modo que procura maximizar la compatibilidad de la página con versiones anteriores del lenguaje HTML.</area>
+				</p>
+				<cite>http://www.desarrolloweb.com/articulos/doctype-html.html</cite>
+				<h3>&lt;head&gt;</h3>
+				<p>Representa el contenido de un documento HTML. No puede haber un solo &lt;body>elemento de un documento.
+				</p>
+				<h3>&lt;body&gt;</h3>
+				<p>Elemento proporciona información general (metadatos) sobre el documento, incluyendo su título y enlaces a sus scripts y hojas de estilo.</p>
+				<h3>&lt;meta&gt;</h3>
+				<p>Este elemento representa cualquier información de metadatos que no puede ser representado por uno de los otros elementos relacionados con la meta HTML ( &lt;base>, &lt;link>, &lt;script>, &lt;style>o &lt;title>).
+				</p>
+				<p>Dependiendo del conjunto de atributos, el tipo de metadatos puede ser uno de los siguientes:</p>
+				<p>Si namese establece, es  el nivel de documento de metadatos , se aplica a toda la página.</p>
+				<p>Si http-equivse establece, se trata de una  directiva pragma , es decir, información que normalmente se concede por el servidor web acerca de cómo la página web debe ser servido.</p>
+				<p>Si charsetse establece, se trata de una  declaración de conjunto de caracteres , es decir, el conjunto de caracteres utilizado para la forma de serie de la página web.</p>
+				<p>Si itempropse establece, es metadatos definidos por el usuario y transparentes para el usuario-agente como la semántica de los metadatos es específica del usuario.</p>
+				<h3>&lt;title&gt;</h3>
+				<p>define el título del documento, se muestra en la barra de título de un navegador o en la ficha de la página. Sólo puede contener texto, y cualquier contenida etiquetas son ignorados.
+				</p>
+				<h1 >Metadatos del documento</h1>
+				<p>Los metadatos contienen información sobre la página. Esto incluye información sobre estilos,scripts y datos que ayudan al software (search engines, browsers, etc.) a usar y generar la página. Los metadatos de estilos y scripts pueden estar definidos en la página o estar enlazados a otro fichero que contiene la información.</p>
+				<h4>Element	Description</h4><p>Estos no se ven visuamente, pero sirven para los filtros de busqueda.</p>
 
-						<p>HTML (HyperText Markup Language) es un lenguaje descriptivo que especifica la estructura de la 		página web.<br>
-							Un documento HTML es un documento de texto sin formato estructurado con elementos . Los elementos están rodeados de búsqueda de apertura y cierre de las etiquetas . Cada etiqueta comienza y termina con paréntesis angulares ( < >). Hay unos pocos vacíos o huecos   etiquetas que no se puede incluir cualquier texto, por ejemplo < img >.
-							Puede extender las etiquetas HTML con atributos , que proporcionan información adicional que afecta la forma en que el navegador interpreta el elemento.<br>
-								<img src="./../images/anatomy-html.png"><br>
-							Un HTML normalmente se guarda con una .htmo .htmlextensión, es servido por un servidor web , y puede representarse mediante cualquier navegador Web .<br>
-						</p>
-					<hr>
-						<h3>Estrucutura básica de HTML</h3>
-						<p>&lt;&lt;!DOCTYPE html &gt;</p>
-						<p> &lt;	html &gt;</p>
-						<p>	&lt;	head &gt;</p>
-							<p>&lt;title &gt;&lt;/title &gt;</p>
-						<p>&lt;/head &gt;</p>
-						<p>&lt;body &gt;</p><br>
-						<p>code</p><br>
-						<p>&lt;/body &gt;</p>
-						<p>&lt;/html &gt;</p>
-					<hr>
-						<h3> &lt; !DOCTYPE > </h3>
-						<p> El DOCTYPE es una declaración del estándar usado al construir un documento HTML o XHTML.
-							Sin embargo, para ser un poco más estrictos, debemos aclarar que el Doctype es propio de documentos XML y SGML, y por tanto los lenguajes HTML o XHTML son unos simples herederos de algo que ya se venía utilizando.
-						</p>
-						<p>	Así, se puede decir que los documentos HTML o XHTML están escritos en un lenguaje y con el 			Doctype especificamos este lenguaje y la versión del mismo. Los navegadores leerán esta 			declaración de doctype e interpretarán la página atendiendo a las reglas definidas en ese 			lenguaje.
-						</p>
-						<p>Los doctype más utilizados en la actualidad:
-						</p>
-								<strong>Doctype XHTML 1.0 strict</strong> <br>
-									<code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</code> <br>
-								<strong>Doctype XHTML 1.0 transitional</strong> <br>
-									<code> &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</code><br>
-								<strong>Doctype XHTML 1.0 frameset</strong><br>
-									<code> &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;</code><br>
-								<strong>Doctype HTML 4.01 strict</strong><br>
-									<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</code><br>
-								<strong>Doctype HTML 4.01 transitional</strong><br>
-									<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;</code><br>
-								<strong>Doctype HTML 4.01 frameset</strong><br>
-									<code>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"&gt;</code><br>
-						</p>
-						<p>El doctype debe incluirse en la primera línea del código HTML de la página.
-						</p>
-						<p>Esto dice que es un DOCTYPE de un documento HTML y nos da dos datos adicionales. Con el texto "-/	/W3C//DTD XHTML 1.0 Transitional//EN" indicamos que este documento se tiene que validar con la 		especificación de XHTML 1.0 y que el tipo de documento es Transitional. Por otra parte, http://		www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd es la URL del DTD que sirve para validar el 		código HTML de la página.</p>
-						<p><area> <strong><mark>Nota:</mark></strong>  Para los navegadores es importante conocer el 			doctype de la página web, porque de ese modo pueden mostrar la página web con la versión exacta		 del lenguaje HTML o XHTML con la que fue construida. Si no tienen una declaración de doctype, interpretarán la página en lo que se llama "quirks mode", un modo que procura maximizar la compatibilidad de la página con versiones anteriores del lenguaje HTML.</area>
-								</p>
-								<cite>http://www.desarrolloweb.com/articulos/doctype-html.html</cite>
-					<hr>
-						<h3>&lt;head&gt;</h3>
-						<p>Representa el contenido de un documento HTML. No puede haber un solo &lt;body>elemento de un documento.
-						</p>
-						<h3>&lt;body&gt;</h3>
-						<p>Elemento proporciona información general (metadatos) sobre el documento, incluyendo su título y enlaces a sus scripts y hojas de estilo.</p>
-						<h3>&lt;meta&gt;</h3>
-						<p>Este elemento representa cualquier información de metadatos que no puede ser representado por uno de los otros elementos relacionados con la meta HTML ( &lt;base>, &lt;link>, &lt;script>, &lt;style>o &lt;title>).
-						</p>
-						<p>Dependiendo del conjunto de atributos, el tipo de metadatos puede ser uno de los siguientes:</p>
-						<p>Si namese establece, es  el nivel de documento de metadatos , se aplica a toda la página.</p>
-						<p>Si http-equivse establece, se trata de una  directiva pragma , es decir, información que normalmente se concede por el servidor web acerca de cómo la página web debe ser servido.</p>
-						<p>Si charsetse establece, se trata de una  declaración de conjunto de caracteres , es decir, el conjunto de caracteres utilizado para la forma de serie de la página web.</p>
-						<p>Si itempropse establece, es metadatos definidos por el usuario y transparentes para el usuario-agente como la semántica de los metadatos es específica del usuario.</p>
+				<h3>&lt; base > block</h3> <p>Especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento &lt; base > en un documento.</p>
+				<h3>&lt; head ></h3> <p>Cuerpo del html</p>
+				<h3>&lt; link > block</h3><p>Es un elemento exclusivo de la cabecera. Crea enlaces a los recursos básicos de la página o a otras páginas con las cuales tenga relación.</p>
+				<h3>&lt; meta > Block </h3><p>Sirve para aportar información sobre el documento.</p>
+				<h3>&lt; style > block</h3><p>Es el elemento encargado de indicar la información de estilo.</p>
+				<h3>&lt; title >  inline</h3><p>	Titulo de la pagina</p>
+				<h1>Seccionamiento del contenido</h1>
+				<p>Los elementos de seccionamiento del contenido te permiten organizar los contenidos 	del documento en partes l&oacute;gicas.Usa los elementos de seccionado para crear una descripci&oacute;n amplia de los contenidos de tu p&aacute;gina,incluyendo el encabezado y pie de p&oacute;gina y elementos para identificar secciones.
+				<h4>Element Description</h4>
+				<h3>&lt; address > block</h3><p> Aporta información de contacto para su < article > más cercano o ancestro &lt; body >;en el último caso lo aplica a todo el documento.</p>
+					<address>
+						<p>soy de tepa</p>
+					</address>
+				<h3>&lt; article > Block</h3><p> Podría ser un mensaje en un foro, un artículo de una revista o un periódico,una entrada de blog.</p>
+					<article>
+						this is article.
+					</article>
+				<h3>&lt; aside > Block</h3><p>Representa una sección de una página que consiste en contenido que está tangencialmente relacionado con el contenido que le rodea, que podría ser considerado independiente de ese contenido.</p>
+				<h3>&lt; footer > Block</h3><p>Representa un pie de página para el contenido de sección más cercano o elelemento  raíz de sección</p>
+					<footer>
+						this is footer.
+					</footer>
+				<h3>&lt; header ></h3> <p>Representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, pero también otros elementos como un logo, una sección que aglutine secciones de encabezados, una formulario de búsqueda o cosas parecidas.</p>
+				<h3>&lt; h1>, &lt; h2>, &lt; h3>, &lt; h4>, &lt; h3>, &lt; h6></h3><p>Tamaño del texto</p>
 
-						<h3>&lt;title&gt;</h3>
-						<p>define el título del documento, se muestra en la barra de título de un navegador o en la ficha de la página. Sólo puede contener texto, y cualquier contenida etiquetas son ignorados.
-						</p>
+				<p><h1>I'm Mayra</h1></p>
+				<p><h2>I'm Mayra</h2></p>
+				<p><h3>I'm Mayra</h3></p>
+				<p><h4>I'm Mayra</h4></p>
+				<p><h3>I'm Mayra</h3></p>
+				<p><h6>I'm Mayra</h6></p>
+
+
+				<h3>&lt;hgroup> block</h3><p>crea grupos</p>
+				<h3>&lt;nav><p>Crea un menú de navegación.</p>
+				<h3>&lt;section><p>representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema.</p>
+				<h1>Contenido del texto</h1>
+				<p>Utiliza los elementos HTML de contenido del texto para organizar bloques o secciones de contenido colocados entre los tags de apertura &lt; body > y cierre. Es importante para laaccessibility y el SEO, que estos elementos se identifiquen con el objetivo o la estructura de ese contenido.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;dd><p>Descripción de la definición . Contiene la descripción de un término definido dentro de una lista de definiciones.</p>
+				<h3>&lt;div></h3><p>Sirve para crear secciones o agrupar contenidos.</p>
+				<h3>&lt;dl></h3><p>lista de definición . Crea una lista de definiciones.</p>
+				<h3>&lt;dt></h3><p>término de la definición . Contiene un término a definir dentro de una lista de definiciones.</p>
+				<h3>&lt;figcaption></h3><p>epresenta un subtítulo o leyenda asociado con una imagen o ilustración descrita por el resto de los datos asociados con el elemento &lt;figure> que sea su ancestro inmediato.</p>
+				<h3>&lt;figure></h3><p>Representa contenido independiente, a menudo con un título.</p>
+				<h3>&lt;hr></h3><p>Crea una linea de separación horizontal.</p>
+				<h3>&lt;li></h3><p>Crea una linea de separación horizontal.</p>
+				<h3>&lt;main></h3><p>Representa el contenido principal de el &lt;body> de un documento o aplicación.
+				<h3>&lt;ol></h3><p>El elemento ol (Lista ordenada) crea una lista ordenada.
+				<h3>&lt;p></h3><p>El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos.
+				<h3>&lt;pre></h3><p>Representa texto preformateado.
+				<h3>&lt;ul></h3><p>Crea una lista no ordenada.
+				<h1>Semántica del texto en línea</h1>
+				<p>Utilice la semántica del texto en línea HTML para definir el significado, estructura, o el estilo de una palabra, una línea o cualquier pieza arbitraria de texto.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;a></h3><p>define un hipervínculo a una ubicación en la misma página o cualquier otra página en la Web.</p>
+				<h3>&lt;abbr></h3><p>representa una abreviación y opcionalmente proporciona a descripción completa para ella. Si está presente, el atributo titledebe contener la descripción completa y nada más.</p>
+				<h3>&lt;b> Inline</h3><p>negrita.</p>
+				<h3>&lt;bdi></h3><p>aisla un trozo de texto para que pueda ser formateado con una dirección diferente al texto que hay fuera de él.</p>
+				<h3>&lt;bdo></h3><p>Anulación de bidireccionalidad.</p>
+				<h3>&lt;br> Inline</h3><p>	produce un salto de línea en el texto (retorno de carro)</p>
+				<h3>&lt;cite> inline</h3><p>	Marca una referencia a una fuente, o el autor de un texto citado.
+				<h3>&lt;code></h3><p>Es el apropiado para marcar el código de un programa.</p>
+				<h3>&lt;data></h3><p>Vincula un contenido dado, con una traducción legible por la máquina. Si el contenido es el tiempo o con fechas relacionadas, el &lt;time> debe ser utilizado.</time>
+				<h3>&lt;dfn> inline</h3><p>	Sirve para marcar el término que se quiere definir.</p>
+				<h3>&lt;em> inline	es el apropiado para marcar con énfasis las partes importantes de un texto.</h3>
+				<h3>&lt;i> Inline</h3><p>	Muestra el texto marcado con un estilo en cursiva o italica.</p>
+				<h3>&lt;kbd> Inline</h3><p>	Marca el texto que debe introducir el usuario.</p>
+				<h3>&lt;mark> Inline</h3><p>	representa un texto resaltado.</p>
+				<h3>&lt;q> inline</h3><p>crea citas en linea, marca las citas a otros autores o documentos.</p>
+				<h3>&lt;rp></h3><p>se utiliza para proporcionar el paréntesis de repliegue para los navegadores que no soportan las anotaciones de rubí.</p>
+				<h3>&lt;rt></h3><p>abraza pronunciación de los caracteres que se presentan en un rubí anotaciones, que se utilizan para describir la pronunciación de los caracteres del este asiático.</p>
+				<h3>&lt;rtc></h3><p>abraza anotaciones semánticas de los personajes presentados en un rubí de &lt;rb>los elementos utilizados en el interior del &lt;ruby>elemento. &lt;rb>Elementos pueden tener tanto la pronunciación ( &lt;rt>) y semánticas ( &lt;rtc>anotaciones).</p>
+				<h3>&lt;ruby><p>representa una anotación de rubí. Anotaciones rubí están para demostrar pronunciación de los caracteres del este asiático.</p>
+				<h3>&lt;s> inline</h3><p>Muestra el texto tachado con una linea horizontal.</p>
+				<h3>&lt;samp> inline</h3><p>Señala lo que es una salida de un programa.</p>
+				<h3>&lt;small> inline</h3><p>Aplica al texto marcado un tamaño de fuente más pequeño.</p>
+				<h3>&lt;span> inline</h3><p>Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.</p>
+				<h3>&lt;strong> inline</h3><p>es el apropiado para marcar con especial énfasis las partes más importantes de un texto.</p>
+				<h3>&lt;sub> inline</h3><p>Crea un subíndice posicionando el texto marcado por debajo de la linea.</p>
+				<h3>&lt;sup> inline</h3><p>Crea un superíndice posicionando el texto marcado por encima de la linea.</p>
+				<h3>&lt;time> inline</h3><p>Establece una referencia de tiempo o fecha.</p>
+				<h3>&lt;u> inline</h3><p>Muestra el texto subrayado.</p>
+				<h3>&lt;var> inline</h3><p>Marca variables de programas y similares.</p>
+				<h3>&lt;wbr></h3><p>representa una posición dentro del texto donde el explorador puede opcionalmente saltar una línea , aunque sus reglas de salto de línea de otra manera no crearían un salto en esa posición.</p>
+				<h1>Imágen y multimedia</h1>
+				<p>HTML soporta varios recursos multimedia como imágenes, audio, y video.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;area></h3><p>Sirve para crear las distintas secciones en las que se puede dividir un mapas de imágenes en el cliente.</p>
+				<h3>&lt;audio></h3><p>El elemento audio se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento audio se agregó como parte de HTML 5.</p>
+				<h3>&lt;map></h3>
+				<h3>&lt;track></h3><p>se le permite especificar las pistas de texto temporizado (o datos basados en el tiempo), por ejemplo para manejar automáticamente los subtítulos.</p>
+				<h3>&lt;video></h3><p>agrega video</p>
+				<h1> Contenido embebido</h1>
+				<p> Además de los contenidos multimedia habituales, HTML puede incluir otra variedad de contenidos, aunque no siempre es fácil de interactuar con ellos.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;embed></h3><p>representa un punto de integración para una aplicación externa o de contenido interactivo (en otras palabras, un plug-in).</p>
+				<h3>&lt;object></h3><p>representa un recurso externo, que puede ser entendido como una imagen, un contexto de navegación anidada, o un recurso para ser manejado por un plugin.</p>
+				<h3>&lt;param></h3><p>define los parámetros para&lt;object>.</p>
+				<h3>&lt;source><p>Especifica múltiples recursos multimedia, ya sea para el &lt;picture>, la &lt;audio>o el &lt;video>elemento. Es un elemento vacío. Se utiliza comúnmente para servir el mismo contenido multimedia en múltiples formatos soportados por los diferentes navegadores.</p>
+				<h1>Scripting</h1>
+				<p>Con el fin de crear contenido dinámico y aplicaciones Web, HTML soporta el uso de lenguajes de scripting, el más prominente es JavaScript. Ciertos elementos soportan esta capacidad.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;canvas></h3><p>se puede utilizar para dibujar gráficos a través de secuencias de comandos.</p>
+				<h3>&lt;noscript></h3><p>soporta contenidos alternativos al elemento script. las aplicaciones de usuario que no soporten scripts deben mostrar en su lugar el contenido de este elemento.</p>
+				<h3>&lt;script></h3><p>se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML.</p>
+				<h1>Ediciones demarcadas</h1>
+				<p>Estos elementos permiten proporcionar indicios de que determinadas partes del texto han sido alteradas.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;del> bi</h3>
+				<p>(deleted-borrado) marca las partes de un texto o documento que han sido suprimidas o sustituidas.</p>
+				<h3>&lt;ins> bi</h3><p>(insertado) marca las partes de un texto que han sido añadidos al documento</p>
+				<h1>Tablas de contenido</h1>
+				<p>Estos elementos son usados para crear y manejar datos tabulados.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;caption></h3><p>Es el encargado de darle un título descríptivo a las tablas.</p>
+				<h3>&lt;col></h3><p>Permite especificar propiedades para una columna o un grupo de ellas.</p>
+				<h3>colgroup></h3><p> Grupo de columnas. Permite crear grupos de columnas.</p>
+				<h3>table></h3><p>Crea una tabla.</p>
+				<h3>tbody></h3><p>Elemento cuerpo de la tabla.</p>
+				<h3>td></h3><p> define una celda de una tabla que contiene los datos.Participa en el modelo de tabla .</p>
+				<h3>tfoot></h3><p>define un conjunto de filas que resumen las columnas de la tabla.</p>
+				<h3>th></h3><p>define una célula como cabecera de un grupo de celdas de la tabla. La naturaleza exacta de este grupo se define por el scopeyheadersatributos.</p>
+				<h3>thead></h3><p> define un conjunto de filas que definen la cabeza de las columnas de la tabla.
+				<h3>tr></h3><p>define una fila de celdas de una tabla. Estos pueden ser una mezcla de &lt;td>y &lt;th>elementos.</p>
+				<h1>Formularios</h1>
+				<p>HTML provee un número de elementos que pueden usarse conjuntamente para crear formularios los cuales el usuario puede completar y enviar al sitio Web o a una aplicación. Hay una gran cantidad de información acerca de ésto disponible en la HTML forms guide.</p>
+				<h4>Element	Description</h4>
+				<h3>button> inline</h3><p>Es el elemento crea botones marcadores.</p>
+				<h3>datalist></h3><p>ontiene un conjunto de &lt;opción> elementos que representan las posibles opciones para el valor de otros controles.</p>
+				<h3>fieldset></h3><p>permite organizar en grupos los campos de un formulario.</p>
+				<h3>&lt;form></h3><p>representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web.</p>
+				<h3>&lt;input></h3><p>se usa para crear controles interactivos para formularios basados en la web. La forma en que <input> funciona varía considerablemente dependiendo del valor de su atributo type.</p>
+				<h3>&lt;keygen></h3><p>xiste para facilitar la generación de llaves, y el envío de la clave pública como parte de un formulario HTML. Este mecanismo está diseñado para utilizarse con sistemas de gestión de certificados basados en la Web. Se espera que el elemento keygen se utilice en un formulario HTML, junto con otra información necesaria para la construcción de una solicitud de certificado, y que el resultado del proceso será un certificado firmado.</p>
+				<h3>&lt;label></h3><p>representa una etiqueta para un elemento en una interfaz de usuario.
+				<h3>&lt;legend></h3><p> (leyenda) crea un título para un grupos los campos (&lt;fieldset>) de un formulario.</p>
+				<h3>&lt;meter></h3><p>representa un valor escalar dentro de un rango conocido o un valor fraccionario
+				<h3>&lt;optgroup></h3><p> crea una agrupación de opciones dentro de un &lt;select>elemento.</p>
+				<h3>&lt;option></h3><p> se utiliza para crear un control que representa un elemento de una &lt;select>, una &lt;optgroup>o un &lt;datalist>elemento HTML5.</p>
+				<h3>&lt;output></h3><p>representa el resultado de una acción de cálculo o usuario.</p>
+				<h3>&lt;progress></h3><p>se utiliza para ver el progreso de la finalización de una tarea.</p>
+				<h3>&lt;select></h3><p> representa un control que presenta un menú de opciones.</p>
+				<h3>&lt;textarea></h3><p>representa un control de edición de texto sin formato multi-línea.</p>
+				<h1>Elementos Interactivos</h1>
+				<p>HTML ofrece una selección de elementos que pueden ayudar a crear objetos de interfaz de usuario interactivos.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;details></h3><p>es usado como un widget de revelación a través del cual el usuario puede obtener información adicional .</p>
+				<h3>&lt;dialog></h3><p>representa una caja de diálogo u otro componente interactivo, como inspector o ventana. Los elementos &lt;form> pueden integrarse dentro de un diálogo  especificándolos con el atributo method="dialog". Cuando se envía un formulario, el diálogo se cierra con un atributo returnValue asignado con el value del botón utilizado.</p>
+				<h3>&lt;menu></h3><p>es un elemento desaprobado. En su origen fue pensado para crear menús, en la actualidad es inutil.</p>
+				<h3>&lt;menuitem></h3><p> representa un comando que un usuario es capaz de invocar a través de un menú emergente. Esto incluye los menús de contexto, así como menús que puedan atribuirse a un botón de menú.</p>
+				<h3>&lt;summary></h3><p>se utiliza a modo de resumen, el título o la leyenda para el contenido de un &lt;details>elemento.</p>
+				<h1>Componentes Web</h1>
+				<p>Los Componentes Web son una tecnología relacionada con HTML que hacen que sea posible, en esencia, crear y personalizar elementos como si fueran HTML normal. Además, pueden crear versiones personalizadas de los elementos HTML estándar.</p>
+				<p>Nota: Los elementos de los Componentes Web están definidos en World Wide Web Consortium (W3C) Web Components collection of specifications en lugar de la especificación HTML. Además, la especificación de los Componentes Web no ha sido finalizado y está sujeto a cambios.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;content></h3><p>es usado dentro de un  Shadow DOM como un insertion point . No está pensado para ser usado en HTML ordinario . Es usado con Web Components.</p>
+				<h3>&lt;element></h3><p>es usado dentro de un  Shadow DOM como un insertion point . No está pensado para ser usado en HTML ordinario . Es usado con Web Components.</p>
+
+				<h3>&lt;shadow></h3><p> elemento se utiliza como un punto de inserción DOM sombra. Es posible utilizarlo si se han creado múltiples raíces de sombra bajo una sombra de acogida. No es útil en HTML ordinario. Se utiliza con componentes web.</p>
+				<h3>&lt;template></h3><p> es un mecanismo para la celebración de contenido del lado del cliente que no se va a dibujar cuando se carga una página, pero posteriormente puede ser instanciada durante el tiempo de ejecución usando JavaScript.</p>
+				<h1>Elementos obsoletos y en desuso</h1>
+				<p>Advertencia: Estos son elementos HTML viejos los cuales están obsoletos y no deben usarse. Nunca debería usarlos en un nuevo proyecto y debería reemplazarlos en proyectos viejos tan pronto como sea posible. Se listan aquí solo con propósitos informativos.</p>
+				<h4>Element	Description</h4>
+				<h3>&lt;acronym></h3>
+				<h3>&lt;applet></h3>
+				<h3>&lt;basefont></h3>
+				<h3>&lt;big></h3>
+				<h3>&lt;blink></h3>
+				<h3>&lt;center></h3>
+				<h3>&lt;command></h3>
+				<h3>&lt;content></h3>
+				<h3>&lt;dir></h3>
+				<h3>&lt;font></h3>
+				<h3>&lt;frame></h3>
+				<h3>&lt;frameset></h3>
+				<h3>&lt;isindex></h3>
+				<h3>&lt;keygen></h3>
+				<h3>&lt;listing></h3>
+				<h3>&lt;marquee></h3>
+				<h3>&lt;multicol></h3>
+				<h3>&lt;nextid></h3>
+				<h3>&lt;noembed></h3>
+				<h3>&lt;plaintext></h3>
+				<h3>&lt;spacer></h3>
+				<h3>&lt;strike></h3>
+				<h3>&lt;tt></h3>
+				<h3>&lt;xmp></h3>
+
+
 			</article>
 			<aside class="html col-xs-12 col-sm-4 col-md-3 col-lg-3">
+				<h5>1989: Tim Berners-Lee invents the Web with HTML as its publishing language</h5>
+				<p>The World Wide Web began life in the place where you would least expect it: at CERN,
+					the European Laboratory for Particle Physics in Geneva, Switzerland. CERN is a meeting
+					place for physicists from all over the world, where highly abstract and conceptual
+					thinkers engage in the contemplation of complex atomic phenomena that occur on a minuscule
+					scale in time and space. This is a surprising place indeed for the beginnings of a
+					technology which would, eventually, deliver everything from tourist information, online
+					shopping and advertisements, financial data, weather forecasts and much more to your
+					personal computer.
+				</p>
+				<p>
+					Tim Berners-Lee is the inventor of the Web. In 1989, Tim was working in a computing services
+					section of CERN when he came up with the concept; at the time he had no idea that it would be
+					implemented on such an enormous scale. Particle physics research often involves collaboration
+					among institutes from all over the world. Tim had the idea of enabling researchers from remote
+					sites in the world to organize and pool together information. But far from simply making available
+					a large number of research documents as files that could be downloaded to individual computers,
+					he suggested that you could actually link the text in the files themselves.
+					In other words, there could be cross-references from one research paper to another. This would mean
+					that while reading one research paper, you could quickly display part of another paper that holds
+					directly relevant text or diagrams. Documentation of a scientific and mathematical nature would thus
+					be represented as a `web' of information held in electronic form on computers across the world. This,
+					Tim thought, could be done by using some form of hypertext, some way of linking documents together by
+					using buttons on the screen, which you simply clicked on to jump from one paper to another. Before
+					coming to CERN, Tim had already worked on document production and text processing, and had developed
+					his first hypertext system, `Enquire', in 1980 for his own personal use.
+					Tim's prototype Web browser on the NeXT computer came out in 1990.
+				</p>
+				<h5>Through 1990: The time was ripe for Tim's invention</h5>
+				<p>
+					The fact that the Web was invented in the early 1990s was no coincidence.
+					Developments in communications technology during that time meant that,
+					sooner or later, something like the Web was bound to happen. For a start,
+					hypertext was coming into vogue and being used on computers. Also, Internet
+					users were gaining in the number of users on the system: there was an increasing
+					audience for distributed information. Last, but not least, the new domain name
+					system had made it much easier to address a machine on the Internet.
 
+				</p>
+				<h5>Hypertext</h5>
+				<p>
+					lthough already established as a concept by academics as early as the 1940s, it was with
+					the advent of the personal computer that hypertext came out of the cupboard. In the late
+					1980s, Bill Atkinson, an exceptionally gifted programmer working for Apple Computer Inc.,
+					 came up with an application called Hypercard for the Macintosh. Hypercard enabled you to
+					 construct a series of on-screen `filing cards' that contained textual and graphical
+					 information. Users could navigate these by pressing on-screen buttons, taking themselves
+					 on a tour of the information in the process.
+				</p>
+				<p>
+					Hypercard set the scene for more applications based on the filing card idea. Toolbook for the
+					PC was used in the early 1990s for constructing hypertext training courses that had `pages' with
+					buttons which could go forward or backward or jump to a new topic. Behind the scenes,
+					buttons would initiate little programs called scripts. These scripts would control which
+					page would be presented next; they could even run a small piece of animation on the
+					screen. The application entitled Guide was a similar application for UNIX and the PC.
+					Hypercard and its imitators caught the popular imagination. However, these packages still had one major
+					limitation: hypertext jumps could only be made to files on the same computer. Jumps made to
+					computers on the other side of the world were still out of the question. Nobody yet had implemented
+					a system involving hypertext links on a global scale.
+				</p>
+				<h5>The domain name system</h5>
+				<p>
+					By the middle 1980s, the Internet had a new, easy-to-use system for naming computers. This
+					involved using the idea of the domain name. A domain name comprises a series of letters
+					separated by dots, for example: `www.bo.com' or `www.erb.org.uk'. These names are the
+					easy-to-use alternative to the much less manageable and cumbersome IP address numbers.
+				</p>
+				<p>
+					A program called Distributed Name Service (DNS) maps domain names onto IP addresses, keeping
+					the IP addresses `hidden'. DNS was an absolute breakthrough in making the Internet accessible
+					to those who were not computer nerds. As a result of its introduction, email addresses became
+					simpler. Previous to DNS, email addresses had all sorts of hideous codes such as exclamation
+					marks, percent signs and other extraneous information to specify the route to the other machine.
+				</p>
+				<h5>Choosing the right approach to create a global hypertext system</h5>
+				<p>
+					To Tim Berners-Lee, global hypertext links seemed feasible, but it was a matter of finding the
+					correct approach to implementing them. Using an existing hypertext package might seem an
+					attractive proposition, but this was impractical for a number of reasons. To start with,
+					any hypertext tool to be used worldwide would have to take into account that many types
+					of computers existed that were linked to the Internet: Personal Computers, Macintoshes,
+					UNIX machines and simple terminals. Also, many desktop publishing methods were in vogue:
+					SGML, Interleaf, LaTex, Microsoft Word, and Troff among many others. Commercial hypertext
+					packages were computer-specific and could not easily take text from other sources;
+					besides, they were far too complicated and involved tedious compiling of text into
+					internal formats to create the final hypertext system.
+				</p>
+				<p>
+					What was needed was something very simple, at least in the beginning. Tim demonstrated a basic,
+					but attractive way of publishing text by developing some software himself, and also his
+					own simple protocol - HTTP - for retrieving other documents' text via hypertext links.
+					Tim's own protocol, HTTP, stands for HyperText Transfer Protocol. The text format for
+					HTTP was named HTML, for HyperText Mark-up Language; Tim's hypertext implementation was
+					demonstrated on a NeXT workstation, which provided many of the tools he needed to develop
+					his first prototype. By keeping things very simple, Tim encouraged others to build upon
+					his ideas and to design further software for displaying HTML, and for setting up their
+					own HTML documents ready for access.
+				</p>
+				<h5>Tim bases his HTML on an existing internationally agreed upon method of text mark-up</h5>
+				<p>
+					The HTML that Tim invented was strongly based on SGML (Standard Generalized Mark-up
+					Language), an internationally agreed upon method for marking up text into structural
+					units such as paragraphs, headings, list items and so on. SGML could be implemented on
+					any machine. The idea was that the language was independent of the formatter (the browser
+					or other viewing software) which actually displayed the text on the screen. The use of
+					pairs of tags such as <TITLE> and </TITLE> is taken directly from SGML, which does exactly
+					the same. The SGML elements used in Tim's HTML included P (paragraph); H1 through H6 (heading
+					level 1 through heading level 6); OL (ordered lists); UL (unordered lists); LI (list items)
+					and various others. What SGML does not include, of course, are hypertext links: the idea
+					of using the anchor element with the HREF attribute was purely Tim's invention, as was
+					the now-famous `www.name.name' format for addressing machines on the Web.
+				</p>
+				<p>
+					Basing HTML on SGML was a brilliant idea: other people would have invented their own language
+					from scratch but this might have been much less reliable, as well as less acceptable to
+					the rest of the Internet community. Certainly the simplicity of HTML, and the use of the
+					anchor element Afor creating hypertext links, was what made Tim's invention so useful.
+				</p>
+				<h5>September 1991: Open discussion about HTML across the Internet begins</h5>
+				<p>
+					Far from keeping his ideas private, Tim made every attempt to discuss them openly online
+					across the Internet. Coming from a research background, this was quite a natural thing
+					to do. In September 1991, the WWW-talk mailing list was started, a kind of electronic
+					discussion group in which enthusiasts could exchange ideas and gossip. By 1992, a handful
+					of other academics and computer researchers were showing interest. Dave Raggett from
+					Hewlett-Packard's Labs in Bristol, England, was one of these early enthusiasts, and,
+					following electronic discussion, Dave visited Tim in 1992.
+				</p>
+				<p>Here, in Tim's tiny room in the bowels of the sprawling buildings of CERN, the two
+					engineers further considered how HTML might be taken from its current beginnings and
+					shaped into something more appropriate for mass consumption. Trying to anticipate the
+					kind of features that users really would like, Dave looked through magazines, newspapers
+					and other printed media to get an idea of what sort of HTML features would be important
+					when that same information was published online. Upon return to England, Dave sat down
+					at his keyboard and resolutely composed HTML+, a richer version of the original HTML.
+				</p>
+				<h5>Late 1992: NCSA is intrigued by the idea of the Web</h5>
+				<p>
+					Meanwhile on the other side of the world, Tim's ideas had caught the eye of Joseph Hardin
+					and Dave Thompson, both of the National Center for Supercomputer Applications, a research
+					institute at the University of Illinois at Champaign-Urbana. They managed to connect to
+					the computer at CERN and download copies of two free Web browsers. Realizing the
+					importance of what they saw, NCSA decided to develop a browser of their own to be called
+					Mosaic. Among the programmers in the NCSA team were Marc Andreessen - who later made his
+					millions by selling Web products - and the brilliant programmer Eric Bina - who also
+					became rich, courtesy of the Web. Eric Bina was a kind of software genius who reputedly
+					could stay up three nights in succession, typing in a reverie of hacking at his computer.
+				</p>
+				<h5>December 1992: Marc Andreessen makes a brief appearance on WWW- talk</h5>
+				<p>
+					Early Web enthusiasts exchanged ideas and gossip over an electronic discussion group called
+					WWW-talk. This was where Dave Raggett, Tim Berners-Lee, Dan Connolly and others debated
+					how images (photographs, diagrams, illustrations and so on) should be inserted into HTML
+					documents. Not everyone agreed upon the way that the relevant tag should be implemented,
+					or even what that tag should be called. Suddenly, Marc Andreessen appeared on WWW-talk
+					and, without further to-do, introduced an idea for the IMG tag by the Mosaic team.
+				</p>
+				<p>
+					It was quite plain that the others were not altogether keen on the design of IMG, but
+					Andreessen was not easily redirected. The IMG tag was implemented in the form suggested
+					by the Mosaic team on its browser and remains to this day firmly implanted in HTML. This
+					was much to the chagrin of supporters back in academia who invented several alternatives
+					to IMG in the years to come. Now, with the coming of HTML 4, the OBJECT tag potentially
+					replaces IMG, but this is, of course, some years later.
+				</p>
+				<h5>March 1993: Lou Montulli releases the Lynx browser version 2.0a</h5>
+				<p>
+					Lou Montulli was one of the first people to write a text-based browser,
+					Lynx. The Lynx browser was a text-based browser for terminals and for computers that used
+					DOS without Windows. Lou Montulli was later recruited to work with Netscape
+					Communications Corp., but nonetheless remained partially loyal to the idea of developing
+					HTML as an open standard, proving a real asset to the HTML working group and the HTML
+					Editorial Board in years to come. Lou's enthusiasm for good, expensive wine, and his knowledge
+					of excellent restaurants in the Silicon Valley area were to make the standardization of
+					HTML a much more pleasurable process.
+				</p>
+				<h5>
+					Early 1993: Dave Raggett begins to write his own browser</h5>
+					<p>
+						While Eric Bina and the NCSA Mosaic gang were hard at it hacking through the night, Dave
+						Raggett of Hewlett-Packard Labs in Bristol was working part-time on his Arena browser,
+						on which he hoped to demonstrate all sorts of newly invented features for HTML.
+					</p>
+					<h5>April 1993: The Mosaic browser is released</h5>
+					<p>
+						In April 1993, version 1 of the Mosaic browser was released for Sun Microsystems Inc.'s
+						workstation, a computer used in software development running the UNIX operating system.
+						Mosaic extended the features specified by Tim Berners-Lee; for example, it added images,
+						nested lists and fill-out forms. Academics and software engineers later would argue that
+						many of these extensions were very much ad hoc and not properly designed.
+					</p>
+					<h5>Late 1993: Large companies underestimate the importance of the Web</h5>
+					<p>
+						Dave Raggett's work on the Arena browser was slow because he had to develop much of it
+						single-handedly: no money was available to pay for a team of developers. This was because
+						Hewlett-Packard, in common with many other large computer companies, was quite unconvinced
+						that the Internet would be a success; indeed, the need for a global hypertext system
+						simply passed them by. For many large corporations, the question of whether or not any
+						money could be made from the Web was unclear from the outset.
+					</p>
+					<p>
+						There was also a misconception that the Internet was mostly for academics. In some companies,
+						senior management was assured that the telephone companies would provide the technology for
+						global communications of this sort, anyway. The result was that individuals working in
+						research labs in the commercial sector were unable to devote much time to Web development.
+						This was a bitter disappointment to some researchers, who gratefully would have committed
+						nearly every waking moment toward shaping what they envisioned would be the communications
+						system of the future.
+					</p>
+					<p>
+						Dave Raggett, realizing that there were not enough working hours left for him to succeed at what
+						he felt was an immensely important task, continued writing his browser at home. There he
+						would sit at a large computer that occupied a fair portion of the dining room table,
+						sharing its slightly sticky surface with paper, crayons, Lego bricks and bits of half-eaten
+						cookies left by the children. Dave also used the browser to show text flow around images,
+						forms and other aspects of HTML at the First WWW Conference in Geneva in 1994. The Arena
+						browser was later used for development work at CERN.
+					</p>
+					<h5>May 1994: NCSA assigns commercial rights for Mosaic browser to Spyglass, Inc.</h5>
+					<p>
+						In May 1994, Spyglass, Inc. signed a multi-million dollar licensing agreement with NCSA to
+						distribute a commercially enhanced version of Mosaic. In August of that same year, the
+						University of Illinois at Champaign-Urbana, the home of NCSA, assigned all future
+						commercial rights for NCSA Mosaic to Spyglass.
+					</p>
+					<h5>May 1994: The first World Wide Web conference is held in Geneva, with HTML+ on show</h5>
+					<p>
+						Although Marc Andreessen and Jim Clark had commercial interests in mind, the rest of the
+						World Wide Web community had quite a different attitude: they saw themselves as joint
+						creators of a wonderful new technology, which certainly would benefit the world. They
+						were jiggling with excitement. Even quiet and retiring academics became animated in
+						discussion, and many seemed evangelical about their new-found god of the Web.
+					</p>
+					<p>
+						At the first World Wide Web conference organized by CERN in May 1994, all was merry with
+						380 attendees - who mostly were from Europe but also included many from the United States.
+						You might have thought that Marc Andreessen, Jim Clark and Eric Bina surely would be
+						there, but they were not. For the most part, participants were from the academic community,
+						from institutions such as the World Meteorological Organization, the International Center
+						for Theoretical Physics, the University of Iceland and so on. Later conferences had much
+						more of a commercial feel, but this one was for technical enthusiasts who instinctively
+						knew that this was the start of something big.
+					</p>
+					<h5>July 1994: HTML specification for HTML 2 is released</h5>
+					<p>
+						During 1993 and early 1994, lots of browsers had added their own bits to HTML; the language
+						was becoming ill-defined. In an effort to make sense of the chaos, Dan Connolly and
+						colleagues collected all the HTML tags that were widely used and collated them into a
+						draft document that defined the breadth of what Tim Berners-Lee called HTML 2. The draft
+						was then circulated through the Internet community for comment.
+					</p>
+				<cite>© Addison Wesley Longman 1998. All rights reserved</cite>
 			</aside>
 
 		</section>
 	</div>
 	<footer class="footer">
-		<div class="container">
+		<div class="container-fluid">
 			<p>by Mayra Janette Huerta Carbajal</p>
 		</div>
 	</footer>
-	<script src=".js/jquery-3.1.1.min.js"></script>
-	<script src=".js/bootstrap.min.js"></script>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

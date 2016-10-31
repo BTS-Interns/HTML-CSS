@@ -10,35 +10,56 @@
 </head>
 <body class="about-me">
     <header>
-        <nav>
-			<ul>
-                <li><a href="./../index.html">Home</a></li>
-	            <li><a href="aboutMe.html">About me</a></li>
-	            <li><a href="css.html">CSS</a></li>
-				<li><a href="html.html" >HTML</a></li>
-			</ul>
-		</nav>
-        <h1>About me</h1>
-        <h2>Mayra Janette Huerta Carbajal</h2>
+        <div class="container-fluid">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="../index.html">Mi wiki</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                         <ul class="nav navbar-nav">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="aboutMe.html">About me</a></li>
+                            <li><a href="html.html">HTML</a></li>
+                            <li><a href="css.html" >CSS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="title">
+            <h1>About me</h1>
+            <h2>Mayra Janette Huerta Carbajal</h2>
+        </div>
+
     </header>
     <section class="index">
         <div class="container">
             <article class="article-index row">
                 <img src="../images/mayra.jpeg" alt="Mayra" class="mayra">
                 <div class="about-text col-md-10">
+                    <br></br>
                     <p>I was born on July 17, 1987 in Tepatitlan de Morelos, Jalisco,
                         I studied Computer Engineering at CUALTOS. I am married to Erik Rodríguez,
                          we have a beautiful daughter named Alexa Lizeth, I like web programming,
                           I'm not a very logical person but I'm doing everything I can to be part of
                           BTS.
                     </p>
-                    <h4>I like:</h4>
+                    <p>I like:</p>
                     <ul>
                         <li>Be a mother</li>
                         <li>Sleep</li>
                         <li>Tiramisu cake</li>
                     </ul>
-                    <h4>I don't like </h4>
+                    <p>I don't like </p>
                     <ul>
                         <li>Chiles in filling</li>
                         <li>The cats</li>
@@ -49,10 +70,11 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="container">
+        <div class="container-fluid">
 			<p>by Mayra Janette Huerta Carbajal</p>
-		</div>    </footer>
-    <script src=".js/jquery-3.1.1.min.js"></script>
-    <script src=".js/bootstrap.min.js"></script>
+		</div>
+    </footer>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

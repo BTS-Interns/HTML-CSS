@@ -4,40 +4,224 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/bootstrap.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./../css/bootstrap.css" media="screen" title="no title">
     <link rel="stylesheet" href="./../css/styles.css" media="screen" title="no title" charset="utf-8">
     <title>CSS</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="./../index.html">Home</a></li>
-	            <li><a href="aboutMe.html">About me</a></li>
-	            <li><a href="css.html">CSS</a></li>
-				<li><a href="html.html" >HTML</a></li>
-            </ul>
-        </nav>
-            <h1>CSS</h1>
-            <h2>subtítulo</h2>
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="./../index.html">Mi wiki</a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                             <ul class="nav navbar-nav">
+                                 <li><a href="./../index.html">Home</a></li>
+                                 <li><a href="aboutMe.html">About me</a></li>
+                                 <li><a href="css.html">CSS</a></li>
+                                 <li><a href="html.html" >HTML</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="title">
+                <h1>CSS</h1>
+                <h2>Cascading Style Sheets</h2>
+            </div>
+        </div>
+
 
     </header>
     <section class="index row">
 		<div class="container">
 			<article class="article-index col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                <br></br>
+                <p>
+                    This CSS Reference shows the basic syntax of a CSS rule; lists all standard
+                    CSS properties, pseudo-classes and pseudo-elements, @-rules, units, and
+                    selectors, all together in alphabetical order, as well as just the selectors
+                    by type; and allows you to quickly access detailed information for each of them.
+                    It not only lists the CSS 1 and CSS 2.1 properties, but also is a CSS3 reference
+                    that links to any CSS3 property and concept standardized, or already stabilized.
+                    Also included is a brief DOM-CSS / CSSOM reference.
+                </p>
+                <h2>font</h2>
+                <h3>@font-face</h3>
+                <p>The font-family CSS property lets you specify a prioritized list of font family names
+                    and/or generic family names for the selected element. Values are separated by a comma
+                    to indicate that they are alternatives. The browser will select the first font on the
+                    list that is installed on the computer or that can be downloaded using a @font-face
+                    at-rule.
+                </p>
+                <p>
+                    Source can be charged in 3 ways:
+                </p>
+                <h4>@export</h4>
+                <p>
+                    In this way I recommend you to go to page ..... Here you will find a list of types of
+                    sources and you eligas add your preferred and will get a window where the choice is saved,
+                    and there in that window will appear the famila selected, the next image shows the window.
+                </p>
+                <img src="../images/font.jpg" alt="example-font" class="font">
+                <p>In the section embed here to copy the line at the beginning has @export and already it is
+                    being exported selected source, for use in our CSS document with the font-family the load
+                    in the desired selector.
+                </p>
+                <h5>Locally</h5>
+                <p>
+                    In this way downloads to your local the desired font and font family in the src property
+                    is housed indicate where your source, and use it where you need. the other way is that the
+                    url you pass the location on the web.
+                </p>
+                <p><code>@font-face {</code></p>
+                <p><code>font-family: myFond;</code></p>
+                <p><code>font-style: bold;</code></p>
+                <p><code>font-weight: 400;</code></p>
+                <p><code>src: url("fonts/HomemadeApple.ttf") format('woff2');</code></p>
+                <p><code>}</code></p>
 
+                <p><code>@font-face {</code></p>
+                <p><code>font-family: 'Pacifico';</code></p>
+                <p><code>font-style: normal;</code></p>
+                <p><code>font-weight: 400;</code></p>
+                <p><code>src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v7/Q_Z9mv4hySLTMoMjnk_rCfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');</code></p>
+                <p><code>}</code></p>
+                <p>Other properties</p>
+                <p>font-size: to specify the font size</p>
+                <p>font-style: to specify the font style</p>
+                <p>font-weight: to specify the font weight</p>
+                <p>font-family: to specify the font family</p>
+
+                <h2>Box Model</h2>
+                <p>The box model is probably the most important feature of the language of CSS style sheets,
+                    because it affects the design of all web pages. The box model is the behavior of CSS that
+                    makes all page elements are represented by rectangular boxes.
+                </p>
+                <p>Boxes on a page are automatically created. Each time an HTML tag is inserted, a new rectangular
+                    box enclosing the contents of that item is created.
+                </p>
+                <p>
+                    Boxes pages are not visible to the naked eye because initially show no background color or any edge.
+                </p>
+                <p>
+                    Browsers create and place the boxes automatically, but CSS lets you modify all its features. Each
+                    of the boxes is made up of six parts, as shown in the following image:
+                </p>
+                <img src="../images/boxModel.jpg" alt="example-font" class="font">
+                <p>The component parts of each box and display order from the user point of
+                    view are the following:
+                </p>
+                <p>-Content: This is the HTML element content (the words of a paragraph, an image, the text of a list of items, etc.)
+                </p>
+                <p>-Filling: Optional existing gap between the content and the edge.
+                </p>
+                <p>-Edge line which completely encloses the contents and filling.
+                </p>
+                <p>-Background image: image displayed behind the content and filling space.
+                </p>
+                <p>-Background color: color displayed behind the content and filling space.
+                </p>
+                <p>-Margin: optional separation existing between the box and the rest of adjacent boxes.
+                </p>
+                <p>The padding and margin are transparent, so that the space occupied by the fill color
+                    or background image shown (if set) and the space occupied by the margin color or
+                    background image shown in his element parent (if defined). If no parent element has
+                    defined a color or background image, color or background image of the page itself is
+                    displayed (if defined).
+                </p>
+                <p>
+                    CSS to style leaves us nuetro document some things you can use the style,
+                    size and color.</p>
+                <p>In style we can define if we want something predefined by css or we do the style we need.</p>
+                <p>In the size we can use the words defined, px, em, percentages.</p>
+                <p>The color property sets the foreground color of an element's text content, and its decorations.
+                    It doesn't affect any other characteristic of the element; it should really be called
+                    text-color and would have been named so, save for historical reasons and its appearance
+                    in CSS Level 1.Note that the color value must be a uniform color, which may include a
+                    transparency value from CSS3 onwards. It can't be a gradient which is an image in CSS.
+                </p>
+                <p><code>element { color: red }</p></code>
+                <p><code>element { color: #f00 }</p></code>
+                <p><code>element { color: #ff0000 } </p></code>
+                <p><code>element { color: rgb(255,0,0) }  </p></code>
+                <p><code>element { color: rgb(100%, 0%, 0%) }</p></code>
+                <p><code>element { color: hsl(0, 100%, 50%) }</p></code>
+                <p>If you want to include an alpha channel in color to allow it to make translucent, you can
+                    use RGBA or HSLA colors, as follows:</p>
+                <p><code>element { color: rgba(255, 0, 0, 0.5) } </p></code>
+                <p><code>element { color: hsla(0, 100%, 50%, 0.5) }</p></code>
+
+                <p>Width: The width CSS property specifies the width of the content area of an element.
+                    The content area is inside the padding, border, and margin of the element.
+                    The min-width and max-width properties override width.
+                </p>
+                <p><length> values</p>
+                <p><code>width: 300px;</code></p>
+                <p><code>width: 25em;</code></p>
+
+                <p><percentage> value</p>
+                <p><code>width: 75%;</code></p>
+
+                <p>Keyword values </p>
+                <p><code>width: 25em border-box;</code></p>
+                <p><code>width: 75% content-box;</code></p>
+                <p><code>width: max-content;</code></p>
+                <p><code>width: min-content;</code></p>
+                <p><code>width: available;</code></p>
+                <p><code>width: fit-content;</code></p>
+                <p><code>width: auto;</code></p>
+
+                <p>Global values</p>
+                <p><code>width: inherit;</code></p>
+                <p><code>width: initial;</code></p>
+                <p><code>width: unset;</code></p>
+
+                <p>height: The height CSS property specifies the height of the content area of an element.
+                    The content area is inside the padding, border, and margin of the element.,values are
+                    defined as the width.
+                </p>
+                <h3>Border</h3>
+                <p>
+                    The border CSS property is a shorthand property for setting the individual border
+                    property values in a single place in the style sheet. border can be used to set the
+                    values for one or more of: border-width, border-style, border-color.
+                </p>
+                <p>border: This property serves to define the border with a shorthand in which a single
+                    property can define: style, size and color..</p>
+
+                <p>border-top: .</p>
+                <p>border-radius: .</p>
+                <p>border-left: .</p>
+                <p>border-bottom: .</p>
+                <p>border-right: .</p>
+                <p>border-color: .</p>
 			</article>
             <aside class="aside-index col-xs-12 col-sm-4 col-md-3 col-lg-3">
+                <nav class="navegation">
 
+                </nav>
             </aside>
 		</div>
 	</section>
-	<footer class="footer">
-        <div class="container">
+    <footer class="footer">
+		<div class="container-fluid">
 			<p>by Mayra Janette Huerta Carbajal</p>
 		</div>
-	<script src=".js/jquery-3.1.1.min.js"></script>
-	<script src=".js/bootstrap.min.js"></script>
+	</footer>
+	<script src="../js/jquery-3.1.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 
 </body>
 </html>
